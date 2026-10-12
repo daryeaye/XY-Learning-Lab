@@ -46,3 +46,7 @@ Recheck the active Cloudflare version immediately before publication; stop and r
 ## October 12 Unit2 requirement — completed; preserve going forward
 
 Unit 2 is deployed and verified as `74f9e816-cf0f-4d24-b411-8fe8099444e7` at 100%. It uses the uploaded1,250-question bank and seven lesson entrypoints mirroring Unit 1. Preserve existing Unit 1 bank/checking and all three October 11 requirements above. Read docs/UNIT2-HANDOFF.md for source identity, scoped checking, example reservations, limits and recovery. No manual student answer-entry walkthrough was performed; that is deferred to the user’s next request. No additional bank is enabled for Units3–8.
+
+## October 12 teacher content review — completed; preserve going forward
+
+Version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` serves 100% after the seven requested Unit 2 changes. Current reference bank is 124 types / 1,240 questions; original 125-type revision stays embedded for existing assignments. Preserve the replacement Types 120/121/126, math target in Type 110, shorter vocabulary, and retirement of Type 144. Never renumber remaining live IDs or discard either pinned revision. Read the current-content addendum in `docs/UNIT2-HANDOFF.md`. All earlier completed UI/preservation requirements remain unchanged.

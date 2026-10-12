@@ -1,5 +1,26 @@
 # XY Learning Lab — Unit 2 Release Handoff
 
+## Current content revision — October 12, 2026, 16:58 EDT
+
+**This addendum supersedes the original activation's current-version/count statements below.** Active verified version is `0348716b-46e6-4592-a5d4-ca2cb1048e3b` at 100%, deployment `f3f1c9de-bc57-463f-9e69-c6a23bde3dc1`. It was built on the exact then-current `74f9e816-cf0f-4d24-b411-8fe8099444e7`; fresh identity was rechecked immediately before publishing. Later assistants must recheck Cloudflare again.
+
+New selections use root `grade7_unit2_algebraic_expressions.json`, schema `2.3.1-review-stable-identities`, **124 types / 1,240 questions**, SHA-256 `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd`. Type 144 is retired for new selection and other IDs remain stable (105–229 with the intentional retired-ID gap). Each active type still has ten variants A–J, fixed stars and its existing eligible lessons.
+
+Type 110's powered target is a math run. “Signed” is omitted before coefficient/constant in student questions; keep negative coefficients/constants correct. “Simplify completely” becomes “Simplify”; “Factor completely” remains. Type 120 (3 stars) translates more than a product; Type 121 (3 stars) translates less than twice a variable; Type 126 (4 stars) translates less than a quotient using an actual fraction. Their solutions show three short part-by-part rows; they use `equivalent_expression`, accepting mathematically valid equivalent input. Preserve exact checking, variable identity, fraction input and original response storage.
+
+**Both revisions must remain available.** The original source `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb` remains embedded byte-for-byte as a retained integration. Existing assignments/question sets, examples, ordinary retries, assessments and Daily Challenges dispatch by their recorded bankRevision. This keeps older numeric Types 120/121/126 and retired Type 144 working without substituting new answers. New assignment selection defaults to the current revision. Unknown/missing required pins produce controlled feedback. Existing question-set settings determine its revision even if the parent assignment was edited. Keep revision-specific history and disjoint graded/example reservations; mixed-revision assessment batches and challenge pools must not collide.
+
+Only the scoped Unit 2 adapter/router, source-count validation, retired-ID grade lookup and two question-set revision lines changed in backend application code. Frontend count validation now uses source counts instead of hardcoded 125; new main/lazy aliases preserve prior files. CSS and Unit 1 bank/checker/cleaner are unchanged. All original non-HTML public files are byte-preserved. No student autosave/submission policy, teacher refresh policy, other app UI or subscriptions changed.
+
+19,596 local assertions passed, including every 1,240 current and 1,250 retained expected answer/wrong answer, both revisions' selection/retries, mixed assessments/challenges and original Unit 1 behavior. Both live domains passed 24 bounded HTTP checks / 22 hash comparisons, and the live in-app teacher browser confirmed the changed previews. The manual student answer-entry walkthrough is still deferred; no production test assignment/submission was created.
+
+Worker SHA-256: `6ef921967529e492d48f147426b5bf3037e374a9947feac75bfbf897809759ae`; main `/assets/index-u2review929816201a72.js` SHA-256 `a2b26b8917e0c86e7d0673fd56bf10445e9c79768a0a6238e0f0557362102bfe`. Cache/routing/runtime/bindings/observability match baseline; only expected release-message annotation changed. Preview discovery access was restored disabled before upload. Local evidence is `work/unit2-content-2026-10-12/`; see the newest CHANGELOG/RELEASES entries for exact identities.
+
+Do not blindly roll back to the original activation version: it cannot resolve newly pinned current-revision assignments. Repair forward while retaining both banks. Do not replace live Unit 1 with the older reference JSON. Coordinate one publisher at a time and append truthful release records after verification.
+
+---
+## Original activation handoff (historical)
+
 Verified October 12,2026. **Deployed at 100% traffic and verified on both live domains.** Read the newest GitHub log and recheck the actual current Cloudflare version before any later update.
 
 ## Release identity

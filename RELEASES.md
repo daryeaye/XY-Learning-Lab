@@ -102,3 +102,27 @@ Recovery Cloudflare version/local build and known limitations:
 ```
 
 Before every update, read this log and capture the exact currently active Cloudflare build. Preserve all unrequested features and configuration. Immediately before publishing, recheck the active version and stop on a mismatch. Coordinate one publisher at a time: the log and version check do not implement a lock or prevent a simultaneous deployment race. Record the resulting build/version and share the updated log afterward. Keep compiled backups separately; original source availability is not a prerequisite for the user's chosen workflow. Exclude credentials and student/database content from this repository.
+
+## Unit 2 content review — October 12, 2026, 16:58 EDT
+
+- Status: uploaded, deployed at 100%, and verified. Preparing chat: teacher's seven annotated Unit 2 review comments and handoff v3.
+- Fresh baseline: `74f9e816-cf0f-4d24-b411-8fe8099444e7`, deployment `2f7ae037-3d28-4ad0-9def-24fc2ed764cc`. Acquired 2026-10-12T20:33:56.790425Z; exact Worker SHA-256 `568c8d8020087d6eed659719245e385e45ba10ca2ec26716b5335260fc1e73af`.
+- Uploaded/result version: `0348716b-46e6-4592-a5d4-ca2cb1048e3b`; deployment `f3f1c9de-bc57-463f-9e69-c6a23bde3dc1`. Immediate pre-deploy baseline check: 2026-10-12T20:58:35.737035Z. Post-deploy active/config check: 2026-10-12T20:59:17.808559Z.
+- Source: captured then-current compiled Worker/frontend/assets plus scoped content and revision-routing patches; no original editable-project commit used. Shared-log baseline `a804393d983c5bf8a2b4f86e1139f9ae8b3917c6`. Original source revision `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb` is embedded unchanged alongside current revision `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd`.
+- Scope: Type 110 math target; coefficient/constant vocabulary; three new translation types (120/121/126), ten variants each; Simplify wording; retire Type 144 without renumbering other IDs. Revised reference file has 124 types / 1,240 questions; old 125 / 1,250 revision is retained for existing work.
+- Local tests: 19,596 passing assertions. Includes all current/retained expected answers and wrong mutations, exact snapshot/example/assessment resolution, both revisions' lesson selection and retries, mixed Daily Challenges/assessments, unsupported revision errors, and Unit 1/source preservation. These are assertions, not individual user walkthroughs.
+- Publication: official Wrangler versions dry run passed; 9,589.03 KiB / 589.82 KiB gzip, startup reported 84 ms. Five unique new/modified asset contents uploaded; unchanged contents deduplicated. Uploaded single Worker module matched tested bytes exactly. Runtime/bindings and asset settings match baseline; non-versioned safe settings are unchanged except the release message annotation.
+- Live checks: 24 GET checks across teacher/student domains, 22 exact hash comparisons at 2026-10-12T20:59:45.119954Z; current and retained JS, CSS, HTML and comic manifest pass. Teacher-only full-bank protections remain 401 to unauthenticated requests. Live in-app teacher browser confirmed entry and both affected lesson previews. No production test assignment or submission was created.
+- Preservation: all 1,573 original non-HTML public files retained byte-for-byte; original 1,574 files plus six new JS aliases = 1,580 directory files. Existing CSS and all unrequested app layout/features remain intact. Original Unit 1 is still 104 types / 520 questions with exact original cleaner/checker; the repository's older Unit 1 reference remains untouched.
+- Configuration/data: DB/R2/ASSETS and activation secret binding preserved, ASSESSMENT_ENABLED and COMIC_ENABLED remain true, compatibility date/flags and observability unchanged. Existing `/api/*` worker-first routing, SPA handling and cache rules are preserved. Previous-release asset discovery temporarily enabled previews; verified restored `enabled:false, previews_enabled:false` before publishing. No routes/domain/subscription change, database migration/export, production data mutation or R2 media write.
+- Local evidence: `work/unit2-content-2026-10-12/` (fresh `baseline/`, revised JSON, tested Worker/assets, router, build scripts, `bank-audit.json`, `frontend-audit.json`, `test-report.json`, pre/post-deploy checks, uploaded-version comparison and live HTTP/screenshot evidence). These files are local, not a full app source tree in GitHub.
+
+| Artifact | SHA-256 |
+| --- | --- |
+| Worker, 9,819,170 bytes | `6ef921967529e492d48f147426b5bf3037e374a9947feac75bfbf897809759ae` |
+| Revised JSON | `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd` |
+| Clean HTML | `c17761b5ba62f5cdd975687bfdfd6bec645a113c1c8a49a077546b8263f6bccd` |
+| `/assets/index-u2review929816201a72.js` | `a2b26b8917e0c86e7d0673fd56bf10445e9c79768a0a6238e0f0557362102bfe` |
+| Unchanged `/assets/index-u2eec0221deabf.css` | `eec0221deabfed53bbecd5646f0909a87af7dc28ac5960814d7244a56ab15097` |
+
+Recovery: keep both source revisions. Compare then-current Cloudflare and the shared log before any repair. Returning to `74f9e816-cf0f-4d24-b411-8fe8099444e7` alone would remove support for assignments created against the new revision. Prefer a forward repair retaining new/old banks; code rollback does not restore DB/media. No rollback performed. The live student manual answer-entry walkthrough remains deferred; local tests provide the grading evidence for this content update.
