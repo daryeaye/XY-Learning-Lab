@@ -12,3 +12,5 @@ The legacy bank JSON in this repository is older than the October 11 live bank (
 
 Exclude credentials, OAuth files, API tokens, real student data, DB exports, demo databases and node_modules. Repository privacy does not replace these exclusions.
 
+
+Unit 2 is now activated:125 types /1,250 questions across lessons2-0–2-6, with unit-specific exact grading and source-revision/paired-example reservations. Read docs/UNIT2-HANDOFF.md before changing those contracts. Preserve the original reference JSONs and all currently deployed Unit 1 checking. A later Unit 2 source upload is not an app deployment.

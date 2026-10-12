@@ -42,3 +42,7 @@ Acceptance: select all six tabs, including empty/non-empty states; rounded upper
 Compare the tested build with the downloaded current baseline. Preserve its comic editor, grading/gallery, feedback, share links, buddies, assignments, assets and configuration outside the three requested changes. Historical log entries describe earlier releases; do not reapply an old layout or restore a missing historical feature without a user request. Preserve the current embedded bank (104 types / 520 problems), not the older repository reference JSON (96 / 480).
 
 Recheck the active Cloudflare version immediately before publication; stop and reconcile if it differs from the recorded baseline. Coordinate one publisher at a time. A shared log is not an implemented lock, and compiled Cloudflare backups are not original React source. Record baseline/result versions, build hashes, checks, recovery information and factual status in `RELEASES.md` and `CHANGELOG.md` after the update.
+
+## October 12 Unit2 requirement — completed; preserve going forward
+
+Unit 2 is deployed and verified as `74f9e816-cf0f-4d24-b411-8fe8099444e7` at 100%. It uses the uploaded1,250-question bank and seven lesson entrypoints mirroring Unit 1. Preserve existing Unit 1 bank/checking and all three October 11 requirements above. Read docs/UNIT2-HANDOFF.md for source identity, scoped checking, example reservations, limits and recovery. No manual student answer-entry walkthrough was performed; that is deferred to the user’s next request. No additional bank is enabled for Units3–8.

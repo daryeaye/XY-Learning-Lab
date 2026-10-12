@@ -2,6 +2,30 @@
 
 Shared deployment ledger for `daryeaye/XY-Learning-Lab`. This private repository stores the log and reference files, not the full application. Each update starts from the exact current Cloudflare Worker, frontend and assets. Cloudflare version IDs identify application builds; Git commits identify log revisions here.
 
+## Unit 2 release — October 12, 2026, 14:27 EDT
+
+- Status: deployed and verified; current traffic 100%.
+- Baseline version: `0e8f843a-18cf-4163-a100-5bb841c15d3c`; baseline deployment `b909d74a-373a-4378-8022-ed13c7ca6835`.
+- Uploaded/result version: `74f9e816-cf0f-4d24-b411-8fe8099444e7`. Deployment: `2f7ae037-3d28-4ad0-9def-24fc2ed764cc`.
+- Fresh current Worker acquired before changes; matching immutable local baseline assets reused only after current live entrypoint/chunk hash checks. Active baseline rechecked before upload at 2026-10-12 T18:25:16.479 Z and immediately before publishing at 2026-10-12 T18:26:55.352 Z. No competing deployment was observed.
+- Source: current compiled Cloudflare Worker/frontend plus guarded additive Unit 2 patches; original editable-project commit unavailable. Bank source pinned to GitHub commit `27c0f0a9a1b8395b5816996c1eb50b303b18f4aa`, blob `de28a6d23c0180a8443aebfa7332bc1fa64d6e5e`; bank SHA-256 `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb`. Source reference files are unchanged.
+- Final official Wrangler dry run passed; upload 6048.71 KiB /398.07 KiBgzip; Cloudflare reported Worker startup 37 ms for this upload. These are package/runtime measurements, not a monthly usage bill.
+- Post-deploy active/latest version and configuration check: 2026-10-12T18:27:34.403Z, all bindings, routing and observability preserved. HTTP check: 2026-10-12T18:27:46.465Z,15GET/HEAD per domain,8 hash matches each, all passed. Live browser confirmed Unit 2 entry and type review, preserved Unit 1 lesson/project entry and student dashboard. The manual student answer-entry walkthrough remains deferred.
+- Local checks: backend 121,054; grader 5,455; frontend 1,300 passing assertions. Seven protected Unit 1 sections remain byte-identical. All 1,566 original non-HTML public files remain byte-identical;1,574 final public files. No demo files/full answer bank in public assets; no database migration or production test assignment/points/media write.
+
+| Release file | SHA-256 |
+| --- | --- |
+| Worker | `568c8d8020087d6eed659719245e385e45ba10ca2ec26716b5335260fc1e73af` |
+| HTML | `ed7dd02bc69d15d6c05667d1366017840325411ed7829f41d08c9a975f4282ec` |
+| `/assets/index-u2da675f742c18.js` | `200fb90eee7a3eb7b564dcafa6e0f63637b9c78fe657217d97328f992b0ef0d9` |
+| `/assets/index-u2eec0221deabf.css` | `eec0221deabfed53bbecd5646f0909a87af7dc28ac5960814d7244a56ab15097` |
+
+Local tested package and evidence: `work/unit2-2026-10-12/`, including `src/worker.mjs`, `public/`, `wrangler.jsonc`, `release.json`, bank/test reports and pre/post-deploy/liveHTTP audits. Baseline: `work/current-production-2026-10-12-unit2/`. These local artifacts are not application source files in this logs-only repository.
+
+Recovery: pre-Unit 2 Cloudflare version `0e8f843a-18cf-4163-a100-5bb841c15d3c`. Compare the then-current release and log before rollback; a blind rollback can erase later features and remove support for newly created Unit 2 assignments. Code rollback does not restore DB/media data. Preserve compatible bank handling once Unit 2 records exist. No rollback performed.
+
+Contracts, limitations and receiving-account instructions: [docs/UNIT2-HANDOFF.md](docs/UNIT2-HANDOFF.md).
+
 ## October 11 update — deployed; verified October 12
 
 - Status: deployed and verified. Preparing chat: “Review Cloudflare setup.”
