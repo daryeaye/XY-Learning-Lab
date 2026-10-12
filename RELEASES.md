@@ -2,18 +2,37 @@
 
 Shared deployment ledger for `daryeaye/XY-Learning-Lab`. This private repository stores the log and reference files, not the full application. Each update starts from the exact current Cloudflare Worker, frontend and assets. Cloudflare version IDs identify application builds; Git commits identify log revisions here.
 
-## October 11 current-build acquisition and pending update
+## October 11 update — deployed; verified October 12
 
-- Status: current baseline captured and rechecked; three website changes in progress; not yet deployed. Repository renamed and privacy confirmed; the initial shared log and agent instructions are recorded in this documentation commit.
-- Baseline/active version: `775f9822-44c1-4a13-b1fe-79ef618c09bc`, 100% traffic.
-- Worker captured October 11 at 20:48 Eastern (`2026-10-12T00:48:25.770Z`); version rechecked at 20:51 Eastern (`2026-10-12T00:51:25.363Z`) and matched.
-- Worker SHA-256: `5c9711d46fcab33bf11841cba305e971268b05c697c8d1545c6e44b6ef2eb846`.
-- Frontend entrypoints: `assets/index-BPSg6P3l.js` and `assets/index-BLj_e8cd.css`.
-- Acquisition: 1,559 public files, 338,181,889 bytes; safe metadata preserved. The capture used read-only requests.
-- Current bank: 104 types / 520 problems. Legacy repository reference: 96 / 480; leave the current embedded bank intact.
-- Planned changes: page-scroll Grades header, YY outfit-tier announcement using teacher thresholds, rounded upper tab corners and matching student-panel colors.
-- Local recovery baseline: `work/current-production-2026-10-11/`, including `worker-original.mjs`, `public/`, `worker-acquisition-report.json`, `public-download-report.json`, `runtime-dependency-audit.json`, `worker-metadata-redacted.json` and `final-version-check.json`.
-- Result version, deployment ID, live verification and log-upload commit: pending. Recheck the baseline again immediately before publishing; this acquisition check does not replace that check.
+- Status: deployed and verified. Preparing chat: “Review Cloudflare setup.”
+- Repository: private `daryeaye/XY-Learning-Lab`, branch `main`; initial shared-log commit `7104e2c927c4a23278c2822e39afd3349a0f21c6`. The final release record is in the Git commit containing this entry.
+- Baseline version: `775f9822-44c1-4a13-b1fe-79ef618c09bc`; previous deployment `3865fe26-ecc3-41c2-81d3-e2475046e1f0`.
+- Result version: `0e8f843a-18cf-4163-a100-5bb841c15d3c`, 100% traffic.
+- Deployment ID: `b909d74a-373a-4378-8022-ed13c7ca6835`.
+- First post-deploy active-version check: October 11 at 21:17 EDT (`2026-10-12T01:17:55.881Z`). Fresh confirmation: October 12 at 09:03 EDT (`2026-10-12T13:03:07.966Z`), same active/latest version and 100% traffic.
+- Source: recovered current compiled Worker/frontend plus guarded frontend patches. No original editable-project Git commit is available. Application source/build files are intentionally not stored in this repository.
+- Changes: complete page-scroll Grades header; newly unlocked outfit-tier announcement from teacher-configured unlocks; rounded upper tab corners and matching full-panel colors.
+- Preservation: Worker byte-identical; embedded bank remains 104 types / 520 problems; all 1,558 original non-HTML assets byte-identical; 1,567 final public files, including new hashed JS/CSS/chunks and preserved cache headers. Existing bindings, variables, asset routing and observability/logpush configuration retained. No schema migration, production student-record edit, database export or R2 content write. Test/demo files remain outside public assets.
+- Checks: 46 YY behavior groups + 15 actual hook scenarios, including stale successful/failed requests after Maker closes; 18 UI fixture cases; actual local app checks for header alignment/actions/dialogs, six tab palettes and exact YY message. Independent final bundle review found no blocking issue.
+- Live HTTP checks: October 12 at 09:02 EDT (`2026-10-12T13:02:14.592Z`), 13 GET/HEAD requests per domain, all passed. HTML, main JS, CSS and all five lazy chunks match staged hashes on teacher and student domains; expected cache/content types and unauthenticated API responses passed.
+- Live browser checks: all six tab selections match their recorded palettes and rounded shapes; at vertical scroll 522 px, the full 11-cell floating Grades row was visible at top 0 with height 100.75 px. No grades, assignments or student points were edited during live verification. The YY earning scenario was verified using fictional local data, not by changing production points.
+- YY notification scope: per-student browser-local seen-tier state, with quiet first load/history and one message for combined new tiers; no cross-device notification synchronization. Existing outfit/reward rules and normal buddy messages remain in use.
+- Uploads `dfdba91c-83fe-441b-9ff1-d5b572feb6ee` and `36d38711-cb0f-4982-bd56-cf55fb6c4711` were intermediate review candidates and never served live traffic. Only the final result version above was published.
+
+| Release file | SHA-256 |
+| --- | --- |
+| Worker (unchanged) | `5c9711d46fcab33bf11841cba305e971268b05c697c8d1545c6e44b6ef2eb846` |
+| HTML | `3b5946a0f5225389b612df9286c14c9dc82c86d787135d53718178786109cc91` |
+| `assets/index-xy6f9410108ee6.js` | `e2e5f4a535df9bc86798902ec43d88052b5b3b28b01d09b9c4f07ddababc32f6` |
+| `assets/index-xy9c992f5b96e1.css` | `9c992f5b96e12cddd6685ec2ede0c7ff00606227635fdc33d421007be82370d2` |
+
+Local tested release: `work/update-2026-10-11/` (`src/worker.mjs`, `public/`, `wrangler.jsonc`, `release.json`, pre/post-deploy audits and `live-http-verification.json`). These are local recovery files, not files in this GitHub repository.
+
+Local baseline capture: `work/current-production-2026-10-11/`, including unchanged Worker, 1,559 public files (338,181,889 bytes), safe metadata and acquisition reports. Captured October 11 at 20:48 EDT; checked at 20:51 EDT; checked again immediately before publishing at 21:17 EDT (`2026-10-12T01:17:27.602Z`).
+
+Recovery: the previous Cloudflare version is `775f9822-44c1-4a13-b1fe-79ef618c09bc`. A rollback must first be compared with the then-current release; it may remove this update or later updates. Code rollback does not restore database/media state. A compiled backup does not reconstruct original React source automatically. No rollback was performed.
+
+## Observed earlier deployments
 
 | Event | Eastern time | Cloudflare version | Source identity / evidence |
 | --- | --- | --- | --- |

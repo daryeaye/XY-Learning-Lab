@@ -2,14 +2,18 @@
 
 This is the shared update log in the private `daryeaye/XY-Learning-Lab` repository. GitHub holds documentation and the original Unit 1 reference files; Cloudflare holds the application. This log is not the full editable source or an automatic deployment lock.
 
-## Unreleased — October 11 update in progress
+## October 11, 2026 — website update deployed; verified October 12
 
-- Freeze the complete Grades table header during vertical scrolling.
-- Announce newly unlocked YY outfits at the teacher's configured point thresholds, using one cute message at every tier.
-- Round the two upper corners of all six student assignment tabs and color the full content panel to match the selected tab.
-- Use this shared log and the exact current Cloudflare Worker/frontend/assets as the baseline for both accounts. Download the current build before work, preserve all unrequested behavior, recheck the active version before publishing and coordinate one publisher at a time.
+Status: deployed and verified. Baseline `775f9822-44c1-4a13-b1fe-79ef618c09bc` → release `0e8f843a-18cf-4163-a100-5bb841c15d3c`, serving 100% of traffic. Preparing chat: “Review Cloudflare setup.” Deployment: `b909d74a-373a-4378-8022-ed13c7ca6835`.
 
-The three website changes are being implemented on the downloaded current build. They are not yet deployed. There is no requirement to wait for or upload an original source project. A Cloudflare download may be compiled output; it does not reconstruct the original React source automatically.
+- The complete Grades header stays visible during page scrolling, with synchronized column widths and horizontal scrolling. Existing header actions continue to use the original controls; the floating row hides behind dialogs.
+- YY announces newly earned outfit tiers with “Yay! We unlocked new looks together! Come check them out!” It observes the existing unlocks determined by teacher settings, rather than hard-coding 20/40/60/80. First-load history is quiet, multiple new tiers produce one message, and polling/reloads do not repeat seen tiers in the same browser. Seen IDs are stored per student locally; this is not cross-device notification synchronization. The message waits while YY Maker is open, and stale background responses cannot overwrite Maker state.
+- All six student work tabs have rounded upper corners. The full selected content panel matches its existing light blue/red/purple/teal/green/gray tab palette, including empty states.
+- This was a frontend-only update on the exact current Cloudflare build. Worker bytes, the newer embedded bank, bindings, asset routing and logging settings were preserved. All 1,558 original non-HTML public assets were retained byte-for-byte, with new hashed entrypoints/chunks; older chunks remain for cached clients. No production database migration, student-record edit or R2 content write was performed.
+- Validation: 46 YY behavior groups and 15 hook scenarios; 18 UI fixture checks; local app checks for Grades alignment/actions/dialogs, six palettes and the exact YY announcement. Both live domains passed 26 combined GET/HEAD checks (16 hash comparisons) on October 12 at 09:02 EDT. Live browser checks confirmed all six panel colors and a complete 11-cell frozen Grades row at page scroll 522 px. YY threshold earning was tested with fictional local data; live student points were not altered.
+- Cloudflare was rechecked immediately before publishing. A fresh read-only check on October 12 at 09:03 EDT confirmed the release remains active at 100% with settings/bindings preserved.
+
+See `RELEASES.md` for hashes, checks and recovery. `docs/PENDING-UPDATES.md` now preserves the completed requirements. Future accounts must read this log, download the then-current Cloudflare build, preserve all other behavior and coordinate one publisher at a time; a log does not merge code or enforce a lock.
 
 ## October 11, 2026 — repository setup and current build captured
 

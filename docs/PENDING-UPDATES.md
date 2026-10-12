@@ -1,6 +1,8 @@
-# Pending XY Learning Lab changes
+# XY Learning Lab completed update requirements
 
-Updated October 11, 2026. Implementation is in progress on the current Cloudflare build `775f9822-44c1-4a13-b1fe-79ef618c09bc`; these changes are not yet deployed. The user selected GitHub for shared logs only. Do not wait for an original source project or move the application into this repository. Download the current Cloudflare Worker/frontend/assets before each update and preserve the exact existing layout and behavior outside the requested changes.
+Updated October 12, 2026. All three requirements below were implemented on baseline `775f9822-44c1-4a13-b1fe-79ef618c09bc`, deployed as `0e8f843a-18cf-4163-a100-5bb841c15d3c` at 100%, and verified on the live domains. They are retained here as preservation requirements for future updates; there is no remaining pending change from this request. See CHANGELOG.md and RELEASES.md for evidence and limitations.
+
+The user selected GitHub for shared logs only. Download the then-current Cloudflare Worker/frontend/assets before each update and preserve the existing layout and behavior outside the requested changes. Do not deploy the October 11 baseline again over a newer release.
 
 ## 1. Frozen Grades header
 
