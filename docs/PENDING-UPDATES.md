@@ -50,3 +50,7 @@ Unit 2 is deployed and verified as `74f9e816-cf0f-4d24-b411-8fe8099444e7` at 100
 ## October 12 teacher content review — completed; preserve going forward
 
 Version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` serves 100% after the seven requested Unit 2 changes. Current reference bank is 124 types / 1,240 questions; original 125-type revision stays embedded for existing assignments. Preserve the replacement Types 120/121/126, math target in Type 110, shorter vocabulary, and retirement of Type 144. Never renumber remaining live IDs or discard either pinned revision. Read the current-content addendum in `docs/UNIT2-HANDOFF.md`. All earlier completed UI/preservation requirements remain unchanged.
+
+## Unit 2 signs and distribution review — October 12, 2026, 19:23 EDT — completed; preserve going forward
+
+Version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` serves 100% traffic. New selections use 129 types / 1,290 questions and source `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`. Preserve changed Types 139/140/142/152/154, four-star Type 157, Lesson 2-4 membership for 158–162 and new distribution word-problem Types 230–234 in Lesson 2-2. Preserve all three bank revisions and original answer/input/reservation policies. All earlier completed UI requirements are intact. No additional work from these seven comments remains; the manual student grading walkthrough remains separately deferred. Read the newest Unit 2 handoff and release records before the next update.

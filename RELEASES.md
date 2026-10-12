@@ -126,3 +126,40 @@ Before every update, read this log and capture the exact currently active Cloudf
 | Unchanged `/assets/index-u2eec0221deabf.css` | `eec0221deabfed53bbecd5646f0909a87af7dc28ac5960814d7244a56ab15097` |
 
 Recovery: keep both source revisions. Compare then-current Cloudflare and the shared log before any repair. Returning to `74f9e816-cf0f-4d24-b411-8fe8099444e7` alone would remove support for assignments created against the new revision. Prefer a forward repair retaining new/old banks; code rollback does not restore DB/media. No rollback performed. The live student manual answer-entry walkthrough remains deferred; local tests provide the grading evidence for this content update.
+
+## Unit 2 signs and distribution review — October 12, 2026, 19:23 EDT
+
+Deployed and verified: version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` at 100% traffic, deployment `e17dfa5e-f057-4b29-a4da-3b7e91771d6f`, from freshly acquired baseline `0348716b-46e6-4592-a5d4-ca2cb1048e3b`. New selections use **129 types / 1,290 questions**, IDs 105–234 with the existing retired Type 144 gap; each type has ten flat variants A–J. Source schema `2.3.2-signs-and-distribution-review`, SHA-256 `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`. Both previously deployed source revisions remain embedded unchanged for pinned assignments, question sets, examples, ordinary retries, assessments and Daily Challenges.
+
+- Types 139 (3 stars), 140 (4 stars) and 142 (4 stars) now combine signs before circling each signed term and combining full like terms. The first variants are the teacher's exact expressions, including decimal coefficients in 142.
+- Type 152 (2 stars) distributes over a constant minus a variable term with positive/negative outside factors. Type 154 (3 stars) distributes over a fractional variable coefficient and a fractional constant; its ten variants include fractional final answers as explicitly requested.
+- Type 157 is now four stars; its questions and two methods are unchanged. Existing three-star assignments retain the prior revision.
+- Types 158–162 previously belonged only to Lesson 2-2. They were removed from that default pool and preserved in Lesson 2-4 with unchanged questions, ratings and solutions. Default pools follow lesson_ids; the existing explicit Add More Types feature can still select other Unit 2 lessons intentionally.
+- Added Types 230–234 to Lesson 2-2: identical grocery bags (3 stars), movie tickets/snacks, school supply boxes, recipe quantities and decimal-priced snack bundles (4 stars). No exponents and no like terms after distribution. Students write the model from the story; solutions list quantities, translate them, model one group/all groups and distribute, without unnecessary Circle/Like Terms stages. Recipe variants produce integer coefficients after distributing. All lesson/star pools remain between four and eight types.
+
+Validation: 32,187 local assertions passed, covering all 1,290 current, 1,240 previous-review and 1,250 original-activation expected answers/wrong answers, exact pinned snapshots/examples, selections/retries, mixed assessments/Daily Challenges, changed star/lesson eligibility, content-preservation and Unit 1 preservation. 830 changed-question/solution math runs rendered strictly without errors; original expressions and displayed solution equalities were verified with exact rational polynomial checking. Live in-app teacher previews confirmed Lessons 2-1, 2-2 and 2-4; Type 157 shows four stars, new types appear, and moved types are absent from the Lesson 2-2 default cards. Both domains passed 24 bounded HTTP checks including 22 exact frontend/hash comparisons and unauthenticated bank 401 protection.
+
+The complete current Worker was downloaded, then only an additive new source/integration and router-selection line were inserted. Removing that insertion reproduces the entire baseline Worker exactly. Unit 1 bank/checker/cleaner, all other backend code, frontend/CSS/public assets, drawing pad/comics/YY/grades/refresh/autosave/submission behavior and safe configuration remain unchanged. No production test assignment or student submission was made; the manual student answer-entry walkthrough remains deferred. No database migration, production data/media write, route/domain or subscription changes.
+
+Release records:
+
+| Item | Identity/result |
+| --- | --- |
+| Shared log baseline main | `99bb3c8cbdbf762d5a31b16f4c0caa2c5d12a1fd` |
+| Fresh Cloudflare capture | 2026-10-12T23:11:52.953327Z |
+| Baseline Worker SHA-256 | `6ef921967529e492d48f147426b5bf3037e374a9947feac75bfbf897809759ae` |
+| Immediate pre-deploy active check | 2026-10-12T23:22:43.374085Z |
+| Active/config verification | 2026-10-12T23:23:14.271351Z |
+| Live HTTP/hash verification | 2026-10-12T23:23:17.654288Z |
+| Result Worker SHA-256, 13,620,935 bytes | `a59defbd3a3d7ca8691330261971e283c13e9bf87bab40e20fd7d4a017e27636` |
+| JSON, 10,666,053 bytes | `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c` |
+| JSON Git blob SHA-1 | `ad74a25437f70df4e9be900eebbecb4b216ee1cf` |
+| Main JS unchanged | `/assets/index-u2review929816201a72.js`, SHA-256 `a2b26b8917e0c86e7d0673fd56bf10445e9c79768a0a6238e0f0557362102bfe` |
+| CSS unchanged | `/assets/index-u2eec0221deabf.css`, SHA-256 `eec0221deabfed53bbecd5646f0909a87af7dc28ac5960814d7244a56ab15097` |
+| Official Wrangler dry run/upload | tested Worker bytes matched; gzip 793.24 KiB; startup 62 ms; no changed asset content uploaded |
+
+All uploaded bindings/runtime and asset configuration were compared with the fresh version; all safe current non-versioned settings match except release annotations. Preview exposure was not enabled in this release. The activation secret name remains bound without exporting its value. Local immutable frontend reuse was accepted only after fresh exact current Worker/version identity and live HTML/main/CSS/lazy/retained/comic-manifest hash comparisons.
+
+Evidence remains local in `work/unit2-signs-2026-10-12/`: fresh baseline, revised JSON, additive build, test report, Worker-preservation record, pre/upload/post metadata, configuration comparison, live HTTP record and live lesson screenshots. Original editable React source was not used or claimed; the repository remains a shared log/reference repository.
+
+Recovery: compare the then-current Cloudflare release and newest shared log before repair. Do not blindly restore the prior version: it cannot resolve assignments created against `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c` or new IDs 230–234. Repair forward and retain all three banks. Code rollback does not restore DB/media state. No rollback performed. Every later publisher must recheck the actual live version immediately before publication; this log is not a lock.

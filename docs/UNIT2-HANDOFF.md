@@ -1,5 +1,34 @@
 # XY Learning Lab — Unit 2 Release Handoff
 
+## Latest content revision — October 12, 2026, 19:23 EDT
+
+**This addendum supersedes all older current-version/count statements below.** Verified active version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5`, 100% traffic, deployment `e17dfa5e-f057-4b29-a4da-3b7e91771d6f`. Exact then-current baseline was `0348716b-46e6-4592-a5d4-ca2cb1048e3b`; fresh Worker download/hash and safe metadata capture, pre-deploy recheck, uploaded-byte comparison and final configuration/HTTP/browser checks completed. Recheck Cloudflare before future work.
+
+Root reference `grade7_unit2_algebraic_expressions.json` now contains **129 types / 1,290 questions**, ten variants A–J, schema `2.3.2-signs-and-distribution-review`, SHA-256 `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`, Git blob `ad74a25437f70df4e9be900eebbecb4b216ee1cf`. Stable IDs are 105–234 with retired 144; do not renumber. All prior translation/wording/exponent changes and factoring teaching methods are preserved.
+
+The seven latest review comments are implemented: sign-combining 139/140/142, constant-first distribution 152, fractional coefficient and constant distribution 154, four-star 157, later Lesson 2-4 pools for 158–162 and new distributive word-problem types 230–234 in Lesson 2-2. See the newest CHANGELOG entry for concrete examples and coverage. No exponents in the new contexts; their expanded terms are unlike, so solution steps stop at distribution. PCL is retained only where necessary. Full-term combining rows use `-2x-5x=-7x`, never `(-2-5)x`.
+
+**Retain three banks, keyed by revision:**
+
+| Bank | Source revision | Types/questions |
+| --- | --- | --- |
+| New current | `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c` | 129 / 1,290 |
+| Previous review | `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd` | 124 / 1,240 |
+| Original activation | `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb` | 125 / 1,250 |
+
+All previous source/integration bytes remain unchanged. New bank selection is the router default; assignments/question-set settings/snapshots, example lookup, retry history, assessments and Daily Challenges use their server-recorded pins. In particular, previous fractional Type 139/140/142, old 152/154 and three-star 157 must still resolve to the prior question/answer/rating. Original numeric 120/121/126 and retired 144 also remain supported for old pins. Unknown pins fail with controlled feedback; never silently grade against current content. Do not discard a revision simply because the same IDs exist in a newer bank.
+
+Checking logic is unchanged. Type 154's first answer is `-2/3x-3/2`; both plain fractional coefficient input and fraction-key `\frac{2}{3}x` are accepted with the proper signs. Explicit `-2/(3x)-3/2` must not be treated as that coefficient answer. Type 140's first x terms cancel; its simplified answer is `-2y+14`, and x is still a permitted question variable. Fractional/decimal equality remains exact rational arithmetic. New algebraic word problems require a simplified expanded answer, so valid but unfinished grouped models receive the existing finish-simplifying feedback. Correct term reordering is accepted. Preserve original student input, work minimum, server-owned answers and existing attempt/scoring policy.
+
+Ten variants retain next-variant examples A→B→…→J→A, disjoint reservations and bounded capacity. Source difficulty is fixed per current type; old pins preserve their earlier metadata. Existing Add More Types intentionally supports cross-lesson Unit 2 inclusion; only default pools changed for 158–162. All lesson/star counts are four to eight, with no five-star types. Current coverage (stars 1/2/3/4): 2-0 5/7/6/6; 2-1 4/5/4/4; 2-2 4/5/4/5; 2-3 4/4/4/4; 2-4 4/4/5/8; 2-5 4/4/6/5; 2-6 4/4/4/4.
+
+32,187 local assertions and 830 strict changed-content math renderings passed; live previews and 24 HTTP checks / 22 hashes passed. This release changes only the new source/integration plus router selection in the freshly captured Worker. Frontend/CSS/static assets and original Unit 1/app backend bytes remain preserved. Uploaded Worker SHA-256 `a59defbd3a3d7ca8691330261971e283c13e9bf87bab40e20fd7d4a017e27636`. No DB/media mutations, production test assignment, student submission, route/domain/subscription or other UI change. Manual student entry walkthrough remains deferred. Read RELEASES for exact timings and local evidence.
+
+Never blind-roll back to either older bank-only version after new-revision assignments exist. Prefer forward repair preserving all three banks, safe configuration, complete asset collection and actual current app behavior. Read the latest GitHub head, capture actual current Cloudflare, coordinate one publisher, recheck immediately before deployment and append factual logs.
+
+---
+
+
 ## Current content revision — October 12, 2026, 16:58 EDT
 
 **This addendum supersedes the original activation's current-version/count statements below.** Active verified version is `0348716b-46e6-4592-a5d4-ca2cb1048e3b` at 100%, deployment `f3f1c9de-bc57-463f-9e69-c6a23bde3dc1`. It was built on the exact then-current `74f9e816-cf0f-4d24-b411-8fe8099444e7`; fresh identity was rechecked immediately before publishing. Later assistants must recheck Cloudflare again.

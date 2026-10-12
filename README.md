@@ -6,7 +6,7 @@ This private repository holds the Unit 1 and Unit 2 curriculum reference files a
 
 ## Latest recorded release
 
-Unit 2 content review deployed October 12, 2026, 16:58 EDT: Cloudflare version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` at 100% traffic. New selections use 124 types / 1,240 questions; existing assignments retain their original 125-type revision. The three expression-writing replacements, shorter wording, math exponent target and removal of Type 144 are live. Unit 1 and current app features are preserved. Details: [CHANGELOG.md](CHANGELOG.md), [RELEASES.md](RELEASES.md), and [Unit 2 handoff](docs/UNIT2-HANDOFF.md). Query Cloudflare again before future work; this recorded version is not a substitute for a fresh check.
+Unit 2 signs/distribution review deployed October 12, 2026, 19:23 EDT: Cloudflare version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` at 100% traffic. New selections use **129 types / 1,290 questions** with ten variants each. Types 139/140/142/152/154 were revised, Type 157 moved to four stars, Types 158–162 moved to Lesson 2-4, and new word-problem Types 230–234 were added to Lesson 2-2. Both previous bank revisions remain available for existing assignments. Unit 1 and all current app features/configuration are preserved. Details: [CHANGELOG.md](CHANGELOG.md), [RELEASES.md](RELEASES.md), and [Unit 2 handoff](docs/UNIT2-HANDOFF.md). Query Cloudflare again before future work; this recorded version is not a substitute for a fresh check.
 
 ## Before either Codex account updates the app
 
