@@ -43,3 +43,14 @@ Cloudflare version: `12618fc6-4548-4676-9e6a-86451ebd04d6`, based on `561a20cf-7
 - Units 2–8 remain unavailable until their own banks contain problems. Future lesson Comic-Con drafts select eligible word problems of at least 100 characters across stars 1–5; Unit 1/Project#1 behavior remains scoped separately.
 
 At this release's baseline, preservation checks retained the then-current grading settings, introduction/gallery video and teacher override handlers. Local checks covered grading, future-bank validation, crop persistence/geometry, curriculum and shadows; live frontend hashes passed on both domains on October 8. No demo accounts/database, schema migration or D1/R2 content change was included. These are historical results, not a claim that every later build retained them. Each new update must preserve the exact current baseline outside its requested changes.
+
+## October 12, 2026 at 12:37 EDT — Unit 2 JSON uploaded; not deployed
+
+Status: uploaded to GitHub for the other account to integrate later. No Cloudflare application update or fresh live-version verification was performed.
+
+- Added `grade7_unit2_algebraic_expressions.json` beside the preserved Unit 1 reference file. The upload is byte-identical to the final local review JSON; SHA-256: `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb`.
+- Unit 2 contains 125 types, IDs 105–229 without gaps, ten A–J variants per type, and 1,250 problems. IDs continue after the current Unit 1 bank's 104 types, not the older 96-type repository reference. Four to eight types are available for each lesson/star; no five-star types.
+- Solutions use only necessary simplification stages, keep signed full terms, model word-problem quantities individually, and put any negative-one factoring division separately at the end. Both factoring methods and rotating example references are included.
+- Local validation passed all 1,250 exact answers, 190 multiple-choice uniqueness checks, 1,680 solution equalities, example references, numbering, geometry domains, factoring divisions, and 12,820 KaTeX math runs.
+- The JSON remains a review bank. Application schema integration and live algebraic expression/input checking are not implemented by this upload. Before online integration, the other account must follow the existing current-Cloudflare-baseline and preservation requirements, retain the newer Unit 1 bank, and test the new checking logic locally.
+- Recovery: remove only the new Unit 2 file if necessary; the existing reference bank and application files were not replaced. No new PDF or handoff file was generated.
