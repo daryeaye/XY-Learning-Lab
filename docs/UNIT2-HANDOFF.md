@@ -1,5 +1,20 @@
 # XY Learning Lab — Unit 2 Release Handoff
 
+## Latest content and teaching handoff — October 12, 2026, 20:33 EDT
+
+**This addendum supersedes older current-version statements below.** Read [Handoff Version 3](UNIT2-HANDOFF-v3.md) first. It connects three sources: the original 24-item test collection establishes skills/difficulty; seven annotated lesson PDFs establish the teacher's sequence, vocabulary and worked methods; the latest reviews establish clear contexts, precise difficulty, typed simplified answers and exact solution previews. Latest human instructions take precedence over older draft notes.
+
+Active version `bb8c766d-9773-455d-a99b-b988b936b677`, 100% traffic, deployment `52b7d77e-15d7-413d-a6e8-a5d85a4f122b`; exact fresh baseline `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5`. Reference bank is now 129 types / 1,290 questions, schema `2.4.0-geometry-word-solutions`, revision `6f4b2094d8a59e0bd5615e1f8876e265fd38260f58181587ba94a0dca63e6f20`; IDs 105–235, retired 144 and 213. Preserve FOUR embedded banks and old same-ID question/answer/star/lesson pins.
+
+New geometry selections have no student-facing range assumptions; Types 163–174 have labeled variant-specific diagrams, none for four-star Types 175–178. Type 164 is 5x; Type 173 accepts 14x+4y or 4y+14x, rejecting unfinished grouping/like terms. Algebraic tasks in Lessons 2-0–2-5 require expanded combined terms; Lesson 2-6 follows the particular task. Type 187 stays in 2-4 and new 235 has four signed variable terms with exactly two decimal and two integer coefficients.
+
+All Lesson 2-5 solutions begin with the question, list one given quantity per row and connect operations; no XNO/QNO student label. Type 205 is taxi outward/bus home; 202 uses additional red stickers for the person; 207 has a constant batch count and whole-number variable amounts; 211 subtracts the whole second plan using −1. Type 212 now has one donation for the entire sale (seed 9x−10), while older each-table-donation questions retain their old 9x+10 key. Type 185 has plain simplification wording. Types 226–228 are short answer; 229 asks average monthly net change from a fixed number of months.
+
+New Unit 2 Comic-Con drafts have twenty unique preset types: 195,196,197,230,231,232,233,234,167,168,169,170,171,172,173,174,202,205,207,211. The existing picker offers all 31 eligible types. The teacher approved necessary exact Unit 2 algebraic checking; preserve Unit 1 numeric checking and all screens/tools/weights. Shared See Solution links open the exact displayed problem without changing type selection and restore focus.
+
+All current/retained keys, safe configuration, source routing and scoped byte-preservation checks passed; 42,012 assertions, 9,340 strict math renderings and 278 live HTTP checks / 276 asset comparisons. Read-only live solution previews verified Unit 1/Unit 2. No production test assignment/draft/submission was created; full real student autosave/submission/gallery walkthrough is unperformed. Recheck the actual Cloudflare version before another update and repair forward while retaining all banks.
+
+
 ## Latest content revision — October 12, 2026, 19:23 EDT
 
 **This addendum supersedes all older current-version/count statements below.** Verified active version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5`, 100% traffic, deployment `e17dfa5e-f057-4b29-a4da-3b7e91771d6f`. Exact then-current baseline was `0348716b-46e6-4592-a5d4-ca2cb1048e3b`; fresh Worker download/hash and safe metadata capture, pre-deploy recheck, uploaded-byte comparison and final configuration/HTTP/browser checks completed. Recheck Cloudflare before future work.

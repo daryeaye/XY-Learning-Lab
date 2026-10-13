@@ -1,5 +1,11 @@
 # XY Learning Lab — shared update log
 
+## Latest release — October 12, 2026, 20:33 EDT
+
+**This entry supersedes older current-version and bank statements; preserve their historical records.** Deployed and verified Cloudflare version `bb8c766d-9773-455d-a99b-b988b936b677`, deployment `52b7d77e-15d7-413d-a6e8-a5d85a4f122b`, 100% traffic. Exact live baseline was `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5`. Current Unit 2 reference has 129 types / 1,290 questions, revision `6f4b2094d8a59e0bd5615e1f8876e265fd38260f58181587ba94a0dca63e6f20`, schema `2.4.0-geometry-word-solutions`, IDs 105–235 with retired 144 and 213. All three older banks remain embedded for saved assignments.
+
+Read [Handoff Version 3](docs/UNIT2-HANDOFF-v3.md) for the connection among the original test collection, seven annotated lesson PDFs and latest reviews. The latest sixteen comments, twenty-question Unit 2 Comic-Con preset, teacher-approved algebraic Comic-Con checking and shared underlined See Solution links are implemented. Runtime, bindings, secrets, asset configuration and unrelated features were preserved. See CHANGELOG.md and RELEASES.md for checks and recovery.
+
 This private repository holds the Unit 1 and Unit 2 curriculum reference files and the shared update history for XY Learning Lab.
 
 **Cloudflare remains the live deployment location. This repository is a log, not the application's complete editable source project.** The original `grade7_unit1_rational_numbers.json` and `scoreboard.png` are preserved. The reference JSON has 96 problem types / 480 problems; the live October 11 Worker embeds a newer bank with 104 types / 520 problems. Do not replace the live bank with the older reference file.

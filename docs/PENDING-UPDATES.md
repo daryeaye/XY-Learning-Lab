@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## October 12, 2026, 20:33 EDT — latest sixteen comments and additional requests completed
+
+**Current-version addendum; older sections below are historical preservation records.** Version `bb8c766d-9773-455d-a99b-b988b936b677` is deployed at 100% and verified. Read [Handoff Version 3](UNIT2-HANDOFF-v3.md): it connects state-test skill expectations, the seven annotated PDFs' classroom methods, and final review decisions.
+
+Completed: range removal, 120 lower-star geometry diagrams, new two-decimal sign-combining Type 235 replacing 187 in Lesson 2-1, revised Types 202/205/207/211/212, retirement of 213, plain simplification Type 185, short-answer Types 226–229, expanded/simplified algebraic answer requirements through Lesson 2-5, twenty unique Unit 2 Comic-Con preset questions with all 31 eligible picker types and explicitly approved algebraic checking, and shared underlined exact-variant See Solution links. Keep saved drafts and all four bank pins unchanged. All earlier accepted requirements remain preserved.
+
+No remaining implementation from this request is marked pending. Full real student autosave/submission/Comic-Con gallery testing remains separately unperformed; no production test records were created. Fresh active-baseline, byte-preservation, configuration, mathematical and both-domain HTTP checks passed. Details: CHANGELOG.md, RELEASES.md and Handoff Version 3.
+
 Updated October 12, 2026. All three requirements below were implemented on baseline `775f9822-44c1-4a13-b1fe-79ef618c09bc`, deployed as `0e8f843a-18cf-4163-a100-5bb841c15d3c` at 100%, and verified on the live domains. They are retained here as preservation requirements for future updates; there is no remaining pending change from this request. See CHANGELOG.md and RELEASES.md for evidence and limitations.
 
 The user selected GitHub for shared logs only. Download the then-current Cloudflare Worker/frontend/assets before each update and preserve the existing layout and behavior outside the requested changes. Do not deploy the October 11 baseline again over a newer release.
