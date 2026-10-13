@@ -1,5 +1,74 @@
 # XY Learning Lab release record
 
+## FINAL current release — October 13, 2026, 06:54 EDT
+
+- Active/latest version: `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100%, verified `2026-10-13T10:54:33.072Z`.
+- Immediate baseline/interim: `97e8cfff-da84-4e79-af20-2c33d9a3e321`; initial five-star release: `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6`. Both records remain below.
+- Final Worker SHA-256: `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227`, unchanged from the interim six-byte assignment-reopening repair; upload startup 111 ms.
+- Source pin: `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`, source GitHub commit `9a22800ed0c40217e69e53b3e99cfe9f348800b7`, unchanged; 136 active types / 1,325 questions and all five source revisions retained.
+- Final frontend before alias remapping: `8e0a2f2a0768c4aca7fd40502e46e089c4400cb6bf0044c588f2414e098ad382`; three guarded edits add only the Unit 2 answer serializer and two field callback uses. CSS, shared MathLive controls, work, Unit 1 and every server grader remain unchanged.
+- Public package: 1,713 files, preserving all 1,706 prior non-HTML files exactly. New main and five lazy-import aliases are retained alongside all previous assets.
+
+A correct Fraction-function answer, `$ \frac{9}{20} $x+1`, was displayed properly but rejected because the existing Unit 2 parser accepts continuous LaTeX rather than internal display delimiters. The frontend-only repair normalizes recognized balanced, unescaped function/exponent math spans in Unit 2 answer-field callbacks to continuous mathematical input. It changes only one helper and the two normal-assignment/assessment callbacks; work, Unit 1, custom answers, shared MathLive editor/keyboard, review renderers, CSS, all bank pins and every server grader remain unchanged. Bare currency dollars, unbalanced spans and variable-denominator grouping are preserved; wrong reciprocals and powers remain wrong. Three inverse guarded edits recover the prior reviewed frontend exactly. All 1,491 focused serializer/render/reconciliation checks passed.
+
+Final independent local save/check QA passed all **136 types / 1,325 variants / 6,421 answer-form cases**, zero failures, using the unchanged downloaded Worker and the actual frontend normalizer. Sixteen independently specified real mixed-markup cases extend the earlier 6,405 formal-input cases, which had missed the browser's raw MathLive serialization. Answers are independently derived from question/model data without importing the app checker or reading its keys. This finite suite cannot prove every possible spelling or the semantic correctness of every authored word-problem model.
+
+Actual local browser testing entered answers with work `xy` across 20 seeded uniformly selected distinct Unit 2 types. Nineteen passed initially; the one real failure was Type 206's correct Fraction-function input serialized as internal mixed `$...$` markup. That frontend serialization bug was repaired and retested. A separate four-question fixture verified wrong variable denominators, partial factoring and a missing square were rejected, while corrected fractions and reordered negative-GCF factoring passed. Two wrong-question/cached-answer diagnostic entries and one mistakenly entered exponent were correctly rejected and are excluded from acceptance claims. A fresh seven-question fixture then accepted all seven answers and was submitted: named geometry fields, numeric and variable-numerator fractions, complete GCF, Type 236's denominator count, Type 239 with Functions/Exponent, and Type 238 with the real virtual-keyboard square button. Functions/Fraction, Exponent and Square plus virtual Keyboard/Fraction, a², main digits/operators and abc letters were actually clicked; rendered fractions/powers stayed intact during editing and in review. These checks do not mean every fresh question was tested wrong then right, or every possible answer spelling was tested. All records/accounts were fictional and local; production test records were not created.
+
+Cloudflare active/latest verification at `2026-10-13T10:54:33.072Z` (October 13, 2026, 06:54 EDT) confirmed `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100% traffic. Both teacher and student domains passed 30 GET/HEAD checks with 16 exact hash comparisons and zero errors at `2026-10-13T10:55:34.379Z`. Bindings, asset routing and observability remained preserved. Worker SHA-256 `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227` is unchanged from the assignment-reopening repair; upload startup was 111 ms, an upload/runtime measurement rather than a usage bill.
+
+Final complete downloaded-copy evidence: The final active version was freshly downloaded: 1,712 public HTTP files, 353,315,583 bytes, zero download failures; copying the unchanged _headers yields 1,713 local public files. Independent per-file SHA-256 comparisons matched all 1,712 downloaded files to the tested staged bytes at the same URLs. The downloaded Worker SHA-256 763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227 matches the deployed/tested Worker exactly. The local server now uses the actual post-deployment public directory rather than the staged build. Its student dashboard shows the fresh seven-question fixture saved as 7/7 correct, 100/100; local screenshot: outputs/Unit2-keyboard-test-100.png. Complete current copy: work/five-star-2026-10-12/post-deploy/worker-original.mjs and post-deploy/public/. All test records remain fictional and local.
+
+| Final artifact | SHA-256 |
+| --- | --- |
+| Worker | `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227` |
+| HTML | `0d68ebd6cb3cab5358ae00051b9bf31d457536b0f943b04e3f5479ea93c1f79b` |
+| `/assets/index-u25keyboard8e0a2f2a0768.js` | `d3d7ab936a0c4fe2289fc0c17b3a84e9d088dd677226f81a2ff7499a47599067` |
+| CSS, unchanged | `2d18733b60dfc9a69e8565f1b491e6483b12fa08f32d357df1325807f80d1c96` |
+| Unit 2 source, unchanged | `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7` |
+
+No migration or production test data/state mutation was performed. Recovery should preserve all source pins and both fixes; returning to the initial five-star release reintroduces the started-assignment bug, and returning to the interim release reintroduces the actual function-input serialization bug. Prefer a compatible forward repair.
+
+## Interim assignment-reopening repair — October 13, 2026, 06:24 EDT
+
+- Active/latest version: `97e8cfff-da84-4e79-af20-2c33d9a3e321`, deployment `ee4d12d2-6b17-4d1b-8909-234786377a25`, 100% traffic, verified `2026-10-13T10:24:57.307Z`.
+- Baseline: initial five-star version `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6`, deployment `5d641728-aa80-4eda-a932-ccbc428e0828`, Worker SHA-256 `ef0f72742dbde6fcf6281c7f8d88854515271072229a0d87b1eb7f2cf9cc66ba`.
+- Final Worker SHA-256: `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227`; 21,143,708 bytes. Cloudflare upload startup: 94 ms.
+- The bank remains 136 active types / 1,325 questions, current pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`, already published in GitHub commit `9a22800ed0c40217e69e53b3e99cfe9f348800b7`. All five source pins/checkers and previous problem objects remain unchanged. Main JavaScript, CSS, HTML and public assets retain the initial five-star release fingerprints below.
+
+The actual local browser walkthrough exposed a pre-existing server assignment-loading error: the saved-set branch of `/api/assignment` assigned `selectedBank` without declaring it. Strict-module execution returned HTTP 400 when reopening an already-started assignment. The forward repair adds only the missing `const ` declaration (six bytes) at that location. It restores started-assignment reopening for Unit 1, current Unit 2 and historical pinned Unit 2; it does not change question content, answer checking, scoring, attempt state, revision pins or student layout. Removing those six bytes recovers the entire initial five-star Worker SHA-256 exactly.
+
+All 28 focused regression checks passed: fresh assignment metadata remains HTTP 200; previously failing started metadata changes from HTTP 400 to 200 for Unit 1, current Unit 2 and a historical Unit 2 pin including retired Type 144. Attempt routes remain HTTP 200, with existing snapshots, attempts and bank pins preserved. Cloudflare active/latest verification at `2026-10-13T10:24:57.307Z` (October 13, 2026, 06:24 EDT) confirmed `97e8cfff-da84-4e79-af20-2c33d9a3e321`, deployment `ee4d12d2-6b17-4d1b-8909-234786377a25`, 100% traffic, preserved bindings/routing/observability. Cloudflare reported startup 94 ms for this upload; this is an upload/runtime measurement, not a usage bill.
+
+Subsequent real browser testing identified the mixed-function serialization issue; the final 06:54 EDT release below records its repair and complete UI results.
+
+The complete original historical ledger and initial five-star records remain below. The previously recorded 136-type / 1,325-variant / 6,405-form exhaustive sweep belongs to the downloaded initial five-star Worker; the separate 28-test repair suite covers the saved-set reopening branch it did not exercise. Do not silently relabel initial measurements as a test run against this repaired Worker unless a new final-download run is recorded. No production student data or state was used for tests; no migration was applied.
+
+## Initial approved Unit 2 five-star release — October 12, 2026, 22:46 EDT (interim history)
+
+- Status: deployed at 100%; final local/live evidence follows.
+- Exact baseline Cloudflare version: `bb8c766d-9773-455d-a99b-b988b936b677`; baseline Worker SHA-256 `18ebccf39dff43e5eb83aece6936434ab8fd12bf061abd3b38809f1b00c8e99c`.
+- Uploaded/current version: `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6`; deployment `5d641728-aa80-4eda-a932-ccbc428e0828`.
+- Source JSON SHA-256 / new bank pin: `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`; schema `2.5.0-approved-five-star`; 136 active types / 1,325 questions, with 35 new questions in IDs 236–242. New variants A–E, five per type; old ten-variant types unchanged.
+- Preserve all four older bank pins: `6f4b2094d8a59e0bd5615e1f8876e265fd38260f58181587ba94a0dca63e6f20`, `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`, `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd`, `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb`. Saved assignment/assessment/example records keep their original pins/content. Never rewrite a saved same-ID question to the newest key.
+- Fresh baseline Worker, active frontend, safe configuration and all currently referenced assets were acquired before the patch. Active/latest version rechecks before upload/deploy matched the baseline. Post-deploy active/latest check at October 12, 2026, 22:46 EDT confirmed the new version at 100%, with bindings, asset routing and observability preserved.
+- Preserved 1,700 original non-HTML assets exactly; final 1,707 public files. Current CSS unchanged. Database migrations: none. No private full bank or fictional test database is placed in public assets.
+- Pre-deployment checks passed: 1,055 source-content assertions, 23,696 backend integration checks, 4,618 frontend assertions, all 35 new question/solution renderings, 526 actual KaTeX math runs, all 1,290 previous teacher preview delegations, and an independent local candidate sweep covering 136 types / 1,325 variants / 6,395 answer forms. The sweep uses the actual Worker save/check endpoints with fictional SQLite and one/two-character work entries, not production records. Independent answers are derived from the question or mathematical model without importing the app checker or reading its key; this cannot prove the semantic correctness of every authored word-problem model.
+- Post-deployment download verification passed: the downloaded Worker matches the uploaded SHA-256 exactly; all 1,706 public HTTP files (350,422,599 bytes) downloaded and matched with zero failures. An independent local sweep against this downloaded Worker tested all 136 active types, all 1,325 variants and 6,405 answer-form cases, with zero failed cases, in 21.38 seconds. These are local fictional-data tests of actual save/check endpoints, not production student submissions. The browser walkthrough subsequently exposed an existing started-assignment loading error; the October 13 forward-repair entry below records its correction and final browser evidence.
+- Live verification passed on both teacher and student domains: 30 combined GET/HEAD checks, 16 exact hash comparisons, zero errors. A read-only Cloudflare check at 2026-10-13T02:46:33.408Z (October 12, 2026, 22:46 EDT) confirmed active/latest version 9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6 at 100% traffic, deployment 5d641728-aa80-4eda-a932-ccbc428e0828, with bindings, asset routing and observability preserved.
+
+| Artifact | SHA-256 |
+| --- | --- |
+| Uploaded Worker | `ef0f72742dbde6fcf6281c7f8d88854515271072229a0d87b1eb7f2cf9cc66ba` |
+| Current bank JSON | `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7` |
+| HTML | `ee976bc1054ed707e6fa8743e6939f5c9359745a7e99268d886bcead84e69972` |
+| `/assets/index-u25star5c166f81f928.js` | `c334ad14860cfe966de0ea6e663e996e3a7f97df255fd549982a6da96c70256d` |
+| `/assets/index-u22d18733b60df.css` (unchanged CSS) | `2d18733b60dfc9a69e8565f1b491e6483b12fa08f32d357df1325807f80d1c96` |
+
+Local tested package/evidence: `work/five-star-2026-10-12/`; the complete post-deployment copy and tests are identified in the final QA result. These local application files are deliberately not committed to this reference/log repository. No production test data or secrets are stored here.
+
+Recovery baseline is `bb8c766d-9773-455d-a99b-b988b936b677`, but do not blindly roll back once new-revision assignments exist. Prefer a forward repair that retains all five pins, current layout/features and server-owned grading. A code rollback does not restore database/media state. [Handoff-v5.md](Handoff-v5.md) contains continuation requirements.
+
 Shared deployment ledger for `daryeaye/XY-Learning-Lab`. This private repository stores the log and reference files, not the full application. Each update starts from the exact current Cloudflare Worker, frontend and assets. Cloudflare version IDs identify application builds; Git commits identify log revisions here.
 
 ## Unit 2 release — October 12, 2026, 14:27 EDT
