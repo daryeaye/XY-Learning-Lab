@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## October 13, 2026 — solution presentation and five additional requests completed
+
+Verified current release `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`,100%, on the current morning five-star build. Read [Handoff-v6.md](../Handoff-v6.md) first.
+
+Completed: whole-bank solution spacing/row audit and scoped renderer; natural denominator explanations; named configured-tier YY speech and matching auto-open headwear/outfit tabs; user-supplied loss MP3; Daily Challenge assignment placement/starry card; successful Comic/Project 1 publication→gallery; golf preset and existing xye4 class 701/703/707 wording correction with original comics/planning/keys/grades preserved. All five banks, five-star additions and morning repairs remain unchanged.
+
+The explicitly authorized existing golf-text correction is the only production-data write. No production test assignment/publication, point earning/removal or audible device playback was performed. Focused tests, local fictional UI checks, fresh/current baseline preservation,42 live HTTP checks/40 exact comparisons and a read-only live solution preview passed. No further requested implementation is pending; preserve every earlier requirement/history below.
+
 ## October 13, 2026 — FINAL completed release, 06:54 EDT
 
 Current verified version is `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100%. The approved five-star bank remains 136 types / 1,325 questions, source pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`, published source commit `9a22800ed0c40217e69e53b3e99cfe9f348800b7`. Preserve both the started-assignment reopening declaration fix and the scoped Unit 2 function-input answer serializer. Historical `97e8cfff-da84-4e79-af20-2c33d9a3e321` and `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6` records below are superseded for current-version purposes.
@@ -102,3 +110,4 @@ Version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` serves 100% after the seven reque
 ## Unit 2 signs and distribution review — October 12, 2026, 19:23 EDT — completed; preserve going forward
 
 Version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` serves 100% traffic. New selections use 129 types / 1,290 questions and source `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`. Preserve changed Types 139/140/142/152/154, four-star Type 157, Lesson 2-4 membership for 158–162 and new distribution word-problem Types 230–234 in Lesson 2-2. Preserve all three bank revisions and original answer/input/reservation policies. All earlier completed UI requirements are intact. No additional work from these seven comments remains; the manual student grading walkthrough remains separately deferred. Read the newest Unit 2 handoff and release records before the next update.
+

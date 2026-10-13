@@ -1,5 +1,15 @@
 # XY Learning Lab — Unit 2 Release Handoff
 
+## Latest presentation and feature continuation — October 13, 2026, verified 17:16 EDT
+
+Read [Handoff-v6.md](../Handoff-v6.md) first, then Handoff-v5. Current active version `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`,100%, built on exact `59682d37-6eba-46a7-bde3-c30707b3fa47`. The entire Worker,136/1325 source at pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`, all five revisions/checkers and morning repairs are unchanged. Older current-version records below are history.
+
+Unit 2 solution presentation now separates prose/standalone expressions and explicitly spaces genuine inline math. The audit covers every 6,112 current and 23,070 historical step. Types 106/108 show two rows; Type 126 six; Type 236 two natural rows per candidate with zero/outside-bound reasoning retained. No bank JSON or answer change is needed for this display fix.
+
+Current preservation requirements also include named YY unlock bubbles with matching tier tabs/no dashboard message, stage-overlay bubble layout, supplied loss MP3, starry Daily Challenges in assignment categories, and publish→class-gallery navigation preserving teacher peer-release restrictions. Project 1 golf asks “What is the difference between the scores?” (answer 9); the requested existing xye4 content correction retains effective source revision and saved split extent. Do not invoke pool rebasing to replay that correction.
+
+See newest CHANGELOG/RELEASES/Handoff-v6 for checks, exact hashes, narrow data mutation and limitations. Query actual Cloudflare again before any new edit.
+
 ## Latest content and teaching handoff — October 12, 2026, 20:33 EDT
 
 **This addendum supersedes older current-version statements below.** Read [Handoff Version 3](UNIT2-HANDOFF-v3.md) first. It connects three sources: the original 24-item test collection establishes skills/difficulty; seven annotated lesson PDFs establish the teacher's sequence, vocabulary and worked methods; the latest reviews establish clear contexts, precise difficulty, typed simplified answers and exact solution previews. Latest human instructions take precedence over older draft notes.
@@ -200,3 +210,4 @@ The preparation baseline is `0e8f843a-18cf-4163-a100-5bb841c15d3c`. Keep its loc
 A code rollback does not restore database/media state. Rolling back to the pre-Unit-2 baseline would also remove support for newly created Unit 2 assignments; preserve compatible bank handling rather than blindly reverting once those records exist.
 
 The next assistant should read this finalized handoff and newest GitHub logs, acquire the current live version, preserve Unit 1 and all unrequested behavior, and coordinate publication. Record only what was actually built, uploaded, deployed and verified.
+

@@ -1,5 +1,21 @@
 # XY Learning Lab release record
 
+## Current release — October 13, 2026, verified 17:16 EDT
+
+- Active version `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`,100% traffic; verified 2026-10-13 T 21:14:51.153242 Z. Both-domain verification completed 2026-10-13 T 21:16:23.566769 Z.
+- Exact current baseline `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`. Fresh Worker/safe metadata captured 2026-10-13 T 20:39:34.522744 Z; public assets captured 2026-10-13 T 20:45:23.619987 Z. Active entrypoint and source JSON matched the morning shared records.
+- Entire Worker unchanged: SHA-256 `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227`,21,143,708 bytes. Unit 2 source unchanged at `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`,136 types/1,325 questions, schema 2.5.0-approved-five-star. All five embedded revisions, every checker, started-assignment reopening and current frontend math-input serializer remain.
+- Baseline recheck before upload 2026-10-13 T 21:11:34.299007 Z; uploaded version bytes/bindings/runtime/assets verified 2026-10-13 T 21:12:56.052614 Z; active baseline rechecked immediately before deployment 2026-10-13 T 21:13:25.189172 Z. No competing publisher was observed.
+- Main `/assets/index-u2layout8a48b4420e57.js`, SHA-256 `471ae5be1b5f97dae0d6da8f585d9dddb842d2b1b051a90020c8022c313b4acf`. CSS `/assets/index-u2layout73db818202fc.css`, SHA-256 `73db818202fc893ecaeabcb74c606fe8f29d7fa5290b277ea5a77953831d54f3`. HTML SHA-256 `092adcc26918c08443e484fb3c7acb6e9246a00dd1c56e5299440f7a3a54f35e`.
+- Loss audio `/yy/sounds/points-removed-spin-fail-2fd06cc5f45d.mp3`, SHA-256 `2fd06cc5f45d0dd47f97b8730fa46d4422ef71fedd470bc241192085f38f05a0`,64,365 bytes. Original sounds and every captured prior non-HTML asset remain. Final local public directory contains 1,721 files (including_headers); retained aliases remain alongside new files. Six older u 2 review aliases already returned SPA fallback in the fresh baseline; this release did not remove them.
+- Scope: Unit 2 solution row renderer, YY named automatic tier presentation/loss sound, Daily assignment placement/sky, comic publication gallery navigation and golf preset wording. Guarded inverse edits reconstruct the original baseline frontend exactly. Existing CSS bytes are retained and additions are scoped; all safe configuration fields match except expected release annotations.
+- Checks:41,871 presentation assertions;153 dedicated YY checks and 152 composed behavior checks;53 compiled Comic/Daily checks;7,044 golf compatibility checks.42 HTTP checks/40 exact comparisons passed on both domains. Local fictional browser fixtures tested the actual integrated frontend; read-only live solution preview passed.
+- Explicit production-content edit: two active xye4 Project 1 assignments serving 701/703/707, verified 2026-10-13 T 21:06:02.912665 Z. Two problem texts and two draft text/preservation-metadata fields changed. Numeric keys, effective revisions, planning ranges, scenes, media/snapshots, allocation, timestamps, grades and feedback retained. No generic pool-rebase route was used. Detailed private rows/leases stay local and are not published.
+- No migrations, production test records, point changes, messages, comic media/R2 writes, routes or subscription changes. Real production student publish/tier earning and audible device playback were not induced/tested.
+- Local evidence: outputs/math-platform/work/unit2-layout-2026-10-13/ baseline/capture/public-capture, frontend/guarded patch audits, focused test reports, upload/pre/post metadata, configuration comparisons, live HTTP record, golf verification summaries and browser screenshots. Handoff-v6 is the next continuation reference.
+
+Recovery: capture the then-current version and shared head before any repair. Prefer forward repair preserving all five bank pins, morning fixes and authorized golf wording. App rollback cannot revert the separate content edit; the private guarded old values are retained locally for a precise text-only recovery if requested. Do not reset planning or overwrite snapshots/media/grades. A version check and shared log are not an atomic deployment lock.
+
 ## FINAL current release — October 13, 2026, 06:54 EDT
 
 - Active/latest version: `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100%, verified `2026-10-13T10:54:33.072Z`.
@@ -247,4 +263,5 @@ Recovery: compare the then-current Cloudflare release and newest shared log befo
 - Evidence retained locally in outputs/math-platform/work/unit2-geometry-2026-10-12: fresh baseline, bank/build scripts, exact compiled release, scoped preservation records, test report, uploaded/pre/post version metadata, configuration comparison, live HTTP report, diagram/preset previews and handoff rendering QA. GitHub contains reference data/logs only, not application builds.
 
 Recovery: inspect the then-current release and latest shared log before any repair. Repair forward, retaining all four source banks and saved pins. Blindly restoring the prior version would lose Type 235 and new-revision resolution. Code rollback does not recover database/media state. Recheck active version immediately before any future publication; the shared log is not a lock.
+
 

@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## Current release — October 13, 2026, verified 17:16 EDT
+
+**Read [Handoff-v6.md](Handoff-v6.md) first, then Handoff-v5 and the newest logs.** Active Cloudflare version `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`, 100% traffic. Exact captured baseline: `59682d37-6eba-46a7-bde3-c30707b3fa47`.
+
+This update adjusts Unit 2 solution rows/inline spacing, named YY unlock speech with matching outfit tabs, point-loss audio, Daily Challenge placement/starry styling, successful comic publication navigation and the golf preset wording. The backend Worker remains byte-identical: SHA-256 `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227`. Unit 2 remains **136 types / 1,325 questions**, source pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`; all five banks, five-star additions and morning repairs are unchanged.
+
+The user's explicitly requested existing xye4 Project 1 golf prompt was corrected in two active assignments serving classes 701, 703 and 707. Answer 9, effective revisions, planning ranges, scenes, snapshots, media, timestamps, grades and feedback were preserved. Only the prompt/pool text and metadata materializing the existing revision value changed. No production test records or point changes were created. Both live domains passed 42 HTTP checks/40 exact hash comparisons; read-only live solution preview and fictional local feature tests passed.
+
 ## Latest final release — October 13, 2026, 06:54 EDT
 
 **Current version: `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100% traffic.** This final frontend serialization release supersedes interim `97e8cfff-da84-4e79-af20-2c33d9a3e321` and initial five-star `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6`, both retained below as history. Unit 2 remains **136 active types / 1,325 questions**, seven new five-star types 236–242 with five approved variants each; source pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7` is unchanged and already published in [GitHub commit 9a22800](https://github.com/daryeaye/XY-Learning-Lab/commit/9a22800ed0c40217e69e53b3e99cfe9f348800b7).
@@ -65,4 +73,5 @@ The version check prevents an ordinary stale-baseline update only when every pub
 Cloudflare backups may be compiled builds. Downloading one does not reconstruct the original React project automatically. This workflow intentionally keeps the application out of GitHub; preserve the actual tested build separately in Cloudflare and local backups.
 
 No passwords, tokens, student records, database exports or demo accounts belong in this repository.
+
 

@@ -1,5 +1,19 @@
 # Agent instructions — XY Learning Lab update log
 
+## October 13, 2026 — presentation/YY/Daily Challenge continuation
+
+Read Handoff-v6.md first; Handoff-v5 and prior handoffs remain historical preservation references. Current verified release `19760650-9d06-40c4-b402-b0d6c595adc9` was built on exact active `59682d37-6eba-46a7-bde3-c30707b3fa47`. The entire Worker, all five banks/checkers and both morning fixes are unchanged. Root reference JSON remains 136/1325 at pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`; never upload an older bank to overwrite it.
+
+Use the scoped Unit 2 step renderer to separate prose and standalone mathematics, retaining normal sentences with explicit math/text spacing. Type 236 candidate explanations now use “When [variable=value], we have:” followed by the equation and a natural integer classification. Preserve every candidate, zero/outside-bound reasoning and all source nodes/keys. This is presentation-only: do not rewrite JSON pins unnecessarily.
+
+Newly earned configured YY tiers produce one named bubble (“I have a new Deluxe/Premium/etc outfit!”), automatically open the existing Maker and select the matching headwear/outfit tier. First-load history stays quiet; preserve per-student deduplication, highest-tier handling, existing manual-Maker/stale-fetch guards, teacher thresholds, monthly limits and redeem mode. The bubble overlays blank stage space to avoid pushing controls out of the panel. Do not add a dashboard message. Preserve the supplied loss MP3 mapping and existing gain/redeem sounds.
+
+Active Daily Challenges belong in Current Assignments, with the restored night-sky card; completed/expired assignment history remains intact. Successful student Finish&Publish opens the class gallery. Preserve manual teacher-release/peer authorization: unreleased mode shows own published comic and a waiting message, rather than exposing peers.
+
+The narrow existing xye4 golf correction preserved 147-character saved split extent using four trailing whitespace characters and materialized each existing computed revision into the assignment's problemRevisions map. This is preservation metadata, not a new question identity. Do not run the generic update-pool/rebase route for this correction; it can reset planning. Keep all real content, snapshots/media, allocation, keys, grades/feedback and timestamps otherwise untouched.
+
+Always capture the actual latest Cloudflare build and safe configuration, recheck immediately before publishing, use one publisher, and update this shared log after verification. A log is not an enforced deployment lock.
+
 ## October 13, 2026 — FINAL current continuation record, 06:54 EDT
 
 Read Handoff-v5.md FIRST and re-query actual Cloudflare state before another update. Current recorded version is `59682d37-6eba-46a7-bde3-c30707b3fa47`, deployment `3fbcffaf-f4d0-4ecc-ab7f-22f62bc633d1`, 100%; Worker SHA-256 `763aab47b5391e3634df90d7a937403e6fb481e16d606bffbddbf6393c649227`. Interim `97e8cfff-da84-4e79-af20-2c33d9a3e321` and initial five-star `9cc3a6c6-23f1-4d36-8f9b-8ca0a3babbf6` below are historical, not current. Bank pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7` and GitHub source commit `9a22800ed0c40217e69e53b3e99cfe9f348800b7` remain unchanged: 136 active types / 1,325 questions, all five bank revisions preserved.
@@ -50,4 +64,5 @@ Read docs/UNIT2-HANDOFF-v3.md before generating or changing content. The test co
 Current active version is `bb8c766d-9773-455d-a99b-b988b936b677`; revision `6f4b2094d8a59e0bd5615e1f8876e265fd38260f58181587ba94a0dca63e6f20`, 129 types / 1,290 questions, IDs 105–235 with retired 144 and 213. Preserve all FOUR banks, including previous revisions `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`, `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd` and `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb`. Do not alter saved same-ID questions, answers or metadata. Type 212's new one-donation story gives 9x−10; the prior each-table-donation story and 9x+10 stay paired for old pins.
 
 Require expanded combined algebraic answers in Lessons 2-0–2-5; accept term reordering. Lesson 2-6 follows each task's form, including factoring and four typed equivalent-expression families. Unit 2 Comic-Con now has an exact bounded algebraic checker approved by the teacher, while Unit 1 numerical checking is unchanged. Preserve twenty unique preset types, all 31 eligible picker types, existing saved drafts and bank-load initialization guard. Preserve the shared See Solution link's exact displayed variant, checkbox state and returned focus. Never deploy the stale editable app over the actual live baseline.
+
 
