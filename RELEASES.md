@@ -1,5 +1,20 @@
 # XY Learning Lab release record
 
+## Current like-term wording update — October 13, 2026, 20:45 EDT
+
+Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
+
+Types 115 and 122 now ask students to identify the like terms, then count their groups. The instruction, unchanged expression and count question occupy separate rows. All twenty variants have solutions listing complete signed terms by matching variables and powers, including single-term groups and a constant group. Type 115 answers remain 2; Type 122 answers remain 4. Their numeric answer fields, work requirements, expressions, stars, lessons, identities and example rotation are unchanged.
+
+The current reference JSON is 136 types / 1,325 questions, schema `2.5.1-like-term-group-wording`, SHA-256 `0ddc29240f843443b1fb5717dc36d4c3f00594948b916f2292e2ae900f882720`. All 134 other type objects, including every five-star question, are unchanged. The five preceding source revisions remain embedded and routed by their recorded pins; existing assignments, examples, assessments and retries retain their original content. The entire preceding Worker is recovered by removing the additive source/integration and restoring its router declaration. Every checker and all other backend code are unchanged.
+
+Frontend, CSS, all 1,721 public files, safe settings/bindings and today's YY/Daily Challenge/comic/solution-row updates are unchanged. Checks passed: 1,554 actual integration assertions, 100 strict math renderings, both live question/solution previews, and 16 both-domain HTTP checks / 14 exact asset hash comparisons. No production assignments, student work, points, messages, comic content or database records were changed. These are local integration tests and read-only live previews, not a real student submission walkthrough.
+
+Worker SHA-256 `7899e93a3b8383e69ea9997724c28398db9b77b5d5a8ccba3be51868ad4abcb7`, 24,941,328 bytes. Fresh capture `2026-10-14T00:35:09.341157+00:00`; public capture `2026-10-14T00:37:04.105303+00:00`; pre-upload check `2026-10-14T00:40:05.976489+00:00`; uploaded-version byte/config verification `2026-10-14T00:41:00.767422+00:00`; immediate pre-deploy check `2026-10-14T00:44:17.811471+00:00`. Live version check `2026-10-14T00:45:00.299961+00:00` and both-domain verification `2026-10-14T00:45:18.130682+00:00`. No competing publisher was observed. Upload startup 120 ms is a runtime measurement, not a usage bill.
+
+Recovery: capture the then-current release and repair forward while keeping all six bank revisions. A blind rollback would lose resolution of newly pinned assignments. The log and version checks do not implement an atomic deployment lock. Local evidence: outputs/math-platform/work/unit2-like-groups-2026-10-13/.
+
+
 ## Current release — October 13, 2026, verified 17:16 EDT
 
 - Active version `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`,100% traffic; verified 2026-10-13 T 21:14:51.153242 Z. Both-domain verification completed 2026-10-13 T 21:16:23.566769 Z.

@@ -1,5 +1,14 @@
 # Agent instructions — XY Learning Lab update log
 
+## October 13, 2026 — latest like-term groups wording
+
+Read Handoff-v7.md first, then Handoff-v6 and the earlier handoffs. Current verified version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100%, preserves the exact active baseline `19760650-9d06-40c4-b402-b0d6c595adc9`. The root reference bank now uses pin `0ddc29240f843443b1fb5717dc36d4c3f00594948b916f2292e2ae900f882720` (136 types / 1,325 questions). Retain all FIVE earlier integrations and their source pins; six revisions including current are required.
+
+Types 115 and 122 ask to identify and count groups of like terms, with their original expression on its own row. Solutions list full signed terms in separate group rows; singleton terms form a group and constants share one group. Do not combine before counting. Numeric counts stay 2 and 4 respectively. Type 115 audit task is now part_count. All twenty answers/responses/expressions, all 134 other types, five-star content/checkers and reservations remain unchanged.
+
+All current frontend/CSS/public assets and every other backend function are preserved. No production data was edited. Existing bank-pinned assignments must keep their old wording and solutions; never substitute new same-ID content or discard previous pins. Capture actual current Cloudflare and read current GitHub before future work, recheck immediately before publication, and append truthful verification records. See Handoff-v7 for scope and checks.
+
+
 ## October 13, 2026 — presentation/YY/Daily Challenge continuation
 
 Read Handoff-v6.md first; Handoff-v5 and prior handoffs remain historical preservation references. Current verified release `19760650-9d06-40c4-b402-b0d6c595adc9` was built on exact active `59682d37-6eba-46a7-bde3-c30707b3fa47`. The entire Worker, all five banks/checkers and both morning fixes are unchanged. Root reference JSON remains 136/1325 at pin `f629143e2442eb82b5c31cec2846401d391f6f8257d6edd6e121afefd56610c7`; never upload an older bank to overwrite it.

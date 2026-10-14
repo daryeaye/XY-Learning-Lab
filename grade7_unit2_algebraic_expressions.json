@@ -68,11 +68,11 @@
       "work": "One non-whitespace character is sufficient for short-response work; work content is not graded."
     }
   },
-  "schema_version": "2.5.0-approved-five-star",
+  "schema_version": "2.5.1-like-term-group-wording",
   "title": "Grade 7 Unit 2 - Algebraic Expressions (reconstructed review bank)",
   "status": "local_review_not_activated",
   "created": "2026-10-11",
-  "revised": "2026-10-12",
+  "revised": "2026-10-13",
   "source": {
     "path": "/Users/teacher/Downloads/Notes_261010_212923.pdf",
     "sha256": "34af2a339d328ad83b63a974fd2ece1c82f5e1fbf55c7af8ef28c7cc4e5fe81e",
@@ -12258,7 +12258,7 @@
       "previous_review_type_id": "209"
     },
     {
-      "title": "Identify the variables in an expression",
+      "title": "Identify and count groups of like terms",
       "primary_lesson_id": 0,
       "difficulty": 2,
       "id": "115",
@@ -12280,15 +12280,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "3x+2y-5x"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12324,18 +12334,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "3x+2y-5x"
+                        "latex": "+3x,\\;-5x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+2y"
                       }
                     ],
                     "new_line": true
@@ -12345,8 +12391,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12361,7 +12413,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "3*x+2*y-5*x",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -12405,15 +12457,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "4x+4y-7x"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12449,18 +12511,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "4x+4y-7x"
+                        "latex": "+4x,\\;-7x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4y"
                       }
                     ],
                     "new_line": true
@@ -12470,8 +12568,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12486,7 +12590,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "4*x+4*y-7*x",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -12530,15 +12634,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "5x+6y-9x"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12574,18 +12688,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "5x+6y-9x"
+                        "latex": "+5x,\\;-9x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6y"
                       }
                     ],
                     "new_line": true
@@ -12595,8 +12745,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12611,7 +12767,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "5*x+6*y-9*x",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -12655,15 +12811,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "6x+8y-11x"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12699,18 +12865,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "6x+8y-11x"
+                        "latex": "+6x,\\;-11x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8y"
                       }
                     ],
                     "new_line": true
@@ -12720,8 +12922,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12736,7 +12944,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "6*x+8*y-11*x",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -12780,15 +12988,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "7x+10y-13x"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12824,18 +13042,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "7x+10y-13x"
+                        "latex": "+7x,\\;-13x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+10y"
                       }
                     ],
                     "new_line": true
@@ -12845,8 +13099,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12861,7 +13121,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "7*x+10*y-13*x",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -12905,15 +13165,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "4a+2b-6a"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -12949,18 +13219,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "4a+2b-6a"
+                        "latex": "+4a,\\;-6a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+2b"
                       }
                     ],
                     "new_line": true
@@ -12970,8 +13276,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -12986,7 +13298,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "4*a+2*b-6*a",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -13030,15 +13342,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "5a+4b-8a"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -13074,18 +13396,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "5a+4b-8a"
+                        "latex": "+5a,\\;-8a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4b"
                       }
                     ],
                     "new_line": true
@@ -13095,8 +13453,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -13111,7 +13475,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "5*a+4*b-8*a",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -13155,15 +13519,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "6a+6b-10a"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -13199,18 +13573,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "6a+6b-10a"
+                        "latex": "+6a,\\;-10a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6b"
                       }
                     ],
                     "new_line": true
@@ -13220,8 +13630,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -13236,7 +13652,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "6*a+6*b-10*a",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -13280,15 +13696,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "7a+8b-12a"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -13324,18 +13750,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "7a+8b-12a"
+                        "latex": "+7a,\\;-12a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8b"
                       }
                     ],
                     "new_line": true
@@ -13345,8 +13807,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -13361,7 +13829,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "7*a+8*b-12*a",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -13405,15 +13873,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variables appear in "
-                },
+                  "text": "Identify the like terms in this expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "8a+10b-14a"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms do we have here?"
                 }
               ]
             }
@@ -13449,18 +13927,54 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "List each different variable once, then count them."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "8a+10b-14a"
+                        "latex": "+8a,\\;-14a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+10b"
                       }
                     ],
                     "new_line": true
@@ -13470,8 +13984,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "2"
@@ -13486,7 +14006,7 @@
           "parts": [],
           "verification": {
             "expression_ascii": "8*a+10*b-14*a",
-            "task": "variable_count",
+            "task": "part_count",
             "expanded_terms": [
               {
                 "coefficient": {
@@ -21291,7 +21811,7 @@
       "previous_review_type_id": "216"
     },
     {
-      "title": "Distinguish variable parts with different powers",
+      "title": "Identify and count groups of like terms with different powers",
       "primary_lesson_id": 0,
       "difficulty": 3,
       "id": "122",
@@ -21313,15 +21833,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "3x^{2}+2x-5x^{2}+4y-3"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -21357,18 +21887,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "3x^{2}+2x-5x^{2}+4y-3"
+                        "latex": "+3x^{2},\\;-5x^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+2x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4y"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-3"
                       }
                     ],
                     "new_line": true
@@ -21378,8 +21984,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -21454,15 +22066,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "4x^{2}+4x-7x^{2}+5y-4"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -21498,18 +22120,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "4x^{2}+4x-7x^{2}+5y-4"
+                        "latex": "+4x^{2},\\;-7x^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+5y"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-4"
                       }
                     ],
                     "new_line": true
@@ -21519,8 +22217,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -21595,15 +22299,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "5x^{2}+6x-9x^{2}+6y-5"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -21639,18 +22353,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "5x^{2}+6x-9x^{2}+6y-5"
+                        "latex": "+5x^{2},\\;-9x^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6y"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-5"
                       }
                     ],
                     "new_line": true
@@ -21660,8 +22450,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -21736,15 +22532,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "6x^{2}+8x-11x^{2}+7y-6"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -21780,18 +22586,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "6x^{2}+8x-11x^{2}+7y-6"
+                        "latex": "+6x^{2},\\;-11x^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+7y"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-6"
                       }
                     ],
                     "new_line": true
@@ -21801,8 +22683,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -21877,15 +22765,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "7x^{2}+10x-13x^{2}+8y-7"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -21921,18 +22819,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "7x^{2}+10x-13x^{2}+8y-7"
+                        "latex": "+7x^{2},\\;-13x^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+10x"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8y"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-7"
                       }
                     ],
                     "new_line": true
@@ -21942,8 +22916,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -22018,15 +22998,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "4a^{2}+2a-6a^{2}+4b-4"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -22062,18 +23052,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "4a^{2}+2a-6a^{2}+4b-4"
+                        "latex": "+4a^{2},\\;-6a^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+2a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4b"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-4"
                       }
                     ],
                     "new_line": true
@@ -22083,8 +23149,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -22159,15 +23231,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "5a^{2}+4a-8a^{2}+5b-5"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -22203,18 +23285,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "5a^{2}+4a-8a^{2}+5b-5"
+                        "latex": "+5a^{2},\\;-8a^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+4a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+5b"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-5"
                       }
                     ],
                     "new_line": true
@@ -22224,8 +23382,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -22300,15 +23464,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "6a^{2}+6a-10a^{2}+6b-6"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -22344,18 +23518,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "6a^{2}+6a-10a^{2}+6b-6"
+                        "latex": "+6a^{2},\\;-10a^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+6b"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-6"
                       }
                     ],
                     "new_line": true
@@ -22365,8 +23615,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -22441,15 +23697,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "7a^{2}+8a-12a^{2}+7b-7"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -22485,18 +23751,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "7a^{2}+8a-12a^{2}+7b-7"
+                        "latex": "+7a^{2},\\;-12a^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+7b"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-7"
                       }
                     ],
                     "new_line": true
@@ -22506,8 +23848,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -22582,15 +23930,25 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "How many different variable parts, counting constants as one group, occur in "
-                },
+                  "text": "Identify the like terms in the following expression."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "math",
                   "latex": "8a^{2}+10a-14a^{2}+8b-8"
-                },
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
                 {
                   "type": "text",
-                  "text": "."
+                  "text": "How many groups of like terms are here?"
                 }
               ]
             }
@@ -22626,18 +23984,94 @@
             "methods": [
               {
                 "id": "direct",
-                "title": "Answer the question",
+                "title": "Identify the groups of like terms",
                 "steps": [
                   {
                     "stage": "identify",
                     "content": [
                       {
                         "type": "text",
-                        "text": "Group terms by their variables and powers; constants form one group. Count the different groups."
-                      },
+                        "text": "Like terms have the same variables raised to the same powers. A term without a matching partner still belongs to its own group. Constants belong to one group."
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 1:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
                       {
                         "type": "math",
-                        "latex": "8a^{2}+10a-14a^{2}+8b-8"
+                        "latex": "+8a^{2},\\;-14a^{2}"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 2:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+10a"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 3:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "+8b"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Group 4 (constants):"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "identify",
+                    "content": [
+                      {
+                        "type": "math",
+                        "latex": "-8"
                       }
                     ],
                     "new_line": true
@@ -22647,8 +24081,14 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Answer:"
-                      },
+                        "text": "Count the groups of like terms:"
+                      }
+                    ],
+                    "new_line": true
+                  },
+                  {
+                    "stage": "answer",
+                    "content": [
                       {
                         "type": "math",
                         "latex": "4"
@@ -337103,6 +338543,16 @@
       "lesson_2_4": "Multiple choice with ten alternating groups; constants at most 20.",
       "lesson_2_5": "Multiple choice asking for the twelfth term. All twelve terms are written in the solution; no general nth-term formula.",
       "lesson_2_6": "Short response with complete factoring. All coefficient magnitudes 100-500; two-digit full GCF; only cake/ladder worked steps; either GCF sign accepted."
+    },
+    "october_13_like_term_group_review": {
+      "reworded_types": [
+        "115",
+        "122"
+      ],
+      "question": "Identify like terms, then enter the number of groups.",
+      "solution": "List complete signed terms by their variable powers; singletons count as groups and constants share one group. Do not combine before counting.",
+      "answers_and_expressions_unchanged": true,
+      "preserve_existing_attempt_revisions": true
     }
   },
   "type_numbering": {

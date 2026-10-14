@@ -1,5 +1,16 @@
 # XY Learning Lab completed update requirements
 
+## Current like-term wording update — October 13, 2026, 20:45 EDT
+
+Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](../Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
+
+Types 115 and 122 now ask students to identify the like terms, then count their groups. The instruction, unchanged expression and count question occupy separate rows. All twenty variants have solutions listing complete signed terms by matching variables and powers, including single-term groups and a constant group. Type 115 answers remain 2; Type 122 answers remain 4. Their numeric answer fields, work requirements, expressions, stars, lessons, identities and example rotation are unchanged.
+
+The current reference JSON is 136 types / 1,325 questions, schema `2.5.1-like-term-group-wording`, SHA-256 `0ddc29240f843443b1fb5717dc36d4c3f00594948b916f2292e2ae900f882720`. All 134 other type objects, including every five-star question, are unchanged. The five preceding source revisions remain embedded and routed by their recorded pins; existing assignments, examples, assessments and retries retain their original content. The entire preceding Worker is recovered by removing the additive source/integration and restoring its router declaration. Every checker and all other backend code are unchanged.
+
+Frontend, CSS, all 1,721 public files, safe settings/bindings and today's YY/Daily Challenge/comic/solution-row updates are unchanged. Checks passed: 1,554 actual integration assertions, 100 strict math renderings, both live question/solution previews, and 16 both-domain HTTP checks / 14 exact asset hash comparisons. No production assignments, student work, points, messages, comic content or database records were changed. These are local integration tests and read-only live previews, not a real student submission walkthrough.
+
+
 ## October 13, 2026 — solution presentation and five additional requests completed
 
 Verified current release `19760650-9d06-40c4-b402-b0d6c595adc9`, deployment `85e593d9-6f64-4399-8921-15f6e6a034f2`,100%, on the current morning five-star build. Read [Handoff-v6.md](../Handoff-v6.md) first.
