@@ -1,5 +1,16 @@
 # XY Learning Lab change log
 
+## Continuation updates — October 15, 2026, 12:10 EDT
+
+Deployed and verified `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Baseline: exact current v8 `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`. Read [Handoff-v9.md](Handoff-v9.md).
+
+- Types 232/233/234 consistently use Joey/Jimmy/Mary; Type 231 solutions use one complete ticket price without an invented discount. All keys/response schemas and historical pins remain unchanged; new default source `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, schema `2.5.3-context-wording`, 136/1,325.
+- Notifications now filters existing entries into three gray tabs. Grades removes its outer backdrop/top gap while keeping sticky names and the whole floating header. Daily Challenge copyright follows long content and stays at the bottom for short content. Assignment headings follow home/course/unit context; single/differentiated sharing uses the requested text.
+- Feedback Report eyes open the existing comic/teacher-grade viewer for top-three and other rows; name/eye flow is compact. Teacher Student View opens a separate, temporary tab using the real gallery/answer/feedback interface and read-only teacher endpoints. Student Mailbox opens the existing teacher-message history between YY Point and Outfit Changes Left.
+- Repeated bank data is represented by a shared base and lossless structural patches so the Worker upload can pass the environment integration. All seven prior source objects and Unit 1 were deeply compared to the captured baseline; eight revision routes remain. Worker startup accepted at 127 ms; bindings/runtime settings match baseline.
+
+Validation: 20,769 local backend assertions; seven local browser groups plus actual final HTML/module-graph preview routing; fresh Worker byte match; 1,725 live HTTP/route checks with no failures. All captured non-HTML assets were retained and verified. v9 distinguishes capture coverage, expected-key sweeps and representative DOM checks from stronger claims. No production student data, schema, points, grades, messages, comics or R2 content was changed for testing. The second additional feature mentioned in the continuation file was not specified and was not invented.
+
 ## Math input, grade presentation, comics and reward notifications — October 14, 2026, 18:58 EDT
 
 Deployed and verified version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100% traffic. Read [Handoff-v8.md](Handoff-v8.md) for the current continuation. The baseline was captured from actual active `a8b66166-1632-4a58-bf0c-f61c1f19a66f`; Worker SHA-256 is now `f79ce480fc7e64604de8abcb403d3b8815dc62abe02945be3b9206594b50d95e`.

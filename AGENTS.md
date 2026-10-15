@@ -1,5 +1,13 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff — October 15, 2026, 12:10 EDT
+
+Read [Handoff-v9.md](Handoff-v9.md) first, then v8 and prior classroom-method records. Current verified Cloudflare version is `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Worker SHA-256 `2ff57fb77ea2e032e659586c72a9271d48e783e91aee545443c82029589749e5`. New default Unit 2 source is `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, schema `2.5.3-context-wording`, 136 types / 1,325 questions. Preserve all SEVEN previous pins, snapshots, existing data and v8 reward receipts.
+
+The smaller Worker losslessly reconstructs prior bank objects from shared data and structural patches; all seven old sources and Unit 1 deeply match the captured v8 build. Do not remove historical integrations because their literals now use `xyRestoreBank`. Student View is teacher-owned and temporary: its two server endpoints perform only SELECTs; client work/answers/feedback remain in memory. Never redirect preview interactions to real student mutation routes or persist preview recovery state. Mailbox reuses the existing signed-in student's history/reply permissions.
+
+All specified continuation updates are deployed and verified; the mentioned second addition was unspecified. Freshly capture actual Cloudflare state and read the newest GitHub handoff before another edit; recheck before upload/deployment, use one publisher, and maintain factual handoff/log/reference records afterward under the standing authorization. See v9 for tests, finite capture/browser limits and recovery.
+
 ## Current handoff and standing user authorization — October 14, 2026, 18:58 EDT
 
 Read [Handoff-v8.md](Handoff-v8.md) thoroughly before the next XY edit, then the prior handoffs for preserved classroom methods. On every future update, discover and read the highest-version GitHub handoff and newest logs by default, capture the actual current Cloudflare Worker/frontend/assets/safe configuration, and base the change on that current build. Use one publisher and recheck actual active/latest state immediately before upload and deployment. After every deployment, verify live behavior and update the handoff, reference JSON when changed, and shared logs with factual release evidence. The user explicitly authorized these GitHub maintenance edits without another permission request. A log and freshness check are not an atomic deployment lock.

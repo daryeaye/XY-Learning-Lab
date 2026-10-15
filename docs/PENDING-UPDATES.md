@@ -1,5 +1,11 @@
 # XY Learning Lab completed update requirements
 
+## Specified continuation completed — October 15, 2026, 12:10 EDT
+
+Deployed and verified version `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Read [Handoff-v9.md](../Handoff-v9.md) first. Completed: Types 231–234 wording; three gray notification tabs; transparent Grades surround and stable Daily Challenge copyright; contextual assignment headings and requested share text; report eyes and name flow; temporary teacher Student View; student Mailbox using existing history/replies. All eight bank revisions remain available, with new default `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, 136 types / 1,325 questions.
+
+No specified implementation from this continuation remains pending. The second addition mentioned without details remains unspecified. Local fictional-data tests and read-only live verification are documented in v9, including their finite limits; no production student data was changed for testing. Preserve all prior contracts below as history and continue reading the highest-version handoff before future work.
+
 ## Latest sixteen browser comments completed — October 14, 2026, 18:58 EDT
 
 Deployed and verified: `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100%. Read [Handoff-v8.md](../Handoff-v8.md) first. No requested implementation from these sixteen comments remains pending after the final checks recorded in v8.

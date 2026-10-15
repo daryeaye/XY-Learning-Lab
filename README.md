@@ -1,5 +1,11 @@
 # XY Learning Lab — shared update log
 
+## Current release — October 15, 2026, 12:10 EDT
+
+Read [Handoff-v9.md](Handoff-v9.md) first. Verified Cloudflare `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, at 100% traffic, based on the freshly captured v8 build. Completed the specified continuation: Types 231–234 wording, three notification tabs, Grades/Daily Challenge layout fixes, context-specific assignment headings, share-link text, report eyes/name flow, temporary teacher Student View and student Mailbox. The unspecified second addition remains unspecified.
+
+Current Unit 2 reference is 136 types / 1,325 questions at `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`; all seven previous pins remain available. The smaller Worker reconstructs historical banks losslessly. Preview state stays in its tab and uses no production student mutation routes. Tests: 20,769 backend assertions, seven browser groups plus the final module-graph/route check, and 1,725 live HTTP/route checks. See v9 for exact evidence, finite coverage/capture limits and recovery. No production student data was changed for testing. GitHub continues to hold reference data and documentation only.
+
 ## Current release — October 14, 2026, 18:58 EDT
 
 Read [Handoff-v8.md](Handoff-v8.md) first. Verified Cloudflare version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100% traffic, based on a fresh capture of `a8b66166-1632-4a58-bf0c-f61c1f19a66f`.

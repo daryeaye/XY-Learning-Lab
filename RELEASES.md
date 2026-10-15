@@ -1,5 +1,25 @@
 # XY Learning Lab release record
 
+## Current release — October 15, 2026, 12:10 EDT
+
+Read [Handoff-v9.md](Handoff-v9.md). Fresh baseline `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4` → verified version `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100% traffic. GitHub preparation head `4b1b8b21d2197671e16d978e0bbe6e86374bf717`. Pre-upload active/latest check `2026-10-15T16:07:36.282071Z`; pre-deployment check `2026-10-15T16:08:33.275977Z`; final active/latest check `2026-10-15T16:10:24.061402Z`; live verification `2026-10-15T16:10:23.236101Z`.
+
+The specified continuation updates are complete: contextual wording in Types 231–234, notification tabs, Grades/Daily footer layout, assignment headings and share text, report eye controls, temporary teacher Student View and student Mailbox. No unspecified second feature was added. Current source is schema `2.5.3-context-wording`, 136 types / 1,325 questions; all seven old pins and Unit 1 remain.
+
+| Artifact | SHA-256 |
+| --- | --- |
+| Worker, 8,154,839 bytes | `2ff57fb77ea2e032e659586c72a9271d48e783e91aee545443c82029589749e5` |
+| Authored HTML, 434 bytes | `38d7b96f7739ce8e0a3840913af75f161165fd029fd2c4e00230f26b701ef887` |
+| `/assets/index-xyupdatef5e4e9d51f82.js` | `353eb49a34e6b37749074f401cb966483aa225d02f0709e7f772194d231ceafb` |
+| `/assets/index-xyupdatef5e4e9d51f82.css` | `616ddb976d47ab25af0c16c318a6678c381ec330fd57021e0d10aad244fe2d3f` |
+| Unit 2 source, 3,794,021 bytes | `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` |
+
+The successful upload uses lossless structural reconstruction of the seven retained banks; each reconstructed source deeply equals the actual baseline. Cloudflare accepted startup at 127 ms. Bindings and complete script_runtime resources equal baseline; deployment retained non-versioned observability/logpush settings. The captured package has 1,714 files including `_headers`, with every 1,705 downloaded non-HTML file retained; see v9 for inventory limits rather than assuming an old count proves undisclosed paths exist.
+
+20,769 backend assertions and seven browser groups passed, plus final hashed-module/preview-route validation. Live: 1,725 HTTP/route checks; 1,717 exact non-HTML comparisons, two edge-normalized HTML comparisons and six route checks; zero failures. Fresh active Worker bytes match the staged hash exactly. Teacher/student roots and preview pages load the new graph; unauthenticated preview-data access returns 401. All tests use fictional local records; no production student-data/schema/media mutation was induced. Student View performs only authorized reads and tab-local practice interactions.
+
+Recovery: capture then-current state and repair forward with all eight pins, snapshots, v8 reward receipts and preview read-only boundaries intact. Local evidence `/workspace/xy-update-2026-10-15/` stays private. Shared logs/version checks are not a deployment lock. Continue the authorized highest-handoff/capture/freshness/verified-publication workflow.
+
 ## Current release — October 14, 2026, 18:58 EDT
 
 Read [Handoff-v8.md](Handoff-v8.md) first. Active/latest Cloudflare version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100%; verified 2026-10-14T22:57:49.093Z. Captured baseline `a8b66166-1632-4a58-bf0c-f61c1f19a66f`; GitHub publication parent `60afe0b20347a38d9887e3451d15aeec5d41cec5`. Pre-upload check 2026-10-14T22:56:58.520Z; pre-deployment check 2026-10-14T22:57:29.504Z; both-domain HTTP verification 2026-10-15T04:23:26.049Z. Observed freshness: the captured expected active version was still at 100% before each upload; only the newly uploaded expected version was latest before each deployment; GitHub main stayed at the recorded parent.
