@@ -1,5 +1,15 @@
 # XY Learning Lab — shared update log
 
+## Current release — October 14, 2026, 18:58 EDT
+
+Read [Handoff-v8.md](Handoff-v8.md) first. Verified Cloudflare version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100% traffic, based on a fresh capture of `a8b66166-1632-4a58-bf0c-f61c1f19a66f`.
+
+Completed the sixteen browser comments: pale yellow MathLive selection and consistent math answer entry/legacy fragment handling; three-level grades with pooled star counts and timestamps; opaque left-edge Student scrolling; project titles opening Progress & Grades; top-row Podium action and viewer-only Large/Compact comics; threshold reward notifications with a shared per-class Yes/No preference; and removal of unnecessary positive-term parentheses in thirty variants of Types 139, 140 and 235. Missing variables are never reconstructed and saved student answers/grades are not rewritten.
+
+Current reference JSON: 136 types / 1,325 questions, schema `2.5.2-positive-term-parentheses`, source SHA-256 `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513`. All six historical revisions remain available for existing pins. Reward receipts use a new additive D1 table/index initialized through the existing binding; no historical notification burst or production test point changes occur. Full preservation, atomicity, tests and limits are recorded in v8.
+
+Standing user authorization: always read the highest GitHub handoff before XY edits and update it and the shared logs after each verified deployment without another permission request. This repository contains documentation/reference content rather than full app source.
+
 ## Current like-term wording update — October 13, 2026, 20:45 EDT
 
 Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
@@ -84,5 +94,6 @@ The version check prevents an ordinary stale-baseline update only when every pub
 Cloudflare backups may be compiled builds. Downloading one does not reconstruct the original React project automatically. This workflow intentionally keeps the application out of GitHub; preserve the actual tested build separately in Cloudflare and local backups.
 
 No passwords, tokens, student records, database exports or demo accounts belong in this repository.
+
 
 

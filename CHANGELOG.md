@@ -1,5 +1,17 @@
 # XY Learning Lab change log
 
+## Math input, grade presentation, comics and reward notifications — October 14, 2026, 18:58 EDT
+
+Deployed and verified version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100% traffic. Read [Handoff-v8.md](Handoff-v8.md) for the current continuation. The baseline was captured from actual active `a8b66166-1632-4a58-bf0c-f61c1f19a66f`; Worker SHA-256 is now `f79ce480fc7e64604de8abcb403d3b8815dc62abe02945be3b9206594b50d95e`.
+
+- Answer letters/numbers remain mathematical; selection is pale yellow; recognized balanced legacy math/text fragments are normalized without rewriting saved source. Continuous reordered answers already worked. Report inspection and reproduction support a serialization defect, not a proven record of historical keystrokes. Absent variables remain incorrect.
+- Differentiated summaries show three colored status/grade and completion lines without Level. Stars pool earned/eligible completed-question counts, honoring snapshots, historical ratings and exact retry ancestry. Student sticks opaquely to the table's left edge; full header behavior remains. Project titles open Progress & Grades.
+- Podium moves to the top feedback-report action row; its duplicate bottom row is removed. Teacher/student viewing has Large(default)/Compact controls fitting all three panels while retaining editing and release gates.
+- Teacher threshold notifications use a single synchronized per-class Yes/No preference in YY Settings and Reward List. Qualified milestone receipts persist after resolve/delete, quiet existing/opted-out eligibility, and commit atomically with awards. The existing D1 binding initializes only an additive table/index after authorization; failed initialization preserves point/completion state and supports retry.
+- Thirty variants of Types 139, 140 and 235 remove only requested positive-term parentheses. Current source `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513`, schema `2.5.2-positive-term-parentheses`; six historical pins and Unit 1 remain preserved.
+
+Validation: final 136-type / 1,325-variant / 6,425-form save/check sweep, zero failures; 11,871 strict renders, 1,325 independently derived keys and 1,657 supported equality nodes; 83 frontend checks; 18 integration groups plus 8 fixture/authorization checks UI and 24 integration groups, independently rerun with no failures reward checks; fictional local browser walkthroughs; 50 GET/HEAD checks with 30 exact hash comparisons and zero errors live checks. Finite scope and unsupported semantic/device cases are stated in v8. No real student records were edited for testing; production schema initialization is explicitly recorded. All 1,720 old non-HTML assets/configuration are preserved. Highest-handoff reading and post-deploy logging are now standing user instructions.
+
 ## Current like-term wording update — October 13, 2026, 20:45 EDT
 
 Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
@@ -189,5 +201,6 @@ Status: deployed and verified, 100% traffic. Baseline `59682d37-6eba-46a7-bde3-c
 Verification:41,871 presentation assertions;153 dedicated YY checks;152 combined-bundle YY behavior checks;53 actual compiled Comic/Daily checks;7,044 golf compatibility checks. Full inverse scoped patches reconstruct the exact current baseline frontend. The entire uploaded Worker is byte-identical to the captured baseline, retaining five-star IDs 236–242, assignment-reopening declaration and answer serialization. All captured non-HTML assets, headers and safe versioned/non-versioned configuration are preserved.42 live HTTP checks/40 exact asset comparisons passed across both domains, including MP3 MIME/bytes and protected bank endpoints. Read-only live Type 108 preview confirmed separated rows; local fictional browser data verified Daily placement/sky, fresh YY unlock+tabs+zero-change layout, successful publication and manual-release gallery, and Types 106/108/126/236.
 
 Limits: no real production student publication or YY point earning was induced; audible playback on a physical device was not tested. Production data writes were only the explicitly requested existing golf-content correction. No database migration, new production test records, message, subscription, route or binding change.
+
 
 

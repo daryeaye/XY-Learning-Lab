@@ -1,5 +1,15 @@
 # XY Learning Lab completed update requirements
 
+## Latest sixteen browser comments completed — October 14, 2026, 18:58 EDT
+
+Deployed and verified: `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100%. Read [Handoff-v8.md](../Handoff-v8.md) first. No requested implementation from these sixteen comments remains pending after the final checks recorded in v8.
+
+Completed: readable pale yellow selection; math-mode answer letters/numbers and legacy-fragment handling without guessing missing variables; three-level grades and pooled star proficiency with timestamps; opaque left-edge Student scrolling and existing full header; project title→Progress & Grades; top-row Podium action; Large(default)/Compact teacher/student viewing; deduplicated reward notifications with Mark as resolved and identical synchronized Yes/No settings; thirty positive-term parentheses corrections in Types 139, 140 and 235.
+
+Current source `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513`, schema `2.5.2-positive-term-parentheses`, 136 types / 1,325 questions; all six earlier pins and prior features remain. Reward initialization is additive, authorized and retryable, preserving existing records and award/completion state on failure; receipts survive notification deletion/resolution. Final local and live evidence: passed exact composition/inverse, syntax, all retained file hashes and private-artifact exclusion; official Wrangler dry run passed; Worker unchanged by the final CSS refinement; 50 GET/HEAD checks with 30 exact hash comparisons and zero errors. No production student record was changed for testing. Finite math/model/device limits remain documented, not silently declared proven.
+
+For future work, always read the highest GitHub handoff before editing XY and update the handoff/logs after deployment. The user already authorizes this maintenance; no repeated permission request is needed. Earlier sections below retain historical requirements and do not identify the current deployable version.
+
 ## Current like-term wording update — October 13, 2026, 20:45 EDT
 
 Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](../Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
@@ -121,4 +131,5 @@ Version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` serves 100% after the seven reque
 ## Unit 2 signs and distribution review — October 12, 2026, 19:23 EDT — completed; preserve going forward
 
 Version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` serves 100% traffic. New selections use 129 types / 1,290 questions and source `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`. Preserve changed Types 139/140/142/152/154, four-star Type 157, Lesson 2-4 membership for 158–162 and new distribution word-problem Types 230–234 in Lesson 2-2. Preserve all three bank revisions and original answer/input/reservation policies. All earlier completed UI requirements are intact. No additional work from these seven comments remains; the manual student grading walkthrough remains separately deferred. Read the newest Unit 2 handoff and release records before the next update.
+
 

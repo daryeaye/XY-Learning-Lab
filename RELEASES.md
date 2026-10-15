@@ -1,5 +1,25 @@
 # XY Learning Lab release record
 
+## Current release — October 14, 2026, 18:58 EDT
+
+Read [Handoff-v8.md](Handoff-v8.md) first. Active/latest Cloudflare version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100%; verified 2026-10-14T22:57:49.093Z. Captured baseline `a8b66166-1632-4a58-bf0c-f61c1f19a66f`; GitHub publication parent `60afe0b20347a38d9887e3451d15aeec5d41cec5`. Pre-upload check 2026-10-14T22:56:58.520Z; pre-deployment check 2026-10-14T22:57:29.504Z; both-domain HTTP verification 2026-10-15T04:23:26.049Z. Observed freshness: the captured expected active version was still at 100% before each upload; only the newly uploaded expected version was latest before each deployment; GitHub main stayed at the recorded parent.
+
+This completes the sixteen browser comments on math input/highlights, differentiated grade summaries/scrolling/navigation, comic actions/viewing, reward alerts/shared preference, and positive-term parentheses. The detailed contracts and input-report limits are in v8. All six old sourcepins remain; current reference JSON SHA-256 `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513` (schema `2.5.2-positive-term-parentheses`, 136 types / 1,325 questions, 3,796,923 exact compact bytes).
+
+| Released artifact | SHA-256 |
+| --- | --- |
+| Worker | `f79ce480fc7e64604de8abcb403d3b8815dc62abe02945be3b9206594b50d95e` |
+| HTML | `0a9dd5ce02d3ab400bbb45e99079c4e921d3d0b8c409ec7c34aa67a289467bb5` |
+| Main JS `/assets/index-xyreviewfe44b1b555a1.js` | `11325fe92ce1b37cd590ae914ff97adec7f57478e424a134f87487c71c919bdc` |
+| CSS `/assets/index-xyreviewfe44b1b555a1.css` | `b98bb51d9bcaa5d7b8fa28121252112f730afcd6bbbd9f28b8dac8895aabb175` |
+| Unit 2 source | `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513` |
+
+Package: 1735 files; 1,720 original non-HTML files retained byte-for-byte, seven initial release assets retained for open tabs, seven final hashed assets and updated HTML. Bindings, secrets, compatibility settings, asset routing, observability and cache directives remain preserved. Post-deployment Worker comparison: fresh active download at 2026-10-14T22:58:06.479Z matched all 28,752,481 bytes and SHA-256 f79ce480fc7e64604de8abcb403d3b8815dc62abe02945be3b9206594b50d95e. Live checks: 50 GET/HEAD checks with 30 exact hash comparisons and zero errors. Final local checks: passed exact composition/inverse, syntax, all retained file hashes and private-artifact exclusion; official Wrangler dry run passed; Worker unchanged by the final CSS refinement; 6,425 save/check answer forms across all 1,325 current questions; 18 integration groups plus 8 fixture/authorization checks UI and 24 integration groups, independently rerun with no failures reward checks. Actual fictional browser coverage and finite semantic/device limits are in v8.
+
+Production additive receipt table/index initialization: the authorized owned-class YY Settings page loaded successfully on initial release cf6fb534-41d5-4683-bbf5-ec4029c1f1fc, exercising the route that awaits the two idempotent DDL statements; both preference locations loaded with the same Yes state and no browser errors. The final Worker is byte-identical, and its Reward List control was also read and visually verified. No production settings save, point award or student test record was created. This was an application-path check, not a direct production table dump. No real student submissions, grades, points, messages, assignment definitions or media were changed for testing. Recovery must retain all seven banks and receipt data and repair forward. Evidence stays local in `work/xy-update-2026-10-14/`; GitHub receives documentation/reference content only. Continue the standing policy to read the highest handoff before edits and update handoff/logs after every verified deployment.
+
+Initial complete release: `cf6fb534-41d5-4683-bbf5-ec4029c1f1fc`, deployment `c5f7474e-e995-4731-b156-3cb0bd4a014a`, verified `2026-10-14T22:52:44.355Z`, 100%, passed 36 HTTP checks / 16 exact asset hashes. The final continuation changes only the notification-row CSS and generated graph references. Its Worker is byte-identical; all seven initial assets remain available. See Handoff v8 for both release records.
+
 ## Current like-term wording update — October 13, 2026, 20:45 EDT
 
 Deployed and verified: Cloudflare version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100% traffic. Exact freshly captured baseline `19760650-9d06-40c4-b402-b0d6c595adc9`; GitHub head read before work was `5719a121af746e03c7ac3fc71b063d78aebb1ac8`. Read [Handoff-v7.md](Handoff-v7.md) first, then Handoff-v6 and the earlier classroom-method handoffs.
@@ -278,5 +298,6 @@ Recovery: compare the then-current Cloudflare release and newest shared log befo
 - Evidence retained locally in outputs/math-platform/work/unit2-geometry-2026-10-12: fresh baseline, bank/build scripts, exact compiled release, scoped preservation records, test report, uploaded/pre/post version metadata, configuration comparison, live HTTP report, diagram/preset previews and handoff rendering QA. GitHub contains reference data/logs only, not application builds.
 
 Recovery: inspect the then-current release and latest shared log before any repair. Repair forward, retaining all four source banks and saved pins. Blindly restoring the prior version would lose Type 235 and new-revision resolution. Code rollback does not recover database/media state. Recheck active version immediately before any future publication; the shared log is not a lock.
+
 
 

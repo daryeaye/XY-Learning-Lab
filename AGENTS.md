@@ -1,5 +1,13 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff and standing user authorization — October 14, 2026, 18:58 EDT
+
+Read [Handoff-v8.md](Handoff-v8.md) thoroughly before the next XY edit, then the prior handoffs for preserved classroom methods. On every future update, discover and read the highest-version GitHub handoff and newest logs by default, capture the actual current Cloudflare Worker/frontend/assets/safe configuration, and base the change on that current build. Use one publisher and recheck actual active/latest state immediately before upload and deployment. After every deployment, verify live behavior and update the handoff, reference JSON when changed, and shared logs with factual release evidence. The user explicitly authorized these GitHub maintenance edits without another permission request. A log and freshness check are not an atomic deployment lock.
+
+Verified current version `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`, deployment `0d4f4be5-d8d4-43ef-a40e-f7441b1f3c9f`, 100%; Worker SHA-256 `f79ce480fc7e64604de8abcb403d3b8815dc62abe02945be3b9206594b50d95e`. Source `728afa24cf2bab520562238eba00fb680a805ab29c395f5d100900f955def513`, schema `2.5.2-positive-term-parentheses`, 136 types / 1,325 questions. Preserve all six historical pins plus this new default, every earlier feature, and persistent reward receipts. New completed behavior covers math-mode answers/readable selection, differentiated grade/count presentation, scrolling/navigation, comic view controls/actions, teacher reward notifications with synchronized opt-in, and thirty scoped positive-term parentheses edits. See v8 for exact contracts, tests and limits.
+
+Do not infer missing answer variables or rewrite historical responses/grades. Reward initialization creates only the additive table/index through the existing D1 binding after authorization; point/completion requests await it and remain retryable on failure. Receipts and notifications are atomic with point awards and survive notification deletion/resolution. Preserve receipt data during forward repair. Publish documentation/reference content only; never student data, credentials, local fixtures/databases or full application bundles.
+
 ## October 13, 2026 — latest like-term groups wording
 
 Read Handoff-v7.md first, then Handoff-v6 and the earlier handoffs. Current verified version `a8b66166-1632-4a58-bf0c-f61c1f19a66f`, deployment `45f9a756-523a-4f53-a447-2f4b909686e0`, 100%, preserves the exact active baseline `19760650-9d06-40c4-b402-b0d6c595adc9`. The root reference bank now uses pin `0ddc29240f843443b1fb5717dc36d4c3f00594948b916f2292e2ae900f882720` (136 types / 1,325 questions). Retain all FIVE earlier integrations and their source pins; six revisions including current are required.
@@ -73,5 +81,6 @@ Read docs/UNIT2-HANDOFF-v3.md before generating or changing content. The test co
 Current active version is `bb8c766d-9773-455d-a99b-b988b936b677`; revision `6f4b2094d8a59e0bd5615e1f8876e265fd38260f58181587ba94a0dca63e6f20`, 129 types / 1,290 questions, IDs 105–235 with retired 144 and 213. Preserve all FOUR banks, including previous revisions `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`, `929816201a727134cd3c6830eb2932df8c219d3eb8fbf622a69f43297a3d15cd` and `1d746556d4c283ee019bef4b2c7e614e4849e893ddcc6fb9e1abeb8fa26648fb`. Do not alter saved same-ID questions, answers or metadata. Type 212's new one-donation story gives 9x−10; the prior each-table-donation story and 9x+10 stay paired for old pins.
 
 Require expanded combined algebraic answers in Lessons 2-0–2-5; accept term reordering. Lesson 2-6 follows each task's form, including factoring and four typed equivalent-expression families. Unit 2 Comic-Con now has an exact bounded algebraic checker approved by the teacher, while Unit 1 numerical checking is unchanged. Preserve twenty unique preset types, all 31 eligible picker types, existing saved drafts and bank-load initialization guard. Preserve the shared See Solution link's exact displayed variant, checkbox state and returned focus. Never deploy the stale editable app over the actual live baseline.
+
 
 
