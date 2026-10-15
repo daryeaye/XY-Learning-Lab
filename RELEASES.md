@@ -1,5 +1,21 @@
 # XY Learning Lab release record
 
+## Current release — October 15, 2026, 14:07 EDT
+
+Read [Handoff-v10.md](Handoff-v10.md). Fresh v9 baseline `d35f8c41-9b30-4505-af5e-a8949d01634c` → version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%. GitHub preparation parent `98c8ddb9796bb34b5dee2bacc5f965935e3ccd52`. Pre-upload check `2026-10-15T18:01:56.622237+00:00`; pre-deploy check `2026-10-15T18:03:28.626359+00:00`; live verification `2026-10-15T18:05:13.746283+00:00`.
+
+Completed: Comic-Con controls/name links, class assignment filtering, protected assessment-draft deletion, shared large math keyboards and icon functions, and score-aware completion/retry popups. Archive Class/export/permanent purge remains deferred. Current Delete Class only hides records. No production student data/schema/media was changed for testing; banks and reference source remain unchanged.
+
+| Artifact | SHA-256 |
+| --- | --- |
+| Worker, 8,156,111 bytes | `c3a3effae3492cc9d988147d9135df26860810ca66e97a4ed65e03566b9e817b` |
+| Authored HTML | `f454be65a5127b1675475e5994b913c15e6e0cefc50de5c7bcbf8befa779579c` |
+| `/assets/index-xyupdate95081f1f944d.js` | `5fad591049ca83ba175eba36b8d459748b67c2a06afa98c35bc74a7dbf512093` |
+| `/assets/index-xyupdate95081f1f944d.css` | `e9ff4c53639f8253e81180df3c78f6d64329c7c1d82f08b2526e16cbf8af27a1` |
+| Unchanged Unit 2 source | `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` |
+
+Upload startup 115 ms. Uploaded bindings/runtime equal baseline and non-versioned settings are preserved. Captured release has 1720 served files plus `_headers`; every baseline non-HTML asset is retained. Tests: 20,769 bank/preview assertions; 46 focused local route checks; six new and seven prior browser groups; actual assignment keyboard at four sizes; final HTML/module graph; official dry run. Live 1732 HTTP/route checks passed, including exact fresh active Worker and non-HTML bytes, edge-normalized HTML and both-domain routes. These are fictional local and read-only live tests, not production student submissions/deletions or every possible device lifecycle. Evidence `/workspace/xy-next-2026-10-15/` remains private. Next published update must create Handoff-v11; capture then-current state and prefer compatible forward repair.
+
 ## Current release — October 15, 2026, 12:10 EDT
 
 Read [Handoff-v9.md](Handoff-v9.md). Fresh baseline `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4` → verified version `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100% traffic. GitHub preparation head `4b1b8b21d2197671e16d978e0bbe6e86374bf717`. Pre-upload active/latest check `2026-10-15T16:07:36.282071Z`; pre-deployment check `2026-10-15T16:08:33.275977Z`; final active/latest check `2026-10-15T16:10:24.061402Z`; live verification `2026-10-15T16:10:23.236101Z`.

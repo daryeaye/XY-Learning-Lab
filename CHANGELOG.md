@@ -1,5 +1,17 @@
 # XY Learning Lab change log
 
+## Classroom interface and completion updates — October 15, 2026, 14:07 EDT
+
+Deployed and verified `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%, baseline `d35f8c41-9b30-4505-af5e-a8949d01634c`. Read [Handoff-v10.md](Handoff-v10.md).
+
+- Compact Comic-Con class/actions and underlined published student names in both reports replace eye buttons while preserving the viewer and grading.
+- Class dropdown beside assignment search includes shared/differentiated class memberships at Overall/course/unit levels.
+- Delete This Draft joins Save Draft with Yes/No confirmation, teacher/draft/no-attempt guards, an atomic race check, local draft clearing and dashboard return.
+- Answer and Work share the large bottom keyboard; Root index is hidden, typing rows are yellow, and Functions toggles an inline sixteen-icon row that moves the editor down.
+- Normal completion separates 100/100 Excellent/happy YY from below-100 Good Job/normal YY, with matching copy fonts and same-row Not Now/Challenge/Retry actions. Retry preserves correct credit and reuses the existing challenge; point awards, teacher gates, overrides and hidden Assessment behavior remain protected.
+
+Archive Class, backup exports and permanent purge are deferred. Existing Delete Class only hides records. No production student data/schema was changed for testing; no reference bank changed. Validation: 20,769 regression assertions, 46 targeted route checks, six new and seven prior browser groups, full-assignment keyboard checks, final module-graph check, Wrangler dry run, and 1732 live checks with no failures. See v10 for the finite scope and asset inventory.
+
 ## Continuation updates — October 15, 2026, 12:10 EDT
 
 Deployed and verified `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Baseline: exact current v8 `da91e18e-99a4-4cc5-9ec7-3f7b35513fe4`. Read [Handoff-v9.md](Handoff-v9.md).

@@ -1,5 +1,11 @@
 # XY Learning Lab completed update requirements
 
+## Requested interface changes completed; Archive Class deferred — October 15, 2026, 14:07 EDT
+
+Verified version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%. Read [Handoff-v10.md](../Handoff-v10.md) first. Completed Comic-Con compact controls/student-name viewer links, assignment class filtering, protected assessment draft deletion, shared large keyboard/yellow rows/inline icon functions, and 100-versus-below-100 completion with existing retry/challenge reuse. Current data and all source pins remain preserved.
+
+**Explicitly deferred:** Archive Class rename, Export/Delete/Cancel backup modal, two-tab numerical grade/assessment backup, and actual Cloudflare D1/R2 purge. No roster or existing CSV export code changed. Existing Delete Class hides the class instead of permanently erasing its records. A two-tab file must be an Excel workbook (or two separate CSV files), and the future feature must leave records untouched until explicit confirmed Delete, with class-isolation/export/failure tests first. No zero-risk guarantee was made. The wider Assessment update remains for a later user request.
+
 ## Specified continuation completed — October 15, 2026, 12:10 EDT
 
 Deployed and verified version `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Read [Handoff-v9.md](../Handoff-v9.md) first. Completed: Types 231–234 wording; three gray notification tabs; transparent Grades surround and stable Daily Challenge copyright; contextual assignment headings and requested share text; report eyes and name flow; temporary teacher Student View; student Mailbox using existing history/replies. All eight bank revisions remain available, with new default `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, 136 types / 1,325 questions.

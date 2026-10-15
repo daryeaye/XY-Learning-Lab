@@ -1,5 +1,13 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff — October 15, 2026, 14:07 EDT
+
+Read [Handoff-v10.md](Handoff-v10.md) first, then v9/v8 and earlier classroom-method records. Current verified version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%; Worker SHA-256 `c3a3effae3492cc9d988147d9135df26860810ca66e97a4ed65e03566b9e817b`. Comic-Con controls/name links, class assignment filtering, protected assessment-draft deletion, shared large math keyboards and icon functions, and score-aware completion/retry popups are deployed. Existing source `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, all eight revision routes, snapshots and reward receipts remain unchanged.
+
+Archive Class/export/purge is deliberately NOT implemented. Existing Delete Class sets a hidden/deleted flag rather than erasing D1/R2 data. The user wants a separate impact discussion before that future destructive change; CSV cannot have tabs. Preserve current class data and do not add automatic deletion. Draft deletion alone is enabled: explicit Yes, owned unpublished draft, no student attempts, final atomic guard, then dashboard. Completion retries reuse the existing challenge and never award completion points twice; preserve teacher gates and hidden Assessment scores.
+
+For each subsequent published update, increment the top-level handoff filename by one: next is Handoff-v11.md. Freshly read highest GitHub handoff/current logs and capture actual Cloudflare state before editing; recheck active/latest before upload/deploy, use one publisher and update factual logs after verification under standing authorization. GitHub remains documentation/reference only. See v10 for exact tests and recovery.
+
 ## Current handoff — October 15, 2026, 12:10 EDT
 
 Read [Handoff-v9.md](Handoff-v9.md) first, then v8 and prior classroom-method records. Current verified Cloudflare version is `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, 100%. Worker SHA-256 `2ff57fb77ea2e032e659586c72a9271d48e783e91aee545443c82029589749e5`. New default Unit 2 source is `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, schema `2.5.3-context-wording`, 136 types / 1,325 questions. Preserve all SEVEN previous pins, snapshots, existing data and v8 reward receipts.

@@ -1,5 +1,9 @@
 # XY Learning Lab — shared update log
 
+## Current release — October 15, 2026, 14:07 EDT
+
+Read [Handoff-v10.md](Handoff-v10.md) first. Verified Cloudflare version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%, on the freshly captured v9 baseline. Completed: Comic-Con controls/name links, class assignment filtering, protected assessment-draft deletion, shared large math keyboards and icon functions, and score-aware completion/retry popups. Archive Class, its two-tab backup and permanent purge are explicitly deferred. Current Delete Class only hides a class; it does not erase all records. No production student data or schema was changed for testing. Unit 2 reference `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` and all eight pins/Unit 1 are unchanged. See v10 for guards, tests, finite limits and recovery.
+
 ## Current release — October 15, 2026, 12:10 EDT
 
 Read [Handoff-v9.md](Handoff-v9.md) first. Verified Cloudflare `d35f8c41-9b30-4505-af5e-a8949d01634c`, deployment `07fa0115-03b0-44ab-806b-a7e69c9b398b`, at 100% traffic, based on the freshly captured v8 build. Completed the specified continuation: Types 231–234 wording, three notification tabs, Grades/Daily Challenge layout fixes, context-specific assignment headings, share-link text, report eyes/name flow, temporary teacher Student View and student Mailbox. The unspecified second addition remains unspecified.
