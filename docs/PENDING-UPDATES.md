@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## Planning, YY, grades and notifications completed — October 16, 2026, 15:40 EDT
+
+Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](../Handoff-v13.md) first. Next numbered handoff is V14.
+
+Completed: Comic Maker starts with the shared student planning/highlighting screen and fixed Joey example; all four student YY tools share one row; YY action buttons share styling with an always-visible monthly-change note; teacher/student grade summaries retain the highest completed score during retries; notification tabs are white, omit counts and acknowledge each category after five visible seconds. Attempt history, manual overrides, release gates, all eight Unit 2 sources, Unit 1 and previous classroom updates remain preserved. No production student data was changed for testing or migration.
+
+No specified implementation from this continuation remains pending. The fixed universal demo problem is noneditable and asks for net calories gained, 4 × 120 − 100 = 380. Existing student-assigned word problems remain unchanged. The user rescinded the proposed outfit hover tooltip; the monthly note supplies the requested explanation instead. Archive Class/export/permanent purge and previously unspecified future work remain deferred. See V13 for finite checks and exact release evidence.
+
 ## October 16, 2026, 18:40 UTC — V12 continuation completed
 
 All specified edits in this request are implemented, deployed at `534da593-47c7-49c0-9f36-4377a209b815` (100%, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`) and verified. Read [Handoff-v12.md](../Handoff-v12.md) for Comic Maker, BC/AD hints, keyboard/units/prose handling, selected-class deletion, published navigation and geometry presentation. No specified edit from this request remains pending. The user mentioned further updates without specifying them; do not invent additional work.

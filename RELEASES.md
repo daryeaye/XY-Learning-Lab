@@ -1,5 +1,13 @@
 # XY Learning Lab release record
 
+## Verified V13 — October 16, 2026, 15:40 EDT
+
+Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](Handoff-v13.md) first. Next numbered handoff is V14.
+
+Completed: Comic Maker starts with the shared student planning/highlighting screen and fixed Joey example; all four student YY tools share one row; YY action buttons share styling with an always-visible monthly-change note; teacher/student grade summaries retain the highest completed score during retries; notification tabs are white, omit counts and acknowledge each category after five visible seconds. Attempt history, manual overrides, release gates, all eight Unit 2 sources, Unit 1 and previous classroom updates remain preserved. No production student data was changed for testing or migration.
+
+Worker (8,164,064 bytes): `e3011a5372ee5c7c8aa81e54c5e517f6cd8c00d0b3f20bcbec7f8562abd26e21`. Frontend `/assets/index-classroomv139ddfabdec156.js`: `9bf19e5ac886b4acf6e69772906f7782535f50091de21ab87414f88434d50e19`. CSS `/assets/index-classroomv139ddfabdec156.css`: `c0728cc1a8d9cb5f340b04eb9ed7d3484b129aa23505a6d8c555c9a9744e57c5`. Live verification: 1,779 HTTP checks / 1,763 matching comparisons, zero errors. Full scope, preservation and recovery: [Handoff-v13.md](Handoff-v13.md).
+
 ## October 16, 2026, 18:40 UTC — Handoff V12 final classroom release
 
 Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.

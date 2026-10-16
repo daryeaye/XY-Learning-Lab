@@ -1,5 +1,11 @@
 # XY Learning Lab — shared update log
 
+## Current planning, grades and notification update — October 16, 2026, 15:40 EDT
+
+Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](Handoff-v13.md) first. Next numbered handoff is V14.
+
+Completed: Comic Maker starts with the shared student planning/highlighting screen and fixed Joey example; all four student YY tools share one row; YY action buttons share styling with an always-visible monthly-change note; teacher/student grade summaries retain the highest completed score during retries; notification tabs are white, omit counts and acknowledge each category after five visible seconds. Attempt history, manual overrides, release gates, all eight Unit 2 sources, Unit 1 and previous classroom updates remain preserved. No production student data was changed for testing or migration. See V13 for contracts, validation, hashes and finite limits.
+
 ## Current classroom update — October 16, 2026, 14:40 EDT
 
 Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.

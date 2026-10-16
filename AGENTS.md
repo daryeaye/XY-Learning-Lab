@@ -1,5 +1,17 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff — October 16, 2026, 15:40 EDT
+
+Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](Handoff-v13.md) first. Next numbered handoff is V14.
+
+Comic Maker now begins with the actual student `MY` planning UI and fixed Joey calories problem, then opens the same `IY` creator with three blank panels. Back to Planning preserves the current demonstration in memory; refresh discards it. Keep its null library storage key and teacher-only route; never call real student save/publish routes. V12's former no-planning description is historical.
+
+For ordinary assignment summaries, choose the highest completed percentage per assignment, then the best completed child across differentiated groups. A new active retry must not replace any completed grade, including zero, with IP progress. Student dashboard/per-level rows, assignment metadata, teacher matrix, student-name modal and grade-detail summary follow this rule. Keep actual attempt histories, explicit teacher overrides and hidden/release gates; no regrading, backfill or grade-table rewrite was performed. The existing star proficiency calculation is unchanged.
+
+Notification `seen` is separate from `resolved`: opening the page no longer acknowledges every category. Only the visible selected tab's unread IDs are acknowledged after five seconds; switching/closing/hiding cancels that countdown. Poll/focus refresh discovers new messages; arrivals keep independent deadlines, failures retain unread state, and requests batch at 1,000 IDs. Keep white tabs/panel, existing shape/actions and red dots without counts.
+
+YY Point/Mailbox/Outfit Changes Left/Reward List stay in one horizontally scrollable row where needed. YY actions share the primary style and retain disabled behavior. The smaller monthly note always uses the configured monthly amount (default five); balances/monthly refresh logic is unchanged. Preserve every V12/V11 feature, bank pin and reward receipt. Archive Class/export/permanent purge remains deferred. Continue fresh capture, one publisher, active/latest checks and factual logs under standing authorization.
+
 ## Current handoff — October 16, 2026, 14:40 EDT
 
 Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.
