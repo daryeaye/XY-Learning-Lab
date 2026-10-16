@@ -1,5 +1,18 @@
 # XY Learning Lab change log
 
+## October 16, 2026, 18:40 UTC — V12 classroom update deployed and verified
+
+Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.
+
+- Teacher Student View's Dashboard becomes a new-tab Comic Maker with a blank three-panel editor, full drag/drop library, no storage/save calls and refresh discard.
+- Add correct BC/AD number-line examples to new Project 1 preset problems 14/25/29. Keep saved pools and keys unchanged.
+- Replace four Functions geometry tools with multiplication dot; replace virtual Line with dot. Center expected units beside the actual input at 3rem with squared superscripts.
+- Permit surrounding words around a single correct Unit 2 mathematical answer while retaining value/form checks and existing optional units. Unit 1 is unchanged.
+- Add default-checked class-selection deletion across assignment/grade/assessment entrypoints, including differentiated groups. Remove access/scores only for selected classes under the existing assignment-type semantics; preserve unchecked classes and archived comic/assessment work.
+- Clear the return-home warning after successful assignment/group publication, retaining draft warnings. Bold/underline perimeter and area for Types 163–178 and correct numeric rectangle diagram label placement via new aliases.
+
+Validation: 10,460 backend assertions/33 local requests and 10,370 retained-variant checks; six focused browser groups plus five full-page lifecycle groups; inverse preservation, syntax, Wrangler dry run and package checks; 1,765 read-only live HTTP checks/1,756 matching comparisons, zero remaining errors after one successful targeted asset retry. Fresh active Worker hash `b1cbec5ee8908ed27e6a3d695076d99ca10f887423c1253336457c2141d7d365`. All eight banks, Unit 1, reference JSONs, configuration and deferred-purge boundary are preserved. No production student data was changed for tests/migration. V12 records scope, finite limits, interim/final evidence and recovery.
+
 ## Current Comic-Con result update — October 15, 2026, 20:42 EDT
 
 Read [Handoff-v11.md](Handoff-v11.md) first, then v10 and earlier records. Deployed and verified Cloudflare version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100% traffic, based on the freshly captured active v10 `060bf911-d099-4687-96c7-b442cab35f9b`. GitHub main read before work was `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`; v10 was the highest handoff. Live verification completed October 15, 2026, 20:38 EDT.

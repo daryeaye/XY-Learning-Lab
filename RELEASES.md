@@ -1,5 +1,15 @@
 # XY Learning Lab release record
 
+## October 16, 2026, 18:40 UTC — Handoff V12 final classroom release
+
+Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.
+
+Final Worker SHA-256 `b1cbec5ee8908ed27e6a3d695076d99ca10f887423c1253336457c2141d7d365` (8,162,529 bytes); main `/assets/index-classroomv127d996371be26.js` SHA-256 `c3a154b4bab76fcfab10b07fb04e2b0c897cbeddf77420124d589d113b6eaa81`; CSS SHA-256 `9949a185d31f1ad316e31d5d6379176af0bcd48d40bbc53fe55c67a2c45b1332`; authored HTML SHA-256 `350c399b7012edaaf40c1bfd7189e0fba6a17414d32629ef3882f432338f814b`. Script runtime, bindings, safe settings, hourly cron and disabled workers.dev/preview URLs match the fresh baseline. Current Unit 2 reference `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` and all eight pins/Unit 1 are unchanged.
+
+Completed: temporary Comic Maker, Project 1 BC/AD hints, multiplication dot, centered large units and Unit 2 prose tolerance, class-scoped deletion, publication navigation state and geometry question/diagram presentation. Tests: 10,460 backend assertions/10,370 variant checks, eleven browser/lifecycle groups, guarded inverse and package checks, official dry run, and 1,765 live HTTP checks with 1,756 matching comparisons and zero remaining errors. One initial GradebookReview asset hash failure was resolved by matching immediate/final re-fetches and remains recorded in V12's private evidence. Active Worker was freshly downloaded and matches the tested hash. No production classroom data was mutated for testing/migration.
+
+Interim V12 `72a3a925-d7c9-46a2-b313-3792c6b95d83` at deployment `e08acd2b-fdfc-4b9a-a11a-096e95fdfcc0` was superseded by the final Maker header-navigation refinement; its Worker is identical and aliases remain retained. Active/latest/GitHub checks immediately preceded publication; no competing publisher was observed. Final package contains 1,744 known served files plus _headers, retaining checked baseline/interim bytes; inventory follows known paths rather than undisclosed remote enumeration. See [Handoff-v12.md](Handoff-v12.md) for exact mutation semantics, finite test/capture limits and compatible forward-repair guidance. Private evidence: `/workspace/xy-update-2026-10-16/`. Next handoff V13.
+
 ## Current Comic-Con result update — October 15, 2026, 20:42 EDT
 
 Read [Handoff-v11.md](Handoff-v11.md) first, then v10 and earlier records. Deployed and verified Cloudflare version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100% traffic, based on the freshly captured active v10 `060bf911-d099-4687-96c7-b442cab35f9b`. GitHub main read before work was `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`; v10 was the highest handoff. Live verification completed October 15, 2026, 20:38 EDT.

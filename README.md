@@ -1,5 +1,11 @@
 # XY Learning Lab — shared update log
 
+## Current classroom update — October 16, 2026, 14:40 EDT
+
+Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.
+
+Completed: temporary blank Comic Maker from teacher Student View; BC/AD examples in Project 1 defaults 14/25/29; centered multiplication dot; vertically centered units at three times normal size; Unit 2 surrounding-word tolerance; class-selective assignment deletion; published-link return-home state; and Lesson 2-3 geometry labels/emphasis. Maker work is memory-only and clears on refresh. Partial deletion preserves unchecked classes. All eight Unit 2 banks and Unit 1/reference JSONs remain unchanged. No production student data was changed for testing or migration. See V12 for data semantics, checks, hashes, finite capture and recovery.
+
 ## Current Comic-Con result update — October 15, 2026, 20:42 EDT
 
 Read [Handoff-v11.md](Handoff-v11.md) first, then v10 and earlier records. Deployed and verified Cloudflare version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100% traffic, based on the freshly captured active v10 `060bf911-d099-4687-96c7-b442cab35f9b`. GitHub main read before work was `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`; v10 was the highest handoff. Live verification completed October 15, 2026, 20:38 EDT.

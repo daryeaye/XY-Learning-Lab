@@ -1,5 +1,17 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff — October 16, 2026, 14:40 EDT
+
+Current verified Cloudflare version `534da593-47c7-49c0-9f36-4377a209b815`, deployment `fd61247c-af8e-46a2-ab14-bd2b0793ca9d`, 100%; verified October 16, 2026, 18:40 UTC (October 16, 2026, 14:40 EDT), from fresh V11 `39cc714b-18c5-4189-95a0-2564878103d5`. Read [Handoff-v12.md](Handoff-v12.md) first. Next numbered handoff is V13.
+
+Preserve temporary teacher preview and Maker state in memory only. `/comic-maker` reuses the editor with a null library storage key and no student mutation/save/publish controls; header navigation leaves it normally. Functions removes four geometry tools and adds a multiplication dot; the separate virtual keyboard replaces its Line key. Units belong beside the actual math input, with centered 3rem text and superscripts.
+
+New Project 1 defaults 14/25/29 have 500 B.C.=−500 and 580 A.D.=+580 examples; do not migrate saved pools/planning ranges. Types 163–178 emphasize perimeter/area at render time; corrected Type 163 SVG aliases retain all original URLs and bank pins. Default Unit 2 source remains `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` (136/1325); preserve all eight revisions and Unit 1 (104/520).
+
+Latest human direction permits surrounding words around one complete Unit 2 math expression. Preserve boundary extraction followed by exact value/required-form grading; never match inside a larger wrong coefficient or discard extra mathematical terms. Unit 1 numeric candidate checking is unchanged. Class deletion loads all assigned classes, defaults checked and mutates only selected classes; unchecked data/access persist. Normal selected-class scores are removed, while Comic-Con work/media and native assessment attempts remain archived. Protected draft-only deletion guards remain. Do not add a startup migration or infer authorization for the deferred class purge.
+
+Successful ordinary/group publication clears the parent builder warning; a saved draft still warns. Preserve V11 result cards/canonical-answer disclosure gates, setup autosave, historical source reconstruction, reward receipts and every unrelated feature. Freshly capture current state, recheck active/latest, use one publisher and update truthful logs after verification under standing authorization. See V12 for the interim version, final hashes, tests and finite limits.
+
 ## Current handoff — October 15, 2026, 20:42 EDT
 
 Read Handoff-v11.md first, then v10 and earlier classroom-method handoffs. Verified current version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100%, based on fresh `060bf911-d099-4687-96c7-b442cab35f9b`. The next published update must create Handoff-v12.md. Preserve historical handoffs and follow the existing standing authorization to capture actual current state, recheck active/latest before publishing, and update factual logs afterward.
