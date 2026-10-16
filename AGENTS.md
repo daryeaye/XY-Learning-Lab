@@ -1,5 +1,16 @@
 # Agent instructions — XY Learning Lab update log
 
+## Current handoff — October 15, 2026, 20:42 EDT
+
+Read Handoff-v11.md first, then v10 and earlier classroom-method handoffs. Verified current version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100%, based on fresh `060bf911-d099-4687-96c7-b442cab35f9b`. The next published update must create Handoff-v12.md. Preserve historical handoffs and follow the existing standing authorization to capture actual current state, recheck active/latest before publishing, and update factual logs afterward.
+
+Canonical peer answers are returned/displayed only after Correct or Attempts Exhausted, including persisted reopening. First-wrong/student preview initial payloads do not expose keys. Preview answer checking stays owned-teacher SELECT-only and client state stays in memory; no real student mutation calls. Shared UI uses read-only math, light green/red cards and dark blue text. Existing two-attempt normalization, checkers, SQL writes, gates and scores are untouched.
+
+New setup edits autosave; untouched open creates no server draft. Normal Save Setup Draft is removed, but error-only Retry saving, autosave status/recovery/navigation and published Save Changes remain. Do not add blank auto-created assignments or infer a need to rewrite draft lifecycle.
+
+Project Two was downloaded and tested as a separate local development copy only. Its GitHub folder, all banks/default source, all eight pins, v10 features and production data are unchanged. Archive Class/export/purge is still deferred. Do not interpret the download or standing maintenance permission as authorizing that future destructive feature.
+
+
 ## Current handoff — October 15, 2026, 14:07 EDT
 
 Read [Handoff-v10.md](Handoff-v10.md) first, then v9/v8 and earlier classroom-method records. Current verified version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%; Worker SHA-256 `c3a3effae3492cc9d988147d9135df26860810ca66e97a4ed65e03566b9e817b`. Comic-Con controls/name links, class assignment filtering, protected assessment-draft deletion, shared large math keyboards and icon functions, and score-aware completion/retry popups are deployed. Existing source `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, all eight revision routes, snapshots and reward receipts remain unchanged.

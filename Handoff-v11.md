@@ -1,0 +1,48 @@
+# XY Learning Lab Handoff v11 — read first
+
+Prepared October 15, 2026, 20:42 EDT; live verification October 15, 2026, 20:38 EDT. Continue [Handoff-v10.md](Handoff-v10.md), v9/v8 and earlier classroom-method handoffs. Latest human instructions take precedence. This release implements only the new Comic-Con annotation/result-card request and downloads/tests Project Two locally. The next published update must create Handoff-v12.md.
+
+Current Cloudflare version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100%. Fresh baseline `060bf911-d099-4687-96c7-b442cab35f9b`, Worker SHA-256 `c3a3effae3492cc9d988147d9135df26860810ca66e97a4ed65e03566b9e817b`. GitHub preparation parent `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`; v10 was read before editing. This document's eventual commit is its publication record.
+
+## Peer-answer result cards
+
+After a correct answer, display “Correct answer: [canonical key]” above “You got it! Your correct answer has been recorded.” Fill the whole small result card light green (#e7f6eb), with dark blue (#173e62) text. After the final allowed wrong answer, show the canonical key in a light-red (#fceeed) card with “Not quite. You’ve used all your attempts. Take your time with the next comic.” Both text/background contrasts exceed 7:1.
+
+Keep the first wrong try unchanged and retryable. It must not reveal the key. Result answers are read-only mathematical content, not disabled-looking editable inputs. Numeric zero, negative values, fractions and algebraic keys are supported. Use the same shared component for real students and temporary teacher Student View.
+
+The server now adds the canonical key only to successful/final-wrong responses and to their persisted GET peer states. Correct answers therefore remain visible when a comic is reopened, including older already-correct records. No student input is treated as an inferred answer key. The preview checker returns the key after a correct/final preview answer but retains SELECT-only ownership/class checks. Preview state stays in memory; no student requests/storage are introduced.
+
+Exactly four guarded backend expressions change: preview terminal key condition, the persisted peer threshold's use of the existing normalized attempts setting, persisted correct key inclusion, and correct/final answer response inclusion. The existing settings still normalize to two attempts. SQL counters, work/answer writes, grading, keys, authentication, class/ownership, own-publication and manual peer-release gates are unchanged. Initial/first-wrong peer and preview payloads do not disclose keys.
+
+## Setup autosave finding
+
+The user's premise needs precision: opening an untouched new Comic-Con/Project1 setup alone does not create a server draft. The first title/class/pool/settings/page change creates it after the existing 750 ms debounce, and subsequent edits autosave to that same ID. Project1 Introduction→Next is itself a page change. The old Save Setup Draft button only called this same flush and was also a no-op on untouched data.
+
+Remove the redundant normal button from both setup locations. Preserve existing Saved/Saving/Not synced display, autosave debounce/concurrency/local recovery/navigation flush, failed-leave warning and published-pool Save Changes. To retain a direct retry after a failed autosave, show Retry saving only inside the setup's existing error alert. No blank drafts are newly auto-created and no draft records were modified by this deployment.
+
+The pre-existing new-session recovery key stays keyed as new after the first returned server ID until remount; this small UI change does not redesign recovery identity, cross-device synchronization or every crash/network lifecycle. A failed-save warning must remain honest; do not promise all local recovery scenarios are solved.
+
+## Project Two local copy
+
+Downloaded every original file under GitHub Project Two at `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`, tree `0061fc0ebc4f51f64a3e9f21985c09cf20066dd5`: 38 files / 28,987,869 bytes, including 20 PNG assets and the source PDF/PPTX. All 38 Git blob/size checks and 37 supplied manifest SHA-256 entries pass; root independently rechecked every original afterward. Originals and the remote folder remain unchanged.
+
+Local copy: `outputs/Project-Two-2026-10-15/`. Double-click its added Start Playground.command on this Mac to run the unchanged app/server.mjs and open http://127.0.0.1:8765 in the default browser. It uses installed Node or this machine's bundled Node; no package install/build is needed. It detects an already-running copy. Keep its Terminal window open and use Control+C to stop a launcher-started server. OPEN-LOCALLY.md has the manual command and details. The temporary verification server was left available at that local URL for the user.
+
+Actual native Google Chrome loaded the 14-page navigation/introduction/artwork. An isolated browser completed the Fountain perimeter `2x+28` and area `10x+40` checks; all nine supplied math-engine tests pass. Safari was not separately tested. Direct file:// inspection was blocked by browser URL policy; the original app uses ES modules and documents localhost. Recommend the launcher/local server rather than claiming double-clicked HTML support. Progress belongs to the current local browser; existing save/open-project controls transfer work between browsers. The optional help links use online references. This is a local standalone copy, not a live class deployment or new platform integration.
+
+## Preservation and checks
+
+All eight Unit 2 banks deeply equal the captured baseline. Default reference remains `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d`, schema 2.5.3-context-wording, 136 types / 1,325 questions. Unit 1 remains 104 types / 520 questions. No reference JSON changed. Keep lossless historical reconstruction, snapshots/examples/retry reservations, reward receipts and all v10 classroom, keyboard, completion, filtering, grading and preview features. Archive Class/export/permanent purge remains deferred, with no new deletion path.
+
+- 152 assertions and 100 actual compiled handleComic requests with fictional in-memory SQLite cover correct/first-wrong/final-wrong responses, persisted reopening, 10/0/negative fraction/grouped-thousands/algebraic inputs, duplicate/third-attempt rejection, preview SELECT-only/no-key initial data, ownership/class/manual-release/own-publication gates and deep equality of all eight banks/Unit 1. Exact graders/settings are unchanged.
+- 1771 focused shared-component assertions and 106 actual autosave/creator harness assertions pass on the composed main. Guarded inverse checks recover every captured frontend/Worker byte outside the stated edits. Syntax and official Wrangler dry run pass. Original CSS bytes remain an exact prefix.
+- Root browser typed 10 and checked it, reopened its correct result, reset, typed 11 and checked twice (one remaining try/no key, then final red card), reopened the exhausted result and viewed an algebraic key. Final captures use the deployed module graph mounted with fictional in-memory data. These are real browser controls; no production student submission or attempt was induced. Temporary fixture server was stopped after screenshots.
+- Both live domains pass 30 HTTP/auth checks with 22 exact non-HTML comparisons and two edge-normalized HTML comparisons. The active Worker freshly downloaded after deployment matches the tested SHA. Entire script_runtime/bindings and safe settings are preserved; workers.dev/preview URLs stay disabled, hourly cron unchanged. Known capture: 1,720 served baseline files; all 1,719 served non-HTML files plus _headers retained. Seven new aliases yield 1,727 served / 1,728 local files. Capture follows known prior inventory/current module graph/log filenames, not undisclosed remote paths.
+
+No production student records, assignment definitions, grades, point balances, messages, comics, R2 media or schema were changed for tests/migration. Future ordinary actions still use their existing writes. The finite tests do not prove every browser/device/IME, every real-student lifecycle, all possible input spellings or every multi-tab/network failure.
+
+## Release evidence and next update
+
+Worker `37060a0be7b13fea8c0ad8b346d312e93366c78457e5aabe748dc5768fd8e6eb` (8,156,234 bytes). Main `/assets/index-ccresultsd0383a27676f.js` SHA-256 `1b57cd3715079d0975e762dd65e701294af94166ec9e6a4118d6bd85c244db62`; CSS `/assets/index-ccresultsd0383a27676f.css` SHA-256 `47c2a90743fffa5689d6e81f716bd7c076d4ee806242fe098018913d6dac8af4`; HTML `a017a387827a7118553d374792668f4ad52e4947cdd294b07a7d4edb85085789`. Startup 121 ms is not a usage bill. Active/latest rechecks immediately preceded upload/deploy; no competing publisher observed. Local evidence: outputs/math-platform/work/comic-feedback-2026-10-15/, including release/capture/configuration/inverse/test/HTTP reports, scripts and both peer result screenshots. Project Two has its own verification guide/screenshots/manifests. Keep full bundles, credentials, private tests and databases outside GitHub.
+
+Before another edit, discover/read the highest GitHub handoff/current logs, capture actual current Cloudflare Worker/frontend/assets/settings, preserve every pin/current feature and recheck active/latest immediately before upload/deploy. Publish Handoff-v12 and truthful logs after verification under standing authorization. GitHub is documentation/reference, not full app source or an atomic deployment lock. Prefer compatible forward repair; rollback does not restore later user data.

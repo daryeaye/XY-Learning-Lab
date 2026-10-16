@@ -1,5 +1,18 @@
 # XY Learning Lab — shared update log
 
+## Current Comic-Con result update — October 15, 2026, 20:42 EDT
+
+Read [Handoff-v11.md](Handoff-v11.md) first, then v10 and earlier records. Deployed and verified Cloudflare version `39cc714b-18c5-4189-95a0-2564878103d5`, deployment `3bd77c85-e877-413c-b5e3-688ff0371c48`, 100% traffic, based on the freshly captured active v10 `060bf911-d099-4687-96c7-b442cab35f9b`. GitHub main read before work was `47e5e5692ca28fcaa826d0232ac58e0469e5e8f0`; v10 was the highest handoff. Live verification completed October 15, 2026, 20:38 EDT.
+
+Comic-Con/Project1 now shows the canonical correct answer above the confirmation in a light-green/dark-blue result card after success, and above supportive copy in a light-red card after both attempts are used. The first wrong try remains retryable with no answer disclosure. Completed answers reappear on reopening. Shared real-student and temporary teacher Student View use the same display; teacher preview remains SELECT-only/in-memory. Attempts, grading, keys, ownership/class/publication/release gates and existing writes remain unchanged.
+
+Setup changes already autosave. Merely opening an untouched creator does not create a server assignment; the first change creates it after the existing 750 ms debounce. The redundant Save Setup Draft action is removed from new setup pages. Saved/Saving/Not synced, normal autosave/navigation recovery and published-pool Save Changes remain. An error-only Retry saving preserves an explicit retry without a normal manual-save button.
+
+The complete Project Two folder was downloaded locally from the same GitHub commit: 38 original files, 28,987,869 bytes, including 20 PNGs and PDF/PPTX references. All originals remain unchanged. Actual Chrome loaded the local app; nine supplied math tests and a Fountain activity's perimeter/area inputs pass. A local Mac launcher/guide was added beside the originals. Use localhost rather than double-clicking HTML; Safari was not separately tested. No Project Two source or remote folder was edited or deployed.
+
+All eight Unit 2 revisions, default `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` (136 types / 1,325 questions), Unit 1 and all v10 features are preserved. No production student data, assignments, points, grades, comics, messages, media or schema were changed for testing/migration. Archive Class/export/permanent purge remains deliberately deferred. See v11 for exact scope, checks, hashes and finite limits.
+
+
 ## Current release — October 15, 2026, 14:07 EDT
 
 Read [Handoff-v10.md](Handoff-v10.md) first. Verified Cloudflare version `060bf911-d099-4687-96c7-b442cab35f9b`, deployment `1ba86ad2-8b1d-49af-b165-f344a1cf1119`, 100%, on the freshly captured v9 baseline. Completed: Comic-Con controls/name links, class assignment filtering, protected assessment-draft deletion, shared large math keyboards and icon functions, and score-aware completion/retry popups. Archive Class, its two-tab backup and permanent purge are explicitly deferred. Current Delete Class only hides a class; it does not erase all records. No production student data or schema was changed for testing. Unit 2 reference `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` and all eight pins/Unit 1 are unchanged. See v10 for guards, tests, finite limits and recovery.
