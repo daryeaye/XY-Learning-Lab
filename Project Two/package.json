@@ -1,0 +1,7 @@
+{
+  "name": "playground-redesign-local",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/progression.test.mjs tests/math-engine.test.mjs"}
+}

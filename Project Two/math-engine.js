@@ -62,8 +62,9 @@ function multiplyPolynomials(a, b) {
 }
 
 function stripUnit(part) {
-  // Units are optional at the end of each line of working, never removed from inside algebra.
-  return part.replace(/\s*(?:square\s+(?:yards?|yds?)|(?:yards?|yds?)(?:\s*(?:\^\s*2|²|2|squared))?)\s*$/i, '').trim();
+  // Only recognized trailing unit tokens are removed. "1D" is the user's explicit
+  // spoken/transcription variant for the displayed yard unit, not algebra.
+  return part.replace(/\s*(?:square\s+(?:yards?|y\s*d\s*s?)|(?:yards?|y\s*d\s*s?|1\s*d)(?:\s*(?:\^\s*2|²|2|squared))?)\s*$/i, '').trim();
 }
 
 function prepareAnswer(input) {
@@ -74,9 +75,12 @@ function prepareAnswer(input) {
   if (!text) throw new Error('Enter an expression before checking.');
   if (text.length > MAX_INPUT_LENGTH) throw new Error('Keep your answer under 512 characters.');
   text = text.replace(/[−–—]/g, '-').replace(/[×·⋅]/g, '*').replace(/[÷⁄]/g, '/');
+  // A small, anchored label vocabulary permits familiar answer notation without
+  // searching inside arbitrary prose or accepting part of an incorrect answer.
+  text = text.replace(/^\s*(?:p|a|perimeter|area)\s*:\s*/i, '');
   const parts = text.split('=');
   if (parts.length > 8) throw new Error('Use a shorter line of working.');
-  if (parts.length > 1 && /^[pa]$/i.test(parts[0].trim())) parts.shift();
+  if (parts.length > 1 && /^(?:p|a|perimeter|area)$/i.test(parts[0].trim())) parts.shift();
   const superscripts = '⁰¹²³⁴⁵⁶⁷⁸⁹';
   return parts.map(part => {
     part = stripUnit(part).toLowerCase();

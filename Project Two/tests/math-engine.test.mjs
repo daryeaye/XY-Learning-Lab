@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 
 // Import as an ES module without requiring changes to the application's package settings.
-const source = await readFile(new URL('../app/math-engine.js', import.meta.url), 'utf8');
+const source = await readFile(new URL('../math-engine.js', import.meta.url), 'utf8');
 const { normalizeAnswer, parsePolynomial, equivalentAnswer, formatPolynomial, equipmentTotals } =
   await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
 
@@ -96,4 +96,5 @@ test('invalid equipment selections fail with a clear error', () => {
     assert.throws(() => equipmentTotals(selection), /three different/);
   }
 });
+
 

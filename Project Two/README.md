@@ -1,21 +1,45 @@
-# Project Two — Playground Design Lab
+# Design Your Playground! — local redesign
 
-Start here if you are continuing this project from another account.
+This self-contained student web app adapts the supplied Playground slides and the verified Google Form answer keys. It runs locally with Node.js; there is no publishing step, account connection, backend, tracking, or external dependency.
 
-This is a standalone, local 14-page web app based on the user's Playground lesson, Google Form answer keys, Project 2 equipment images, and Professor characters, presented as **Baby Boss**. It uses the visual style of XY Learning Lab but does not connect to its curriculum, accounts, points, databases, or production deployment.
+## Open the three versions
 
-The app includes six perimeter/area interview activities, an answer review, eight unnamed equipment choices with student naming, a drag-and-drop playground builder, and a final grass-area calculation based on the actual selected blocks. Original slide 10 is split in two; original slides 12 and 13 are combined, keeping 14 pages total. Work saves in browser storage and can be exported/imported as JSON.
+Run `npm start` (or `node server.mjs`) from this folder, then open:
 
-## Run and change it
+- Original slide layout: <http://127.0.0.1:8766/?view=original>
+- Text on the artwork: <http://127.0.0.1:8766/?view=immersive>
+- Text beside the artwork: <http://127.0.0.1:8766/?view=split>
 
-1. Open a terminal in `app/` and run `node server.mjs` (Node.js required), then open **http://127.0.0.1:8765**. On the original Windows computer, `app/Start Playground.cmd` also works.
-2. Edit `app/app.js` for the page content and interactions, `app/styles.css` for design, and `app/math-engine.js` for answer checking. All images are in `app/assets/`.
-3. Run `node --test tests/math-engine.test.mjs` from the `Project Two` folder. The nine tests include every fixed equipment answer and all 20 valid combinations of three interview blocks.
+All versions share the same 14 pages, mathematics, progress, and student design. The small links above the slide switch versions. The stage keeps one fixed aspect ratio and fits the available window, with Previous, numbered pages, and Next underneath.
 
-Read `app/README.md` for the detailed behavior, `app/lesson-source.json` and `docs/slide-audit.md` for lesson content, and `app/ARTWORK.md` for the generated image prompts. `docs/` also contains the design study and Baby Boss asset provenance. `references/` contains unmodified, read-only PDF and PowerPoint exports of the original 14-slide deck so it can be studied without another Drive connection.
+On Windows, `Start Playground.cmd` runs the same local server. Keep its terminal open while using the app.
 
-Important dimensions: the custom block is **23 × (2x + 3y) yd**; the playground is **400 × (x + 32) yd**. Final equipment and grass-area checks depend on the three distinct chosen interview blocks plus the custom block.
+## Content and interaction
 
-This folder is a source snapshot for continued local development. It is not the deployed XY Learning Lab application. Do not deploy it over the live site. Keep the existing handoff files unchanged. Ask the user for explicit confirmation before any GitHub or Cloudflare write, even if a request seems to imply it.
+The original slide wording is retained. Explicitly requested adaptations replace Google/copy-and-paste directions with the image tray and playground drag/tap controls. Original slide 10 becomes app pages 10–11; original slides 12–13 become app page 13. The original title, description, standards, and exact copyright remain. No character name or extra lesson story has been added.
+
+Pages 3–8 and 11 grade only the two long perimeter/area answers. The smaller boxes are scratch work. Students must press **Check my answer** and get both results correct before proceeding; numbered navigation follows the same rule. Changing a checked answer locks later pages again while preserving the work. Recognized units, spaces, reordered terms, and algebraically equivalent expressions are accepted. A larger incorrect coefficient containing the expected text is rejected.
+
+Page 10 offers 20 unnamed equipment pictures and requires a selection and name. Page 13 has the six interview items plus the student's custom item: place three different interview items and the custom item in the four plots. Click/tap a tray item to place or remove it. Drag placed items between plots, or focus one and use arrow keys; Delete removes it. An occupied destination swaps the two items. The final page carries the actual arrangement and lists four sets of dimensions. Its equipment-total and remaining-grass answers depend on the chosen equipment.
+
+The hand icon reveals a hint on hover or keyboard focus; moving away hides it. Touch users can toggle it. Large units remain outside answer fields. Progress is retained in this browser without a visible save label or button.
+
+## Files
+
+- `app.js`: rendering, student inputs, checks, hints, drag/tap/keyboard controls.
+- `data.js`: source wording, dimensions, equipment catalog, plot positions.
+- `math-engine.js`: safe algebra parser and dynamic final-area calculations.
+- `progression.js`: prerequisites shared by every visual version.
+- `index.html`, `styles.css`: fixed slide shell and the three visual styles.
+- `lesson-source.json`: source transcription and answer-key provenance.
+- `assets/`: provided artwork and generated local artwork.
+- `ARTWORK-v2.md`: artwork provenance, generation prompts, and placement notes.
+- `CHANGELOG.md`, `VALIDATION.md`: redesign notes and completed checks.
+- `tests/`: portable math and progression tests; run `npm test` or `node --test tests/*.mjs`.
+- `references/Playground.pdf`, `references/Playground.pptx`: unchanged original source exports for review.
+- `docs/`: unchanged source audit, supplied-character notes, and the earlier read-only live-site study.
+- `MANIFEST.sha256`: checksums for the prepared package.
+
+The source Drive files, Google Site/Form, live XY Learning Lab, and Cloudflare were not changed. The repository replacement is restricted to `Project Two/`; handoff documents and every other repository path must remain unchanged.
 
 ©TruePBL. All rights reserved.
