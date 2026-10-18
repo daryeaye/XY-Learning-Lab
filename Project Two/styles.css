@@ -79,8 +79,9 @@ h1:focus, h2:focus { outline: none; }
 .intro-scene { position: absolute; inset: 0; }
 .intro-scene::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #fff6d00a 40%, #18371319); pointer-events: none; }
 .intro-equipment { position: absolute; z-index: 2; width: 340px; height: 270px; transform: translate(-50%, -100%); object-fit: contain; object-position: center bottom; image-rendering: pixelated; filter: drop-shadow(0 12px 4px #28482430); }
+.intro-equipment .piece-art { display:block; width:100%; height:100%; object-fit:contain; object-position:center bottom; }
 .intro-copy { position: absolute; z-index: 5; inset: 0; pointer-events: none; }
-.intro-copy h1 { position: absolute; top: 42px; left: 68px; right: 68px; text-align: center; padding: 18px 28px 24px; color: #1554a6; background: #fffffff0; font-family: var(--hand); font-size: 78px; font-weight: 800; letter-spacing: -2px; line-height: 1.08; }
+.intro-copy h1 { position: absolute; top: 24px; left: 68px; right: 68px; text-align: center; padding: 12px 28px 16px; color: #1554a6; background: #fffffff0; font-family: var(--hand); font-size: 70px; font-weight: 800; letter-spacing: -2px; line-height: 1.08; }
 .intro-copy .description { position: absolute; left: 35px; bottom: 32px; width: 1020px; padding: 22px 28px 24px; color: white; background: #9b581bdf; font-family: var(--sans); font-size: 28px; line-height: 1.4; }
 .description strong, .description h2 { display: block; font-size: 30px; margin-bottom: 5px; }
 .intro-copy .standards { position: absolute; right: 35px; bottom: 32px; min-width: 220px; padding: 18px 25px; background: #fffbe6ed; color: #1554a6; font-size: 29px; line-height: 1.35; }
@@ -184,10 +185,7 @@ body[data-variant="original"] .equipment-diagram.equipment-soccer { width: 500px
 .choice-feedback { position: absolute; left: 55px; right: 55px; bottom: 8px; text-align: center; font-size: 22px; }
 
 .page-builder { background: #dbe8cd; }
-.builder-title { position: absolute; z-index: 15; left: 40px; top: 26px; display: flex; align-items: center; gap: 13px; color: #fff6c7; font-family: var(--display); font-size: 48px; font-style: italic; font-weight: 800; line-height: 1.1; text-shadow: 1px 2px #315831; }
-.builder-title input { width: 315px; height: 60px; padding: 8px 16px; border: 3px solid #8f671e; border-radius: 5px; color: #4b4026; background: #f9bc40; font-family: var(--sans); font-size: 30px; font-style: normal; box-shadow: 3px 3px #48633a24; text-shadow: none; }
-.builder-title label { display: flex; flex-direction: column; gap: 5px; font-size: 17px; font-weight: 550; font-style: normal; color: #fffbd8; }
-.builder-scene { position: absolute; left: 0; right: 0; top: 0; height: 640px; overflow: hidden; background: #bad796; isolation: isolate; touch-action: none; }
+.builder-scene { position: absolute; left: 0; right: 0; top: 0; height: 640px; overflow: hidden; background: #8eab6e; background-image: radial-gradient(ellipse at center, #b6cf91, #64834f); isolation: isolate; touch-action: none; }
 .builder-scene > .scene-background { object-position: center; object-fit: fill; }
 .placed-equipment { position: absolute; z-index: 5; width: 300px; height: 205px; padding: 0; border: 0; border-radius: 4px; background: transparent; transform: translate(-50%, -100%); cursor: grab; touch-action: none; user-select: none; }
 .placed-equipment img, .placed-equipment .piece-art { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; image-rendering: pixelated; pointer-events: none; filter: drop-shadow(0 9px 3px #28492c28); }
@@ -228,7 +226,8 @@ body[data-variant="original"] .equipment-diagram.equipment-soccer { width: 500px
 .dimensions-table th, .dimensions-table td { padding: 10px 7px; border-bottom: 2px solid #dddfc9; text-align: left; }
 .dimensions-table th:last-child, .dimensions-table td:last-child { text-align: right; }
 .dimensions-table th img { display: inline-block; width: 54px; height: 46px; margin-right: 9px; vertical-align: middle; object-fit: contain; image-rendering: pixelated; }
-.dimensions-table td { font-family: var(--display); font-style: italic; white-space: nowrap; }
+.dimensions-table td { font-family: var(--display); font-style: italic; font-weight: 700; white-space: nowrap; text-align: center; }
+.dimensions-table thead th:nth-child(n+2), .dimensions-table td:last-child { text-align: center; }
 .final-worksheet { display: flex; flex-direction: column; align-items: stretch; gap: 15px; min-width: 0; }
 .final-intro { font-family: var(--sans); font-size: 23px; line-height: 1.35; margin: 0 0 4px; }
 .final-question { position: relative; padding-right: 0; }
@@ -246,7 +245,7 @@ body[data-variant="original"] .equipment-diagram.equipment-soccer { width: 500px
 /* Text on image: scenes stay prominent behind opaque comic panels. */
 body[data-variant="immersive"] { background: #dfe7df; }
 body[data-variant="immersive"] .slide { background: #bad796; }
-body[data-variant="immersive"] .intro-copy h1 { left: 110px; right: 110px; top: 48px; border: 5px solid #24364b; border-radius: 18px 25px 14px 21px; box-shadow: 10px 10px #24364b35; color: #244b35; background: #fffcecfa; transform: rotate(-1deg); }
+body[data-variant="immersive"] .intro-copy h1 { left: 110px; right: 110px; top: 24px; border: 5px solid #24364b; border-radius: 18px 25px 14px 21px; box-shadow: 10px 10px #24364b35; color: #244b35; background: #fffcecfa; transform: rotate(-1deg); }
 body[data-variant="immersive"] .intro-copy .description { background: #fffcecf5; color: #24364b; border: 5px solid #24364b; border-radius: 20px; font-family: var(--hand); font-size: 27px; box-shadow: 8px 8px #24364b30; }
 body[data-variant="immersive"] .intro-copy .standards { background: #ffe69cf5; color: #24364b; border: 4px solid #24364b; border-radius: 15px; }
 body[data-variant="immersive"] .story-scene { width: 1600px; }
@@ -262,7 +261,7 @@ body[data-variant="immersive"] .story-12 .story-copy { left: 55px; top: 125px; w
 body[data-variant="immersive"] .story-12 .story-copy::after { display: none; }
 body[data-variant="immersive"] .story-12 .story-copy h1 { font-size: 65px; margin-bottom: 26px; }
 body[data-variant="immersive"] .story-12 .story-professor { width: 800px; height: 850px; right: 70px; bottom: 25px; opacity: 1; }
-body[data-variant="immersive"] .math-layout { background: linear-gradient(#173c2919, #173c2926), url("./assets/park-four-plots.png") center / cover; }
+body[data-variant="immersive"] .math-layout { background: linear-gradient(#173c2919, #173c2926), url("./assets/park-empty.png") center / cover; }
 body[data-variant="immersive"] .equipment-panel { padding-left: 18px; padding-right: 18px; }
 body[data-variant="immersive"] .equipment-panel h1 { color: white; text-shadow: 3px 4px #204331; font-family: var(--hand); font-style: normal; }
 body[data-variant="immersive"] .equipment-diagram { width: 470px; height: 480px; border: 5px solid #24364b; background: #fffdebed; border-radius: 18px; box-shadow: 9px 9px #24364b3b; }
@@ -274,20 +273,20 @@ body[data-variant="immersive"] .question h2 { font-size: 36px; color: #284d35; }
 body[data-variant="immersive"] .scratch-row input, body[data-variant="immersive"] .answer-input { border-radius: 7px; border-color: #7c8c74; background: #f0f4df; }
 body[data-variant="immersive"] .answer-input { background: #fff4cb; }
 body[data-variant="immersive"] .hint-trigger { background: #fff3c1; border-radius: 10px; }
-body[data-variant="immersive"] .page-choice { background: linear-gradient(#e7f1d496, #e7f1d4bb), url("./assets/park-four-plots.png") center / cover; }
+body[data-variant="immersive"] .page-choice { background: linear-gradient(#e7f1d496, #e7f1d4bb), url("./assets/park-empty.png") center / cover; }
 body[data-variant="immersive"] .choice-heading { left: 55px; right: 55px; top: 30px; padding: 16px 28px; background: #fffcecf3; border: 4px solid #24364b; border-radius: 20px; }
 body[data-variant="immersive"] .choice-heading h1 { font-size: 49px; }
 body[data-variant="immersive"] .choice-heading p { font-size: 26px; }
 body[data-variant="immersive"] .custom-name { padding: 25px 28px; border: 4px solid #24364b; border-radius: 18px; background: #fffcecf5; }
 body[data-variant="immersive"] .custom-slot { border: 5px solid #24364b; border-radius: 18px; background: #e6f2d4e8; }
 body[data-variant="immersive"] .choice-option { border-color: #627e55; background: #fffcebf5; box-shadow: 4px 5px #36512a22; }
-body[data-variant="immersive"] .page-final { background: linear-gradient(#f2f3daec, #f2f3daec), url("./assets/office-v2.png") center / cover; }
+body[data-variant="immersive"] .page-final { background: linear-gradient(#f2f3daec, #f2f3daec), url("./assets/office-normal-pixel.png") center / cover; }
 body[data-variant="immersive"] .final-visual > .builder-scene { border: 5px solid #24364b; border-radius: 16px; box-shadow: 8px 8px #24364b22; }
 body[data-variant="immersive"] .final-intro { padding: 17px 21px; background: #fffdeff5; border: 4px solid #24364b; border-radius: 18px; font-size: 23px; }
 body[data-variant="immersive"] .dimensions-table { background: #fffdeee8; border-radius: 12px; }
 body[data-variant="immersive"] .final-park > .builder-scene { border: 5px solid #24364b; border-radius: 16px; box-shadow: 8px 8px #24364b22; }
 body[data-variant="immersive"] .final-worksheet { gap: 11px; }
-body[data-variant="immersive"] .final-intro { font-size: 22px; padding: 12px 16px; line-height: 1.3; }
+body[data-variant="immersive"] .final-intro { font-size: 50px; padding: 12px 16px; line-height: 1.1; }
 
 /* Text beside image: broad illustration panels and uncluttered workbook space. */
 body[data-variant="split"] { background: #e6e9e5; }
@@ -356,6 +355,267 @@ body[data-variant="split"] .story-2 .story-copy { top: 50%; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+/* Final selected treatment: readable text on pictures, with one display font. */
+@font-face {
+  font-family: "Love Ya Like A Sister";
+  src: url("./assets/fonts/LoveYaLikeASister-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+:root {
+  --hand: "Love Ya Like A Sister", cursive;
+  --sans: "Love Ya Like A Sister", cursive;
+  --display: "Love Ya Like A Sister", cursive;
+  --student: "Comic Sans MS", Arial, sans-serif;
+}
+body, button, .copyright { font-family: var(--hand); }
+input, textarea, .static-input, .static-textarea {
+  font-family: var(--student) !important;
+  font-style: normal;
+}
+input::placeholder, textarea::placeholder { font-family: var(--student); }
+.dimension, .unit, .dimensions-table td, .builder-option span,
+.builder-option small { font-family: var(--hand); font-style: normal; }
+.dimension { font-size: 44px; font-weight: 400; line-height: 1.1; }
+.dimension .measure-value { font-size: 1em; }
+.dimension .measure-unit { font-size: .6em; margin-left: .2em; }
+body[data-variant="immersive"] .equipment-panel h1 {
+  max-width: 100%;
+  padding: 9px 25px 13px;
+  margin-bottom: 38px;
+  border: 4px solid #24364b;
+  border-radius: 16px 20px 15px 18px;
+  background: #fffdebf5;
+  color: #24364b;
+  text-shadow: none;
+  box-shadow: 6px 6px #24364b32;
+  font-family: var(--hand);
+  font-style: normal;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+body[data-variant="immersive"] .dimension.width {
+  left: 0;
+  right: 0;
+  top: calc(100% + 16px);
+  font-size: 44px;
+  text-align: center;
+}
+body[data-variant="immersive"] .dimension.height {
+  left: -43px;
+  right: auto;
+  top: 50%;
+  width: max-content;
+  padding: 3px 9px;
+  transform: translate(-50%, -50%) rotate(90deg);
+  transform-origin: center;
+  font-size: 44px;
+  text-align: center;
+}
+.answer-row { justify-content: flex-start; gap: 12px; }
+.answer-row .answer-input,
+.final-question .answer-input,
+body[data-variant="immersive"] .answer-input {
+  flex: 0 0 320px;
+  width: 320px;
+  min-width: 0;
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: var(--student);
+}
+.answer-input::placeholder { font-size: 20px; }
+.unit, .question .unit, .final-question .unit {
+  flex: 0 0 auto;
+  font-family: var(--hand);
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1;
+}
+
+/* Each office illustration already includes the professor behind the desk. */
+body[data-variant="immersive"] .page-story .story-scene {
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 1600px;
+  height: 900px;
+}
+body[data-variant="immersive"] .page-story .story-scene > .scene-background {
+  object-fit: fill;
+  image-rendering: pixelated;
+}
+body[data-variant="immersive"] .page-story .story-scene::after,
+body[data-variant="immersive"] .page-story .story-professor { display: none; }
+body[data-variant="immersive"] .page-story .story-copy {
+  left: 55px;
+  right: auto;
+  top: 65px;
+  width: 735px;
+  padding: 31px 37px 35px;
+  transform: none;
+  color: #24364b;
+  background: #fffdebf7;
+  border: 5px solid #24364b;
+  border-radius: 25px 28px 22px 20px;
+  box-shadow: 12px 12px #24364b3b;
+  font-family: var(--hand);
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 1.45;
+}
+body[data-variant="immersive"] .page-story .story-copy h1 {
+  margin-bottom: 23px;
+  color: #345f3c;
+  font-family: var(--hand);
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+body[data-variant="immersive"] .story-9 .story-copy { top: 180px; }
+body[data-variant="immersive"] .story-9 .story-copy p:first-child {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+body[data-variant="immersive"] .story-12 .story-copy { top: 165px; }
+body[data-variant="immersive"] .page-story .story-copy::after {
+  display: block;
+  left: calc(100% - 2px);
+  right: auto;
+  bottom: 110px;
+  width: 50px;
+  height: 55px;
+  background: #fffdec;
+  border-left: 0;
+  border-right: 5px solid #24364b;
+  border-bottom: 5px solid #24364b;
+  transform: skewY(35deg);
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+
+/* Equipment selection: eight choices, one row, with the instruction by Name. */
+.choice-title {
+  position: absolute;
+  left: 65px;
+  right: 65px;
+  top: 25px;
+  margin: 0;
+  color: #24364b;
+  font-family: var(--hand);
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-shadow: 2px 2px #fffdec;
+}
+body[data-variant="immersive"] .choice-workspace {
+  top: 125px;
+  height: 390px;
+  align-items: center;
+  gap: 70px;
+}
+body[data-variant="immersive"] .custom-slot {
+  width: 690px;
+  height: 390px;
+  flex: 0 0 690px;
+  padding: 24px;
+}
+.custom-slot .slot-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+body[data-variant="immersive"] .custom-name { padding: 27px 28px 30px; }
+body[data-variant="immersive"] .custom-name .choice-instruction {
+  margin: 0 0 30px;
+  color: #24364b;
+  font-family: var(--hand);
+  font-size: 32px;
+  line-height: 1.4;
+}
+body[data-variant="immersive"] .custom-name label {
+  margin-bottom: 15px;
+  font-size: 38px;
+}
+.choice-tray {
+  top: 560px;
+  bottom: auto;
+  left: 55px;
+  right: 55px;
+  height: 200px;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 16px;
+}
+.choice-option { height: 200px; padding: 12px; }
+.choice-option .thumbnail-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+.builder-option .thumbnail-art {
+  display: block;
+  width: 100%;
+  height: 130px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+.dimensions-table th .thumbnail-art {
+  display: inline-block;
+  width: 54px;
+  height: 46px;
+  margin-right: 9px;
+  vertical-align: middle;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+body[data-variant="immersive"] .final-park { padding: 55px 45px 0 0; }
+body[data-variant="immersive"] .final-park > .dimension.width {
+  left: 0;
+  right: 45px;
+  top: 0;
+  font-size: 44px;
+  text-align: center;
+}
+body[data-variant="immersive"] .final-park > .dimension.height {
+  left: calc(100% - 18px);
+  right: auto;
+  top: 232px;
+  width: max-content;
+  transform: translate(-50%, -50%) rotate(90deg);
+  transform-origin: center;
+  font-size: 44px;
+  text-align: center;
+}
+
+
+/* Shared native-coordinate park: placements and paths use the same projection. */
+.park-art{position:absolute;inset:0;display:block;width:100%;height:100%;overflow:hidden;image-rendering:pixelated}
+.placed-item{cursor:grab;touch-action:none;outline:none}
+.placed-item:active{cursor:grabbing}
+.piece-hitbox{fill:transparent;stroke:transparent;stroke-width:3}
+.placed-item:focus-visible>.piece-hitbox{stroke:#fff7c7;stroke-dasharray:8 5}
+.plot-target{cursor:crosshair}
+.plot-target polygon{fill:#fffdf0;fill-opacity:.04;stroke:#fffbe5;stroke-width:3;stroke-dasharray:10 9;opacity:.6}
+.plot-target text{font-family:var(--hand);font-size:38px;fill:#557345;opacity:.65;pointer-events:none}
+.plot-target.occupied polygon,.plot-target.occupied text{opacity:0}
+.plot-target:focus-visible polygon{opacity:1;stroke:#244b35;fill-opacity:.16}
+.remove-piece-svg{opacity:0;pointer-events:none;cursor:pointer}
+.remove-piece-svg circle{fill:#fff9e8;stroke:#536b49;stroke-width:2}
+.remove-piece-svg text{font-family:var(--hand);font-size:27px;fill:#34542f}
+.placed-item:hover>.remove-piece-svg,.placed-item:focus>.remove-piece-svg{opacity:1;pointer-events:auto}
+body[data-variant="immersive"] .intro-copy .description{width:610px;font-size:24px;line-height:1.35;padding:17px 23px;bottom:25px}
+body[data-variant="immersive"] .intro-copy .description strong{font-size:28px;line-height:1.2}
+body[data-variant="immersive"] .intro-copy .standards{font-size:26px;bottom:25px;min-width:210px}
+body[data-variant="immersive"] .intro-scene>.scene-background{object-fit:cover;object-position:center}
 @media print {
   html, body { overflow: visible; height: auto; }
   body { background: white; display: block; padding: 0; }

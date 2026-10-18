@@ -1,0 +1,47 @@
+[
+  {
+    "items": [
+      "basketball",
+      "soccer",
+      "slide",
+      "carousel"
+    ],
+    "custom": "carousel"
+  },
+  {
+    "items": [
+      "fountain",
+      "swing",
+      "statue",
+      "swimming-pool"
+    ],
+    "custom": "swimming-pool"
+  },
+  {
+    "items": [
+      "slide",
+      "treehouse",
+      "soccer",
+      "basketball"
+    ],
+    "custom": "treehouse"
+  },
+  {
+    "items": [
+      "picnic-pavilion",
+      "statue",
+      "basketball",
+      "fountain"
+    ],
+    "custom": "picnic-pavilion"
+  },
+  {
+    "items": [
+      "swing",
+      "soccer",
+      "trampoline",
+      "slide"
+    ],
+    "custom": "trampoline"
+  }
+]

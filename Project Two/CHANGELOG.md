@@ -1,23 +1,25 @@
 # Project Two change log
 
-## 2026-10-16 — Version 2
+## Version 7 — 2026-10-17
 
-Replaces the earlier playground prototype with three visual treatments of one shared 14-page activity:
+- Removed every generated playground character. Composed ten unchanged original YY Buddy PNGs over the clean park, using only Happy, Normal and Surprised states. Five displays are horizontally mirrored; no character pixels or poses were edited.
+- Removed the learner-name input and playground-name heading from page 13, including obsolete saved-name handling.
+- Enlarged page 14's paving instruction from 22px to 50px and changed the opening to “Let’s finish up the plan!” The message asks for the area left for paths so the manager can plan the paving. It occupies three lines and leaves the worksheet and check button visible within the fixed slide.
+- Regenerated the five sample JPGs, cover and original-buddy park review image with the shared scene renderer. Refreshed the 14-page PDF.
+- Kept the accepted office scenes, first-person dialogue, eight-choice catalog, math gates, custom-name migration and placement behavior.
+- Added original-file hash and approved-state checks; all 27 tests pass.
+- Removed unused legacy sprite fallbacks. The offline builder shares CSS backgrounds from its embedded asset map, reducing duplicate image payloads.
+- Prepared a final-only repository package with source, active assets, PDF, review images, launchers and current documentation. Excluded superseded prototypes and unused art. Preserved the five original reference/research files exactly; all paths outside Project Two remain outside the proposed update.
 
-1. **Original:** source-style title band, alternating equipment/work sides, and original story compositions.
-2. **Text on image:** large park/office scenes and comic speech panels.
-3. **Text beside image:** separated illustration and workbook areas; the opening park is above its text.
+## Accepted earlier refinements
 
-Removed the four chapter headings, top page-status indicator, visible device-save label, introductory slogan, and beginning button. Page numbers sit between Previous and Next. The fixed slide stage fits the window without changing height across pages.
+- Selected Text on Pictures from three visual prototypes.
+- Rewrote pages 2, 9 and 12 as Joey's first-person invitation, encouragement and final-round challenge.
+- Prepared four views for each of fourteen equipment types, with native court clipping and four plot targets.
+- Reduced page 10 to eight choices; tightened its layout and carried the custom block name forward.
+- Preserved the park's aspect ratio and corrected drag coordinates for centered letterboxing.
+- Added occupied-space rectangles, clockwise side measurements, prominent units, shorter answer fields and hover/focus hints.
+- Required both current checked answers to pass each math page; made final totals follow the chosen blocks.
+- Added the carried design and bold, centered dimension table to page 14; changed its remaining-area task to paths and paving.
 
-The source slides remain the wording authority. Source slide 10 is split into image choice and custom mathematics; source slides 12–13 are combined into the builder. Only the requested interaction directions and hint content are adapted. The supplied professor art has no invented visible character name. The exact copyright is retained.
-
-Equipment now has a visible occupied-space rectangle and horizontal dimension labels. Source assets are displayed using their artwork bounds, so wide courts and the professor do not shrink because of transparent padding. Answer units are large and aligned with their input fields. Hint hands replace external help buttons and disappear when the pointer/focus leaves; Escape also dismisses them.
-
-Both long math outputs must be correct and explicitly checked before students proceed. Every numbered-page jump follows the same prerequisites. Selection/name gates custom math, and four valid placements gate the final page. Re-editing a checked result locks later pages again while preserving work.
-
-The custom catalog contains 20 unnamed choices without repeating the original slide or swing. Fifteen equipment assets were generated, including a corrected volleyball court and fourteen additional choices. A new office and a bounded park with four plots support the story and builder. Three interview items plus the custom item occupy separate plots; drag, tap, and keyboard controls are available. The final page carries the same arrangement, shows four sets of dimensions, and checks totals calculated from the selected items.
-
-Repository scope: replace only `Project Two/` in `daryeaye/XY-Learning-Lab`. Do not modify handoff files, lessons, live-site files, workflows, Cloudflare, or any path outside this folder.
-
-The old nested `app/` prototype is replaced by the current app at this folder's root. The original PDF/PPTX exports and the three source-study documents under `references/` and `docs/` are retained unchanged so another account can review the source material alongside the new implementation.
+Only Project Two is proposed for repository delivery. No Cloudflare or live-site deployment is part of this revision.

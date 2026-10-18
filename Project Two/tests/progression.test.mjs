@@ -103,7 +103,7 @@ test('all style names use the identical state gate and no persisted check flags 
     assert.equal(maxReachablePage(state),6);
   }
   assert.equal(new Set(CUSTOM_CHOICE_IDS).size,CUSTOM_CHOICE_IDS.length);
-  assert.equal(CUSTOM_CHOICE_IDS.length,20);
+  assert.deepEqual([...CUSTOM_CHOICE_IDS],['carousel','icecream-stand','seesaw','merry-go-round','swimming-pool','treehouse','trampoline','picnic-pavilion']);
   for(const id of CUSTOM_CHOICE_IDS) {const state=customReady();state.customChoice=id;assert.equal(canVisit(12,state),true,id);}
 });
 

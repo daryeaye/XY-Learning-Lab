@@ -1,0 +1,32 @@
+{
+  "file": "C:\\Users\\darye\\Documents\\Codex\\2026-10-14\\ca\\outputs\\playground-final\\Playground-Final-Review.pdf",
+  "bytes": 33466477,
+  "pages": 14,
+  "sizePoints": [
+    1200,
+    675
+  ],
+  "copyrightPages": 14,
+  "mathPromptPages": 7,
+  "answerPlaceholders": 17,
+  "carouselSamplePages": [
+    10,
+    11,
+    13,
+    14
+  ],
+  "fontNames": [
+    "CLBDLL+Love-Ya-Like-A-Sister",
+    "GYXDBO+MS-Gothic",
+    "KPHQCN+Love-Ya-Like-A-Sister-Bold",
+    "QVDKLC+Comic-Sans-MS",
+    "XRXZOA+Review-Symbols"
+  ],
+  "outOfBoundsCharacters": 0,
+  "finalIntroCssPixels": 50,
+  "finalIntroLines": 3,
+  "finalIntroText": "Let\u2019s finish up the plan! Find the area left for paths so the manager can plan the paving.",
+  "builderNameUiPresent": false,
+  "fixture": "basketball A; soccer B; slide C; Moonbeam Carousel D",
+  "visualQa": "All 14 pages rendered with Poppler and inspected. No missing art, black hitboxes, atlas-cell leakage, clipping or overflow in final render."
+}

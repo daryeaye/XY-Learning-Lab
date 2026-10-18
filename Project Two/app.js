@@ -1,10 +1,12 @@
-import {EQUIPMENT, CUSTOM_IDS, INTRO, STORIES, FINAL_DESCRIPTION, FINAL_LABELS, PLOTS, asset} from './data.js';
+import {EQUIPMENT, CUSTOM_IDS, INTRO, STORIES, FINAL_DESCRIPTION, FINAL_LABELS, PLOTS} from './data.js';
 import {equivalentAnswer, equipmentTotals} from './math-engine.js';
 import {canVisit, nextPageAllowed} from './progression.js';
+import {EQUIPMENT_VIEWS} from './equipment-views.js';
+import {atlasArt, renderPark, imagePath, PARK_VIEW, plotAtPoint} from './scene.js';
 
-const KEY = 'truepbl-playground-redesign-v2-release';
 const query = new URLSearchParams(location.search);
-const variant = ['original','immersive','split'].includes(query.get('view')) ? query.get('view') : 'original';
+const KEY = 'truepbl-playground-final-v5-student'+(query.has('qa')?'-qa':'');
+const variant = 'immersive';
 document.body.dataset.variant = variant;
 document.title = `Design Your Playground! · ${variant === 'original' ? 'Original layout' : variant === 'immersive' ? 'Text on image' : 'Text beside image'}`;
 const stage = document.querySelector('#stage');
@@ -13,33 +15,25 @@ const nav = document.querySelector('#page-numbers');
 const previous = document.querySelector('#previous');
 const next = document.querySelector('#next');
 const announcement = document.querySelector('#announcement');
-const freshState = () => ({version:2,page:0,answers:{},scratch:{},checked:{},customChoice:'',customName:'',learnerName:'',selected:[],positions:{},finalWork:{}});
+const freshState = () => ({version:2,page:0,answers:{},scratch:{},checked:{},customChoice:'',customName:'',selected:[],positions:{},finalWork:{}});
 const state = restore();
 let draggedId = null;
 let activePointer = null;
+let pendingBuild = null;
 
 function escape(value='') { return String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function expression(value) { return escape(value).replace(/-/g,'−').replace(/([+−])/g,' $1 '); }
 function unit(squared=false) { return `yd${squared ? '<sup>2</sup>' : ''}`; }
-// Display transparent source assets by their artwork bounds; the original PNGs
-// remain intact. This prevents wide courts and the professor from looking tiny.
-const ART_BOUNDS = {
-  fountain:[122,166,1009,923],slide:[122,241,1010,773],swing:[122,437,1009,380],
-  statue:[419,123,416,1009],basketball:[122,439,1010,376],soccer:[123,472,1009,311],
-  'boss-normal':[236,144,833,1067],'boss-happy':[24,50,1186,1159],'boss-surprised':[238,84,830,1126],
-};
-function boundedArt(id,className,alt,alignment='xMidYMid meet') {
-  const bounds=ART_BOUNDS[id];
-  if(!bounds) return `<img class="${className}" src="${asset(id)}" alt="${escape(alt)}">`;
-  return `<svg class="${className}" viewBox="${bounds.join(' ')}" role="img" aria-label="${escape(alt)}" preserveAspectRatio="${alignment}"><image href="${asset(id)}" width="1254" height="1254"/></svg>`;
-}
+function measure(value) { return `<span class="measure-value">${expression(value)}</span><span class="measure-unit">yd</span>`; }
+// All fourteen approved species use their prepared atlas, including thumbnails.
+function boundedArt(id,className,alt) { return atlasArt(id,2,className,alt); }
 function checked(key) { const c=state.checked[key]; return c?.value===state.answers[key] ? c : null; }
 function restore() {
   const clean=freshState();
   try {
     const data=JSON.parse(localStorage.getItem(KEY));
     if (!data || data.version!==2) return clean;
-    for (const key of ['customName','learnerName']) if(typeof data[key]==='string') clean[key]=data[key].slice(0,80);
+    for (const key of ['customName']) if(typeof data[key]==='string') clean[key]=data[key].slice(0,80);
     if(CUSTOM_IDS.includes(data.customChoice)) clean.customChoice=data.customChoice;
     for(const group of ['answers','scratch','finalWork']) if(data[group] && typeof data[group]==='object') for(const [key,value] of Object.entries(data[group])) if(typeof value==='string') clean[group][key]=value.slice(0,512);
     for(const [key,value] of Object.entries(data.checked||{})) if(value && typeof value.value==='string' && typeof value.correct==='boolean') clean.checked[key]={value:value.value,correct:value.correct,message:typeof value.message==='string'?value.message:''};
@@ -79,34 +73,28 @@ function updateNavigation() {
 function hint(content) {
   return `<div class="hint"><button type="button" class="hint-trigger" aria-label="Hint" aria-describedby="hint-content" aria-expanded="false"><span aria-hidden="true">☝</span></button><div id="hint-content" role="tooltip" class="hint-popover">${content}</div></div>`;
 }
-function parkScene({intro=false,final=false}={}) {
-  const positions=intro ? {fountain:{...PLOTS[0],y:47,plot:0},swing:{...PLOTS[1],y:47,plot:1},slide:{...PLOTS[2],plot:2},carousel:{...PLOTS[3],plot:3}} : state.positions;
-  return `<div class="${intro?'intro-scene':'builder-scene'}${final?' frozen-scene':''}" ${!intro&&!final?'data-build-scene="true"':''}><svg class="scene-background" viewBox="0 90 1672 710" preserveAspectRatio="none" role="img" aria-label="A fenced playground with four open plots and connecting paths"><image href="assets/park-four-plots.png" width="1672" height="941"/></svg>${Object.entries(positions).map(([id,p])=>{
-    const source=id==='custom'?state.customChoice:id;
-    const name=id==='custom'?state.customName:EQUIPMENT.find(e=>e.id===id)?.name||'';
-    return intro ? `<img class="intro-equipment intro-${id}" style="left:${p.x}%;top:${p.y}%" src="${asset(source)}" alt="">` : `<${final?'div':'button'} class="placed-equipment equipment-${id}" style="left:${p.x}%;top:${p.y}%" ${!final?`type="button" data-piece="${id}" aria-label="${escape(name)}. Drag to another plot, use arrow keys to move, or press Delete to remove."`:''}>${boundedArt(source,'piece-art',name,'xMidYMax meet')}${!final?`<span class="remove-piece" data-remove="${id}" aria-label="Remove">×</span>`:''}</${final?'div':'button'}>`;
-  }).join('')}</div>`;
+function parkScene({final=false}={}) {
+  const names=Object.fromEntries(EQUIPMENT.map(e=>[e.id,e.name])); names.custom=state.customName;
+  return `<div class="builder-scene${final?' frozen-scene':''}" ${!final?'data-build-scene="true"':''}>${renderPark(state.positions,{interactive:!final,uid:'page-'+state.page,names,customChoice:state.customChoice})}</div>`;
 }
 function renderIntro() {
-  return `<section class="slide page-intro">${parkScene({intro:true})}<div class="intro-copy"><h1>${INTRO.title}</h1><div class="description"><strong>Description:</strong><p>${INTRO.description}</p></div><div class="standards"><strong>Standards:</strong><span>7.EE-1</span><span>7.EE-3</span></div></div></section>`;
+  return `<section class="slide page-intro"><div class="intro-scene"><img class="scene-background" src="${imagePath('assets/cover-playground.jpg')}" alt="A lively playground with basketball, soccer, a slide, a carousel and ten YY buddies in varied outfits and expressions"></div><div class="intro-copy"><h1>${INTRO.title}</h1><div class="description"><strong>Description:</strong><p>${INTRO.description}</p></div><div class="standards"><strong>Standards:</strong><span>7.EE-1</span><span>7.EE-3</span></div></div></section>`;
 }
 function renderStory() {
-  const page=state.page;
-  const paragraphs=STORIES[page];
-  const scene=page===8?'park-four-plots':'office-v2';
-  const professor=page===1?'normal':page===8?'happy':'surprised';
-  return `<section class="slide page-story story-${page+1}"><div class="story-scene"><img class="scene-background" src="assets/${scene}.png" alt="${page===8?'An empty fenced playground':'A colorful office'}">${boundedArt(`boss-${professor}`,'story-professor','The school building manager')}</div><div class="story-copy">${paragraphs.map((p,i)=>page===11&&i===0?`<h1 class="speech-bubble">${p}</h1>`:`<p class="speech-bubble">${escape(p)}</p>`).join('')}</div></section>`;
+  const page=state.page,paragraphs=STORIES[page];
+  const expressionName=page===1?'normal':page===8?'happy':'surprised';
+  return `<section class="slide page-story story-${page+1}"><div class="story-scene"><img class="scene-background" src="${imagePath('assets/office-'+expressionName+'-pixel.png')}" alt="The school building manager, ${expressionName}, sitting behind the office desk"></div><div class="story-copy">${paragraphs.map((p,i)=>page===11&&i===0?`<h1 class="speech-bubble">${p}</h1>`:`<p class="speech-bubble">${escape(p)}</p>`).join('')}</div></section>`;
 }
 function diagram(e) {
   const file=e.id==='custom'?state.customChoice:e.id;
-  return `<div class="equipment-panel" style="--equipment-color:${e.color||'#d3e8c0'}"><h1>${escape(e.name)}</h1><div class="equipment-diagram equipment-${e.id}">${boundedArt(file,'equipment-image',e.name)}<div class="dimension width">${expression(e.width)} ${unit()}</div><div class="dimension height">${expression(e.height)} ${unit()}</div></div></div>`;
+  return `<div class="equipment-panel" style="--equipment-color:${e.color||'#d3e8c0'}"><h1>${escape(e.name)}</h1><div class="equipment-diagram equipment-${e.id}">${boundedArt(file,'equipment-image',e.name)}<div class="dimension width">${measure(e.width)}</div><div class="dimension height">${measure(e.height)}</div></div></div>`;
 }
 function question(e,type) {
   const key=`${e.id}-${type}`;
   const perimeter=type==='perimeter';
   const count=perimeter?4:2;
   const status=checked(key);
-  return `<section class="question ${type}"><h2>${e.id==='custom'&&perimeter?'Step 4: ':''}What is the <strong><u>${type}</u></strong> of this block?</h2><p class="scaffold">${perimeter?'Add the four sides.':'Multiply length and width.'}</p><div class="scratch-row">${Array.from({length:count},(_,i)=>`${i?`<span aria-hidden="true">${perimeter?'+':'×'}</span>`:''}<input type="text" data-scratch="${key}-${i}" value="${escape(state.scratch[`${key}-${i}`]||'')}" aria-label="${perimeter?'Side':'Factor'} ${i+1} scratch work" autocomplete="off">`).join('')}</div><div class="answer-row"><span aria-hidden="true">=</span><input id="${key}" type="text" class="answer-input${status?(status.correct?' correct':' incorrect'):''}" data-answer="${key}" value="${escape(state.answers[key]||'')}" placeholder="Your simplified expression" aria-label="${type} answer" aria-describedby="${key}-feedback" autocomplete="off" spellcheck="false"><span class="unit">${unit(!perimeter)}</span></div><p id="${key}-feedback" class="answer-feedback ${status?.correct?'correct':''}" role="status">${status?escape(status.message):''}</p></section>`;
+  return `<section class="question ${type}"><h2>What is the <strong><u>${type}</u></strong> of this block?</h2><p class="scaffold">${perimeter?'Add the four sides.':'Multiply length and width.'}</p><div class="scratch-row">${Array.from({length:count},(_,i)=>`${i?`<span aria-hidden="true">${perimeter?'+':'×'}</span>`:''}<input type="text" data-scratch="${key}-${i}" value="${escape(state.scratch[`${key}-${i}`]||'')}" aria-label="${perimeter?'Side':'Factor'} ${i+1} scratch work" autocomplete="off">`).join('')}</div><div class="answer-row"><span aria-hidden="true">=</span><input id="${key}" type="text" class="answer-input${status?(status.correct?' correct':' incorrect'):''}" data-answer="${key}" value="${escape(state.answers[key]||'')}" placeholder="Your simplified expression" aria-label="${type} answer" aria-describedby="${key}-feedback" autocomplete="off" spellcheck="false"><span class="unit">${unit(!perimeter)}</span></div><p id="${key}-feedback" class="answer-feedback ${status?.correct?'correct':''}" role="status">${status?escape(status.message):''}</p></section>`;
 }
 function renderMath() {
   const custom=state.page===10;
@@ -116,11 +104,11 @@ function renderMath() {
   return `<section class="slide page-math">${hint(hintCopy)}<div class="math-layout equipment-${side}">${diagram(e)}<div class="worksheet">${question(e,'perimeter')}${question(e,'area')}<button type="button" class="check-button" data-check="${e.id}">Check my answer</button></div></div></section>`;
 }
 function renderChoice() {
-  return `<section class="slide page-choice"><div class="choice-heading"><p>Step 1: Choose any object/equipment that you want to put in the playground.</p><p>Step 2: Drag or tap a picture below to place it in the green box.</p></div><div class="choice-workspace"><div class="custom-slot" data-custom-slot="true">${state.customChoice?`<img src="${asset(state.customChoice)}" alt="Your chosen equipment">`:'<p>Drag or tap to place your picture from the ones below.</p>'}</div><div class="custom-name"><h2>Step 3: Name you block!</h2><label for="custom-name">Name:</label><input type="text" id="custom-name" maxlength="80" value="${escape(state.customName)}" autocomplete="off"></div></div><div class="choice-tray" role="group" aria-label="Choose one picture">${CUSTOM_IDS.map((id,i)=>`<button type="button" class="choice-option${state.customChoice===id?' selected':''}" data-choice="${id}" draggable="true" aria-label="Choose picture ${i+1}" aria-pressed="${state.customChoice===id}"><img src="${asset(id)}" alt="" draggable="false"></button>`).join('')}</div></section>`;
+  return `<section class="slide page-choice"><h1 class="choice-title">Now name your own block!</h1><div class="choice-workspace"><div class="custom-slot" data-custom-slot="true">${state.customChoice?boundedArt(state.customChoice,'slot-art','Your chosen equipment'):''}</div><div class="custom-name"><p class="choice-instruction">Choose equipment for your playground. Drag or tap a picture below, then name your block here.</p><label for="custom-name">Name:</label><input type="text" id="custom-name" maxlength="80" value="${escape(state.customName)}" autocomplete="off"></div></div><div class="choice-tray" role="group" aria-label="Choose one picture">${CUSTOM_IDS.map((id,i)=>`<button type="button" class="choice-option${state.customChoice===id?' selected':''}" data-choice="${id}" draggable="true" aria-label="Choose picture ${i+1}" aria-pressed="${state.customChoice===id}">${boundedArt(id,'thumbnail-art','')}</button>`).join('')}</div></section>`;
 }
 function renderBuilder() {
   const all=[...EQUIPMENT,{id:'custom',name:state.customName}];
-  return `<section class="slide page-builder"><div class="builder-title"><input type="text" id="learner-name" aria-label="Put your name" placeholder="Put your name" value="${escape(state.learnerName)}" maxlength="80"><span>’s playground</span></div>${parkScene()}<div class="builder-instructions"><p>Drag or tap any 3 equipments into the playground.</p><p>Then, place the picture of your own equipment in the playground too!</p></div><div class="builder-tray" role="group" aria-label="Choose three equipments plus your own">${all.map(e=>`<button type="button" class="builder-option${state.positions[e.id]?' selected':''}" data-build="${e.id}" draggable="true" aria-label="${escape(e.name)}" aria-pressed="${!!state.positions[e.id]}" ${e.id!=='custom'&&state.selected.length===3&&!state.selected.includes(e.id)?'disabled':''}><img src="${asset(e.id==='custom'?state.customChoice:e.id)}" alt="" draggable="false"><span>${escape(e.name)}</span></button>`).join('')}</div></section>`;
+  return `<section class="slide page-builder">${parkScene()}<div class="builder-instructions"><p>Drag or tap any 3 equipments into the playground.</p><p>Then, place the picture of your own equipment in the playground too!</p></div><div class="builder-tray" role="group" aria-label="Choose three equipments plus your own">${all.map(e=>`<button type="button" class="builder-option${state.positions[e.id]?' selected':''}" data-build="${e.id}" draggable="true" aria-label="${escape(e.name)}" aria-pressed="${!!state.positions[e.id]}" ${e.id!=='custom'&&state.selected.length===3&&!state.selected.includes(e.id)?'disabled':''}>${boundedArt(e.id==='custom'?state.customChoice:e.id,'thumbnail-art','')}<span>${escape(e.name)}</span></button>`).join('')}</div></section>`;
 }
 function finalQuestion(label,id) {
   const key=`final-${id}`;
@@ -130,12 +118,12 @@ function finalQuestion(label,id) {
 function renderFinal() {
   const rows=state.selected.map(id=>EQUIPMENT.find(e=>e.id===id));
   rows.push({id:'custom',name:state.customName,width:'23',height:'2x+3y'});
-  return `<section class="slide page-final">${hint('<strong>Area = length × width</strong><br>Find the area of the whole playground.<br>Add the areas of your four equipment blocks.<br>Subtract the total equipment area from the playground area.')}<div class="final-layout"><div class="final-visual"><div class="final-park"><div class="dimension width">x + 32 ${unit()}</div>${parkScene({final:true})}<div class="dimension height">400 ${unit()}</div></div><table class="dimensions-table"><thead><tr><th scope="col">Equipment</th><th scope="col">Length (yd)</th><th scope="col">Width (yd)</th></tr></thead><tbody>${rows.map(e=>`<tr><th scope="row"><img src="${asset(e.id==='custom'?state.customChoice:e.id)}" alt="">${escape(e.name)}</th><td>${expression(e.width)}</td><td>${expression(e.height)}</td></tr>`).join('')}</tbody></table></div><div class="final-worksheet"><p class="final-intro">${FINAL_DESCRIPTION}</p>${FINAL_LABELS.map((label,i)=>finalQuestion(label,['playground','total','grass'][i])).join('')}<button type="button" class="check-button" data-check="final">Check my answer</button></div></div></section>`;
+  return `<section class="slide page-final">${hint('<strong>Area = length × width</strong><br>Find the area of the whole playground.<br>Add the areas of your four equipment blocks.<br>Subtract the total equipment area from the playground area.')}<div class="final-layout"><div class="final-visual"><div class="final-park"><div class="dimension width">${measure('x+32')}</div>${parkScene({final:true})}<div class="dimension height">${measure('400')}</div></div><table class="dimensions-table"><thead><tr><th scope="col">Equipment</th><th scope="col">Length (yd)</th><th scope="col">Width (yd)</th></tr></thead><tbody>${rows.map(e=>`<tr><th scope="row">${boundedArt(e.id==='custom'?state.customChoice:e.id,'thumbnail-art','')}${escape(e.name)}</th><td>${expression(e.width)}</td><td>${expression(e.height)}</td></tr>`).join('')}</tbody></table></div><div class="final-worksheet"><p class="final-intro">${FINAL_DESCRIPTION}</p>${FINAL_LABELS.map((label,i)=>finalQuestion(label,['playground','total','grass'][i])).join('')}<button type="button" class="check-button" data-check="final">Check my answer</button></div></div></section>`;
 }
 function render() {
   stage.innerHTML=state.page===0?renderIntro():STORIES[state.page]?renderStory():state.page===9?renderChoice():state.page===12?renderBuilder():state.page===13?renderFinal():renderMath();
   stage.setAttribute('aria-label',`Page ${state.page+1}`);
-  updateNavigation(); fit();
+  updateNavigation(); fit(); fitAnswerInputs();
 }
 function checkAnswers(id) {
   let expected;
@@ -188,17 +176,31 @@ function place(id,plot=null) {
   delete state.checked['final-total']; delete state.checked['final-grass'];
   save(); render();
 }
-function nearestPlot(event,scene) {
-  const rect=scene.getBoundingClientRect(),x=(event.clientX-rect.left)/rect.width*100,y=(event.clientY-rect.top)/rect.height*100;
-  return PLOTS.map((p,i)=>({i,d:(p.x-x)**2+(p.y-y)**2})).sort((a,b)=>a.d-b.d)[0].i;
+function scenePoint(event,scene) {
+  const r=scene.getBoundingClientRect();
+  const scale=Math.min(r.width/PARK_VIEW.width,r.height/PARK_VIEW.height);
+  const offsetX=(r.width-PARK_VIEW.width*scale)/2,offsetY=(r.height-PARK_VIEW.height*scale)/2;
+  return {x:PARK_VIEW.x+(event.clientX-r.left-offsetX)/scale,y:PARK_VIEW.y+(event.clientY-r.top-offsetY)/scale};
 }
+function nearestPlot(event,scene) {const p=scenePoint(event,scene);return plotAtPoint(p.x,p.y);}
+function fitAnswerInput(input) {
+  if(!input.matches('.answer-input'))return;
+  const base=state.page===13?28:33;
+  const c=document.createElement('canvas').getContext('2d');
+  const style=getComputedStyle(input);c.font=style.fontStyle+' '+style.fontWeight+' '+base+'px '+style.fontFamily;
+  const width=c.measureText(input.value||'').width;
+  const available=input.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight)-3;
+  input.style.fontSize=Math.min(base,Math.max(1,base*available/Math.max(1,width)))+'px';
+}
+function fitAnswerInputs(){stage.querySelectorAll('.answer-input').forEach(fitAnswerInput);}
 
 previous.addEventListener('click',()=>navigate(state.page-1));
 next.addEventListener('click',()=>navigate(state.page+1));
 nav.addEventListener('click',event=>{const button=event.target.closest('[data-page]');if(button) navigate(Number(button.dataset.page));});
 stage.addEventListener('click',event=>{
   const choice=event.target.closest('[data-choice]'); if(choice) return setCustom(choice.dataset.choice);
-  const build=event.target.closest('[data-build]'); if(build) return state.positions[build.dataset.build]?unplace(build.dataset.build):place(build.dataset.build);
+  const build=event.target.closest('[data-build]'); if(build){pendingBuild=build.dataset.build;if(!state.positions[pendingBuild])place(pendingBuild);return;}
+  const plot=event.target.closest('[data-plot]');if(plot&&pendingBuild){place(pendingBuild,Number(plot.dataset.plot));return;}
   const remove=event.target.closest('[data-remove]'); if(remove) return unplace(remove.dataset.remove);
   const check=event.target.closest('[data-check]'); if(check) return checkAnswers(check.dataset.check);
   const hand=event.target.closest('.hint-trigger'); if(hand) {const box=hand.closest('.hint'),expanded=box.classList.contains('open');hand.setAttribute('aria-expanded',String(!expanded));box.classList.toggle('open',!expanded);box.classList.toggle('dismissed',expanded);}
@@ -214,10 +216,10 @@ stage.addEventListener('input',event=>{
   if(el.dataset.scratch) state.scratch[el.dataset.scratch]=el.value;
   if(el.dataset.work) state.finalWork[el.dataset.work]=el.value;
   if(el.id==='custom-name') state.customName=el.value;
-  if(el.id==='learner-name') state.learnerName=el.value;
-  save(); updateNavigation();
+  save(); updateNavigation(); fitAnswerInput(el);
 });
 stage.addEventListener('keydown',event=>{
+  const area=event.target.closest('[data-plot]');if(area&&pendingBuild&&(event.key==='Enter'||event.key===' ')){event.preventDefault();place(pendingBuild,Number(area.dataset.plot));return;}
   const piece=event.target.closest('[data-piece]');
   if(piece) {
     const id=piece.dataset.piece,plot=state.positions[id].plot;
@@ -248,15 +250,14 @@ stage.addEventListener('drop',event=>{
 stage.addEventListener('pointerdown',event=>{
   const piece=event.target.closest('[data-piece]'); if(!piece||event.target.closest('[data-remove]')) return;
   event.preventDefault();piece.focus({preventScroll:true});piece.setPointerCapture(event.pointerId);
-  activePointer={id:piece.dataset.piece,startX:event.clientX,startY:event.clientY,moved:false,piece};
+  activePointer={id:piece.dataset.piece,startX:event.clientX,startY:event.clientY,startPoint:scenePoint(event,piece.closest('.builder-scene')),moved:false,piece};
 });
 stage.addEventListener('pointermove',event=>{
   if(!activePointer) return;
   if(Math.hypot(event.clientX-activePointer.startX,event.clientY-activePointer.startY)>4) activePointer.moved=true;
   if(!activePointer.moved)return;
-  const scene=activePointer.piece.closest('.builder-scene'),rect=scene.getBoundingClientRect();
-  activePointer.piece.style.left=`${Math.max(10,Math.min(90,(event.clientX-rect.left)/rect.width*100))}%`;
-  activePointer.piece.style.top=`${Math.max(15,Math.min(85,(event.clientY-rect.top)/rect.height*100))}%`;
+  const scene=activePointer.piece.closest('.builder-scene'),point=scenePoint(event,scene);
+  activePointer.piece.setAttribute('transform',`translate(${point.x-activePointer.startPoint.x} ${point.y-activePointer.startPoint.y})`);
 });
 stage.addEventListener('pointerup',event=>{
   if(!activePointer) return;

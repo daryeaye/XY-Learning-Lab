@@ -1,45 +1,49 @@
-# Design Your Playground! — local redesign
+# Design Your Playground! — final version 7
 
-This self-contained student web app adapts the supplied Playground slides and the verified Google Form answer keys. It runs locally with Node.js; there is no publishing step, account connection, backend, tracking, or external dependency.
+This is a self-contained, 14-page algebra activity for XY Learning Lab. Students simplify perimeter and area expressions, name a custom equipment block, arrange four blocks in a playground, and calculate the area left for paths. **Text on Pictures** is the selected design.
 
-## Open the three versions
+## Open and review
 
-Run `npm start` (or `node server.mjs`) from this folder, then open:
+- Double-click **Playground-Final.html**, or run **Start Playground.cmd**. Scripts, images and the Love Ya Like A Sister font are embedded; no server or internet is required.
+- **Playground-Final-Review.pdf** shows all 14 pages with blank answer fields and a sample design: basketball, soccer, slide and “Moonbeam Carousel.” It is a visual review, not an interactive worksheet.
+- **Artwork-Review.html** opens the clean park, original-buddy composition, five sample JPG layouts and three office JPGs. Keep the assets/examples folders alongside this gallery.
+- For editing, run `node server.mjs` and visit `http://127.0.0.1:8767/`. Rebuild the portable HTML after source changes with `node tools/build-offline.mjs`.
 
-- Original slide layout: <http://127.0.0.1:8766/?view=original>
-- Text on the artwork: <http://127.0.0.1:8766/?view=immersive>
-- Text beside the artwork: <http://127.0.0.1:8766/?view=split>
+## Latest changes
 
-All versions share the same 14 pages, mathematics, progress, and student design. The small links above the slide switch versions. The stage keeps one fixed aspect ratio and fits the available window, with Previous, numbered pages, and Next underneath.
+Every playground character is now an unchanged original PNG from the user's YY Buddies Drive folder. Ten sprites use only Happy, Normal and Surprised states; five displays are mirrored horizontally. No new characters or poses were generated. The clean park, sprites and equipment are separate layers, so choosing equipment cannot alter the cast.
 
-On Windows, `Start Playground.cmd` runs the same local server. Keep its terminal open while using the app.
+Page 13 has no learner-name field or playground-name heading. Its scene retains the original park proportions. Page 14 says “Let’s finish up the plan! Find the area left for paths so the manager can plan the paving.” Its instruction is 50px at the native slide size, laid out in three lines. The existing office scenes and remaining accepted layouts are retained.
 
-## Content and interaction
+Joey speaks in first person on pages 2, 9 and 12. Page 10 has eight unnamed choices: carousel, ice cream store, seesaw, merry-go-round, pool, treehouse, trampoline and pavilion. The student's equipment name carries to pages 11, 13 and 14. The old three-style prototype and unused artwork are excluded from the final package.
 
-The original slide wording is retained. Explicitly requested adaptations replace Google/copy-and-paste directions with the image tray and playground drag/tap controls. Original slide 10 becomes app pages 10–11; original slides 12–13 become app page 13. The original title, description, standards, and exact copyright remain. No character name or extra lesson story has been added.
+## Interaction and mathematics
 
-Pages 3–8 and 11 grade only the two long perimeter/area answers. The smaller boxes are scratch work. Students must press **Check my answer** and get both results correct before proceeding; numbered navigation follows the same rule. Changing a checked answer locks later pages again while preserving the work. Recognized units, spaces, reordered terms, and algebraically equivalent expressions are accepted. A larger incorrect coefficient containing the expected text is rejected.
+Pages 3–8 and 11 require both perimeter and area answers to be explicitly checked and correct before proceeding. Scratch work is ungraded. Spaces, optional yard units and algebraically equivalent expressions pass. Incorrect longer expressions containing the right text do not pass. Editing a checked answer locks later pages again while preserving work.
 
-Page 10 offers 20 unnamed equipment pictures and requires a selection and name. Page 13 has the six interview items plus the student's custom item: place three different interview items and the custom item in the four plots. Click/tap a tray item to place or remove it. Drag placed items between plots, or focus one and use arrow keys; Delete removes it. An occupied destination swaps the two items. The final page carries the actual arrangement and lists four sets of dimensions. Its equipment-total and remaining-grass answers depend on the chosen equipment.
+A selected picture and a nonblank custom equipment name unlock page 11. Page 13 requires three distinct lesson items plus that custom block, occupying four different areas. Drag a thumbnail to an area, or tap it to place it automatically. Tap a thumbnail then an area to target a placement. Drag an existing block to move it; occupied destinations swap blocks. Arrow keys move a focused block; Delete or × removes it.
 
-The hand icon reveals a hint on hover or keyboard focus; moving away hides it. Touch users can toggle it. Large units remain outside answer fields. Progress is retained in this browser without a visible save label or button.
+Four prepared views exist for each of the fourteen equipment species. Placement chooses the appropriate stored view; no AI runs in the student app. Courts use the approved source illustration clipped to each physical plot. Page 14 carries the arrangement and four dimension rows; its totals depend on the three lesson items selected. The remaining-path calculation subtracts the four equipment areas from the whole playground area.
 
-## Files
+Static text uses **Love Ya Like A Sister**; student entries use **Comic Sans MS**, with Arial fallback. The fixed 1600×900 stage scales to the window. Answer boxes are 320px wide at native size, with units outside; long entries shrink inside the box. Side measurements rotate clockwise, with yd at 60% of the expression size.
 
-- `app.js`: rendering, student inputs, checks, hints, drag/tap/keyboard controls.
-- `data.js`: source wording, dimensions, equipment catalog, plot positions.
-- `math-engine.js`: safe algebra parser and dynamic final-area calculations.
-- `progression.js`: prerequisites shared by every visual version.
-- `index.html`, `styles.css`: fixed slide shell and the three visual styles.
-- `lesson-source.json`: source transcription and answer-key provenance.
-- `assets/`: provided artwork and generated local artwork.
-- `ARTWORK-v2.md`: artwork provenance, generation prompts, and placement notes.
-- `CHANGELOG.md`, `VALIDATION.md`: redesign notes and completed checks.
-- `tests/`: portable math and progression tests; run `npm test` or `node --test tests/*.mjs`.
-- `references/Playground.pdf`, `references/Playground.pptx`: unchanged original source exports for review.
-- `docs/`: unchanged source audit, supplied-character notes, and the earlier read-only live-site study.
-- `MANIFEST.sha256`: checksums for the prepared package.
+## Source map for the next editor
 
-The source Drive files, Google Site/Form, live XY Learning Lab, and Cloudflare were not changed. The repository replacement is restricted to `Project Two/`; handoff documents and every other repository path must remain unchanged.
+| File | Responsibility |
+| --- | --- |
+| `app.js` / `styles.css` / `index.html` | Page rendering, inputs, hints, navigation, placement and layout |
+| `data.js` / `lesson-source.json` | Lesson wording, dimensions, answers and source notes |
+| `scene.js` / `equipment-views.js` | Scene coordinates, court clipping and prepared equipment views |
+| `buddy-sprites.js` / `assets/buddies/` | Original PNG catalog, hashes, positions and display mirroring |
+| `math-engine.js` / `progression.js` | Safe algebra checking, dynamic totals and prerequisites |
+| `tools/build-offline.mjs` | Dependency-free portable HTML builder |
+| `tests/` / `VALIDATION.md` | Automated checks and visual review results |
+| `ARTWORK.md` / `ARTWORK-v7.md` | Current artwork provenance and original sprite hashes |
+| `CHANGELOG.md` | Concise implementation history |
+| `references/` / `docs/` | Preserved original exports and three read-only research notes |
+
+Run `node --test tests/*.test.mjs` for the 27 checks. `node tools/build-offline.mjs --check-only` validates dependencies without writing output. Student progress is stored locally by the browser; no student submissions are sent to a service. `?qa` uses separate test storage.
+
+The five original files under references/ and docs/ are preserved byte-for-byte. This project is separate from the live XY Learning Lab. Repository delivery is restricted to **Project Two/**; handoff documents and all other repository paths are outside its scope.
 
 ©TruePBL. All rights reserved.

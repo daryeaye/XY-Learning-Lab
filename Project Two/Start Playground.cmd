@@ -1,4 +1,2 @@
 @echo off
-cd /d "%~dp0"
-node server.mjs
-pause
+start "" "%~dp0Playground-Final.html"
