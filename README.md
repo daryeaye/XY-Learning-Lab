@@ -1,5 +1,15 @@
 # XY Learning Lab — shared update log
 
+## V16 project setup, assignment controls and native Grades — deployed October 18, 2026
+
+Verified Worker version `b7af5517-99e4-49a0-b6c7-0cae19592f1c` (149), deployment `e4cf4d37-ca84-4253-bb00-a09896482bf4`, 100% traffic; activated `2026-10-18T22:38:39.355Z` (18:38:39 EDT). Read [Handoff-v16.md](Handoff-v16.md) for the detailed contract and finite evidence. The owner explicitly approved the exact release and flagged assignment removal.
+
+Project 1 teacher setup saves only through explicit Save Draft or Publish. Project 2 has matching leave guards, the default title Project#2: Playground, compact wrapping class choices and 15-character labels with full hover titles, native assignment/refresh/link controls, and real Grades columns with IP before student input. Publication shows the student link. Class-selective deletion preserves saved work. Student autosave and existing native platform behavior remain intact.
+
+All 107 local automated tests passed, together with an actual fictional teacher/student assignment lifecycle, saved answers/70% milestone, read-only review and partial/final deletion with exact work retention. All four new R2 objects / 2,347,108 bytes passed raw remote hash checks. The 8,242,296-byte Worker SHA-256 is `2ad462a324a22f3b5f0f938220d9cbe15d901b762cc94a2c6ed7c113372668dd`; its native Worker implementation is byte-identical to baseline. Staged Worker and managed headers were verified before activation. Existing assets, bindings/settings, hourly cron, domains and private-bucket settings are preserved; post-activation configuration was verified at 22:42:14.608Z. No schema migration or production test-data insertion occurred.
+
+Live verification passed 136 anonymous HTTP checks across both domains, including finite public-map metadata, 18 complete body hashes, startup dependency closure, protected PDF/API denial and video ranges. Authenticated smoke checks verified actual Grades IP cells, assignment icons, setup/default title, class row, PDF link and leave warning. The specifically approved existing assignment was removed through its native trash dialog; only its metadata changed, its list/Grades access disappeared and its saved-work aggregate remained zero before/after. No individual production work values were opened or queried, and no unrelated assignment or student data changed. These new public release entries omit target/class/student identifiers; only this handoff and the four shared logs are in the approved GitHub scope.
+
 ## Project #2: Playground integration - V15
 
 Deployed and verified version `3e31f852-da9f-402b-a37b-ea21271ffc4c` (number 148), deployment `946e5b1f-057d-4193-ae04-7134952f4e49`, 100% traffic. Activation: `2026-10-18T21:08:17.184Z` (17:08:17 EDT); post-deployment configuration verified at `21:09:59.802Z`. Read [Handoff-v15.md](Handoff-v15.md) for contracts, exact evidence and finite limits. Fresh GitHub preparation parent is `b7c6052b87a855f2d72ad1258ad0f275d90a3bcb`; baseline v14 is `aa49240a-174b-4005-9cff-063264aed187`. The user specifically approved the exact release and cleanup.
