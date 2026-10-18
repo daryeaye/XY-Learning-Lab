@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## Current navigation and View as Student update — October 18, 2026 at 09:43 AM EDT
+
+Current verified Cloudflare version `aa49240a-174b-4005-9cff-063264aed187`, deployment `cdd499ac-0a81-497e-ab07-2c0d0be54931`, 100%; verified 2026-10-18 13:43:18 UTC (October 18, 2026 at 09:43 AM EDT), from freshly captured V13 `41501f19-e22a-4ed2-b7e3-748fbc101a1e`. Read [Handoff-v14.md](Handoff-v14.md) first. Next numbered handoff is V15.
+
+Completed: seven consistent teacher navigation buttons remain on the first brand/profile row; View as Student opens a new, teacher-owned, temporary student demonstration across every owned active class. It reuses the shared student dashboard/workspaces, Comic-Con planning/creator/class gallery, native assessment player and YY/mailbox tools. Demonstration attempts, answers, feedback, artwork, profile and messages stay in tab memory; dedicated authenticated read/check routes never fall through to real student mutations. Current/late/past-due and class-specific schedules use existing dashboard semantics. YY begins with 5 points and 100 rechargeable demonstration changes, with every available look unlocked; class YY policies and teacher reward lists are read-only. All three old Student View buttons, including native-assessment builder/detail actions, and the standalone Comic Maker entry are retired in favor of the global tab. See V14 for exact contracts, validation and finite limits.
+
+The current Project Two folder was downloaded separately as an unchanged local copy only: 75 files / 134,792,324 bytes match GitHub; all 74 supplied manifest entries and 75 HTTP file hashes pass; all 27 original tests pass. A separate local browser tab passed navigation and Fountain perimeter/area entry. Its GitHub folder and online integration were not changed. All eight Unit 2 sources, default `140b8ef301aec5a604e4552866a05177d967a25997e7c8de8b8d29a49a06708d` (136/1325), Unit 1 and unrelated V13 behavior remain preserved. No production student data/schema was changed for testing or migration. Archive Class/export/permanent purge remains deferred.
+
 ## Current planning, grades and notification update — October 16, 2026, 15:40 EDT
 
 Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](Handoff-v13.md) first. Next numbered handoff is V14.
@@ -129,6 +137,7 @@ The version check prevents an ordinary stale-baseline update only when every pub
 Cloudflare backups may be compiled builds. Downloading one does not reconstruct the original React project automatically. This workflow intentionally keeps the application out of GitHub; preserve the actual tested build separately in Cloudflare and local backups.
 
 No passwords, tokens, student records, database exports or demo accounts belong in this repository.
+
 
 
 

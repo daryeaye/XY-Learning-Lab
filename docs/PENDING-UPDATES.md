@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## Teacher navigation and View as Student completed — October 18, 2026 at 09:43 AM EDT
+
+Current verified Cloudflare version `aa49240a-174b-4005-9cff-063264aed187`, deployment `cdd499ac-0a81-497e-ab07-2c0d0be54931`, 100%; verified 2026-10-18 13:43:18 UTC (October 18, 2026 at 09:43 AM EDT), from freshly captured V13 `41501f19-e22a-4ed2-b7e3-748fbc101a1e`. Read [Handoff-v14.md](../Handoff-v14.md) first. Next numbered handoff is V15.
+
+Completed: seven consistent teacher buttons remain on the first brand/profile/Sign Out row; the global View as Student opens a teacher-authorized new tab across all owned active classes and their published assignments, projects, class galleries and native assessments, including specific-student assignment targets. Practice uses shared student components but stays in memory: work/answers/retries, planning/comic rendering, peer feedback/favorites, YY changes/rewards and sample mailbox replies never create real student records or browser recovery state. Class-specific dates/YY policies and teacher-owned reward lists are read-only. The demo starts with 5 YY points and 100 rechargeable changes, with all available looks owned; future artwork stays a placeholder. All three old Student View buttons and the standalone Comic Maker entry are retired, retaining actual student behavior and release/disclosure gates.
+
+Project Two is separately downloaded/run locally only, unchanged: 75 files / 134,792,324 bytes; Git/manifest/HTTP hashes and 27 original tests pass, with actual local Fountain input/navigation coverage. Its GitHub folder and online integration were not changed. No bank/reference change, production student-data mutation or schema migration was introduced for testing. No specified implementation from this request remains pending. Archive Class/export/permanent purge and unspecified future work remain separately deferred. See V14 for exact finite tests, evidence, limits and recovery.
+
 ## Planning, YY, grades and notifications completed — October 16, 2026, 15:40 EDT
 
 Current verified Cloudflare version `41501f19-e22a-4ed2-b7e3-748fbc101a1e`, deployment `2685a7f9-892d-4beb-b8e6-29660a8ce4f0`, 100%; verified October 16, 2026, 19:40 UTC (October 16, 2026, 15:40 EDT), from freshly captured V12 `534da593-47c7-49c0-9f36-4377a209b815`. Read [Handoff-v13.md](../Handoff-v13.md) first. Next numbered handoff is V14.
@@ -170,5 +178,6 @@ Version `0348716b-46e6-4592-a5d4-ca2cb1048e3b` serves 100% after the seven reque
 ## Unit 2 signs and distribution review — October 12, 2026, 19:23 EDT — completed; preserve going forward
 
 Version `b7b00f23-fbea-4aaa-bde6-02c3f642a2a5` serves 100% traffic. New selections use 129 types / 1,290 questions and source `608a257142cba03e3204ce256b4b32ff91a720175544938e4f13573070b8959c`. Preserve changed Types 139/140/142/152/154, four-star Type 157, Lesson 2-4 membership for 158–162 and new distribution word-problem Types 230–234 in Lesson 2-2. Preserve all three bank revisions and original answer/input/reservation policies. All earlier completed UI requirements are intact. No additional work from these seven comments remains; the manual student grading walkthrough remains separately deferred. Read the newest Unit 2 handoff and release records before the next update.
+
 
 
