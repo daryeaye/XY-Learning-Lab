@@ -1,5 +1,15 @@
 # XY Learning Lab — shared update log
 
+## V17 Student view, conversations and Playground refinements — deployed October 19, 2026
+
+Verified immutable Worker `250708a5-2712-4c5a-9871-cdb294fe9f79` (number 151), deployment `b53f72c4-4539-42e5-bc67-ce8529273752`, **100% traffic**. Activation `2026-10-19T20:25:05.296987+00:00`; post-activation configuration check `2026-10-19T20:25:23.280678+00:00`; live HTTP verification `2026-10-19T20:27:06.366688+00:00`. The owner explicitly approved the exact activation and these five GitHub release documents. Read [Handoff-v17.md](Handoff-v17.md) for the full contract, hashes and finite evidence.
+
+Student view uses the shared six assignment tabs, one-line notice, fixed bottom-right YY Buddy and four tools below assignments. Reports have timestamped two-way conversations, Write another message, one bumped notification per topic and counted unread messages with the Mailbox red dot/Buddy prompt. Both project creators support specific students with server-enforced access and Grades scope. Playground has aligned controls, wider scratch fields, larger navigation, Example hints, final-example spacing, strict valid-comma checking and its recovered original surprised-office scene. Its retained Unit 2 card says **Recommended after lesson 2-3.**
+
+The 8,269,745-byte Worker SHA-256 is `20b3e18e44fac8614669c28f946467474ff5e54b6133e3c9665be0dea8d9ad53`. Fourteen referenced R2 objects / 4,945,858 bytes passed full remote byte/hash verification. Existing managed assets, header rules, routing, bindings/settings, hourly cron, both domains and private-bucket settings are preserved. All eight Unit 2 banks/Unit 1 and V16 explicit saving, grading and saved-work behavior remain intact. No schema migration or production test data was introduced.
+
+Local suites passed 813 assertion/check results across 264 handler/static requests plus 14 focused tests, with fictional teacher/student workflows and a separate 17-page activity walkthrough. Production passed 250 anonymous requests (246 grouped checks), including 194 mapped HEAD checks, 26 exact non-HTML body hashes, normalized HTML comparisons, authorization/private-source guards and media ranges. Authenticated smoke checks verified the live Unit 2 entry/recommendation, current creator/specific-student row, leave guard and restored Student view; no Save/Assign action, message send or individual student-work inspection was used. See the handoff for precise limits and the unchanged pre-existing font issue.
+
 ## V16 project setup, assignment controls and native Grades — deployed October 18, 2026
 
 Verified Worker version `b7af5517-99e4-49a0-b6c7-0cae19592f1c` (149), deployment `e4cf4d37-ca84-4253-bb00-a09896482bf4`, 100% traffic; activated `2026-10-18T22:38:39.355Z` (18:38:39 EDT). Read [Handoff-v16.md](Handoff-v16.md) for the detailed contract and finite evidence. The owner explicitly approved the exact release and flagged assignment removal.
@@ -156,6 +166,7 @@ The version check prevents an ordinary stale-baseline update only when every pub
 Cloudflare backups may be compiled builds. Downloading one does not reconstruct the original React project automatically. This workflow intentionally keeps the application out of GitHub; preserve the actual tested build separately in Cloudflare and local backups.
 
 No passwords, tokens, student records, database exports or demo accounts belong in this repository.
+
 
 
 
