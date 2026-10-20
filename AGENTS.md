@@ -1,5 +1,14 @@
 # Agent instructions — XY Learning Lab update log
 
+## Start here — V18, October 19, 2026
+
+Read **[Handoff-v18.md](Handoff-v18.md)** first, including its UI-preferences and retained-history guide. Current verified Worker `3876044e-862d-40e1-a6ef-ce9d77758cbf` (152), deployment `331346e2-440f-44ee-bd91-abf75959d9b9`, 100%, activated 20:16:40 EDT. Next handoff is V19. The older current-version statements below are historical and must not override V18 or the latest human request.
+
+The owner requests compact class/student controls and consistent creator footers: Back + Save Draft left, Next/final action right; no duplicate heading save/Home; Add a problem beside the bank action; centered two-digit attempts/votes. Keep established fonts and readable math, aligned button heights and six-tab assignment placement. V18 replaces and removes only the old Project #2 video; preserve current video mappings on forward repair. Teacher setup saves explicitly, student work autosaves, and leave guards remain.
+
+V17 is not a full consolidation; older handoffs contain unique classroom/input/project details and remain unchanged. V18's guide explains which reference to read and which old UI statements were superseded. Preserve all eight Unit 2 banks/Unit 1, V17 conversations/audience rules, V16 Grades/work retention and all unrelated behavior. GitHub remains documentation/reference only. Do not upload full app bundles, student data, credentials, captures or fixtures. Freshly capture active/latest code/configuration and recheck before publishing; one publisher and factual logs remain required. This V18 maintenance request explicitly authorized its scoped changes and conditional GitHub cleanup without another approval question; it does not authorize the deferred class purge or unrelated production data edits.
+
+
 ## Current handoff — October 18, 2026 at 09:43 AM EDT
 
 Current verified Cloudflare version `aa49240a-174b-4005-9cff-063264aed187`, deployment `cdd499ac-0a81-497e-ab07-2c0d0be54931`, 100%; verified 2026-10-18 13:43:18 UTC (October 18, 2026 at 09:43 AM EDT), from freshly captured V13 `41501f19-e22a-4ed2-b7e3-748fbc101a1e`. Read [Handoff-v14.md](Handoff-v14.md) first. Next numbered handoff is V15.

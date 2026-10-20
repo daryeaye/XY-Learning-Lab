@@ -1,5 +1,14 @@
 # XY Learning Lab completed update requirements
 
+## V18 compact project setup and replacement video — deployed October 19, 2026
+
+Read [Handoff-v18.md](../Handoff-v18.md) first for the current UI preferences, retained-handoff guide, hashes and finite verification. V18 is live as Worker `3876044e-862d-40e1-a6ef-ce9d77758cbf` (152), deployment `331346e2-440f-44ee-bd91-abf75959d9b9`, 100%, activated 20:16:40 EDT on October 19, 2026 (`2026-10-20T00:16:40.867971+00:00`).
+
+Both project creators use a compact checkbox/dropdown row inside the class container. Back + Save Draft sit left and Next/final action right; Project 1's heading Save Draft/Home are removed, Add a problem is beside the bank action, and attempts/votes are centered two-digit fields. The supplied 52.46s Project #2 video replaces the previous clip; both supported URLs serve it, and the old video object was deleted after verification. V17's Unit 2 recommendation, messages, audience enforcement, Student view and all earlier features/banks remain.
+
+Nine new objects / 15,117,631 bytes and the staged 8,272,064-byte Worker passed exact remote verification (Worker SHA-256 `8ae726154bf426ea88c82d6c4ee458f99adc03ddf57fa5a3ef910da08d336f74`). Backend/bank bytes outside the map and all managed assets/settings/bindings/headers/routing/cron/domains/privacy are preserved. Local lifecycle/package checks and browser save/reopen checks pass; production passed 260 requests plus four successful post-removal media checks. No production test records or schema changes. Older handoffs contain unique guidance absent from V17, so none are deleted; V18 supplies a clear starting point and UI-style summary.
+
+
 ## V17 Student view, conversations and Playground refinements — deployed October 19, 2026
 
 Verified immutable Worker `250708a5-2712-4c5a-9871-cdb294fe9f79` (number 151), deployment `b53f72c4-4539-42e5-bc67-ce8529273752`, **100% traffic**. Activation `2026-10-19T20:25:05.296987+00:00`; post-activation configuration check `2026-10-19T20:25:23.280678+00:00`; live HTTP verification `2026-10-19T20:27:06.366688+00:00`. The owner explicitly approved the exact activation and these five GitHub release documents. Read [Handoff-v17.md](../Handoff-v17.md) for the full contract, hashes and finite evidence.
