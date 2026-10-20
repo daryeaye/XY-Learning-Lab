@@ -1,5 +1,16 @@
 # XY Learning Lab — shared update log
 
+## V19 Boards Up — deployed October 20, 2026
+
+**Boards Up is live** as Worker `7bdf72a5-add2-4bc0-a91c-d7fdcbbd07d2` (154), deployment `3ea9e982-182d-42bc-aa5e-4b17a521cd7f`, 100%, activated `2026-10-20T17:39:14.945052Z`. Read [Handoff-v19.md](Handoff-v19.md) for the activity, storage contract, hashes and finite verification; V18 remains the UI-preferences/retained-history reference.
+
+The 🖊️ Boards Up card follows Comic-Con for Unit 1 and Unit 2. Five setup steps cover the supplied video, prize tiers, 1–5-star counts without weights, optional fixed extra credit, classroom rules, then a new game tab and matching answer-only keys. Main questions come from current checked XY types, never the original all_questions.json. Previous Problem sits left of Next, with boundary guards. Timer, whole-class score/rewards, reveal, keyboard controls and printable keys work. Save Draft is explicit/device-local; this whole-class activity creates no student assignment/grade/YY record.
+
+The 9,630,871-byte Worker SHA-256 is `b3429f7e71f65ace8dde526683f10df19ad8968e0eb7eb34db4133d777192974`. Original backend/map bytes, all Unit 1/eight Unit 2 banks/pins, managed assets, bindings/settings/cron/domains and unrelated features remain intact. No production data/schema/media-object mutation. The existing token succeeded after reducing the upload package; it did not need replacing. The supplied 63.553s video is pinned to its public GitHub commit and served through a redirect after an interim server-fetch failure was corrected.
+
+Model/static/local-browser/printing checks pass. Final live checks passed 258 HTTP requests across both domains, 22 full new-body hashes and the live-asset browser walkthrough with fictional API data. Complete staged/active modules and configuration match. Historical files are retained; the next handoff is V20.
+
+
 ## V18 compact project setup and replacement video — deployed October 19, 2026
 
 Read [Handoff-v18.md](Handoff-v18.md) first for the current UI preferences, retained-handoff guide, hashes and finite verification. V18 is live as Worker `3876044e-862d-40e1-a6ef-ce9d77758cbf` (152), deployment `331346e2-440f-44ee-bd91-abf75959d9b9`, 100%, activated 20:16:40 EDT on October 19, 2026 (`2026-10-20T00:16:40.867971+00:00`).

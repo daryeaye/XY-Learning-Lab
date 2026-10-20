@@ -1,5 +1,14 @@
 # Agent instructions — XY Learning Lab update log
 
+## Start here — V19, October 20, 2026
+
+Read **[Handoff-v19.md](Handoff-v19.md)** first, then **[V18](Handoff-v18.md)** for UI preferences and the retained-history guide. Current verified Worker `7bdf72a5-add2-4bc0-a91c-d7fdcbbd07d2` (154), deployment `3ea9e982-182d-42bc-aa5e-4b17a521cd7f`, **100%**, activated `2026-10-20T17:39:14.945052Z`. Next handoff: **V20**. Older current-version statements below are historical.
+
+Boards Up is a teacher-led whole-class activity after Comic-Con in both units. Use current XY checked types, five setup steps, ascending 1–5-star counts without weights, fixed optional extra credit, rules, new-tab game and identical answer-only keys. Previous sits left of Next; preserve bounds, stable questions, hidden answers on moving and unchanged score/timer. Drafts save explicitly to the teacher’s device; games use teacher-owned sessionStorage. There is no server assignment/Grades/YY item or student mutation. The introduction redirects to the exact pinned public GitHub video; no R2 object was added/deleted. Keep all old V18 video aliases.
+
+The original backend/105-entry map, banks/pins, managed ASSETS namespace, six bindings, settings/cron/domains and every unrelated feature remain preserved. The token was active; a smaller text-only upload resolved the earlier rejection without token replacement or extra permission. Do not deploy a partial captured asset folder. GitHub remains documentation/reference only; no bundles, credentials, captures or fixtures. Freshly capture active/latest and GitHub, keep one publisher, verify before/after, then record truthful finite evidence. Preserve older handoffs, student data and V18’s creator styles. Archive Class/export/permanent purge remains deferred.
+
+
 ## Start here — V18, October 19, 2026
 
 Read **[Handoff-v18.md](Handoff-v18.md)** first, including its UI-preferences and retained-history guide. Current verified Worker `3876044e-862d-40e1-a6ef-ce9d77758cbf` (152), deployment `331346e2-440f-44ee-bd91-abf75959d9b9`, 100%, activated 20:16:40 EDT. Next handoff is V19. The older current-version statements below are historical and must not override V18 or the latest human request.
