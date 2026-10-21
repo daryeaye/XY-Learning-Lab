@@ -1,5 +1,16 @@
 # XY Learning Lab release record
 
+## V21 — deployed and verified October 20, 2026, 20:49 EDT
+
+Read [Handoff-v21.md](Handoff-v21.md) first, then V20/V19/V18 for retained UI/game/storage/history contracts. Worker **`03a7a250-525a-4a68-ad4d-84576cabc0e6`** (156), deployment **`6446cbeb-c277-44ea-90d0-a3d2628b89ac`**, **100%**, activated `2026-10-21T00:47:37.82276Z`. Worker SHA-256 `22a7d4c0628e01a72cdac3619047f961185adccf11448c8808d6493468d8405d`. Both-domain verification `2026-10-21T00:48:16.970053+00:00`: **306 read-only requests**, zero failures.
+
+Both report resolve buttons now save any written reply successfully before resolving/granting. Blank replies create no message; Send reply alone still does not resolve. Send failure keeps the draft/report open; an acknowledged reply is not resent when resolution is retried. The three buttons share one guarded operation, with pending-state protection. Existing conversation/ownership/grant calculations and V20's compact UI remain.
+
+The reported correct-looking expression contained a hidden empty exponent. Ordinary Unit 2 `/check` now warns to finish/remove an empty exponent before spending an attempt; it does not strip math, loosen exact grading or regrade stored work. Unit 1, choices/Work and unrelated assessment/Comic-Con paths remain. Real-case investigation was SELECT-only, with no student data published or production credit/message edited.
+
+**275 automated checks**, fictional native browser checks and live asset/configuration checks pass. Seven new immutable R2 objects; no old object overwritten/deleted. All prior features, bank pins, historical records, media and infrastructure remain. All older handoffs are retained. Next **V22**: freshly capture/recheck current active/latest/GitHub and preserve all history. Deferred Archive Class/export/purge remains deferred.
+
+
 ## V20 — deployed and verified October 20, 2026, 20:29 EDT
 
 Read [Handoff-v20.md](Handoff-v20.md) first, then V19 for Boards Up's unchanged game/storage contract and V18 for UI/history references. Worker **`c02651af-93bd-4b6d-b973-377a885d264e`** (155), deployment **`2f2afcff-99e2-4fb7-a6cd-a4f3b66e8457`**, **100%**, activated `2026-10-21T00:25:39.619709Z`. Both-domain verification `2026-10-21T00:26:10.176783+00:00`: **300 read-only requests**, zero failures. Final Worker SHA-256 `be0f74aa3ac641bab88b7d12beb7a8fbf1cf8acbdaf1f52b8f43ee0718cc1fbd`.
