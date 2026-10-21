@@ -1,5 +1,14 @@
 # XY Learning Lab completed update requirements
 
+## V20 — deployed and verified October 20, 2026, 20:29 EDT
+
+Read [Handoff-v20.md](../Handoff-v20.md) first, then V19 for Boards Up's unchanged game/storage contract and V18 for UI/history references. Worker **`c02651af-93bd-4b6d-b973-377a885d264e`** (155), deployment **`2f2afcff-99e2-4fb7-a6cd-a4f3b66e8457`**, **100%**, activated `2026-10-21T00:25:39.619709Z`. Both-domain verification `2026-10-21T00:26:10.176783+00:00`: **300 read-only requests**, zero failures. Final Worker SHA-256 `be0f74aa3ac641bab88b7d12beb7a8fbf1cf8acbdaf1f52b8f43ee0718cc1fbd`.
+
+Boards Up now has six native circle/underline setup steps, a new Getting ready page, new-only **60/120/200** defaults, revised questions/extra-credit layout and the supplied pixel-identical lossless WebP rules image (194,620 bytes, about 60% smaller). Existing draft targets are preserved; legacy step indices map forward. Teacher header/notification groups use segmented capsules; late-credit controls share a compact row; message lines use 1.3 spacing and the three terminal report actions share 14px/36px sizing. **Back + Save Draft left, Next right; compact aligned controls and existing font hierarchy** remain the UI preference. Latest capsule direction supersedes older rectangular-header/tab statements.
+
+Exact V19 Worker recovery is verified; game/keys/print source, backend, all banks/pins, saved records, V18 Project 2 video/targeting, Student view, UI preference history, bindings/assets/schedule/domains/privacy remain. Ten fresh versioned R2 objects were added; none overwritten/deleted. 203 focused checks plus the existing 69-check integration suite pass; local fictional and live read-only browser checks are documented. No production test assignment/student/message/grade/point/schema mutation. All older handoffs/content remain necessary preservation references. Next is **V21**; freshly capture current active/latest/GitHub and recheck before publication. Archive Class/export/permanent purge remains deferred.
+
+
 ## V19 Boards Up — deployed October 20, 2026
 
 **Boards Up is live** as Worker `7bdf72a5-add2-4bc0-a91c-d7fdcbbd07d2` (154), deployment `3ea9e982-182d-42bc-aa5e-4b17a521cd7f`, 100%, activated `2026-10-20T17:39:14.945052Z`. Read [Handoff-v19.md](../Handoff-v19.md) for the activity, storage contract, hashes and finite verification; V18 remains the UI-preferences/retained-history reference.
