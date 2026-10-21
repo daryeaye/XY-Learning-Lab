@@ -1,5 +1,15 @@
 # XY Learning Lab change log
 
+## V22 — deployed and verified October 21, 2026, 11:53 EDT
+
+Read [Handoff-v22.md](Handoff-v22.md) first, then V21/V20/V19/V18 and the retained earlier handoffs. Worker **`6a313d4f-99cd-471c-946f-7b2e384eeb54`** (157), deployment **`3a919ae0-82bb-40a6-b395-d307dba9c069`**, **100%**, activated `2026-10-21T15:53:22.275776Z`. Worker SHA-256 `988f0725adc9688d229db2f7802b74efa69873392582cb4293cf26aa04c84751`. Both-domain verification `2026-10-21T15:55:18.234601+00:00`: **332 read-only HTTP probe results**, zero failures.
+
+All seven nonblank pages of Prompt.pdf are implemented: Boards Up pair/group wording, new-only **40/140/240** targets, full-width double-height points button with **−1/−2/−3** below and equal gaps, a scoped exit warning, and a radio choice between the original bonus set and **40 new integer-answer fraction puzzles**. Explicit device drafts 1/2/3 preserve saved targets/type. Teacher notification dots use **one visible second**. The student sync heading is **Please refresh the page!**; drawing modes have selected outlines, typing rows are transparent, selected text stays yellow, the fraction-entry hint is removed, and a first drawing-tool selection triples pad height while later manual resizing remains authoritative.
+
+**512 model/static/dependency checks**, **68 native browser checks**, exact dry-run/staged/active module/configuration verification and the live-asset browser pass. Entire V21 backend/banks/maps and all student records/media remain unchanged. Nine finite public assets use embedded small files plus hash-verified derivation from five existing immutable V21 R2 source objects; retain those source keys. No R2 object write or production student/assignment/grade/point/message/schema mutation. Preserve V21's reply-before-resolution/empty-exponent guard, earlier data/storage/UI contracts and all old handoffs. Next **V23**: freshly capture/recheck active/latest/GitHub, use one publisher and publish factual documentation. Archive Class/export/permanent purge remains deferred.
+
+
+
 ## V21 — deployed and verified October 20, 2026, 20:49 EDT
 
 Read [Handoff-v21.md](Handoff-v21.md) first, then V20/V19/V18 for retained UI/game/storage/history contracts. Worker **`03a7a250-525a-4a68-ad4d-84576cabc0e6`** (156), deployment **`6446cbeb-c277-44ea-90d0-a3d2628b89ac`**, **100%**, activated `2026-10-21T00:47:37.82276Z`. Worker SHA-256 `22a7d4c0628e01a72cdac3619047f961185adccf11448c8808d6493468d8405d`. Both-domain verification `2026-10-21T00:48:16.970053+00:00`: **306 read-only requests**, zero failures.
