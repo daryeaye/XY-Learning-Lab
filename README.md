@@ -1,5 +1,14 @@
 # XY Learning Lab — shared update log
 
+## V23 — deployed and verified
+
+Read [Handoff-v23.md](Handoff-v23.md) first, then V22/V21/V20/V19/V18 and the retained earlier handoffs. Worker **d86f315f-52ee-4f94-897a-3ba733f79a84** (number **158**), deployment **5c7dab99-39ff-4033-b131-a5069e13f73c**, **100% traffic**. Activation **2026-10-22T00:57:05.090953Z**. Live verification **2026-10-22T00:58:57.571Z**. Worker **9,689,539 bytes**, SHA-256 **26fe7f358a5c72f785a807d3ead2301d405e60e38ddb54db35bc3661d4e8078d**.
+
+The owner approved CPU proposal items 1–6 with **fixed 10-second Comic-Con checks** and **10-second assessment status checks**. Same-assignment Comic views share one probe; manual/focus/local-action refresh remains. Teacher notifications use one shared **60-second** feed with a lightweight header-only check. Student login performs one recovery-cookie discovery, then only pending recovery uses a visible **5-second** loop. YY avoids redundant current-month reads/repeated earned-tier work while retaining historical recovery, and immutable teacher bank JSON is serialized once per warm isolate. Existing autosave/checkers, grades, historical banks/snapshots, saved work, V22 Boards/editor UI, PDF generation/delivery and all prior contracts remain.
+
+**19 backend tests**, **13 frontend/native lifecycle tests**, **50 package checks**, plus the documented fictional native browser workflows. These establish request behavior and preservation in those samples, not a measured whole-account CPU reduction. Seven finite derived/embedded public code assets retain the V22 delivery mechanism and five pinned V21 source objects. No R2 upload/delete, schema migration, production test-record mutation, managed-assets replacement, or change to the deferred Grades/dashboard/PDF proposals. Preserve all old handoffs/reference files and student data. Next handoff: **V24**.
+
+
 ## V22 — deployed and verified October 21, 2026, 11:53 EDT
 
 Read [Handoff-v22.md](Handoff-v22.md) first, then V21/V20/V19/V18 and the retained earlier handoffs. Worker **`6a313d4f-99cd-471c-946f-7b2e384eeb54`** (157), deployment **`3a919ae0-82bb-40a6-b395-d307dba9c069`**, **100%**, activated `2026-10-21T15:53:22.275776Z`. Worker SHA-256 `988f0725adc9688d229db2f7802b74efa69873392582cb4293cf26aa04c84751`. Both-domain verification `2026-10-21T15:55:18.234601+00:00`: **332 read-only HTTP probe results**, zero failures.
@@ -216,6 +225,7 @@ The version check prevents an ordinary stale-baseline update only when every pub
 Cloudflare backups may be compiled builds. Downloading one does not reconstruct the original React project automatically. This workflow intentionally keeps the application out of GitHub; preserve the actual tested build separately in Cloudflare and local backups.
 
 No passwords, tokens, student records, database exports or demo accounts belong in this repository.
+
 
 
 
