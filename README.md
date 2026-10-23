@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## V24 — Premium and Champion YY artwork, deployed and verified
+
+Read [Handoff-v24.md](Handoff-v24.md) first, then V23 and retained earlier handoffs. Main Worker **158c3b9c-3642-43a2-b9b0-a7494ec60573** (160), deployment **723a85ba-cc1b-4ac5-af9e-3d0e0cc21c4a**, **100%**, activated **2026-10-23T18:05:31.539048Z** (October 23, 2026, 02:05 PM EDT); SHA-256 **3efde19b5157c6503558c63bf9df56886f956fc2965d5072d96978fea0307ee2**. Artwork service **xy-yy-art-v24** at **11829bac-e0f3-4a26-8b2c-8a12dbdc5e32** (2), also 100%, is now a required dependency through **YY_ART**. Its complete 144-file ASSETS collection is separate from the unchanged app assets; keep the full collection and old paths.
+
+Premium/Champion each have six outfits and six headwear choices, with 108 body sprites across three tones/states and 24 selection icons. The handoff records the exact slots/filenames, legacy Black→brown mapping, new ranges 40-/60-, and A–F headwear IDs. Independent mixed-tier unlock/ownership checks, configured prices, duplicate purchase protection and look-change saving remain. Basic/Deluxe, King placeholders and all student data/history are preserved. Four answer-reaction cycles, two teacher-action cycles and CSS −1/+1 px headwear movement are verified and retained.
+
+**1381 backend checks**, **919 assembled checks**, **36 browser checks including three lazy imports**, **22 artwork checks**, exact code/configuration verification and **671 final live HTTP checks**, zero HTTP failures. All 144 new images and 217 retained Basic/Deluxe paths are checked. Smaller authorized uploads resolved the large-batch integration failure; no R2 object mutation, production student test write, migration, reset or original binding/assets replacement. V23 CPU/polling changes, prior banks/features and privacy contracts remain. Next **V25**; capture/recheck both Workers and GitHub before changes. Deferred Archive Class/purge and held Grades/dashboard/PDF proposals remain held.
+
 ## V23 — deployed and verified
 
 Read [Handoff-v23.md](Handoff-v23.md) first, then V22/V21/V20/V19/V18 and the retained earlier handoffs. Worker **d86f315f-52ee-4f94-897a-3ba733f79a84** (number **158**), deployment **5c7dab99-39ff-4033-b131-a5069e13f73c**, **100% traffic**. Activation **2026-10-22T00:57:05.090953Z**. Live verification **2026-10-22T00:58:57.571Z**. Worker **9,689,539 bytes**, SHA-256 **26fe7f358a5c72f785a807d3ead2301d405e60e38ddb54db35bc3661d4e8078d**.
