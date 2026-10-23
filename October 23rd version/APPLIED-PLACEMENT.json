@@ -1,0 +1,1302 @@
+{
+  "count": 108,
+  "method": "Uniform whole-figure scale and x/y placement only; no anatomical or clothing-part warp",
+  "images": [
+    {
+      "file": "tier-40/011-art-student-c__normal__white.png",
+      "sourceSha256": "f6ede784cacf5b32cb2589f4bd5daeee93eb5149a6c5f8072cb81f1306239c9d",
+      "finalSha256": "0e01e6b5ac2e5a907081ff859a72d0cefae7e631d8760902227b588e6ebacf50",
+      "uniformScale": 0.92,
+      "translation": [
+        47,
+        84
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__normal__yellow.png",
+      "sourceSha256": "a82e5de8b56009f18c8588a8abb31d49280d39f7ad027dc00b38756781a03ed2",
+      "finalSha256": "debfc74caf2612bd4874da03805a77b2f3b4d96ba511ea2ae555d329f14fa957",
+      "uniformScale": 0.9178403755868545,
+      "translation": [
+        47,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__normal__brown.png",
+      "sourceSha256": "2897b8fe39ee73fb6530640915dbbbe29823140dbabde2554ff2b1cfac6addf2",
+      "finalSha256": "90513f92e1527750bb3ac7c30ca9be4f9fcbe5b4a5c9d501c551cac27363d915",
+      "uniformScale": 0.9178403755868545,
+      "translation": [
+        47,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__happy__white.png",
+      "sourceSha256": "4e429b9a61e2ef8af58ec13c0986f3159308a797cad182249d461e90d267f634",
+      "finalSha256": "a0f0ee40605d2120553090c4a42352352be4b2041c6772085cd0a935f3fa9a04",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        44,
+        80
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__happy__yellow.png",
+      "sourceSha256": "b0e9f5d4a2296e5ce2512334de2c7e3abe46605e519309b6c4255e3573c8038a",
+      "finalSha256": "30bd446fa5514ac55967a2686732738274e297d002ebd9a6734bff4fefc0bd2d",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        42,
+        82
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__happy__brown.png",
+      "sourceSha256": "33169e56123d481daec947f8f0db06e8ae1674a031be027c773c9b3286d5dfdf",
+      "finalSha256": "4a40bc629a0e3fad8f9a79561074343f451e1b17db74b3de3f3d0ac0f1043b62",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        42,
+        80
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__sad__white.png",
+      "sourceSha256": "fa4e796869261df29b3b2f7a5c35b67be468fb2a29f3a2d4b97ce87ea54d9d93",
+      "finalSha256": "412308f6d7305dc06f6da003b9c4ecec90cbce44ca5fa7f3d9d19c8ad5d42ac7",
+      "uniformScale": 0.9050925925925926,
+      "translation": [
+        51,
+        99
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__sad__yellow.png",
+      "sourceSha256": "729500038393aaac14b7f4c213a87d3947b50bc24f009e8b8d3c4f179c7a00da",
+      "finalSha256": "aa38983f8d9631ee2251298c82df7e78156997223ba07be0e82afb42a950f4e0",
+      "uniformScale": 0.9156908665105387,
+      "translation": [
+        40,
+        75
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/011-art-student-c__sad__brown.png",
+      "sourceSha256": "12a95d4409f3cf5e9d6da8f8a8a89eb94918cf81038e4d6bb86b05ab6ec1aaca",
+      "finalSha256": "89e78128499386a1d3da525739a3eec825fef3639a7a46af46afd6f1a564ad6e",
+      "uniformScale": 0.9030023094688222,
+      "translation": [
+        51,
+        98
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__normal__white.png",
+      "sourceSha256": "71b0c6473f65bfa032009dec4ba9aa7dc2f3b73f784e25336a27900d7b44cc2b",
+      "finalSha256": "5317317f08c02fa646b3602e38cb24aa8dc225ef45057e1337f13796b7d3de39",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        36,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__normal__yellow.png",
+      "sourceSha256": "f202f16b07d220e7ac94325de5d7b9ad5d5f10ce29bdc126563bbcd3c8c1544d",
+      "finalSha256": "cde17f877571e668172700749d7fcba5d44c14e1164a9c682a56000ce73c6bf8",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        36,
+        92
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__normal__brown.png",
+      "sourceSha256": "3e2bd0c40ddfb0b249c6de7e927383d05cd805fd4637de2a2d50445c791f016d",
+      "finalSha256": "669b8159e5069fd29015d485d9f01c7cebc6e6bd2c3e42263361cb462800ba89",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        36,
+        84
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__happy__white.png",
+      "sourceSha256": "cbcb953cab0b83cb554509644ecb56952013cb46d3a0cd12aff36c008d6fd3e1",
+      "finalSha256": "e19a32b453c2b06112ccaf957082d9359a08eee510b465664047824c474f0067",
+      "uniformScale": 0.9559902200488998,
+      "translation": [
+        -7,
+        141
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__happy__yellow.png",
+      "sourceSha256": "92b0c7dafa3e63c4f78f2ca02704fff360b01c788cc1c3515c71c2f8bd35d84b",
+      "finalSha256": "522323ff60cc6eff5fc6c0e415c20ef76429d230ba989d07afb5ae19a53c9f68",
+      "uniformScale": 0.9513381995133819,
+      "translation": [
+        -3,
+        145
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__happy__brown.png",
+      "sourceSha256": "c2d2fc2919adc2e10eb86226fd7130b0cfbd2d3bbb069f7064105ca2b95a3394",
+      "finalSha256": "324435398e34cd39df5561df9f702011a8ba5f7505f9d13479c9c0e31b8d01b6",
+      "uniformScale": 0.9559902200488998,
+      "translation": [
+        -7,
+        138
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__sad__white.png",
+      "sourceSha256": "41c9ad9edf40e4b2fe590915ee90b9410310d3e63f717f0295dbcb073cd3d338",
+      "finalSha256": "cb1d86b8f0a6c1f33a2aa79322df9a42ffac97954ab9b38286bb217cf79ca47c",
+      "uniformScale": 0.9030023094688222,
+      "translation": [
+        67,
+        100
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__sad__yellow.png",
+      "sourceSha256": "b472801f0faa5eee9b315d598235ddb7457c34ef05cd0c8f091dd66f2c9a463f",
+      "finalSha256": "3ffd0308230a49911f8be2a14d2a171c226ae99dd6add72ed06bbe129d090606",
+      "uniformScale": 0.8988505747126436,
+      "translation": [
+        70,
+        107
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/027-farmer-a__sad__brown.png",
+      "sourceSha256": "ec8c546080a02b734b32ef72f9b1d81ed0afdda9bb6ac9213135f50a491c089d",
+      "finalSha256": "5f1e1a573200ef0d96d82b05498915c266001f81cd289fa552e3c64f41903d3b",
+      "uniformScale": 0.9009216589861752,
+      "translation": [
+        67,
+        103
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__normal__white.png",
+      "sourceSha256": "b9a82bd436df6cbc39e4dc2e682e0972f08fbf35738e95bc13c7c86cc528d4f1",
+      "finalSha256": "ddf8853ef1fdc8afd397979af22d972ce8a692f116bb401d648c82ad95cf494b",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        40,
+        63
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__normal__yellow.png",
+      "sourceSha256": "6bd809d269f49b1714778b1d4b36347abfb20a752e5bc336b928af1f60ee17f6",
+      "finalSha256": "40f7606913af9dd8901292cedfc11037a7cc722fd0c266313ecb32e15a57e26b",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        40,
+        63
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__normal__brown.png",
+      "sourceSha256": "53532e582c6b4d262e8794ac15204a64e4765892d10ffddb1be43833af6ccb21",
+      "finalSha256": "14d49894494fc20ccf8becd5a86cba200febe3194f8237688f603113dcefa18d",
+      "uniformScale": 0.9376498800959233,
+      "translation": [
+        37,
+        49
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__happy__white.png",
+      "sourceSha256": "5413971fec03e4b47ab0f66e299ff7eeef26e02cf3c1e5429519146020f915f5",
+      "finalSha256": "b0bd279effe4cc9f3ba83de73aa9cc22e594e83a5fb1c2226f2a11075985cd47",
+      "uniformScale": 0.9114219114219114,
+      "translation": [
+        38,
+        61
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__happy__yellow.png",
+      "sourceSha256": "6288e5abff2b751b3b17db885dfb4c4ffe795129c689b8fee3eec434322d2a37",
+      "finalSha256": "2b3cc7b9b3dd8a4fbc4fee9f7c93db24cd77b7f0f3d18ddb9059bb522202ed11",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        39,
+        59
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__happy__brown.png",
+      "sourceSha256": "c01c588cffee65003f8cc22386f3fd3a448187db9347b6b60d0b4e897bbc1694",
+      "finalSha256": "e61c0a4667edad0c7cdb83ce6fa27010876dec3fbf3b8be62c508be1838fb585",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        39,
+        61
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__sad__white.png",
+      "sourceSha256": "2b84b1dc5f7179ce5b4d08232743a96da352f8573496ea6765d48473f278da40",
+      "finalSha256": "c1f87d0dfb7e1d0af8322dedc34ed1cb4a59ec4e3d0df6b785623d7a5fd595b6",
+      "uniformScale": 0.9399038461538461,
+      "translation": [
+        25,
+        61
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__sad__yellow.png",
+      "sourceSha256": "2e7d0fd61eef418b335b2419b4a8e460a0e2849e2be97690cc7d32f15284a32d",
+      "finalSha256": "90024ed6ef057acdd6978bb16dcca5cfd9e53824c83f64736a175af0569ba152",
+      "uniformScale": 0.9376498800959233,
+      "translation": [
+        26,
+        62
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/049-soccer-player__sad__brown.png",
+      "sourceSha256": "ee4b8d8203b9d3068fb14747406223c63e473475c9fa367bd5bb5cd89ee2d498",
+      "finalSha256": "5a1c5d1d2d35e0d69e6ba09a6529a1b3bfe63e7e845167bb7449b921e441fc53",
+      "uniformScale": 0.9399038461538461,
+      "translation": [
+        25,
+        53
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__normal__white.png",
+      "sourceSha256": "56bc436fa2f14cac04ef7a7707d6342d31914fd79cfc873b02d70357c34a9990",
+      "finalSha256": "01f92bcd38ea47cefb2e15f75c01a7c804ff13e94b941802908a5c335baf4842",
+      "uniformScale": 0.92,
+      "translation": [
+        44,
+        92
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__normal__yellow.png",
+      "sourceSha256": "5409493a4316ce940b7bde84b3e17c000e383da3eb6503e43b5642c60c06a20b",
+      "finalSha256": "aaf5a9e180fca036daba2a5bd0070b32fd6b70570632038848272e941aeb7fc2",
+      "uniformScale": 0.9178403755868545,
+      "translation": [
+        45,
+        140
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__normal__brown.png",
+      "sourceSha256": "6910657d338dcc6d03fa6f63070d33de8fc97a2ff6c28d32fbf24f2053b452f0",
+      "finalSha256": "7d5904af46ad64674d5bcac7f351daecbe394f2300603da376c7768366d568ee",
+      "uniformScale": 0.9156908665105387,
+      "translation": [
+        48,
+        93
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__happy__white.png",
+      "sourceSha256": "54a45cf04172954f5f39069a4c714e37190e48d371eaf01597671d49fd015608",
+      "finalSha256": "e7d638219811845fa78d0555d4c224cb18d347063ec5b7b93cd9c2c6f3b9b2b7",
+      "uniformScale": 0.8669623059866962,
+      "translation": [
+        83,
+        149
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__happy__yellow.png",
+      "sourceSha256": "184b76552b08dec4e5f384f9a51b2a9bacef99aa79588de4cbc4f662da741a87",
+      "finalSha256": "3abb9c792865d5feb92f26d85e0b94acbeb17e525e017d09ce33b2e6108dd415",
+      "uniformScale": 0.8650442477876106,
+      "translation": [
+        83,
+        150
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__happy__brown.png",
+      "sourceSha256": "7fd8f853d58d50ba7162860b5f5535a79b1e1e48665dae6d0faf27b576c14515",
+      "finalSha256": "a72c002c398f4e448e8199ea5c95e9e6fc98634e43eed3ca81690272c9f632a6",
+      "uniformScale": 0.8650442477876106,
+      "translation": [
+        83,
+        145
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__sad__white.png",
+      "sourceSha256": "872bec19dc1b5f058e758697a293e216bb24a9e8749ef2c9faf1d32e04c4a66a",
+      "finalSha256": "ffca74bc084cfea2644a4521d19156a0ef3e8a76c91374a42e46d08e950c0e04",
+      "uniformScale": 0.9156908665105387,
+      "translation": [
+        48,
+        86
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__sad__yellow.png",
+      "sourceSha256": "72c93e7bd0acc85f0c29983994331d24fd24f1d6db6f4291a269e459cc14c6a9",
+      "finalSha256": "119ccfb404e8bc22e8ccc00c99d65fc56d019effacb13b6e0ee4ebfff354807a",
+      "uniformScale": 0.9114219114219114,
+      "translation": [
+        49,
+        87
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/045-school-captain__sad__brown.png",
+      "sourceSha256": "d7c2041194984a9bccb007cfea70e86bb70582f38d7fc99b0cde5989e9078d1e",
+      "finalSha256": "8a406f2363e7f0ddde84a4d614e7304786ac8fc1abc6c95378108c76049eb21b",
+      "uniformScale": 0.9135514018691588,
+      "translation": [
+        48,
+        76
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__normal__white.png",
+      "sourceSha256": "d60a17e76c25b0cf20355f3ebdd332e56d8929b49b57cce0893c63d40f14d0f4",
+      "finalSha256": "295ecedfe445b6b3b1ec8f750457febe40cc5278df6ec4a05f0924b14c44dbdc",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        29,
+        95
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__normal__yellow.png",
+      "sourceSha256": "5ec63430fbabc9e1619525d0c48b9cb4dcafe51187e71fa5f4c55821723b13aa",
+      "finalSha256": "82fd5f995ac0c9f3b6b124045e46ddf0d1e741f0eff026280f48359d453ca51b",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        34,
+        95
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__normal__brown.png",
+      "sourceSha256": "ebd3d1d92915c667f3428621cf881dbf8b2dedf3f1ad038eac06c426e48d87d4",
+      "finalSha256": "ed027f31e04b89db1cea51a424389496b93d9086f2e618839b8fbde51181c6f4",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        93
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__happy__white.png",
+      "sourceSha256": "f8452a4bb8458bfcb694708c81f14779f7e1feefb2ee7a7c70b0301ad1f59659",
+      "finalSha256": "400bd474c98bad9a686e8d0fc66bdca0e5b4c2cb953ebec4d3c3915bb4c6b75c",
+      "uniformScale": 0.9265402843601895,
+      "translation": [
+        66,
+        93
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__happy__yellow.png",
+      "sourceSha256": "b1f5e5f61b496aefb354922c0aae1a74f1f0048f12055711fdde19c3683884e9",
+      "finalSha256": "f863b6e8e993865ceda0b9a9524700a59b3402e1e2dd92ad916a3a7e35dd9895",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__happy__brown.png",
+      "sourceSha256": "52a27cb9133e754562a82cd942f2491f8a4981aa425d99be6fe3ea6cc62be521",
+      "finalSha256": "e9744e7d19dc983247a797eaa576bc7a33f68ee2589f5938f75ed413046f6142",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__sad__white.png",
+      "sourceSha256": "e551c251b62e0df8d4686862721824b54add494fb93bb6fa2235e760bf9ae89b",
+      "finalSha256": "f797980c82922af476eec806212ab612334673525e7c1ca3a8d3b3449badc241",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        93
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__sad__yellow.png",
+      "sourceSha256": "48a602b356cb88b8f6b7aa7f9cf94d5c19439b83c49b6c9c4137e010ea0e141d",
+      "finalSha256": "7bd8e4a8243ce3b1974eb20641ee3cd85760e221d79a3fa6a5972144ed9cc939",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        30,
+        97
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/038-mother-b__sad__brown.png",
+      "sourceSha256": "083e1f107b92b14224a695c13aac9164485e92e7250b0d38f6e7bc850bce79a8",
+      "finalSha256": "be057801385ac33a47625ae63da4dcf5c988119d59190c677ab77bbb0e363fad",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__normal__white.png",
+      "sourceSha256": "cf0fe1abf4621efc77a2883b5021e8fa2262e6f0b61b0a5368ea8c6e14053ea3",
+      "finalSha256": "5195b3ff107fae171987b43f6941fa41c19a2545ef49567c0a6ab92eb45e3d2c",
+      "uniformScale": 0.9399038461538461,
+      "translation": [
+        50,
+        42
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__normal__yellow.png",
+      "sourceSha256": "6eb622a0be3b990877f1fc0b3a15a5b3233281583c7b17763bcfe1288db51804",
+      "finalSha256": "a59148a7cc8feddc4601bb4307ef83d8a5414fb3b4868df02fd7261349dae915",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        53,
+        47
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__normal__brown.png",
+      "sourceSha256": "44f469c5e3f79b494c26e787855ae4e12d0dfffd7ff25a436d20ce625f1b0482",
+      "finalSha256": "d59d2badd19ae876ea5e9ff7895795426fe51f9154c03c81e73a537d1d4280c1",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        53,
+        39
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__happy__white.png",
+      "sourceSha256": "5a1325594a59bafc6ded114aa640b422ed20200fe566ca65006fcd83e29e31dc",
+      "finalSha256": "0059e572b64a7e4984b10ebc2fb92135c464d8e4a69d22e5632c8f9b1077957f",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        44,
+        33
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__happy__yellow.png",
+      "sourceSha256": "48e2bf2e17253645e42d4dd75aec92546f7be7393b4de886d6e645048eb1fd3e",
+      "finalSha256": "4e1a2e69511024582511212ecb786b6f432c5365ab7066c3f76aa32814035dfd",
+      "uniformScale": 0.9265402843601895,
+      "translation": [
+        48,
+        37
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__happy__brown.png",
+      "sourceSha256": "13ce49f26e9ca53a1befcb12e37a9ab6598635bd189363ac1a777de7b7e28691",
+      "finalSha256": "f7909cca9ffcfcc097b0b3fe92cd6eff998f8bcc4e52617bfbfe23dc2bf973b2",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        44,
+        33
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__sad__white.png",
+      "sourceSha256": "0fea519ec308e7f23738c266bfe2a4c83051a64394ce0e57cdff549d7a0d678f",
+      "finalSha256": "c9d783e0b7ba7159f582c295fe86cf1f26a9b898c8bf563dfcc368e37f8a07c4",
+      "uniformScale": 0.9156908665105387,
+      "translation": [
+        53,
+        41
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__sad__yellow.png",
+      "sourceSha256": "411646248b27473826aafd25796ce37c6c1e855d49cce9093ec161c49b6cf76e",
+      "finalSha256": "c0318f2eed58349ff1a0c83101f7447d0baf4b1ab4c897daf2d01cc441565651",
+      "uniformScale": 0.9156908665105387,
+      "translation": [
+        53,
+        43
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-40/031-girl-a__sad__brown.png",
+      "sourceSha256": "65c0c807dc02f80bfcf9f2ab5ccba7fa5fbb6ebc27fafdae1fd60fa8ddf24930",
+      "finalSha256": "274b63ff5551ddba71a656e126f11f46cd7f2ad9d28613b255580487b4418841",
+      "uniformScale": 0.9178403755868545,
+      "translation": [
+        50,
+        43
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__normal__white.png",
+      "sourceSha256": "e0eaeb5ea1fd70322d4b8d31b27ff40d8ad8843526d667c97d15ec14f27fbaa4",
+      "finalSha256": "7594c4e5a87c763d70e328446cfa6d4b6e40482f0e20b930b819fe681c8889eb",
+      "uniformScale": 0.8967889908256881,
+      "translation": [
+        42,
+        141
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__normal__yellow.png",
+      "sourceSha256": "feef8cb0e05300e19627e1e4841186a774f12d9d6aa94a4cdd4d4459cc90f9d7",
+      "finalSha256": "65473e919ea4ef4850dec10e5454ebd1a8f30c679c52ae969583f1bd0e9e2c4a",
+      "uniformScale": 0.8967889908256881,
+      "translation": [
+        42,
+        138
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__normal__brown.png",
+      "sourceSha256": "7104ee710e58d98bfaa35e06a882b33f53548cedccf73d0d7029c053d3a72ef4",
+      "finalSha256": "d086d59802a9945b19297c45ce217760adfd8329a923357a7f38f4cdf4bb2687",
+      "uniformScale": 0.8988505747126436,
+      "translation": [
+        42,
+        133
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__happy__white.png",
+      "sourceSha256": "475dfdfb823841ec135fd944a3068c0712c7dec60c1e51a91092e3417650c48c",
+      "finalSha256": "1556206d77b736f005153f3965e67eb7d7aef53cdb9829ff3ca2b65fb8deac81",
+      "uniformScale": 0.8967889908256881,
+      "translation": [
+        42,
+        141
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__happy__yellow.png",
+      "sourceSha256": "33703b94723f56353e7385994396370268ea71991bf32772bbe1509b4158a3f8",
+      "finalSha256": "8d0d791d1f34df3223ef463fb859db3f95253a8c4c4b9f90962a6979e9a1ba6f",
+      "uniformScale": 0.8906605922551253,
+      "translation": [
+        47,
+        143
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__happy__brown.png",
+      "sourceSha256": "7d61b6595cdb946f091ac108ae22cb00ce3fd0b7524e15c834134153a1edaef5",
+      "finalSha256": "cc6c488a1211686ce5c2b0374376ce494f98fd96f6a1a184b71987b4d756747f",
+      "uniformScale": 0.8906605922551253,
+      "translation": [
+        47,
+        143
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__sad__white.png",
+      "sourceSha256": "144eb17b47aec715717d5279c8a0ad01110793f8731342d6ed44bc8c515f75f5",
+      "finalSha256": "5cd0c32ff8a02cfc856248cc4a6fb45be1425ad72e1adf82629805324f05790f",
+      "uniformScale": 0.8967889908256881,
+      "translation": [
+        42,
+        138
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__sad__yellow.png",
+      "sourceSha256": "0fc1a12141f2b1ccb1dc22ea9d600a0a0e07891981350e9e7493f44155afabfd",
+      "finalSha256": "f72a99a90f21cdd9710df155708bfd04dea049dbc8f7fb0c5b5eff79c6415c35",
+      "uniformScale": 0.8947368421052632,
+      "translation": [
+        43,
+        139
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/023-construction-worker-a__sad__brown.png",
+      "sourceSha256": "77850809b8a65bc2ea981bc1f0ebe278541fd4504b1df87a8e301edf36dd6ea1",
+      "finalSha256": "31560d2e12a8befadc19a692fba036bd51c1939d8369b2ab418a143ebe4f75a0",
+      "uniformScale": 0.8967889908256881,
+      "translation": [
+        42,
+        136
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__normal__white.png",
+      "sourceSha256": "3ba9cbe2b6abc849a4362687bf8f5c68f5ca918f700870beced1b1e9c2646382",
+      "finalSha256": "3eeede9c387bb445ebe2e321eb087c7884742c5207a6b2e87a25bbb0e86b9b7c",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        32,
+        68
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__normal__yellow.png",
+      "sourceSha256": "4efd843eb4a66611300675c8edb99a1cd0deb9fa652e8c64ecee1be272ff2c41",
+      "finalSha256": "d461089b50ab0287169458837b1a710f66fa86bc9fe878eb027e2d4ace03cd94",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        69
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__normal__brown.png",
+      "sourceSha256": "6aed827f81558805276788f191759cd32f08366cf69ec4c57be9a63b3364d427",
+      "finalSha256": "f1d93f79b710e1871711eb759c32b096b0c0d2a29a2c8d21d782c3ad772740ca",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        29,
+        68
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__happy__white.png",
+      "sourceSha256": "f2ccd39cfe8a25bfbeb6b8c688d22f4a5d200f90c9e00f348286739fd8c5177f",
+      "finalSha256": "1afbf9cc4f0938526478fe153b431525867ab514b553fe3b82da14cd0b76268c",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        29,
+        68
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__happy__yellow.png",
+      "sourceSha256": "29bb741c4e568eb9ee32476f745f6c761d6a1d8d6e27eede333e9a757ed9116b",
+      "finalSha256": "67a85bd2613db40672d5ddc9bb49b975a14268a805e493dec80b55c6ef12273a",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        69
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__happy__brown.png",
+      "sourceSha256": "ded5c55f36508221f852061400a22421eccf3e371baca68994e64e57d7f05ef5",
+      "finalSha256": "21c8665b2409ba8ea871975534fc00ebb8122c27be0aca39077f1dae8b5daf6a",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        72
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__sad__white.png",
+      "sourceSha256": "d77c60437f36076d18ed03ea916ccd410aa11eb5d670a240002cb03edae5574e",
+      "finalSha256": "207f69be49662f25c2550485e889ce916bb2ffe8e92d74f6c1d516ddb28f6ee8",
+      "uniformScale": 0.9376498800959233,
+      "translation": [
+        29,
+        67
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__sad__yellow.png",
+      "sourceSha256": "b407ad88ed8cd8c1654b6603ed941a0213f4935cdab54b06f14b9936a03f5ae3",
+      "finalSha256": "15cc44f4d24e197a253498934bfcbbfcb16f67d66da05c27eb96f0261f90b87c",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        69
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/035-lifeguard-a__sad__brown.png",
+      "sourceSha256": "155a07b42367176cf91105675066a7ad23ea46c9c6fee179472b8e358786146c",
+      "finalSha256": "4ec6e7fe294fd6b15f9a7a95eeef40dc60571f86ec370bffbff0125c059be4f2",
+      "uniformScale": 0.9354066985645934,
+      "translation": [
+        29,
+        68
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__normal__white.png",
+      "sourceSha256": "21e91d75b12ce69fb3bda6f77eb93b9956ac7304b29e0d8e094d6efac33b77fd",
+      "finalSha256": "aed8755e454060c2017ea20f4a8963afde489149a90ef75c130f9eb2a6b58112",
+      "uniformScale": 0.9030023094688222,
+      "translation": [
+        46,
+        134
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__normal__yellow.png",
+      "sourceSha256": "f6b33509a617460961bdd75172d9a5ac5bd3ddd6119ed547aff47381c65c541f",
+      "finalSha256": "3fbab005b5b58d16dc006171fc7c72de1cd1b916073c520b123c98f10a6c113d",
+      "uniformScale": 0.9009216589861752,
+      "translation": [
+        46,
+        135
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__normal__brown.png",
+      "sourceSha256": "a14d22796f8f930cba1f9eeef673db4956d612ce493b585ccdf0f92891612a89",
+      "finalSha256": "4d5f189c4671a9f81999888df4ef6885b892117fa037cdf42b53784bdfdcf76c",
+      "uniformScale": 0.9009216589861752,
+      "translation": [
+        46,
+        127
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__happy__white.png",
+      "sourceSha256": "c26bb65bf48a36e8debcb8d6ab57de025d9b76c338796a309fb96b84d11263bf",
+      "finalSha256": "1168924338514e50d2619208b6aaa0026327272519505fb0255dfa6896db8b26",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        34,
+        122
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__happy__yellow.png",
+      "sourceSha256": "f67e74c0214e94dca157102f7d0f05eb275e41877adb0a5aef1f24c825507509",
+      "finalSha256": "4909e1219dbc33332a4394d23822addc5c298b180295f4e82cd71e17f3179f81",
+      "uniformScale": 0.9071925754060325,
+      "translation": [
+        34,
+        120
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__happy__brown.png",
+      "sourceSha256": "87ef0fb4b6732aab0bf727992b2466158a5b928b1a25c5034b4e9ca1deb07264",
+      "finalSha256": "b2ac5b7628f7a3f7078bd6f4107ca592b5c5cf5a5853f9c4d663bd103b3db10d",
+      "uniformScale": 0.9093023255813953,
+      "translation": [
+        34,
+        122
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__sad__white.png",
+      "sourceSha256": "7c52093686315988a8a5528be2a64086bca8fa9df330c9221485b78b503fb243",
+      "finalSha256": "f52d2d8672e0fe44c0c09f6d333fbc570841fd9fc775584111523a924266b83d",
+      "uniformScale": 0.8866213151927438,
+      "translation": [
+        55,
+        144
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__sad__yellow.png",
+      "sourceSha256": "46782da39a6399e736e6e7c27ddc202ec69804029df94251e8b7ca889a822913",
+      "finalSha256": "4c91d9a710bdaa49719d21d0ddf12afc1319b74af02268714e5308662ed1d454",
+      "uniformScale": 0.8866213151927438,
+      "translation": [
+        55,
+        146
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/040-nurse-a__sad__brown.png",
+      "sourceSha256": "b81834ff74c8e289ff7967c2f5a15f636b639521176bf4903d91b651f58bf619",
+      "finalSha256": "947d6f8c36a7bcf39c8c50f9815465417fd6ec0014e89bb4ddb9c0f5ca9a0629",
+      "uniformScale": 0.8886363636363637,
+      "translation": [
+        52,
+        143
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__normal__white.png",
+      "sourceSha256": "0e8a8b3a8a10af3b2da4189308781bc286efb7f6d712ea77ea6a77524a653296",
+      "finalSha256": "ada90412cf6dcfe83d9e8204946fd5fb656cc97c93a05c01718bcd3e4c8b248a",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        36,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__normal__yellow.png",
+      "sourceSha256": "f2ce8d65b30b5c6975d97a1c137a8f1417ac4c7f1ffdf4d2e3af4dad5f7dad87",
+      "finalSha256": "e3ddea28fb57bf64c664c552e94c741eed43b96adc964996eea598230a30290c",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__normal__brown.png",
+      "sourceSha256": "688bc5d78abdabef3f7e86121b8e7e5581951972dd449c4fb60792c137ca1a74",
+      "finalSha256": "6bd41bcb686fbe02f00541498dddc29ce302de528f578f9d98d0fbb8a0968aaf",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__happy__white.png",
+      "sourceSha256": "adacb568ca569ae3ab7bae3fd59849aa5bc52ba31c5fb8cf41c1971f4a64a41a",
+      "finalSha256": "588cf697d22b7dd4858ef0a96926e830d0ef61a58efdfcae5b49974385b4d843",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__happy__yellow.png",
+      "sourceSha256": "b92d1975d017a88d1ee28043b30e2ecb2024aa9dd60b37423daa18aace09e077",
+      "finalSha256": "b91ae52e30cf7e5f44c2d8d863c80b2c1ebe9394711e23665a9c4ecf8f7134e7",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        93
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__happy__brown.png",
+      "sourceSha256": "17115bc55a696515edf44d049fbb828f22aadb625f89290d6ce10b9da40fcea9",
+      "finalSha256": "b9ee0766c3f01a3f03b8153f26c3ad19f8916220c7237fd52e7f4587abef4585",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        30,
+        88
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__sad__white.png",
+      "sourceSha256": "fc8d20215008a405a69ed20018c6e918b654f9abe12c601bf6ed72a367b10193",
+      "finalSha256": "5f6e04832113cd6d7084a56a6a8abc2dcda4e722512da88bedd5e4a1bea7645b",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        94
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__sad__yellow.png",
+      "sourceSha256": "803845b9230f7f9944526468bd12c4dfcf079b7c19d5af9c7f0d2c178d2291ff",
+      "finalSha256": "9c11068c133a5e4e046e9c23369641a3bdfe0b6ad5a64a20133ad8865ed168ee",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        94
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/042-police-officer-a__sad__brown.png",
+      "sourceSha256": "47228f4c3b90f901e2f40273df388153b7e4aff0aee9ffc22ffcf6fffc89f33d",
+      "finalSha256": "69654e47eceeebee7eb98a76bdbe1c932d01cf1f9ebce0fe201fe65f8cd07bd4",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__normal__white.png",
+      "sourceSha256": "1f1b25b9551e013d956cea7068d39b503aff928d63c518aea0f2a46e32577da6",
+      "finalSha256": "b66ec403c14cd0ce5cf4e9f200c1df6665dab7e2a3d4a9b843930b65cf4a36ad",
+      "uniformScale": 0.9444444444444444,
+      "translation": [
+        21,
+        84
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__normal__yellow.png",
+      "sourceSha256": "581302245d78a9450ce023d5797ba35aef63e3f0a8f2e0b7913cc2decfb20af7",
+      "finalSha256": "d5053a5182c6fe4ea28660f1c765af6b42cec7d9e66ef9f9f7393781e9d13407",
+      "uniformScale": 0.9421686746987952,
+      "translation": [
+        22,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__normal__brown.png",
+      "sourceSha256": "cc8258e82710591993c7f84147656916a5df2f250d917f8ceb4dcc03d731e55b",
+      "finalSha256": "5f700e2b46d6a4c8cd42b4350df0e37d1e708ea2a78654e6fdd95984b101625e",
+      "uniformScale": 0.9376498800959233,
+      "translation": [
+        15,
+        67
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__happy__white.png",
+      "sourceSha256": "17c5632655d2eed30ffd87e1fcf25c252c840a77cc6099e594d2776c20e28566",
+      "finalSha256": "380a77796ffc7b3bc75e1e29fe877d64737ea4c0682d74bcf09828e0a7e747a1",
+      "uniformScale": 0.9421686746987952,
+      "translation": [
+        22,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__happy__yellow.png",
+      "sourceSha256": "6728b2e72d67981b284f948f73e365eff002c7be58862af7ae6791e15716a095",
+      "finalSha256": "b946164cb71084c3035706a93d3f3f4620f3c537e6217b69d7f5b31683c5994f",
+      "uniformScale": 0.9444444444444444,
+      "translation": [
+        19,
+        84
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__happy__brown.png",
+      "sourceSha256": "7f153420ec1c274bea4f4e05324a3d531c2d2dfd458ce4cc5547e94ac3e58734",
+      "finalSha256": "0478bf2cc0e1eed4ac14fa8623f1c065ac784c78510bc1b1002526c3113e3105",
+      "uniformScale": 0.9421686746987952,
+      "translation": [
+        22,
+        82
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__sad__white.png",
+      "sourceSha256": "b92b26d71f58a9d86c19b7bb88e0bf156d22c4eedfcc5b7b634cf5228cde9b17",
+      "finalSha256": "c378aab876b2059b51bf4a6bf53c464a84ff129772fed7bfcfe166894e2ffa55",
+      "uniformScale": 0.9421686746987952,
+      "translation": [
+        22,
+        85
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__sad__yellow.png",
+      "sourceSha256": "f33dc45f6f6720e31620ee82ac31d6e9dc962ca28746a6d34fde282b8f97900c",
+      "finalSha256": "b6669e7a2d1d39d16be21c218ef0b0c86c9e66a6f21386f788332035d2697fca",
+      "uniformScale": 0.9421686746987952,
+      "translation": [
+        22,
+        82
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/047-scientist-a__sad__brown.png",
+      "sourceSha256": "0025f782f60e7fa6c6ee6d3617d932f8f18df23e6c12835edad4e9f86236c860",
+      "finalSha256": "134e848e98502dee39c0c83c112a18d6713def98cf3a6e4309328cebb644eb83",
+      "uniformScale": 0.9376498800959233,
+      "translation": [
+        26,
+        78
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__normal__white.png",
+      "sourceSha256": "042cbb651522eb28b049870e1df1f3b4bca608cd0b42207d2601eed701bbab3a",
+      "finalSha256": "b40ab85ee61556d43aaf6dc248c52b1e7b3e18e3689b867f66ee329725c580db",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        36,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__normal__yellow.png",
+      "sourceSha256": "5c1c5ac08e02c205e2a3bc9c72a6843edf5c10eb61269cb92bd9eef4467f4b1f",
+      "finalSha256": "44d7a398b376b808b26f464bf0776ce80f94488008bc6b8ef70cb8f86b7cb5df",
+      "uniformScale": 0.9287410926365796,
+      "translation": [
+        36,
+        92
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__normal__brown.png",
+      "sourceSha256": "0533870d52932c9c6c60ef232c34b9f7d33a78e6529d9d624ae9eacdf0815738",
+      "finalSha256": "3c6a8040a611cac962793bab2998ecd06c9b9b85284793fc02689e32204d0866",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__happy__white.png",
+      "sourceSha256": "3be6fb18300901b767a8bc4da8e93c514c8fb9bd75c8503b50874ad1eeb2bbd8",
+      "finalSha256": "bf22e354baf1c51ca88d5971761170bac20f6303487311942a60eb926fa04f48",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        91
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__happy__yellow.png",
+      "sourceSha256": "f2371c633a8fafb85bd8238422381c01781caa5eeb1fc77e6c29075b9c849982",
+      "finalSha256": "69eaf619c06b0178f5310a8fb881db8e4072bc65eceb094020f7d7a704064da5",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        89
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__happy__brown.png",
+      "sourceSha256": "65d969204d9aac26fd173709b961bffbd0fcde204b31062dc459275193063b16",
+      "finalSha256": "84adbd425a51f4a57346b3dc486fe4064160daa847a96af7bf45b5b2f434df3d",
+      "uniformScale": 0.930952380952381,
+      "translation": [
+        33,
+        89
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__sad__white.png",
+      "sourceSha256": "713c31a819523241bd7663a39ad02ddb29c50b76b100b47b43a72c46240e5fba",
+      "finalSha256": "98d9057cd4025eaa6f582aecdda5c042cde407864eb5feb02742e7fce901d1bd",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__sad__yellow.png",
+      "sourceSha256": "d3103c70da564d340c9f2a59cd0526173c268ac40c5ab51dc157e417602c8cd7",
+      "finalSha256": "cf7d3d9a2fc02b26f0165ccd9b56ddce3972bf7b3d41f6582ee12919200f878e",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    },
+    {
+      "file": "tier-60/015-b-teacher-b__sad__brown.png",
+      "sourceSha256": "facadcb3c8600ce2bf5bd45cb0b9cfdcaf4bc6939098783166bb051e7006752f",
+      "finalSha256": "f5c52c8f9e2ae77f543defc7d655789f12251a7d80f864631a39dd27743353ff",
+      "uniformScale": 0.9331742243436754,
+      "translation": [
+        32,
+        90
+      ],
+      "meaningfulPixelsClipped": 0,
+      "bodyPartWarps": false
+    }
+  ]
+}
