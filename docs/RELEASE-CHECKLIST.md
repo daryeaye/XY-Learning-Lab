@@ -39,6 +39,12 @@ Use the normal visible app root and real entry/bootstrap graph. Fictional authen
 - For YY/shared entry changes, confirm saved outfit/headwear IDs, independent tier ownership, the 047 bare-head URLs, transparent canvas registration, four student/two teacher reaction cycles and −1/+1 CSS-pixel headwear movement remain correct.
 - Log the exact version, deployment, hashes, timestamps, scenarios, test data and browser-engine limits. Mark failures and unrun cases explicitly. Update the newest handoff and starting instructions with the current baseline; retain all previous handoffs. GitHub remains documentation/reference only, without bundles, credentials, captures, fixture databases, generated artwork or student records.
 
+## 6. Storage changes and authentication boundaries
+
+For a release that adds persistent state, verify the actual production schema before publishing, including nullability/constraints used by new writes. Review and execute an explicit additive migration before activating code that needs it; keep runtime startup and GETs free of schema initialization. Preserve old work/grades and retain new records on rollback. Use fictional tests for apply/revoke/manual edits rather than altering production student records.
+
+For new interception/authentication helpers, test denied/archived/temporary-password and expired-session cases for unintended writes, preserve account-versus-roster identity, and apply the same current ownership/audience/live-and-snapshot mode checks to every manual-state read/write path. Preserve existing release gates. Record the migration and real-schema evidence separately from fictional fixtures. [Handoff v26](../Handoff-v26.md) documents the validated pattern and limits.
+
 ## Evidence and model choice
 
 An assertion total, a confident answer, a model label or a high reasoning-effort setting is not a substitute for these scenario checks. Use independent review when it can improve coverage, but show the dependency and workflow evidence. Do not attribute an incident to a model ranking without comparative evidence; record the demonstrated implementation error and verification gap.

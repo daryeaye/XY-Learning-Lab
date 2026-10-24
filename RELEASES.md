@@ -1,5 +1,15 @@
 # XY Learning Lab release record
 
+## V26 — lesson exemptions, grade editing and interface updates, deployed October 24, 2026
+
+Main **0486baff-9a80-498f-84ab-efcce0a38bd2** (163), deployment **d358d9fa-0eab-4563-9da5-693e442e45c1**, **100%**, activated **2026-10-24T12:42:41.288568Z** (**08:42:41 AM EDT**). Module **9,910,878 bytes**, SHA-256 **5643f6101dd03abcaf403f415fceb6dfb257a42f390f27eb253feeedf5fbace9**; original 233-byte _headers retained. Private artwork service **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, remains 100% with all 153 files; no art deployment.
+
+[Handoff-v26.md](Handoff-v26.md) records all ten requested changes, regular-lesson-only Assignment Pass, explicit additive migration, NS/IP override preservation, complete canonical module aliases, tested published bodies and recovery. Production schema was read before creating xy_v26_grade_overrides, xy_v26_assignment_passes and their index. No existing student records were edited for migration/testing. Native worksheet PDF and all old assets/banks/settings remain.
+
+Official dry run, staged and active exact module/configuration readback passed. All 24 full public bodies across both domains matched, 20 JS/CSS ETags matched, and both stale-bootstrap ETags received new content. Published-code browser replay passed 85 startup/PDF, 34 Playground and 46 misc checks with one canonical app runtime, nonempty roots and zero React/unhandled errors. Workflows used fictional intercepted APIs in Chromium 156.0.8078.47; an actual signed-in live Grades/catalog read also passed. Safari/WebKit, every real account path and whole-account CPU performance are unverified. The known font fallback remains.
+
+Healthy pre-V26 rollback main is dbd1d4dd-ee59-42e3-8ca9-d06b68a6ff83; retain additive data on rollback and never restore known-bad version 161. This publication adds documentation only. Next handoff: **V27**.
+
 ## V25 — 047 correction and signed-in startup repair, deployed October 23, 2026
 
 Main Worker **dbd1d4dd-ee59-42e3-8ca9-d06b68a6ff83** (162), deployment **49647653-4453-4667-999a-7e508464e931**, **100%**, activated **2026-10-24T00:50:59.430472Z** (08:50:59 PM EDT). Module **9,730,983 bytes**, SHA-256 **4f11edcfabaf4704fa1de5ff0ed696e0a11593fd163eae0a9fd9d39cc8590322**. Artwork service **xy-yy-art-v24** remains **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, 100%, with all **153** files; it was not redeployed by the startup repair.

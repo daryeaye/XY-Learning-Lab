@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## V26 — Assignment Pass, grades and interface updates, deployed October 24, 2026
+
+Read [Handoff-v26.md](Handoff-v26.md) and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main version **163**, **0486baff-9a80-498f-84ab-efcce0a38bd2**, is active at **100%**, activated **08:42:41 AM EDT**. Artwork remains unchanged at version 3 with all **153 images**.
+
+Teachers can grant/revoke **Assignment Pass** for current/late regular lesson assignments and edit NS/IP grades while keeping student work. Summary reports now distinguish missing/incomplete from past-due lesson work. The requested Boards Up appearance, YY Maker font, connected student tabs, future history time, expanded student Playground and simple raw-answer review are live. Projects and assessments are excluded from Assignment Pass.
+
+The production schema was verified before adding two tables and an index. Exact staged/active Worker/configuration and both-domain published bytes were checked; full populated fictional teacher/student login, Gradebook/PDF and Playground workflows pass with one app/React entry and zero unhandled errors. An actual signed-in Grades/catalog read also succeeded. No real grade/pass was applied for testing. Browser limits and rollback are documented. Next handoff: **V27**; retain V25 and all earlier contracts.
+
 ## V25 — 047 outfit correction and signed-in page repair, deployed
 
 Start with [Handoff-v25.md](Handoff-v25.md) and the required [frontend release checklist](docs/RELEASE-CHECKLIST.md). Main Worker **dbd1d4dd-ee59-42e3-8ca9-d06b68a6ff83** (162) is active at 100%, activated October 23, 2026, **08:50:59 PM EDT**. The private artwork service remains version 3 with **153 images**, retaining all 144 originals and nine corrected 047 sprites. The goggles are removed in all three tones/states without changing saved outfit IDs, ownership, animations or student records.

@@ -1,5 +1,14 @@
 # XY Learning Lab change log
 
+## V26 — October 24, 2026: lesson Assignment Pass, editable grades and requested UI
+
+- Added multi-student **Assignment Pass** in Grades, restricted by human clarification to current/late regular lessons. Reversible Exempted flags preserve grades/work, respect owned class/audience/accommodations and leave missing/past-due reports without fabricated credit.
+- Added authoritative NS/IP/completed manual grade overrides and history without forced submission. Verified nullable production history attempt IDs, explicitly added two tables/index, and kept schema writes out of request startup. Validated live/snapshot mode gates and read-only denied-account authentication.
+- Updated the first two Summary Generator algorithms/copy, counting differentiated groups once and excluding projects, assessments, future and exempt work.
+- Applied scoped Boards Up hover/press behavior, removed redundant Project 2 subtitle, changed YY Maker font, connected all six dark outlined student tabs, and displayed time for future YY history entries.
+- Expanded assigned student Playground and replaced per-student teacher activity/PDF review with escaped raw saved-answer tables and IP placeholders. Retained global teacher/worksheet PDF tools.
+- Main **163** is active at 100%; art service remains unchanged. Complete current-source inverse, staged/active configuration/module hashes, both-domain public bodies and populated published-code teacher/student/PDF/Playground workflows passed. One canonical app/React entry; no unhandled errors. Coverage is Chromium with fictional APIs plus a live read-only teacher smoke check; known font fallback remains. See [Handoff-v26.md](Handoff-v26.md) for facts, migration, limits and recovery. Next handoff: **V27**.
+
 ## V25 — October 23, 2026: 047 bare-head art and signed-in startup repair
 
 - Removed built-in goggles/strap from nine Champion outfit 5 sprites; kept `60-13-15`, tone/state IDs, transparency/registration, all ownership/points and reaction behavior. Retained all 144 original art paths; complete artwork service is now 153 images.
