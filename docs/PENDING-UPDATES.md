@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## V25 — completed: 047 artwork correction and signed-in startup repair
+
+[Handoff-v25.md](../Handoff-v25.md) records the live version **162**, the 153-image artwork service, all nine corrected 047 sprites and the incident/prevention analysis. A missed Project 2 back-import loaded two app/React copies; the affected signed-in project route reproduced React 321 and an empty root. The deployed v24a module set shares one entry. The earlier version 161 must not be treated as a healthy rollback baseline.
+
+The new [release checklist](RELEASE-CHECKLIST.md), linked from AGENTS.md, is required for app-entry/import/module-URL changes, including artwork work that changes script URLs. It requires complete dependency graphs, full authenticated affected/direct/retained routes and populated fixtures, one shared app instance, live-body verification and accurate browser-engine reporting. Empty HOME and isolated YY tests had passed before this failure. V25 records the completed 971 assembled/36 YY/three login/48 independent asset checks and their actual limits.
+
+No student records, prior behavior or bank/media history were changed; the 047 fix and all other artwork are retained. This task adds no new product backlog item. Archive Class/export/permanent purge and the held Grades/dashboard/PDF optimization proposals remain deferred. Read V25 first, retain every older handoff, and use **V26** next.
+
 ## V24 — Premium and Champion YY artwork, deployed and verified
 
 Read [Handoff-v24.md](../Handoff-v24.md) first, then V23 and retained earlier handoffs. Main Worker **158c3b9c-3642-43a2-b9b0-a7494ec60573** (160), deployment **723a85ba-cc1b-4ac5-af9e-3d0e0cc21c4a**, **100%**, activated **2026-10-23T18:05:31.539048Z** (October 23, 2026, 02:05 PM EDT); SHA-256 **3efde19b5157c6503558c63bf9df56886f956fc2965d5072d96978fea0307ee2**. Artwork service **xy-yy-art-v24** at **11829bac-e0f3-4a26-8b2c-8a12dbdc5e32** (2), also 100%, is now a required dependency through **YY_ART**. Its complete 144-file ASSETS collection is separate from the unchanged app assets; keep the full collection and old paths.

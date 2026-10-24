@@ -1,5 +1,13 @@
 # XY Learning Lab release record
 
+## V25 — 047 correction and signed-in startup repair, deployed October 23, 2026
+
+Main Worker **dbd1d4dd-ee59-42e3-8ca9-d06b68a6ff83** (162), deployment **49647653-4453-4667-999a-7e508464e931**, **100%**, activated **2026-10-24T00:50:59.430472Z** (08:50:59 PM EDT). Module **9,730,983 bytes**, SHA-256 **4f11edcfabaf4704fa1de5ff0ed696e0a11593fd163eae0a9fd9d39cc8590322**. Artwork service **xy-yy-art-v24** remains **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, 100%, with all **153** files; it was not redeployed by the startup repair.
+
+Read [Handoff-v25.md](Handoff-v25.md) and [docs/RELEASE-CHECKLIST.md](docs/RELEASE-CHECKLIST.md). Nine 047 sprites now have bare heads, preserving saved IDs and all other art/behavior. The 047 entry had retained a Project 2 back-import to the older app, producing two React/app instances; the affected authenticated Playground route reproduced React 321 and a blank root. Canonical v24a imports now fix that graph. Version 161 is known bad. All old immutable source/art/code paths and the complete original managed ASSETS/configuration/data remain.
+
+The exact tested dry-run/staged/active modules and configuration were verified. 971 assembled checks, 36 YY live-asset browser checks, three fictional authenticated login flows and 48 independent live GET/HEAD checks pass. Actual Safari/WebKit and all populated accounts were not tested. The required future release gates cover those scope distinctions and representative populated/direct-route scenarios. This GitHub publication adds documentation only; no bundles, generated artwork, credentials, captured data or fixtures. Next handoff: V26.
+
 ## V24 — Premium and Champion YY artwork, deployed and verified
 
 Read [Handoff-v24.md](Handoff-v24.md) first, then V23 and retained earlier handoffs. Main Worker **158c3b9c-3642-43a2-b9b0-a7494ec60573** (160), deployment **723a85ba-cc1b-4ac5-af9e-3d0e0cc21c4a**, **100%**, activated **2026-10-23T18:05:31.539048Z** (October 23, 2026, 02:05 PM EDT); SHA-256 **3efde19b5157c6503558c63bf9df56886f956fc2965d5072d96978fea0307ee2**. Artwork service **xy-yy-art-v24** at **11829bac-e0f3-4a26-8b2c-8a12dbdc5e32** (2), also 100%, is now a required dependency through **YY_ART**. Its complete 144-file ASSETS collection is separate from the unchanged app assets; keep the full collection and old paths.
