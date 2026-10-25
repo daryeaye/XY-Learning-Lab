@@ -1,5 +1,14 @@
 # XY Learning Lab change log
 
+## V27 — October 24, 2026: Boards Up controls, one-bag Type 202 and matching tab outlines
+
+- Added the requested 2×2 +1/−1/+?/−? layout and blue/red numeric dialogs with validation, Apply/Cancel, Enter/Escape, focus handling and shortcut suppression. Human-confirmed positive scoring uses quantity × question value; deductions are raw amounts. Reward stars and bonus click/B agree with question value; progress/timer/prizes/navigation and V26 appearance remain.
+- Extra-credit No hides the sample immediately and after draft reopen.
+- Revised all ten Type 202 variants, their expected math/solutions/verification and reference JSON in additive Unit 2 revision **87232bd05914f44f49532c4ef9b37709b29aae2a86f1a5dea21071ffe273771e**. Eight older revisions, completed/pinned work and unrelated types remain.
+- Added section gaps to all Lesson 2-5 solution presentations and darker matching outlines for six selected student tabs/panels.
+- Read-only investigation confirmed the reported Type 132 exact answer passes the current original-pin checker and its credit was already teacher-corrected. Earlier rejection is not recoverable from latest-only state; no speculative checker change, historical regrade or student write.
+- Main164 is active at 100%, artwork unchanged. Complete alias/inverse checks, staged/active hashes/configuration, 56 published bodies and published full startup/PDF/project/tab/solution (207) and Boards (86) checks passed. One canonical app/React owner, no unhandled errors. Chromium/fictional-API limits and healthy V26 recovery are documented in [Handoff-v27.md](Handoff-v27.md). Next handoff: **V28**.
+
 ## V26 — October 24, 2026: lesson Assignment Pass, editable grades and requested UI
 
 - Added multi-student **Assignment Pass** in Grades, restricted by human clarification to current/late regular lessons. Reversible Exempted flags preserve grades/work, respect owned class/audience/accommodations and leave missing/past-due reports without fabricated credit.

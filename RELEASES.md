@@ -1,5 +1,15 @@
 # XY Learning Lab release record
 
+## V27 — Boards Up controls, curriculum and student tabs, deployed October 24, 2026
+
+Main **faca87cd-eccd-424e-a2fc-bc931bcd1f4a** (164), deployment **e562d561-b227-4c67-bdd6-22bc784ca1c8**, **100%**, activated **2026-10-25T02:39:02.97454Z** (**10:39:02 PM EDT**, October 24). Worker **9,978,567 bytes**, SHA-256 **a75c3f8e541215f504a457961435b2ac7ee5ceb7fbeca0b0316c377142dd6e24**; retained 233-byte headers. Artwork **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, 153 images, remains unchanged.
+
+[Handoff-v27.md](Handoff-v27.md) records custom Boards scoring/dialogs and sample visibility, star reward text, all-ten Type 202 one-bag variants in a new additive default/reference, Lesson 2-5 section spacing and six matching tab outlines. The reported equivalent answer is accepted now and was already teacher-corrected; earlier failure cannot be reconstructed. No speculative checker change/regrade, migration or production student test write.
+
+Official dry run, inactive upload, exact staged/active module/configuration readback and both-service freshness checks passed. All 56 full public bodies across both domains matched, with stale-bootstrap revalidation and correct wrapper/opaque-managed ETag handling. Published-code startup/Grades/Gradebook/PDF/Playground/tab/solution replay passed 207 checks, Boards 86; one canonical app, nonempty roots, zero unhandled/React errors. Coverage is Chromium 156 with fictional APIs; actual live landing loaded, fresh browser signed out. Safari/every real account remains unverified.
+
+Healthy rollback: V26 **0486baff-9a80-498f-84ab-efcce0a38bd2**. Retain additive data, all banks/source objects and artwork; never restore known-bad 161. GitHub update contains logs plus revised curriculum reference, no bundles/private evidence. Next handoff: **V28**.
+
 ## V26 — lesson exemptions, grade editing and interface updates, deployed October 24, 2026
 
 Main **0486baff-9a80-498f-84ab-efcce0a38bd2** (163), deployment **d358d9fa-0eab-4563-9da5-693e442e45c1**, **100%**, activated **2026-10-24T12:42:41.288568Z** (**08:42:41 AM EDT**). Module **9,910,878 bytes**, SHA-256 **5643f6101dd03abcaf403f415fceb6dfb257a42f390f27eb253feeedf5fbace9**; original 233-byte _headers retained. Private artwork service **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, remains 100% with all 153 files; no art deployment.

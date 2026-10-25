@@ -1,5 +1,15 @@
 # Agent instructions — XY Learning Lab update log
 
+## V27 — Boards Up controls, curriculum and tab colors, deployed and verified
+
+Start with [Handoff-v27.md](Handoff-v27.md), then V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **faca87cd-eccd-424e-a2fc-bc931bcd1f4a** (164), deployment **e562d561-b227-4c67-bdd6-22bc784ca1c8**, **100%**, activated **2026-10-25T02:39:02.97454Z** (October 24, 10:39:02 PM EDT), Worker SHA-256 **a75c3f8e541215f504a457961435b2ac7ee5ceb7fbeca0b0316c377142dd6e24**. Artwork remains version **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), 153 images, unchanged. Freshly verify both services. Next handoff: **V28**.
+
+V27 adds the four Boards Up scoring buttons/custom dialogs, hides disabled extra-credit samples, repeats actual reward stars, simplifies all ten Type 202 variants in a new additive bank revision, spaces Lesson 2-5 solutions and gives all six student category outlines matching darker hues. The human confirmed positive quantity × question value and raw deductions. Current Type 132 report was already teacher-corrected; its exact answer passes the current checker, but earlier rejection cannot be reconstructed. No speculative checker change/regrade or production student test write.
+
+Keep all five connected app/integration/lazy aliases under **/api/v27/static/20261025a/** sharing one app/React owner, plus new CSS/Boards/model aliases. Retain all older sources/immutable URLs, complete managed ASSETS, private YY_ART, eight previous Unit 2 revisions and frozen work, V26 tables/gates and all prior preservation instructions. New default/reference source is **87232bd05914f44f49532c4ef9b37709b29aae2a86f1a5dea21071ffe273771e**. Future solution authors must separate question, given quantities, model/terms and simplification by a blank-line-sized gap.
+
+Staged/active exact code/configuration and both heads passed; 56 published bodies matched. Published startup/Grades/PDF/Playground/tab/solution replay passed 207 checks; Boards passed 86. One canonical app, nonempty roots, zero unhandled/React errors; Chromium and fictional APIs, not Safari/every account. Healthy rollback is V26, never known-bad 161. GitHub contains the updated reference JSON and logs, not full app bundles or private evidence.
+
 ## V26 — lesson exemptions and interface updates, deployed and verified
 
 Start with [Handoff-v26.md](Handoff-v26.md), then [Handoff-v25.md](Handoff-v25.md) and [docs/RELEASE-CHECKLIST.md](docs/RELEASE-CHECKLIST.md). Current main **0486baff-9a80-498f-84ab-efcce0a38bd2** (163), deployment **d358d9fa-0eab-4563-9da5-693e442e45c1**, **100%**, activated **2026-10-24T12:42:41.288568Z** (08:42:41 AM EDT), Worker SHA-256 **5643f6101dd03abcaf403f415fceb6dfb257a42f390f27eb253feeedf5fbace9**. Art remains **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, 100%, all 153 images. Freshly verify both active/latest services. Next handoff: **V27**.

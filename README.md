@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## V27 — Boards Up controls, curriculum and student tab colors, deployed October 24, 2026
+
+Read [Handoff-v27.md](Handoff-v27.md), V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **164**, **faca87cd-eccd-424e-a2fc-bc931bcd1f4a**, is active at **100%** from **10:39:02 PM EDT**. Artwork remains unchanged with all 153 images. Next handoff: **V28**.
+
+Boards Up now has +1/−1/+?/−? controls, blue/red numeric dialogs, dynamic star rewards and correct extra-credit sample visibility. All ten Type 202 variants use one bag and pocket stickers in a new future-selection bank revision; completed/pinned work remains intact. Lesson 2-5 solution sections have clearer gaps, and the six selected student tabs/panels have darker matching outlines. The reported equivalent algebra answer currently passes and already has teacher-granted credit; the original rejection cannot be reconstructed, so no speculative checker rewrite or regrade was made.
+
+Exact inactive/active code and preserved configuration passed verification. All 56 published bodies across both domains matched; full populated published-code startup/Grades/Gradebook/PDF/Playground/tab/solution checks (207) and Boards checks (86) passed with one app runtime and no unhandled/React errors. Coverage is Chromium with fictional APIs; all old banks, saved data, V26 exemption/override records, assets and artwork remain. The handoff records scoring, limits and V26 recovery.
+
 ## V26 — Assignment Pass, grades and interface updates, deployed October 24, 2026
 
 Read [Handoff-v26.md](Handoff-v26.md) and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main version **163**, **0486baff-9a80-498f-84ab-efcce0a38bd2**, is active at **100%**, activated **08:42:41 AM EDT**. Artwork remains unchanged at version 3 with all **153 images**.
