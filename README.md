@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## V28 — word-problem solutions and Boards Up redesign, deployed October 25, 2026
+
+[Handoff-v28.md](Handoff-v28.md) is current; retain V27/V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **165**, **2ccb85d3-12f7-469e-844b-09c55ff79dd7**, is active at **100%** from **10:24:18 PM EDT**. Artwork remains unchanged with 153 images. Next handoff: **V29**.
+
+Both curriculum banks now use the requested word-problem solution structure for 93 types  / 675 variants plus 25 subparts: Question, optional Variables, Numbers, Operations and a contextual final answer, with units, multiplication dots and selective bold. All prompts, answers and grading rules remain; original/frozen sources and work are preserved. Reference JSONs match the actual live 104-type Unit 1 and136-type Unit 2 catalogs.
+
+Boards Up has a larger score, combined configured reward indicators, matching reward pills, dynamic quick±point buttons, concise dialogs, rising stars and deduction flashes. Focus/validation, timer, navigation and saved configuration remain. Exact staged/active code/configuration,56 published bodies, full published app 930 checks and Boards 132 passed with one shared app runtime and no unhandled/React errors. Browser/data scope and healthy V27 recovery are recorded.
+
 ## V27 — Boards Up controls, curriculum and student tab colors, deployed October 24, 2026
 
 Read [Handoff-v27.md](Handoff-v27.md), V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **164**, **faca87cd-eccd-424e-a2fc-bc931bcd1f4a**, is active at **100%** from **10:39:02 PM EDT**. Artwork remains unchanged with all 153 images. Next handoff: **V28**.

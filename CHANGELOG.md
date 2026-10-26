@@ -1,5 +1,13 @@
 # XY Learning Lab change log
 
+## V28 — October 25, 2026: word-problem solutions and Boards Up redesign
+
+- Applied the supplied solution-writing pattern to51 Unit 1 types / 255 variants plus 25 subparts and42 Unit 2 types / 420 variants. Added structured presentation with Question/Variables/Numbers/Operations, quantities+units, centered-dot multiplication and contextual answers; bold only labels/final answers. Retained all existing prompts, answers, methods, diagrams and grading rules.
+- Made choice explanations safe for native student answer shuffling. Kept exact original Unit 1 source and frozen clones; added a new Unit 2 default with all nine previous revisions preserved. Updated both complete reference JSONs, including already-live Unit 1 types 097–104 missing from the older reference.
+- Redesigned Boards scoreboard/reward indicators, reward-message pills and button spacing/corners. Quick add/deduct follow current point value; custom addition remains quantity×value and custom deduction raw. Removed added dialog heading/help/preview copy while preserving accessibility/validation.
+- Added rising stars with an active/pending queue and two one-second deduction flashes, reduced-motion handling, cleanup and bounded large-award decoration without score loss.
+- Main165 is active at 100%, art unchanged. Exact staged/active modules/configuration, full 56 published bodies,930 published startup/Grades/PDF/project/tab/solution checks and132 Boards checks passed with one app/React owner and no unhandled errors. No migration, regrade or production student test write. See [Handoff-v28.md](Handoff-v28.md) for source hashes, scope, browser limits and V27 recovery. Next **V29**.
+
 ## V27 — October 24, 2026: Boards Up controls, one-bag Type 202 and matching tab outlines
 
 - Added the requested 2×2 +1/−1/+?/−? layout and blue/red numeric dialogs with validation, Apply/Cancel, Enter/Escape, focus handling and shortcut suppression. Human-confirmed positive scoring uses quantity × question value; deductions are raw amounts. Reward stars and bonus click/B agree with question value; progress/timer/prizes/navigation and V26 appearance remain.

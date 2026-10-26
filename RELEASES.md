@@ -1,5 +1,15 @@
 # XY Learning Lab release record
 
+## V28 — word-problem solutions and Boards Up redesign, deployed October 25, 2026
+
+Main **2ccb85d3-12f7-469e-844b-09c55ff79dd7** (165), deployment **035c1d00-aaa7-4f4a-b2b4-e2e9b8f6d40e**, **100%**, activated **2026-10-26T02:24:18.179292Z** (**10:24:18 PM EDT**, October 25). Worker **10,628,446 bytes**, SHA-256 **ec246f5217743e1b3f2a69caf0d3fe28a2a76b601cd7846d11160370c5533be6**, original 233-byte headers retained. Artwork **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3),153 images, remains unchanged.
+
+[Handoff-v28.md](Handoff-v28.md) records 675 word-problem variants / 25 subparts, the exact authoring expectations, original-source/frozen-work preservation, updated Unit 1/2 references and the Boards redesign/animations. Unit 2 new default **c5bb948fe1fe3c73bd4f864397a9f84b4d78ec887b7527912eec2aabd29086d5** keeps all nine earlier revisions; Unit 1 reference now matches the already-live 104-type catalog. No changed correct answers, migration, historical regrade or production student test write.
+
+Official dry run, inactive/staged and active exact code/configuration verification passed. All 56 published bodies across both domains matched, including stale-bootstrap handling. Published full app replay930 checks and Boards 132 passed with one app/React owner and zero unhandled errors; includes93 word-type solution previews, populated ordinary/direct teacher/student sign-ins, Grades/Pass, Gradebook/PDF and Playground. Chromium 156 with fictional APIs; Safari/every production account are unverified.
+
+Healthy rollback V27 **faca87cd-eccd-424e-a2fc-bc931bcd1f4a**; retain data, all banks/source objects and art. Never restore known-bad 161. Repository update contains logs and both curriculum references only. Next handoff: **V29**.
+
 ## V27 — Boards Up controls, curriculum and student tabs, deployed October 24, 2026
 
 Main **faca87cd-eccd-424e-a2fc-bc931bcd1f4a** (164), deployment **e562d561-b227-4c67-bdd6-22bc784ca1c8**, **100%**, activated **2026-10-25T02:39:02.97454Z** (**10:39:02 PM EDT**, October 24). Worker **9,978,567 bytes**, SHA-256 **a75c3f8e541215f504a457961435b2ac7ee5ceb7fbeca0b0316c377142dd6e24**; retained 233-byte headers. Artwork **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), deployment **42010797-dd25-4fc3-b7bb-d494c150545d**, 153 images, remains unchanged.

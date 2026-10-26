@@ -1,5 +1,15 @@
 # Agent instructions — XY Learning Lab update log
 
+## V28 — word-problem solutions and Boards Up redesign, deployed and verified
+
+Read [Handoff-v28.md](Handoff-v28.md), then V27/V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **2ccb85d3-12f7-469e-844b-09c55ff79dd7** (165), deployment **035c1d00-aaa7-4f4a-b2b4-e2e9b8f6d40e**, **100%**, activated **2026-10-26T02:24:18.179292Z** (October 25, **10:24:18 PM EDT**). Worker SHA-256 **ec246f5217743e1b3f2a69caf0d3fe28a2a76b601cd7846d11160370c5533be6**. Art remains **3d6c8e1f-d394-49fa-9fee-a37c079b514a**, 153 images, unchanged. Next handoff: **V29**; freshly verify both services/GitHub.
+
+V28 rewrites applicable word-problem presentation in both banks (93 types / 675 variants +25 subparts): Question, optional Variables, Numbers with units, Operations, contextual conclusion; only labels/answer fragments bold, centered-dot multiplication, section gaps and no extra helper copy. Preserve original methods/diagrams and choice-shuffle-safe explanations. Unit 1 original source remains exactly aliased; its unembedded old references may show updated solutions while frozen clones remain. Unit 2 adds default **c5bb948fe1fe3c73bd4f864397a9f84b4d78ec887b7527912eec2aabd29086d5**, retaining all nine earlier revisions/checkers and frozen work. Reference files match actual104/520 Unit 1 and136/1325 Unit 2 catalogs.
+
+Boards combines configured rewards/thresholds with a larger score, matching reward pills and consistent controls, dynamic quick +N/−N, minimal custom dialogs and point feedback. New PDF supersedes V27 raw quick−1; custom− remains raw. Stars use a bounded active pool plus pending queue; large custom decorative output is capped without changing numeric score. Preserve focus/validation, reduced motion, timer, prizes and persistence.
+
+Keep all five connected aliases under **/api/v28/static/20261025a/** sharing one app/React owner, plus CSS/Boards/model aliases; retain older immutable sources, managed ASSETS, private YY_ART, V26 tables/gates and all earlier contracts. Staged/active exact code/configuration and56 published bodies passed. Published full app 930 checks and Boards 132 passed, including 93 type previews, Gradebook/PDF, direct teacher/student Playground and populated Grades. Chromium/fictional APIs, no unhandled/React errors; no Safari/every-account claim. Healthy rollback V27; never known-bad 161. GitHub holds references/logs, no bundles/private evidence.
+
 ## V27 — Boards Up controls, curriculum and tab colors, deployed and verified
 
 Start with [Handoff-v27.md](Handoff-v27.md), then V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **faca87cd-eccd-424e-a2fc-bc931bcd1f4a** (164), deployment **e562d561-b227-4c67-bdd6-22bc784ca1c8**, **100%**, activated **2026-10-25T02:39:02.97454Z** (October 24, 10:39:02 PM EDT), Worker SHA-256 **a75c3f8e541215f504a457961435b2ac7ee5ceb7fbeca0b0316c377142dd6e24**. Artwork remains version **3d6c8e1f-d394-49fa-9fee-a37c079b514a** (3), 153 images, unchanged. Freshly verify both services. Next handoff: **V28**.
