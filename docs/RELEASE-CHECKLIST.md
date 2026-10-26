@@ -34,7 +34,7 @@ Use the normal visible app root and real entry/bootstrap graph. Fictional authen
 ## 5. Preserve data and verify publication
 
 - Confirm the intended code difference and complete preservation of unrelated backend/data handlers. Keep all student work, grades, points, ownership, histories, bank revisions and media. Do not clear browser storage as an unexplained repair step.
-- Preserve existing bindings, managed assets and settings unless an authorized change explicitly requires otherwise. Keep the complete 153-image artwork package and all old paths; never replace that service with a partial diagnostic directory.
+- Preserve existing bindings, managed assets and settings unless an authorized change explicitly requires otherwise. Keep the complete currently deployed artwork package and all old paths (V29/V30:453 images, including153 retained); never replace that service with a partial diagnostic directory.
 - Match official dry-run and staged modules with the tested package. Recheck active/latest before activation, respecting current user authorization and any approval-review outcome. Read back active code/configuration and verify affected public assets and workflows on both app domains.
 - For YY/shared entry changes, confirm saved outfit/headwear IDs, independent tier ownership, the 047 bare-head URLs, transparent canvas registration, four student/two teacher reaction cycles and −1/+1 CSS-pixel headwear movement remain correct.
 - Log the exact version, deployment, hashes, timestamps, scenarios, test data and browser-engine limits. Mark failures and unrun cases explicitly. Update the newest handoff and starting instructions with the current baseline; retain all previous handoffs. GitHub remains documentation/reference only, without bundles, credentials, captures, fixture databases, generated artwork or student records.
@@ -48,3 +48,14 @@ For new interception/authentication helpers, test denied/archived/temporary-pass
 ## Evidence and model choice
 
 An assertion total, a confident answer, a model label or a high reasoning-effort setting is not a substitute for these scenario checks. Use independent review when it can improve coverage, but show the dependency and workflow evidence. Do not attribute an incident to a model ranking without comparative evidence; record the demonstrated implementation error and verification gap.
+
+## Reusable worksheets and integrated layout (V30)
+
+- Preserve exact saved question presentation, snapshot/bank revision and answers across detail reads, metadata/layout saves, reloads, PDF and answer-key actions. Only an explicit generation/regeneration may select another pack. Exercise both banks and actual one/two-column PDF layout using fictional fixtures.
+- Test the complete visible worksheet builder, including screen positions of title, one Description heading, the two-row editor, columns above Difficulty and compact nonoverlapping controls. Existing shared grid-row rules and Chromium details-content styles can defeat an isolated grid patch. Keep styling scoped to worksheet mode.
+- Verify additive teacher-owned artifact storage against the real schema. Keep worksheets separate from student-delivered assignments/grades/YY, enforce owner/session/method/origin/bounds, and retain records on removal/rollback. Never initialize this schema at startup or from a GET.
+
+## Upload authentication and source formatting (V30)
+
+- Inspect the actual error body before blaming token expiry or permissions. V30 saw a large-request credential-connection401 with an active token, while a smaller standard upload with the same credential succeeded. The exact connection size limit is unproven. Keep the normal configured proxy/CA/credential path.
+- HTTP-gzip multipart was rejected by Cloudflare and must not be assumed supported. If reducing source formatting, protect all literals/templates/newlines, prove identical executable AST and exact reversibility, and rerun assembled/backend/full-browser checks on the final package. Do not alter bank strings or serialized public-asset edits. Match official dry-run, staged and active bytes/configuration afterward.

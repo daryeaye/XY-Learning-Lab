@@ -1,5 +1,14 @@
 # XY Learning Lab change log
 
+## V30 — PDF changes and reusable worksheets, deployed and verified
+
+[Handoff-v30.md](Handoff-v30.md) records the current verified release. Main **167 / 338cf714-638d-4ff2-993c-a9d8d9d09e37**, deployment **c32e5884-2069-4471-b8ce-821807a46171**, is active at **100%** from **2026-10-26T19:36:58.025331Z** (**October 26, 2026, 3:36:58 PM EDT**). Main module: **9,787,542 bytes**, SHA-256 **ec0191a8ed67cb2ce2425fc7ad1d443a9d852fcd70c37302b87596b6d4ff5b43**. Private artwork remains **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, deployment **1ac5c1fe-2c99-4d8d-b1e7-00207067aa8c**, unchanged at100%, with the complete **453-image** collection.
+
+Student View has an owned-class filter; Boards Up keeps complete single-line score/reward text and the requested timer arrangement. Assignment Pass has Select All and atomic multiple-assignment selection with automatic close. Grades save only with Enter, display concise history and cancel valid relevant passes. Worksheets save exact server-generated questions/snapshots/answers, reopen from assignment dropdowns, show numbered answer keys and print in one or two columns. The explicit additive worksheet table/index preserve all prior data; no production student test write or R2/art upload occurred. The [opaque-ID audit](docs/UI-ID-AUDIT-v30.md) reports remaining conditional UI fallbacks.
+
+Final assembled checks:296 static/graph,131 worksheet backend and172 pass/grade backend; focused helpers are supplemental. Full signed-in browser:135 before activation and135 against actual published bodies; both-domain verification:128 complete bodies and16 protocol checks. One canonical app/React owner, preserved settings/assets and no unhandled/React errors. Browser is Chromium 154.0.8037.57, with fictional APIs and the documented local font fallback; no Safari/every-account claim. The upload connection failure was resolved by reversible indentation-only packaging with identical executable AST, without replacing the active token. Keep all prior handoffs/contracts and the mandatory release checklist. Next handoff: **V31**.
+
+
 ## V29 — YY Buddy artwork consistency, deployed and verified
 
 - Delivered the reviewed 270-body/30-headwear collection through new immutable paths while retaining every previous artwork path.
