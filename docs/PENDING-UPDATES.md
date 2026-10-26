@@ -1,5 +1,13 @@
 # XY Learning Lab completed update requirements
 
+## V29 — completed: YY Buddy artwork consistency
+
+[Handoff-v29.md](../Handoff-v29.md) records main **166** and private art **4**, both active at100%, with 300 new artwork files and all153 retained paths. Exact shared Basic logos and cloth colors, source/encoded alpha checks, unchanged saved-look/animation behavior, staged/active readback, both-domain public bytes and pre/post-activation fictional signed-in browser checks pass.
+
+Prepared modules: **1,116 checks**. Actual assembled Worker: **3,536 checks**, no misses or external fixture requests. Pre-activation browser: **123 checks**; published-code browser: **123 checks**, all recorded tests passing. Public verification matched **1,362 complete bodies** across both app domains and **16 protocol checks**. Every new encoded image passes zero alpha/visible-RGB differences from its source PNG. Independent source, retained-file and release-code reviews pass.
+
+No new feature backlog or data migration is introduced. Keep all student work, banks, prior handoffs, old artwork URLs and the 047/headwear/animation contracts. Archive Class/export/purge and held Grades/dashboard/PDF optimization proposals remain deferred. Browser limitations and healthy V28 recovery are recorded. Next handoff: **V30**.
+
 ## V25 — completed: 047 artwork correction and signed-in startup repair
 
 [Handoff-v25.md](../Handoff-v25.md) records the live version **162**, the 153-image artwork service, all nine corrected 047 sprites and the incident/prevention analysis. A missed Project 2 back-import loaded two app/React copies; the affected signed-in project route reproduced React 321 and an empty root. The deployed v24a module set shares one entry. The earlier version 161 must not be treated as a healthy rollback baseline.

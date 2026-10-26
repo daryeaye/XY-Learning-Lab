@@ -1,5 +1,13 @@
 # XY Learning Lab — shared update log
 
+## V29 — consistent YY Buddy artwork, deployed and verified
+
+[Handoff-v29.md](Handoff-v29.md) records the current verified release. Main **166 / 5ad1f2dd-19c3-49dc-ad6d-56e858f38043** and private art **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2** are active at **100%**, recorded **October 26, 2026 at 12:05:54 AM EDT**. The complete artwork collection is **453 images**, preserving all 153 previous paths plus 270 new bodies and 30 headwear overlays.
+
+The Basic consistency pass uses 12 exact normal-white decals across 108 pose/tone variants, cloth-only palette correction and mask-protected clean fabric. Local independent checks pass all source decals/placements, alpha/skin/protected-pixel guards and 192 retained local redraw files. Saved outfit/headwear IDs, Black→brown mapping, the 047 bare head, ownership/prices/points, four student/two teacher cycles and CSS −1/+1 px headwear movement remain. No production data, migration or R2 object writes.
+
+Prepared modules: **1,116 checks**. Actual assembled Worker: **3,536 checks**, no misses or external fixture requests. Pre-activation browser: **123 checks**; published-code browser: **123 checks**, all recorded tests passing. Public verification matched **1,362 complete bodies** across both app domains and **16 protocol checks**. Every new encoded image passes zero alpha/visible-RGB differences from its source PNG. Independent source, retained-file and release-code reviews pass. Coverage uses the actual recorded Chromium engine and fictional APIs, not Safari/every production account. All earlier features, data, bank revisions and handoffs remain. Follow the release checklist; next handoff: **V30**.
+
 ## V28 — word-problem solutions and Boards Up redesign, deployed October 25, 2026
 
 [Handoff-v28.md](Handoff-v28.md) is current; retain V27/V26/V25 and the mandatory [release checklist](docs/RELEASE-CHECKLIST.md). Main **165**, **2ccb85d3-12f7-469e-844b-09c55ff79dd7**, is active at **100%** from **10:24:18 PM EDT**. Artwork remains unchanged with 153 images. Next handoff: **V29**.

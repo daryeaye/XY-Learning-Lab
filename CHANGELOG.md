@@ -1,5 +1,14 @@
 # XY Learning Lab change log
 
+## V29 — YY Buddy artwork consistency, deployed and verified
+
+- Delivered the reviewed 270-body/30-headwear collection through new immutable paths while retaining every previous artwork path.
+- Unified each Basic outfit's logo and colors across its three states/tones using exact shared decals and mask-protected fabric correction; preserved alpha and prior sprite geometry.
+- Preserved saved IDs, skin mapping, 047 bare head, independent ownership, headwear motion, reaction cycles and all user data.
+- Prepared modules: **1,116 checks**. Actual assembled Worker: **3,536 checks**, no misses or external fixture requests. Pre-activation browser: **123 checks**; published-code browser: **123 checks**, all recorded tests passing. Public verification matched **1,362 complete bodies** across both app domains and **16 protocol checks**. Every new encoded image passes zero alpha/visible-RGB differences from its source PNG. Independent source, retained-file and release-code reviews pass.
+
+[Handoff-v29.md](Handoff-v29.md) records the current verified release. Main **166 / 5ad1f2dd-19c3-49dc-ad6d-56e858f38043** and private art **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2** are active at **100%**, recorded **October 26, 2026 at 12:05:54 AM EDT**. The complete artwork collection is **453 images**, preserving all 153 previous paths plus 270 new bodies and 30 headwear overlays. The handoff records browser scope, local fixture limits, exact hashes and rollback; no database migration, R2 object or production test writes.
+
 ## V28 — October 25, 2026: word-problem solutions and Boards Up redesign
 
 - Applied the supplied solution-writing pattern to51 Unit 1 types / 255 variants plus 25 subparts and42 Unit 2 types / 420 variants. Added structured presentation with Question/Variables/Numbers/Operations, quantities+units, centered-dot multiplication and contextual answers; bold only labels/final answers. Retained all existing prompts, answers, methods, diagrams and grading rules.
