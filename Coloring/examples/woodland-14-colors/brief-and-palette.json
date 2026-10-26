@@ -1,0 +1,82 @@
+{
+  "title": "Woodland color study",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: illustration-story / style-transfer.\nCreate a beautiful, print-ready colored coloring-book illustration for preteens and teens. Reference image 2 is the PRIMARY style and composition guide; reference image 1 only shows the basic girl-under-tree subject. The second reference's mature, graceful illustrated face, realistic hands, flowing long wavy hair, elegant expressive linework, full seated pose, cuffed jeans and lace-up sneakers are essential. Redraw this scene in that more sophisticated coloring-book style. Do not use the squat, oversized baby-faced cartoon proportions or the geometric patchwork coloring from the previous attempts.\n\nPortrait canvas, full-page art. A teenage girl sits comfortably nestled against an old tree at the left, both knees bent, two relaxed anatomically correct hands resting across her knees, both sneakers visible at the bottom. Her face looks gently upward toward a few drifting autumn leaves. Long flowing chestnut hair, a rose sweater with violet ribbed collar/cuffs, denim jeans, violet sneakers with ivory laces and soles. Build a lovely cohesive woodland composition around her: sweeping tree trunk and roots with elegant bark lines, branches and leaf clusters above, several leafy plants and tufts of grass around the roots, a winding turquoise stream through the right middle distance, a few simple stones and gentle lavender hills beyond. Balanced detail appropriate for an attractive teen/adult coloring page, with useful coloring spaces rather than dense tiny scribbles. Keep face features delicate, hands natural, shoes clearly designed. No labels, typography, border, watermark, numbering, color swatches, or diagrams.\n\nIMPORTANT COLOR PRODUCTION: use only these FOURTEEN opaque SOLID fill colors, plus pure black ink. NO gradients, no texture, no lighting, no shading, no extra color tones, no transparency. Each color can naturally recur across objects; never draw arbitrary division lines just to force more layers.\nSky: pale ice blue #BDEAF2.\nStream: vivid turquoise #25B9D0, ivory ripple lines enclosed as colorable shapes.\nDistant hills: soft lavender #A793CF; stones may use this lavender too.\nGround/stream banks: warm golden sand #E9CB85, same solid color throughout banks.\nTree trunk, branches and roots: warm amber brown #AD723C, no brown shading.\nHair: rich chestnut #683C2E, no hair color blocks or second hair shade.\nFace, neck, hands and ankles: warm peach #F0BA8C, same flat color.\nSweater: clear rose #D85E8C; lips may use rose.\nJeans: denim blue #347DB5.\nSneakers and ribbed sweater trim: violet #6C4AA4.\nTree foliage and broad leafy plants: emerald #2E885E.\nGrass and low undergrowth: bright lime #A7C548.\nAutumn leaves: tangerine #EC883F.\nSneaker soles/laces, eye whites and a few stream ripples: warm ivory #FFF1D6.\nAll contours and internal detailing are BLACK #000000, smooth confident variable line weight, clear closed shapes, crisp high resolution. Keep all the appealing detail and graceful proportions of reference 2; the limited flat palette must not simplify or deform her anatomy. This is one finished attractive illustration, not a collage or separated layers.",
+  "palette": [
+    {
+      "number": 1,
+      "name": "Pale blue sky",
+      "hex": "#BDEAF2"
+    },
+    {
+      "number": 2,
+      "name": "Turquoise stream",
+      "hex": "#25B9D0"
+    },
+    {
+      "number": 3,
+      "name": "Lavender hills and stones",
+      "hex": "#A793CF"
+    },
+    {
+      "number": 4,
+      "name": "Golden sand and banks",
+      "hex": "#E9CB85"
+    },
+    {
+      "number": 5,
+      "name": "Amber tree and roots",
+      "hex": "#AD723C"
+    },
+    {
+      "number": 6,
+      "name": "Chestnut hair",
+      "hex": "#683C2E"
+    },
+    {
+      "number": 7,
+      "name": "Peach skin",
+      "hex": "#F0BA8C"
+    },
+    {
+      "number": 8,
+      "name": "Rose sweater and lips",
+      "hex": "#D85E8C"
+    },
+    {
+      "number": 9,
+      "name": "Denim jeans",
+      "hex": "#347DB5"
+    },
+    {
+      "number": 10,
+      "name": "Violet sneakers and knit trim",
+      "hex": "#6C4AA4"
+    },
+    {
+      "number": 11,
+      "name": "Emerald leaves and trees",
+      "hex": "#2E885E"
+    },
+    {
+      "number": 12,
+      "name": "Lime grass and undergrowth",
+      "hex": "#A7C548"
+    },
+    {
+      "number": 13,
+      "name": "Tangerine autumn leaves",
+      "hex": "#EC883F"
+    },
+    {
+      "number": 14,
+      "name": "Ivory eyes, laces and soles",
+      "hex": "#FFF1D6"
+    }
+  ],
+  "notes": [
+    "Latest user replaces forced20 layer count with one layer per useful palette color.",
+    "Preserve generated anatomy and geometry; do not inflate areas or split hair/trunk to force numerical constraints.",
+    "Export14palettegroups plus their black linework. Color groups can recur across natural objects."
+  ]
+}
