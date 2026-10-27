@@ -1,5 +1,16 @@
 # XY Learning Lab change log
 
+## V31 — step-by-step work and interface updates, deployed and verified
+
+[Handoff-v31.md](Handoff-v31.md) records the current verified release. Main **168 / 1d23d86b-b3cf-4c38-b747-57216ef39a2e**, deployment **18b6e90c-8a79-4545-ace7-3db4f075cbe7**, is active at **100%** from **2026-10-27T03:04:43.646209Z** (**October26,2026,11:04:43PMEDT**). Main module: **10,381,251bytes**, SHA256 **7f19785321a1df55211c02e5e9a1ba638cc9a50ae2f4a64c176bb8a3122bc11b**. Private artwork remains **4 /fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, unchanged at100%, with the complete453-image collection.
+
+Optional **Step-by-Step Help** provides structured rich-math word work and editable common-factor layers for the requested eligible types. It defaults off, freezes only for new student sets, saves/reopens/reviews correctly, and checks required work before consuming attempts while retaining native final-answer grading. Updated presentation covers110Unit1solutions and165Unit2factoring solutions. Both catalogs and all ten previous Unit2revision/checker owners remain. New Unit2default is **c0dcd61e5cb3fd7f7021c69c05dfe48331f4962656c14ffab2aa5d413b0afb8a**.
+
+Worksheets print smaller Description text and consistent1/2-column questions with compact controls; Student View is more compact; Boards scores/rewards and Assignment Pass buttons follow the new layout. Exact saved worksheet packs, existing work/attempts/grades/data, all453art images, seven bindings and complete managed assets/settings remain. No schema migration, R2/art upload or production student test write occurred. Keep concise UI copy, all earlier handoffs and the mandatory release checklist.
+
+Verification:647static/graph checks,59,797bank/checker/privacy assertions,13full-app workflows/119checks before activation and the same13/119using actual published code;38independent MathLive desktop/mobile checks. Both domains passed66complete body matches and4bootstrap protocol checks; staged/active source and26postactivation configuration checks match. Official dry-run passed the exact package; upload reported startup_time_ms168. Browser:Chrome157.0.8103.15 with fictional local APIs, not Safari/every account or measured whole-account CPU. Native PDF Blob generation/render/visual checks pass; the local OS canceled the test browser download as documented. Next handoff: **V32**.
+
+
 ## V30 — PDF changes and reusable worksheets, deployed and verified
 
 [Handoff-v30.md](Handoff-v30.md) records the current verified release. Main **167 / 338cf714-638d-4ff2-993c-a9d8d9d09e37**, deployment **c32e5884-2069-4471-b8ce-821807a46171**, is active at **100%** from **2026-10-26T19:36:58.025331Z** (**October 26, 2026, 3:36:58 PM EDT**). Main module: **9,787,542 bytes**, SHA-256 **ec0191a8ed67cb2ce2425fc7ad1d443a9d852fcd70c37302b87596b6d4ff5b43**. Private artwork remains **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, deployment **1ac5c1fe-2c99-4d8d-b1e7-00207067aa8c**, unchanged at100%, with the complete **453-image** collection.
