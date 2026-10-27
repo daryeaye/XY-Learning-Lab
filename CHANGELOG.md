@@ -1,5 +1,16 @@
 # XY Learning Lab change log
 
+## V32 — Prompt 5 completed, deployed and verified
+
+[Handoff-v32.md](Handoff-v32.md) is the current release record; older current-state entries below are retained history. Main **170 / 9bbbf609-7643-486c-b33b-39377eb85185**, deployment **f60220fc-35d6-41bf-adb6-6a7d861ffd55**, is active at **100%** from **2026-10-27T14:52:28.516377Z** (**October 27, 2026, 10:52:28 AM EDT**). Worker **10,441,231 bytes**, SHA256 **5283ba9cd26b8f0ad47fdf2161aa938b94a496b17add330f691a64b65ed61c4c**. Private art remains **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, with all 453 images. All bindings, settings and complete managed assets remain.
+
+Prompt 5's fourteen main pages are complete, retaining the earlier Type-heading, Enter-spacing and native keyboard fixes. Both project builders save due/late options. The three pictured published projects are due **November 4, 2026, 2:00 PM America/New_York (19:00 UTC)**. Verified changes include compact assignment settings, one Description heading, wider timer controls with unchanged font sizes, compact left-aligned solutions, **Add Scaffolding** with checked defaults for new choices and actual student examples, a fillable radical, combined factoring fields, manual keyboard opening and teacher-preview parity. Existing choices, snapshots and native grading remain.
+
+**Future interface edits must keep titles, button labels and subtitles on one line, use compact controls/even spacing and avoid redundant copy.** Read [UI preferences](docs/UI-PREFERENCES.md), V32/V31 and the mandatory release checklist. Preserve combined work and project date JSON during recovery, every bank revision, exact worksheet pack, pass/grade history, student work and all artwork/YY behavior. The only maintenance DML was the three explicitly requested project due dates; no student test write, schema migration or R2/art upload occurred.
+
+Final checks: **254 static/graph**, **73 backend**, **44 Prompt 5 UI**, **29 retained urgent**, and **135 full app** checks. The same 44/29/135 passed using downloaded published bodies. Both domains passed **92 complete body matches and 16 protocol/auth checks**. One canonical app/React owner, exact dry-run/staged/active bytes/settings and reversible packaging with identical executable AST are verified. Browser: **Chromium 154.0.8037.57**, with fictional APIs; no Safari/every-account claim. GitHub contains documentation/reference only. **Next handoff: V33.** Retain all older handoffs and freshly capture actual main/art/GitHub before future work.
+
+
 ## V31 — step-by-step work and interface updates, deployed and verified
 
 [Handoff-v31.md](Handoff-v31.md) records the current verified release. Main **168 / 1d23d86b-b3cf-4c38-b747-57216ef39a2e**, deployment **18b6e90c-8a79-4545-ace7-3db4f075cbe7**, is active at **100%** from **2026-10-27T03:04:43.646209Z** (**October26,2026,11:04:43PMEDT**). Main module: **10,381,251bytes**, SHA256 **7f19785321a1df55211c02e5e9a1ba638cc9a50ae2f4a64c176bb8a3122bc11b**. Private artwork remains **4 /fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, unchanged at100%, with the complete453-image collection.
