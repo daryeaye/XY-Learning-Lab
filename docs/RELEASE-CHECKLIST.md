@@ -91,3 +91,11 @@ An assertion total, a confident answer, a model label or a high reasoning-effort
 - Verify Lesson2-6 flow on older frozen snapshots without new metadata as well as fresh assignments. Enforce8 new layers before cleaning/mutation; retain existing9–12 without growth or truncation.
 - Exercise draft, successful/failed publish, home navigation, fresh published re-edit and CLOSED state. Assert assignment-type navigation/link/icon visibility, compact complete footer controls and that saving cannot demote published work. Check shared differentiated settings in every saved child, not just the editor state.
 - Reconcile concurrent updates on their exact current source, preserve their immutable paths and artwork registry, use a fresh release namespace and rerun integrated checks. V35's pre-upload guard caught main172/art5 replacing171/art4; it prevented a stale upload. Preserve the full current693-image collection.
+
+
+## Assignment-wide scaffolding, actual warnings and Space keys (V36)
+
+- Exercise exactly one global checkbox and no per-card scaffolding toggles on all five requested lessons. Verify native preview hover, on/off, mixed historical settings, Cancel/Save, across-difficulty persistence and all three differentiated child payloads. Do not rewrite existing started snapshots/work when assignment metadata changes.
+- Test missing-work feedback by actually clicking Check Answer, not only inspecting a completion predicate: a disabled button can make the warning unreachable. Assert the exact message and no check API/check-count consumption across word work, PCL and factoring. Preserve server completeness gates before mutations.
+- Test physical and native virtual Space on the actual intermediate/combined MathLive fields, then save/reopen. The shared insertion helper's format parameter is a function-template selector; passing latex as a selector can silently prevent ordinary insertion. Keep the existing keyboard layout and unrelated fields unchanged.
+- Finish the full public-body hash download before a published-code replay. Fail if a required published artifact is missing; an environment flag alone does not prove actual downloaded-body coverage. Investigate unexpected post-activation responses, repeat complete verification and record material failures/limits honestly.

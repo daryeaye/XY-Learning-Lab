@@ -1,3 +1,14 @@
+<!-- V36 VERIFIED RELEASE INSERT START -->
+## V36 — Prompt7 and assignment-wide scaffolding
+
+[Handoff-v36.md](Handoff-v36.md) is the current verified record. Main **174 / 748ae030-fa2d-4753-a7ae-fb50ba5bb7bd**, deployment **`d818fb1d-eb0d-472c-a7c1-63169d1145b7`**, is active at **100%** from **2026-10-28T15:23:01.00728Z** (October 28, 2026, 11:23:01 AM EDT). Worker **8,210,924 bytes**, SHA256 **`eb4b3ea6616f871afcaac86e7f06f1f7440ec073ab1be00aa3174253c6b3d4ce`**. Private artwork remains **5 / 818df882-1a64-44e5-9c63-20e42c462de5**, deployment `3a172e35-9b53-4c1c-a03d-700d1bbdc326`, with the complete **693-image** collection. It was not redeployed. All seven bindings, complete managed assets, settings, runtime, schedules and exposure remain.
+
+All six pages of Prompt(7) in the supplied Drive folder were read. Restore the Daily Challenge description beside its title, use Level(stars) labels with number+Problems below, outline save/trash/link icons and inline publication status, place PCL choices after Like terms, move scaffolding to one assignment-wide checkbox beside Add More Types in the five requested lessons, allow intermediate factoring spaces and show the exact missing-box warning before using attempts. Global changes save across all three differentiated levels; existing started snapshots/work remain. Page6 has no additional instruction. Preserve all older features/data; no production student writes, migration, bank edit or artwork upload occurred.
+
+Final checks:272 static/graph,976 preservation,35 new backend,32 retained layers,1,973 retained input/PCL and73 retained dates/work;66/100/45/26/29/135 UI checks pass before activation and again after complete published downloads. Both domains pass142 full body matches and16 protocol checks. Chromium154, fictional APIs; no Safari/every-account or CPU claim. Earlier docs and separate Coloring work remain. Read V36, then V35/V34 and the checklist. **Next:V37.**
+
+<!-- V36 VERIFIED RELEASE INSERT END -->
+
 <!-- V35 VERIFIED RELEASE INSERT START -->
 ## V35 — scaffold layout and compact assignment controls
 
