@@ -1,0 +1,455 @@
+{
+  "title": "Woodland fox — 15 color layers",
+  "canvas": {
+    "width": 1086,
+    "height": 1448
+  },
+  "layer_count": 15,
+  "unique_fill_color_count": 15,
+  "source_layer_count": 20,
+  "grouping": "Exactly one layer per exact nonblack fill hex. Equal-color original layers are unioned without changing any artwork pixel. Original separated regions remain.",
+  "geometry": "Original final artwork, structural ink, palette, full canvas and registration unchanged. No redraw, recolor, re-inking, quantization, stretch or source transformation.",
+  "source": {
+    "accepted_artwork": "assembled-color.png",
+    "operation": "Exact union of equal-color original masks; no new generation.",
+    "historical_source_note": "Original generation master, historical prompt and twenty-layer export remain in the local archive. They are not production instructions for this fifteen-layer delivery.",
+    "original_manifest_sha256": "0502754eb9605c485c0cc8d185b273e5e8c289bdf4b0853e63cb528999dfd076"
+  },
+  "layers": [
+    {
+      "number": 1,
+      "name": "Mist-blue sky",
+      "hex": "#DCECF0",
+      "filename": "01-mist-blue-sky.png",
+      "source_layer_numbers": [
+        1
+      ],
+      "source_layer_names": [
+        "Mist-blue sky"
+      ],
+      "source_filenames": [
+        "01-mist-blue-sky.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 167487,
+      "fill_pixel_count": 160528,
+      "ink_pixel_count": 6959,
+      "fill_fraction": 0.10208276100648128,
+      "bounding_box": [
+        186,
+        0,
+        1086,
+        439
+      ],
+      "colored_sha256": "cb1f87438cfd7be84d86838ec883dfa42532892f36ee7da5b0a8d5fc9b6c335b",
+      "black_and_white_sha256": "d7418dc26e018cdc38981589d59387b353db0451d979e7ef5dca24476e6c12fd"
+    },
+    {
+      "number": 2,
+      "name": "Lavender mountains",
+      "hex": "#B7ACCA",
+      "filename": "02-lavender-mountains.png",
+      "source_layer_numbers": [
+        2
+      ],
+      "source_layer_names": [
+        "Lavender mountains"
+      ],
+      "source_filenames": [
+        "02-lavender-mountains.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 95119,
+      "fill_pixel_count": 91570,
+      "ink_pixel_count": 3549,
+      "fill_fraction": 0.05823107760243379,
+      "bounding_box": [
+        253,
+        355,
+        1086,
+        575
+      ],
+      "colored_sha256": "c31345bdcbb24ade2fd22b0a708a2d36c15d6d13665f84737e9d85df5e4eae1f",
+      "black_and_white_sha256": "7ea36cd9f17e734109d5e35b00b7ad79c846ee297f0730167806c729890cbc71"
+    },
+    {
+      "number": 3,
+      "name": "Teal spruce grove",
+      "hex": "#386F70",
+      "filename": "03-teal-spruce-grove.png",
+      "source_layer_numbers": [
+        3
+      ],
+      "source_layer_names": [
+        "Teal spruce grove"
+      ],
+      "source_filenames": [
+        "03-teal-spruce-grove.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 51813,
+      "fill_pixel_count": 42995,
+      "ink_pixel_count": 8818,
+      "fill_fraction": 0.027341325559862847,
+      "bounding_box": [
+        729,
+        375,
+        1086,
+        663
+      ],
+      "colored_sha256": "9d7ea7dfc35da9c99636a0edf12d00653bb0659526965191861590f4f5af647f",
+      "black_and_white_sha256": "3a8ce1e6a58791675628e7d92f976badfd573cb93691c9658e2692b264d43175"
+    },
+    {
+      "number": 4,
+      "name": "Forest canopy",
+      "hex": "#49794D",
+      "filename": "04-forest-canopy.png",
+      "source_layer_numbers": [
+        4
+      ],
+      "source_layer_names": [
+        "Forest canopy"
+      ],
+      "source_filenames": [
+        "04-forest-canopy.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 132228,
+      "fill_pixel_count": 115169,
+      "ink_pixel_count": 17059,
+      "fill_fraction": 0.07323812358190124,
+      "bounding_box": [
+        0,
+        0,
+        1075,
+        332
+      ],
+      "colored_sha256": "f7c59bf01bc32f0cab22b71a801f70a39d5a9964bf9acbcb80727a7d7a695866",
+      "black_and_white_sha256": "549ba10bc618362ebe41a334f4055cda4f364d314dd4006fde4e6bb7f7a15060"
+    },
+    {
+      "number": 5,
+      "name": "Umber tree and foreground root",
+      "hex": "#9A694A",
+      "filename": "05-umber-tree-and-foreground-root.png",
+      "source_layer_numbers": [
+        5,
+        6
+      ],
+      "source_layer_names": [
+        "Umber tree",
+        "Umber foreground root"
+      ],
+      "source_filenames": [
+        "05-umber-tree.png",
+        "06-umber-foreground-root.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 281291,
+      "fill_pixel_count": 251256,
+      "ink_pixel_count": 30035,
+      "fill_fraction": 0.15977839504288635,
+      "bounding_box": [
+        0,
+        0,
+        956,
+        1448
+      ],
+      "colored_sha256": "775c75af741ffab296691dfcc51836b6c2b7e17ff67aba6945663894c274be45",
+      "black_and_white_sha256": "610f1ca4b0d940ec8d2cc8d92d08551cb552ee5a57211fa0d6e4d2c38bfdf2ac"
+    },
+    {
+      "number": 6,
+      "name": "Sage moss bed",
+      "hex": "#A9BE83",
+      "filename": "06-sage-moss-bed.png",
+      "source_layer_numbers": [
+        7
+      ],
+      "source_layer_names": [
+        "Sage moss bed"
+      ],
+      "source_filenames": [
+        "07-sage-moss-bed.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 69664,
+      "fill_pixel_count": 62045,
+      "ink_pixel_count": 7619,
+      "fill_fraction": 0.03945557726158135,
+      "bounding_box": [
+        103,
+        842,
+        818,
+        1232
+      ],
+      "colored_sha256": "a38ea7ad7fe205152b712e6bd9d2981431fe4cbc6e3dc0b83425121a5b14795d",
+      "black_and_white_sha256": "bd03abf8db171d45b87a61fb6341a5fb2bfd602e6ad54efec024f03d9967c702"
+    },
+    {
+      "number": 7,
+      "name": "Golden clearing and flower centers",
+      "hex": "#E7CC93",
+      "filename": "07-golden-clearing-and-flower-centers.png",
+      "source_layer_numbers": [
+        8,
+        9
+      ],
+      "source_layer_names": [
+        "Golden clearing",
+        "Golden flower centers"
+      ],
+      "source_filenames": [
+        "08-golden-clearing.png",
+        "09-golden-flower-centers.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 60500,
+      "fill_pixel_count": 55987,
+      "ink_pixel_count": 4513,
+      "fill_fraction": 0.035603181628562415,
+      "bounding_box": [
+        55,
+        579,
+        1086,
+        1062
+      ],
+      "colored_sha256": "73c4654bdcfa08af73438b9cf5b902b5fb842acdcf37d9f89a0a2358c13924d2",
+      "black_and_white_sha256": "f0f6089b98b25be66adcce93b68a695082e7d39f2a4a52871577698d6d85ddfe"
+    },
+    {
+      "number": 8,
+      "name": "Turquoise pool",
+      "hex": "#76B9C1",
+      "filename": "08-turquoise-pool.png",
+      "source_layer_numbers": [
+        10
+      ],
+      "source_layer_names": [
+        "Turquoise pool"
+      ],
+      "source_filenames": [
+        "10-turquoise-pool.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 110237,
+      "fill_pixel_count": 101913,
+      "ink_pixel_count": 8324,
+      "fill_fraction": 0.06480838496993377,
+      "bounding_box": [
+        557,
+        1077,
+        1086,
+        1448
+      ],
+      "colored_sha256": "8a63395e78eabe30f385487bf4b3a7f4d3fdee5c8b284b9be84a5a35c828fae5",
+      "black_and_white_sha256": "f3e5ed65e5da2106afde328d5d684bbb7d67eb8bd9e5f6db31a8fbccd99dbcd2"
+    },
+    {
+      "number": 9,
+      "name": "Orange fox fur",
+      "hex": "#D97738",
+      "filename": "09-orange-fox-fur.png",
+      "source_layer_numbers": [
+        11
+      ],
+      "source_layer_names": [
+        "Orange fox fur"
+      ],
+      "source_filenames": [
+        "11-orange-fox-fur.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 195807,
+      "fill_pixel_count": 179775,
+      "ink_pixel_count": 16032,
+      "fill_fraction": 0.11432228869692622,
+      "bounding_box": [
+        183,
+        548,
+        969,
+        1110
+      ],
+      "colored_sha256": "b4c60b1bf517c5e53288963a2fd0ea080d661e29ed4c73538ca4978c3ff3d0ba",
+      "black_and_white_sha256": "350db6e375778b098fa0714f770b2218a3ffd6ceb40ce60de9d55475b766e34e"
+    },
+    {
+      "number": 10,
+      "name": "Cream fox markings",
+      "hex": "#F8E8C7",
+      "filename": "10-cream-fox-markings.png",
+      "source_layer_numbers": [
+        12
+      ],
+      "source_layer_names": [
+        "Cream fox markings"
+      ],
+      "source_filenames": [
+        "12-cream-fox-markings.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 77320,
+      "fill_pixel_count": 70070,
+      "ink_pixel_count": 7250,
+      "fill_fraction": 0.04455882502569112,
+      "bounding_box": [
+        227,
+        609,
+        740,
+        1101
+      ],
+      "colored_sha256": "a91efec77cef329bf92fe63391f6abebc1e84aa3ba98dd7f74b1b809db080e31",
+      "black_and_white_sha256": "5a3eac75337193de0000994dea04dc0de9bb501bec90cc6bf3259b042d41d9d0"
+    },
+    {
+      "number": 11,
+      "name": "Rust ears and paws",
+      "hex": "#A4472E",
+      "filename": "11-rust-ears-and-paws.png",
+      "source_layer_numbers": [
+        13
+      ],
+      "source_layer_names": [
+        "Rust ears and paws"
+      ],
+      "source_filenames": [
+        "13-rust-ears-and-paws.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 17598,
+      "fill_pixel_count": 15518,
+      "ink_pixel_count": 2080,
+      "fill_fraction": 0.00986818676678571,
+      "bounding_box": [
+        305,
+        562,
+        601,
+        1025
+      ],
+      "colored_sha256": "3d04cf4d126a31a5012d367fd00a20a3f14f05c2ed5b29c0595324f77e5e3fc1",
+      "black_and_white_sha256": "77d8f0fe2c80b60c9b2ff6cd8e2db94803d437d0a17182107c380e5732c38fad"
+    },
+    {
+      "number": 12,
+      "name": "Coral flower petals",
+      "hex": "#D67D85",
+      "filename": "12-coral-flower-petals.png",
+      "source_layer_numbers": [
+        14
+      ],
+      "source_layer_names": [
+        "Coral flower petals"
+      ],
+      "source_filenames": [
+        "14-coral-flower-petals.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 19521,
+      "fill_pixel_count": 16501,
+      "ink_pixel_count": 3020,
+      "fill_fraction": 0.010493294872968876,
+      "bounding_box": [
+        15,
+        877,
+        242,
+        1103
+      ],
+      "colored_sha256": "8cb3598b5dfabf3a59f59da7986ff56fdb913f36fed7609a4b184bd24c179e2b",
+      "black_and_white_sha256": "c90c8f78cf57f8ac4af374ff41462f7fbe3fccbce9f403de1e4cb65ee9b1bb4d"
+    },
+    {
+      "number": 13,
+      "name": "Olive woodland shrubs",
+      "hex": "#87975D",
+      "filename": "13-olive-woodland-shrubs.png",
+      "source_layer_numbers": [
+        15
+      ],
+      "source_layer_names": [
+        "Olive woodland shrubs"
+      ],
+      "source_filenames": [
+        "15-olive-woodland-shrubs.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 12614,
+      "fill_pixel_count": 11282,
+      "ink_pixel_count": 1332,
+      "fill_fraction": 0.007174435049805155,
+      "bounding_box": [
+        265,
+        476,
+        565,
+        697
+      ],
+      "colored_sha256": "a9ddadc7c5474f668e0e928ddedc6764a87e7d8ad1357a07a15e5a90226f21a5",
+      "black_and_white_sha256": "e2e0f85a4e53b3b33b6710b164265b238785188fee0cdbe665610971ae52052d"
+    },
+    {
+      "number": 14,
+      "name": "Leaf-green plants and shrubs",
+      "hex": "#6E9D60",
+      "filename": "14-leaf-green-plants-and-shrubs.png",
+      "source_layer_numbers": [
+        16,
+        17,
+        18
+      ],
+      "source_layer_names": [
+        "Leaf-green plants",
+        "Right distant shrubs",
+        "Right-bank shrubs"
+      ],
+      "source_filenames": [
+        "16-leaf-green-plants.png",
+        "17-right-distant-shrubs.png",
+        "18-right-bank-shrubs.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 224976,
+      "fill_pixel_count": 183117,
+      "ink_pixel_count": 41859,
+      "fill_fraction": 0.11644752907420408,
+      "bounding_box": [
+        0,
+        467,
+        1086,
+        1448
+      ],
+      "colored_sha256": "34de299c5c0b7dfa4d6abe769260a396b4c59fb59c1111860844070c9e72eb39",
+      "black_and_white_sha256": "96c4052fe102e8b2ff966585d2f7ed286a4b1e71589d60908b88112e8d83c322"
+    },
+    {
+      "number": 15,
+      "name": "Warm-gray bank and foreground stones",
+      "hex": "#928579",
+      "filename": "15-warm-gray-bank-and-foreground-stones.png",
+      "source_layer_numbers": [
+        19,
+        20
+      ],
+      "source_layer_names": [
+        "Warm-gray bank stones",
+        "Warm-gray foreground stones"
+      ],
+      "source_filenames": [
+        "19-warm-gray-bank-stones.png",
+        "20-warm-gray-foreground-stones.png"
+      ],
+      "merge_operation": "Exact equal-hex alpha-mask union; original owned RGBA copied unchanged",
+      "pixel_count": 56353,
+      "fill_pixel_count": 49509,
+      "ink_pixel_count": 6844,
+      "fill_fraction": 0.03148370013125362,
+      "bounding_box": [
+        0,
+        997,
+        1086,
+        1448
+      ],
+      "colored_sha256": "cf684204f0957ac85b2402093d0b5350c95c42ee0c16fca702bb1dd8ff616463",
+      "black_and_white_sha256": "4d30459a571a613d90db5fb2bc3597f62fc542441832a6da286606cd8c6738b7"
+    }
+  ]
+}

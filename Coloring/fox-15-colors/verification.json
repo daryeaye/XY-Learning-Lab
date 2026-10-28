@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "operation": "Mechanical equal-hex merge only",
+  "original_layers": 20,
+  "final_layers": 15,
+  "unique_nonblack_fill_colors": 15,
+  "canvas": [
+    1086,
+    1448
+  ],
+  "no_redraw": true,
+  "no_recolor": true,
+  "no_geometry_change": true,
+  "no_ink_change": true,
+  "paired_alpha_identical": true,
+  "binary_alpha_0_255": true,
+  "one_fill_plus_original_black_per_colored_layer": true,
+  "exactly_one_owner_per_pixel": true,
+  "missing_pixels": 0,
+  "overlap_pixels": 0,
+  "saved_png_reconstruction_tests": [
+    {
+      "mode": "colored",
+      "order": "normal",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "colored",
+      "order": "reverse",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "colored",
+      "order": "shuffled-17",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "colored",
+      "order": "shuffled-91",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "colored",
+      "order": "shuffled-2026",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "black-and-white",
+      "order": "normal",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "black-and-white",
+      "order": "reverse",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "black-and-white",
+      "order": "shuffled-17",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "black-and-white",
+      "order": "shuffled-91",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    },
+    {
+      "mode": "black-and-white",
+      "order": "shuffled-2026",
+      "pixel_identical_original_rgba": true,
+      "fully_opaque": true
+    }
+  ],
+  "assembled_original_copies": {
+    "assembled-color.png": {
+      "original_sha256": "8aa98ee57a3bd9052d0fa4a8c1667aa8b7cb0399a4916a2aa096a44a81921376",
+      "merged_sha256": "8aa98ee57a3bd9052d0fa4a8c1667aa8b7cb0399a4916a2aa096a44a81921376",
+      "byte_identical": true
+    },
+    "assembled-black-and-white.png": {
+      "original_sha256": "2da0e156f8c7ff27d4f69ae8c8c4d7f54aa9ddeb528830932de36cf28e0363ca",
+      "merged_sha256": "2da0e156f8c7ff27d4f69ae8c8c4d7f54aa9ddeb528830932de36cf28e0363ca",
+      "byte_identical": true
+    }
+  },
+  "original_readonly_tree_file_count": 62,
+  "original_readonly_tree_sha256_before": "00f8b4813be06be5c47ccbf8919567868d7d99e79bb072efe6db70aa665408e6",
+  "original_readonly_tree_sha256_after": "00f8b4813be06be5c47ccbf8919567868d7d99e79bb072efe6db70aa665408e6",
+  "original_readonly_tree_unchanged": true,
+  "original_source_copy_byte_identical": true,
+  "original_prompt_copy_byte_identical": true,
+  "merge_map": [
+    {
+      "new_layer": 1,
+      "hex": "#DCECF0",
+      "original_layers": [
+        1
+      ]
+    },
+    {
+      "new_layer": 2,
+      "hex": "#B7ACCA",
+      "original_layers": [
+        2
+      ]
+    },
+    {
+      "new_layer": 3,
+      "hex": "#386F70",
+      "original_layers": [
+        3
+      ]
+    },
+    {
+      "new_layer": 4,
+      "hex": "#49794D",
+      "original_layers": [
+        4
+      ]
+    },
+    {
+      "new_layer": 5,
+      "hex": "#9A694A",
+      "original_layers": [
+        5,
+        6
+      ]
+    },
+    {
+      "new_layer": 6,
+      "hex": "#A9BE83",
+      "original_layers": [
+        7
+      ]
+    },
+    {
+      "new_layer": 7,
+      "hex": "#E7CC93",
+      "original_layers": [
+        8,
+        9
+      ]
+    },
+    {
+      "new_layer": 8,
+      "hex": "#76B9C1",
+      "original_layers": [
+        10
+      ]
+    },
+    {
+      "new_layer": 9,
+      "hex": "#D97738",
+      "original_layers": [
+        11
+      ]
+    },
+    {
+      "new_layer": 10,
+      "hex": "#F8E8C7",
+      "original_layers": [
+        12
+      ]
+    },
+    {
+      "new_layer": 11,
+      "hex": "#A4472E",
+      "original_layers": [
+        13
+      ]
+    },
+    {
+      "new_layer": 12,
+      "hex": "#D67D85",
+      "original_layers": [
+        14
+      ]
+    },
+    {
+      "new_layer": 13,
+      "hex": "#87975D",
+      "original_layers": [
+        15
+      ]
+    },
+    {
+      "new_layer": 14,
+      "hex": "#6E9D60",
+      "original_layers": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "new_layer": 15,
+      "hex": "#928579",
+      "original_layers": [
+        19,
+        20
+      ]
+    }
+  ],
+  "offline_viewer": {
+    "embedded_images": 30,
+    "external_dependencies": false,
+    "browser_interaction_test": "PASS: independent Chrome file:// audit",
+    "interaction_checks": 75,
+    "desktop_and_390px_mobile_visual_pass": true,
+    "browser_canvas_reconstruction_channel_differences": [
+      0,
+      0
+    ],
+    "all_30_embedded_png_hashes_match_delivery": true,
+    "no_external_network_requests": true,
+    "no_js_or_console_errors": true
+  },
+  "no_failed_twenty_scene_artifacts_included": true,
+  "overview_labels": {
+    "full_names_wrapped_at_most_two_lines": true,
+    "canvas": [
+      1250,
+      1170
+    ],
+    "files": {
+      "colored-layer-overview.png": "94bf30186f1163906f214ad55b8777a08da7845533a5bd24cb61f96572fe887e",
+      "uncolored-layer-overview.png": "b1116e4dc5ac414ecb9d351d52bab3d19f34735eff86bd01b21974897adb28d1"
+    }
+  },
+  "local_archive_file_count": 40,
+  "package_content_file_count": 38,
+  "package_scope": "One preference brief, one offline viewer and thirty-six fox asset/metadata files. No rejected twenty-scene artwork, historical prompt, old woodland-girl example or app deployment.",
+  "verification_writes_to_external_services": false,
+  "independent_review": {
+    "passed": true,
+    "scope": "Exact same-color merge of the accepted original sleeping fox; no new artwork",
+    "oldLayers": 20,
+    "layers": 15,
+    "uniqueFillColors": 15,
+    "pairedLayerPNGs": 30,
+    "canvas": {
+      "width": 1086,
+      "height": 1448
+    },
+    "technical": {
+      "pairedAlphaExact": true,
+      "binaryAlpha": true,
+      "oneFillColorPerLayer": true,
+      "all15ExactSourceColorMerges": true,
+      "noOverlapOrHoles": true,
+      "assembledPNGBytesPreserved": true,
+      "assembledPixelsPreserved": true,
+      "blackInkPreserved": true,
+      "originalSourcePromptBytesPreserved": true,
+      "embeddedPNGCount": 30,
+      "sourceSameHexGroupsMergedExactly": true,
+      "final30LayerAnd2AssembledHashesUnchangedAfterHeadingFix": true
+    },
+    "offlineChrome": {
+      "passed": true,
+      "protocol": "file:",
+      "checksPassed": 75,
+      "desktopWidth": 1440,
+      "mobileWidth": 390,
+      "externalRequests": 0,
+      "pageOrConsoleErrors": 0,
+      "all30EmbeddedPNGsMatchDeliveredHashes": true,
+      "browserCanvasColorChannelDifferences": 0,
+      "browserCanvasBlackAndWhiteChannelDifferences": 0,
+      "indexSha256": "152895ff30f8f09e364a4626736e6855a4907b305ef94d3ce9446ed54b684cb8"
+    },
+    "visual": {
+      "originalCompleteArtworkPreserved": true,
+      "desktopAndMobileViewer": "pass",
+      "coloredAndUncoloredOverviews": "pass",
+      "finalOverviewHeadings": "All15 names readable, long names wrapped without truncation",
+      "overviewHashes": {
+        "colored-layer-overview.png": "94bf30186f1163906f214ad55b8777a08da7845533a5bd24cb61f96572fe887e",
+        "uncolored-layer-overview.png": "b1116e4dc5ac414ecb9d351d52bab3d19f34735eff86bd01b21974897adb28d1"
+      },
+      "localityNote": "Original fox spatial compromises remain; equal colors are merged globally as requested. No new locality certification is claimed."
+    },
+    "publicCandidateReview": {
+      "filesIncludingZIP": 39,
+      "filesExcludingZIP": 38,
+      "candidateViewerMatchesTestedSelfContainedHTML": true,
+      "all30PublicLayerPNGsMatchAuditedPNGs": true,
+      "readme": "Clear single authoritative brief with current download/preview instructions",
+      "privateAbsolutePathsFound": 0,
+      "varietyBrief": "Explicitly avoids automatic trees, rivers, grass or repeated woodland composition; canceled20-scene set is excluded"
+    },
+    "assembledHashes": {
+      "assembled-color.png": "8aa98ee57a3bd9052d0fa4a8c1667aa8b7cb0399a4916a2aa096a44a81921376",
+      "assembled-black-and-white.png": "2da0e156f8c7ff27d4f69ae8c8c4d7f54aa9ddeb528830932de36cf28e0363ca"
+    },
+    "externalWritesPerformedByAudit": false
+  }
+}
