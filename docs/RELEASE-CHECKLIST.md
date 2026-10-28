@@ -81,3 +81,13 @@ An assertion total, a confident answer, a model label or a high reasoning-effort
 - PCL presets must match all authored variants' Circle term counts, optional Parentheses step and rich Enter/save/reopen/review behavior. Preserve old/new schemas and source-owned contexts.
 - Match exact reconstructed bank data when changing its storage representation. Do not treat a data-encoding initializer as the same executable AST; verify decoding hashes, all historical bodies/revisions and native signed-in workflows. Keep the decoder with the initializer and use ordinary upload authentication/TLS.
 - Save and reopen daily counts in both assignment settings and global defaults, enforce bounds on the server, use source-assignment counts in student setup/start/preview and preserve already-started snapshots and existing explicit choices.
+
+
+## Narrow panels, preview padding and publication state (V35)
+
+- Assert actual button left/right bounds and full label scroll widths against their own parent at desktop and320/390px. A viewport-based max-width or correct outer panel size can still crop children. Exercise native keyboard opening and saved/reopened fields after the full cascade.
+- For variable-count term grids, test actual2/3/5/6-term content: one row, equal bounded columns, single-line-height inputs and complete aligned toolbars. Preserve old rich/multiline work while changing its viewport height.
+- Capture the real native component with padding on every side, inspect final images at full resolution, and verify lossless encoded pixels. Hide preview-only interactive controls with the actual final CSS cascade; keep real student controls.
+- Verify Lesson2-6 flow on older frozen snapshots without new metadata as well as fresh assignments. Enforce8 new layers before cleaning/mutation; retain existing9–12 without growth or truncation.
+- Exercise draft, successful/failed publish, home navigation, fresh published re-edit and CLOSED state. Assert assignment-type navigation/link/icon visibility, compact complete footer controls and that saving cannot demote published work. Check shared differentiated settings in every saved child, not just the editor state.
+- Reconcile concurrent updates on their exact current source, preserve their immutable paths and artwork registry, use a fresh release namespace and rerun integrated checks. V35's pre-upload guard caught main172/art5 replacing171/art4; it prevented a stale upload. Preserve the full current693-image collection.

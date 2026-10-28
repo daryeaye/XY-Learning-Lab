@@ -1,3 +1,14 @@
+<!-- V35 VERIFIED RELEASE INSERT START -->
+## V35 — scaffold layout and compact assignment controls
+
+[Handoff-v35.md](Handoff-v35.md) is the current verified record. Main **173 / 2f396a21-227c-4211-8555-8f9bf1c5f3c7**, deployment **`8e1c25f5-1582-4735-8cb0-af21570bb960`**, is active at **100%** from **2026-10-28T01:41:37.06192Z** (October 27, 2026, 09:41:37 PM EDT). Worker **8,008,276 bytes**, SHA-256 **`463f3365c8f227d1c92e8a0080bdf0b68a07c1aaa2a041ff39c8ebd219b926a7`**. Private artwork remains **5 / 818df882-1a64-44e5-9c63-20e42c462de5**, deployment `3a172e35-9b53-4c1c-a03d-700d1bbdc326`, with the complete **693-image** collection; it was not redeployed. All seven bindings, managed assets, settings, schedules and exposure are retained.
+
+Fixes the clipped factoring keyboard button, puts all Lesson2-6 work before choices, caps new work at8 layers without truncating old work, pads all four native preview images, aligns PCL toolbars and fixed-width single-line term boxes, simplifies Daily Challenge labels/count saves, hides assignment-type navigation after publishing, and adds compact save/Republish/close/copy controls. Both projects use smaller date-input text with unchanged labels. The prior YY repair remains intact. No production student test writes, deletions, schema changes, bank changes or artwork uploads occurred.
+
+The freshness gate stopped an earlier stale upload; this package was reconciled onto main172/art5 and retains V34 immutable bodies and all240 repaired YY URL values. Final checks:230 static/graph,973 native/YY preservation,32 focused backend,1,973 retained Prompt6 backend,73 retained dates/work backend;100/45/26/29/135 UI checks before activation and the same counts using actual published bodies. Both domains pass98 complete body matches and16 protocol checks. Chromium154 with fictional APIs; no Safari/every-account or CPU-improvement claim. Read V35, then V34/V33 and the release checklist. Preserve existing data and every older contract. **Next:V36.**
+
+<!-- V35 VERIFIED RELEASE INSERT END -->
+
 <!-- V34 VERIFIED RELEASE INSERT START -->
 ## V34 — YY Buddy pose registration deployed and verified
 
