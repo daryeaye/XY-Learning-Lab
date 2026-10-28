@@ -1,3 +1,11 @@
+<!-- V39 VERIFIED RELEASE INSERT START -->
+## V39 — shuffled choice solution letters corrected
+
+[Handoff-v39.md](../Handoff-v39.md) is current. Main **177 / `598b2e97-aeb6-4656-9a4b-e52f26c45172`**, deployment **`e2811f42-8a0a-46fb-b868-b3caf047c0de`**,100%; Worker SHA256 **`9995a33f4aeae1d6abebccb066ddae7ad3f52bd643aa8b748d3b21dc254f3835`**. Art5/all693 images, all seven bindings and all13 banks remain unchanged. Current Unit2 pin stays `9a41708b5904b1d9f0121c4d8057dec6fe0bf033095b6ed17abfe622c121aa74` (139/1,355); root reference JSON unchanged.
+
+Solutions now derive A/B/C/D from the actual displayed choice order while preserving stable IDs for grading. Authored Choice/Option references follow that order, and multipart solution merges retain displayed choices. The reported12th-term case should sayD:36r+60; its saved wrong C12r+20 and later correct retry both match the native checker. No grades/responses/points, bank data or schema were changed; bounded read-only inspection only. Static1,382, model709/all24 orders, and1198 published browser assertions pass;338 body hashes verified on both domains. Chromium154, not Safari. Preserve V38/V37 work compatibility, archive/tokens/retries and all assets. Refresh open pages once. NextV40; fresh baseline required.
+<!-- V39 VERIFIED RELEASE INSERT END -->
+
 <!-- V38 VERIFIED RELEASE INSERT START -->
 ## V38 — three-slide corrections
 

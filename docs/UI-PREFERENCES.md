@@ -29,3 +29,8 @@ Keep one global Add Scaffolding checkbox beside Add More Types, default checked 
 ## V38 — footer alignment and Lesson2-6 organizer limit
 
 See Solution and the plain scaffold status use equal font size/line height and share a baseline, with status at the row's right edge; keep both complete at phone widths. Type228 uses “Write the expression that belongs inside the parentheses ONLY.” Current Type242 variables are lowercase across every mathematical representation, while A–E variant labels stay uppercase.226/227/245 use regular Work, so the default Lesson2-6 set offers only factoring layers; no XNO fields for these word tasks. Preserve already-entered organizer work and other lessons' organizers. This supersedes V37's XNO choice for those three types.
+
+
+## V39 — choice labels follow the current display
+
+Visible answer letters and explicit Choice/Option references in solutions must follow the exact displayed choice order. Keep stable choice IDs for saving/grading; never relabel stored IDs after shuffling. Preserve the displayed part choice arrays when adding revealed solution metadata. Check both the expression and its visible letter in solved/incorrect/reopened questions; unchanged source-order teacher/worksheet contexts retain their natural letters.
