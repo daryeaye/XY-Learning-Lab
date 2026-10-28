@@ -1,3 +1,11 @@
+<!-- V38 VERIFIED RELEASE INSERT START -->
+## V38 — three-slide corrections
+
+[Handoff-v38.md](../Handoff-v38.md) is current. Main **176 / `fbbb59a2-a45d-4c6f-a132-d4127021097d`**, deployment **`8a4a038b-8120-4ff4-9e97-9245fcd3bdaa`**,100%; Worker SHA256 **`9397af21726e1e55cf07cc92b698ebae712b5ecf06e03bffec35ed023294fdd6`**. Art5/all693 images unchanged. New Unit2 source **`9a41708b5904b1d9f0121c4d8057dec6fe0bf033095b6ed17abfe622c121aa74`**,139 types /1,355 questions; **thirteen revisions including current**.
+
+Type228's ten current prompts now ask for the expression inside parentheses ONLY. Type242's R/S/T and A/B/C variable sets are lowercase throughout mathematics/answers/solutions/expected powers/input categories; A–E variant labels and coefficients remain. See Solution and scaffold status have equal text size/baselines, with the status at the right.226/227/245 use regular Work without XNO; factoring is the default Lesson2-6 set's only organizer. Retain old structured work and tolerate its saved flags without hidden gates. Old pins/answers and V37 archive/tokens/mixed retries remain; no production student writes, data migration, grade/point changes, deletion or artwork upload. Published replay1160 assertions and294 exact body checks pass; Chromium154, not Safari. NextV39; freshly capture actual current state before editing.
+<!-- V38 VERIFIED RELEASE INSERT END -->
+
 <!-- V37 VERIFIED RELEASE INSERT START -->
 ## V37 — Lesson2-6 curriculum and protected replacements
 

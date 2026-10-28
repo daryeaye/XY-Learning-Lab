@@ -24,3 +24,8 @@ V36 / Prompt7 supersedes the earlier Daily Challenge removal and per-type scaffo
 ## V37 — scaffold status and unobstructed previews
 
 Keep one global Add Scaffolding checkbox beside Add More Types, default checked for eligible types. Per-type status is plain Scaffolded/Scaffolding available in the See Solution row, with a hover hint to the global checkbox; it cannot toggle inclusion. Preview help first explains the organizer replacement and eligible-type limit. Position outside the anchor rectangle, keep within the viewport and permit vertical scrolling; do not clamp a tall above-anchor preview back over its control. Preserve padded image aspect ratios. Lesson2-6 review resets on re-entry; saved assignments retain their explicit choices/pin. New factoring tasks combine like terms only after all layers, and short answers follow the complete organizer.
+
+
+## V38 — footer alignment and Lesson2-6 organizer limit
+
+See Solution and the plain scaffold status use equal font size/line height and share a baseline, with status at the row's right edge; keep both complete at phone widths. Type228 uses “Write the expression that belongs inside the parentheses ONLY.” Current Type242 variables are lowercase across every mathematical representation, while A–E variant labels stay uppercase.226/227/245 use regular Work, so the default Lesson2-6 set offers only factoring layers; no XNO fields for these word tasks. Preserve already-entered organizer work and other lessons' organizers. This supersedes V37's XNO choice for those three types.
