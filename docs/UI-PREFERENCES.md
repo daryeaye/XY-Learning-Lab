@@ -19,3 +19,8 @@ V35 / seven-picture correction: Put Lesson2-6 work before answer choices. New fa
 
 
 V36 / Prompt7 supersedes the earlier Daily Challenge removal and per-type scaffolding controls. Put the description beside Daily Challenge in smaller text. Use Mild/Hot/Spicy Level(stars): labels, with the count+Problems below. Use matching outline SVG save/trash/link icons; status sits right of Copy Link at desktop and may wrap below intact phone buttons. Move Unit2 PCL choices below Like terms. Use one assignment-wide Add Scaffolding checkbox beside Add More Types for1-7,1-8,2-4,2-5,2-6; remove all per-card scaffold toggles and retain hover/focus previews. Cancel keeps prior values; Save applies across difficulties/all three differentiated levels while preserving frozen student work. Intermediate factoring reduced expressions accept physical/virtual spaces; final combined work stays compact. Incomplete work must be able to trigger “You have to fill in all boxes.” without using an attempt.
+
+
+## V37 — scaffold status and unobstructed previews
+
+Keep one global Add Scaffolding checkbox beside Add More Types, default checked for eligible types. Per-type status is plain Scaffolded/Scaffolding available in the See Solution row, with a hover hint to the global checkbox; it cannot toggle inclusion. Preview help first explains the organizer replacement and eligible-type limit. Position outside the anchor rectangle, keep within the viewport and permit vertical scrolling; do not clamp a tall above-anchor preview back over its control. Preserve padded image aspect ratios. Lesson2-6 review resets on re-entry; saved assignments retain their explicit choices/pin. New factoring tasks combine like terms only after all layers, and short answers follow the complete organizer.

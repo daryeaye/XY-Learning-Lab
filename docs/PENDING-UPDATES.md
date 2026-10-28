@@ -1,3 +1,11 @@
+<!-- V37 VERIFIED RELEASE INSERT START -->
+## V37 — Lesson2-6 curriculum and protected replacements
+
+[Handoff-v37.md](../Handoff-v37.md) is current. Main **175 / `c9ba8a30-1188-4ac8-adc4-4db2a6b8d8af`**, deployment **`d11a71bf-b3fb-43e3-a53a-7b1352503967`**,100%; Worker SHA256 **`7d3621244c54b9829a719a08ca1c176f3d261a1ce3901b84bf63ec4ba833494c`**. Art5 and all693 images unchanged. New Unit2 pin **`93dcc51a8d5f31f9dcfdd0b263cb648fe7b00874cdcf651e4c36af32a7464bd8`**,139 types /1,355 questions, **twelve revisions including current**. Types220/221→3stars,226–228→2stars; append243–245 with ten variants each. Keep all old pins and original questions.
+
+Global scaffolding previews avoid their checkbox; eligible cards show plain Scaffolded/Scaffolding available. Lesson2-6 review resets on re-entry. Ordinary old-assignment edits retain their recorded bank. The expressly authorized xye4 Lesson2-6 migration updated50 sets/51 attempts:182 changed slots,41 credited responses,141 left to solve,6 current unchanged questions preserved; no grade lowered or records deleted. Originals remain in `xy_v37_lesson26_archive`; no YY writes. Preserve tokens, mixed-pin retries and receipts; refresh pages opened before this update. This narrow exception does not authorize future student-data edits. Published replay563 assertions and250 body/hash checks pass; Chromium154, not Safari. Next handoffV38; fresh main/art/GitHub capture required.
+<!-- V37 VERIFIED RELEASE INSERT END -->
+
 <!-- V36 VERIFIED RELEASE INSERT START -->
 ## V36 — Prompt7 and assignment-wide scaffolding
 
