@@ -1,3 +1,16 @@
+<!-- V34 VERIFIED RELEASE INSERT START -->
+## V34 — YY Buddy pose registration deployed and verified
+
+[Handoff-v34.md](../Handoff-v34.md) is the current verified record. Main **172 / 379c92c5-07fe-4dad-963c-6f956b1cc9c0**, deployment **`5de88a58-7661-447b-beaa-4fd89bf0e2c3`**, is active at **100%** from **`2026-10-28T01:22:51.869217Z`** (October 27, 2026, 09:22:51 PM EDT). Private artwork **5 / 818df882-1a64-44e5-9c63-20e42c462de5**, deployment **`3a172e35-9b53-4c1c-a03d-700d1bbdc326`**, is active at **100%** from **`2026-10-28T01:22:26.199195Z`** (October 27, 2026, 09:22:26 PM EDT), with the complete **693-image** managed collection. Active source, configuration, bindings and complete asset readback match the tested approved packages.
+
+Main module **7,810,889 bytes**, SHA-256 **`f56b56453363437a23e59cb25b647c84e8ba43e6a8d59f036fad6c2e80928283`**. The correction registers existing body geometry to each outfit's unchanged white normal: 270 local PNGs, 240 new lossless WebPs (**161,837,064 bytes**), and all 453 older images retained within 693 managed paths. Thirty white-normal and 30 headwear URLs, all 108 exact Basic logo rectangles, native reaction/headwear timing, saved identities/ownership/prices, V33 decoder/PCL/input guards, banks/grades and all student data remain.
+
+Local 379-player, 270-body, 836 prepared graph, 2,730 Worker and 11-scenario/189-assertion acceptance checks and exact official dry-run passed. Both domains (xylearninglab.t-pbl.com, student.xylearninglab.t-pbl.com) passed **1,456 complete published-body matches** and **42 protocol checks**. The actual published-code replay passed **11 signed-in scenarios / 189 acceptance assertions**, with fictional APIs and no unhandled exceptions, missing resources or local database errors. Browser: **157.0.8103.15**; this does not establish actual Safari/WebKit or every production account.
+
+Read V34 first, then retained prior handoffs and the mandatory release checklist. Preserve all historical assets and byte-identical older documentation. GitHub contains only the six approved factual documentation updates. Future external writes require concrete user approval; freshly recheck main/art/GitHub and use one publisher. **Next handoff: V35.**
+
+<!-- V34 VERIFIED RELEASE INSERT END -->
+
 # XY Learning Lab completed update requirements
 
 ## V33 — Prompt 6 completed and reported answers investigated
