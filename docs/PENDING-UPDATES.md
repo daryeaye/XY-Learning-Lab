@@ -1,5 +1,14 @@
 # XY Learning Lab completed update requirements
 
+## V33 — Prompt 6 completed and reported answers investigated
+
+[Handoff-v33.md](../Handoff-v33.md) is the current record. Main **171 / 66f7e61c-0ca9-4c06-abb7-ae355acc0662**, deployment **cd75d12e-346c-4882-98e3-794e90d50234**, is active at100% from **2026-10-28T00:04:34.880096Z** (October27,2026, approximately8:04PMEDT). Worker **7,699,428bytes**, SHA256 **c36b1561724e6be3ca7978dd3e2d10495b87373ac35548f55bc9892abf391fed**. Private art4/all 453images, seven bindings and complete managed assets/settings remain.
+
+Prompt 6 adds narrow editable factoring and clean previews, configurable **4/2/1**daily challenges, merged timing/default disclosures, matched project label fonts/three date rows, preset **pcl**scaffolding for18 types, and immediate type-level answer-category restrictions for both banks. The original keyboard stays visible/unchanged; native answer checking, scoring and old work remain. Operations-only symbols now satisfy the Operations presence check. Read V33's separate evidence/limits for reports on pages 7–11; do not invent a historical grading cause from a screenshot or latest credited state.
+
+Standing preferences include consistent fonts for titles/labels within a container, compact single-line controls and actual integrated layout checks. Preserve new pcl work, V32 combined fields/dates, all bank/checker revisions and all student data. Both reference banks add only derived input-format metadata. The large shared bank data literal now uses exact reversible data encoding; keep its synchronous decoder and verify decoded values, rather than claiming full-package AST identity. All 184 static,1973new backend,73 retained backend,26new UI,44retained UI,29 urgent and135full-app checks pass; both domains match132bodies plus16 protocol checks. Chromium 154, fictional APIs; no Safari/every-account/CPU-improvement claim. GitHub remains documentation/reference only. **Next:V34.**
+
+
 ## V32 — Prompt 5 completed, deployed and verified
 
 [Handoff-v32.md](../Handoff-v32.md) is the current release record; older current-state entries below are retained history. Main **170 / 9bbbf609-7643-486c-b33b-39377eb85185**, deployment **f60220fc-35d6-41bf-adb6-6a7d861ffd55**, is active at **100%** from **2026-10-27T14:52:28.516377Z** (**October 27, 2026, 10:52:28 AM EDT**). Worker **10,441,231 bytes**, SHA256 **5283ba9cd26b8f0ad47fdf2161aa938b94a496b17add330f691a64b65ed61c4c**. Private art remains **4 / fe8ab164-4c8c-44e8-86a0-15782c44e7c2**, with all 453 images. All bindings, settings and complete managed assets remain.

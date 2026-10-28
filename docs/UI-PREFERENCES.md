@@ -11,3 +11,5 @@ The owner's October27,2026 direction applies to every future new or changed XY L
 - Reuse actual student components in teacher demonstration paths, preserving assignment restrictions and release/completeness gates. Demonstrations stay temporary and must never write to real student accounts.
 
 Read [Handoff V32](../Handoff-v32.md), retain earlier privacy/storage/classroom-method contracts and follow the mandatory [release checklist](RELEASE-CHECKLIST.md). This preference does not authorize unrelated redesigns or data migrations.
+
+V33 / Prompt 6: Use the same font size for titles/labels within one container, including project Due date/Late deadline and grading controls. Keep project date controls in three rows. Editable factoring diagrams must be narrow; a static solution measurement does not verify the editable Work layout. Preview screenshots omit interactive Add/Keyboard controls while real student controls remain.
