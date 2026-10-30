@@ -34,3 +34,8 @@ See Solution and the plain scaffold status use equal font size/line height and s
 ## V39 — choice labels follow the current display
 
 Visible answer letters and explicit Choice/Option references in solutions must follow the exact displayed choice order. Keep stable choice IDs for saving/grading; never relabel stored IDs after shuffling. Preserve the displayed part choice arrays when adding revealed solution metadata. Check both the expression and its visible letter in solved/incorrect/reopened questions; unchanged source-order teacher/worksheet contexts retain their natural letters.
+
+
+## V40 — status hint, smaller previews and answer controls
+
+Scaffolded/Scaffolding available hover text is “Please see details on the "Add Scaffolding" check box.” Use a normal pointer; keep status non-toggling. Preview images use quarter-area (half dimensions), proportional preview-grid spacing and existing padded source/aspect ratios, readable help text and viewport/checkbox exclusion. Final-answer editors, including native long assessment responses, omit Bold/Italic/Underline/size/color while retaining Functions, keyboard and history. Keep rich controls for Work/Explanation and authoring text. Preserve stored formatted values and input/grading behavior. This supersedes earlier full formatting controls in answer fields only. Later Prompt slides remain outside V40.

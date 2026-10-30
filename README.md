@@ -1,3 +1,11 @@
+<!-- V40 VERIFIED RELEASE INSERT START -->
+## V40 — first three Prompt slides
+
+[Handoff-v40.md](Handoff-v40.md) is current. Main **178 /`459cee34-e501-4998-96b8-b4e2e84f4676`**, deployment **`d4ccbba9-a1c9-4e8b-ab56-1f978e0f25c3`**,100%; SHA256 **`40b1c400e408dea724689f418ac105643dd012339c65e883704365b1f07d273e`**. Art5/all693images, seven bindings, managed assets, both banks/all13 revisions and reference JSON remain unchanged. Next **V41**.
+
+Only the first three slides of Prompt revision `VyjeEJs6Tf6XFw` are implemented: exact Add Scaffolding status hint with normal cursor; preview image quarter-area while retaining padding/aspect ratio and unobstructed placement; remove B/I/U/size/color from all answer editors, retaining Functions/keyboard and rich Work formatting. No production student writes, migration, regrade, deletion or artwork upload. Static1459, model709 and1380 published browser assertions pass;404 body hashes on both domains. Chromium154, not Safari. Preserve V39 choice mapping, V38 work compatibility and V37 archive/tokens/retries. Refresh once; capture fresh actual current state for the next task.
+<!-- V40 VERIFIED RELEASE INSERT END -->
+
 <!-- V39 VERIFIED RELEASE INSERT START -->
 ## V39 — shuffled choice solution letters corrected
 
