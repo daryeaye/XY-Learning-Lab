@@ -39,3 +39,8 @@ Visible answer letters and explicit Choice/Option references in solutions must f
 ## V40 — status hint, smaller previews and answer controls
 
 Scaffolded/Scaffolding available hover text is “Please see details on the "Add Scaffolding" check box.” Use a normal pointer; keep status non-toggling. Preview images use quarter-area (half dimensions), proportional preview-grid spacing and existing padded source/aspect ratios, readable help text and viewport/checkbox exclusion. Final-answer editors, including native long assessment responses, omit Bold/Italic/Underline/size/color while retaining Functions, keyboard and history. Keep rich controls for Work/Explanation and authoring text. Preserve stored formatted values and input/grading behavior. This supersedes earlier full formatting controls in answer fields only. Later Prompt slides remain outside V40.
+
+
+## V41 — centered mathematical terms and one shared keyboard row
+
+PCL Circle uses centered native math fields and one shared row of formatting, Functions, keyboard and Undo/Redo controls for the whole term group. Do not restore a toolbar per box or hide the shared keyboard with circle-grid CSS. Preserve equal bounded columns, single-line-height40px viewports, mathematical font fitting, old multiline content and Enter/save/reopen behavior. Parentheses/Like terms keep their own controls; V40's answer-formatting removal stays. Native touch input and existing rich-work encoding remain; do not clear old data to simplify rendering.

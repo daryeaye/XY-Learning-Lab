@@ -130,3 +130,11 @@ An assertion total, a confident answer, a model label or a high reasoning-effort
 - Measure actual image draw bounds, natural aspect ratio and old available width before claiming a fractional size. A half maximum width is insufficient when the old popover was side-room limited. Check every preview mode in review and customization, viewport/checkbox exclusion, scrolling and intact source pixels at desktop/tablet/320–390px.
 - Remove presentation controls at the answer component boundary; retain Functions, physical/virtual keyboard, undo/redo, current values and native grading. Exercise numeric/algebraic/factoring/word answers and custom long assessment responses, plus saved/reopened answers and rich Work controls. Do not remove rich controls globally or strip stored styled math.
 - For Cancel/reopen assertions, await actual dialog closure and the reopened controlled input's settled state. Fix missing local source artifacts before declaring a full-app test pass; keep those captures private. Preserve one canonical app runtime and complete downloaded-body replay gates.
+
+
+## V41 — work-keyboard completeness and touch targets
+
+- Audit both banks' full response/work declarations and nested parts against actual renderer families. A keyboard in an isolated field is insufficient when final CSS hides its containing toolbar. Check all preset families and the actual visible opener.
+- For a shared keyboard/toolbar, exercise every supported PCL type, fallback first target, switching touched fields, main/abc keys, Functions/fractions, Undo/Redo and physical/virtual Enter. Check2/3/5/6 equal columns, mathematical mode/actual centers, toolbar bounds and legacy plain/rich/multiline save/reopen. Preserve every unedited old line and all ordinary Work/answer behavior.
+- After an accepted Cloudflare activation, confirm its exact receipt/version with bounded read-only polling. An immediately old deployment list may lag; do not blindly resend activation or overwrite a changed head. Require settled exact module/configuration readback and repeat public verification before completion.
+- Record touch viewport/DPR separately from browser engine. Chromium touch emulation cannot establish actual iPad/Safari coverage; report unavailable WebKit explicitly. Keep complete downloaded-graph replay and preservation gates before claiming publication verification.

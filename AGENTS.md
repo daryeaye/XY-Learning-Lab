@@ -1,3 +1,11 @@
+<!-- V41 VERIFIED RELEASE INSERT START -->
+## V41 — emergency shared term keyboard
+
+[Handoff-v41.md](Handoff-v41.md) is current. Main **179 /`4d8d9874-a66b-4c78-8250-5d5c5e0bce3c`**, deployment **`ca2558bb-2ae7-451b-b6cd-89a0c4e0a375`**,100%; SHA256 **`daa78e027ff4853d810fa6b700b5a44fca8b19592db72a1a9cad92d2a4998500`**. Art5/all693 images, seven bindings, managed assets, both banks/all13 revisions and reference JSON remain. Next **V42**.
+
+Only the first two Prompt slides, revision `SKM9MP3Fo1wAnw`: centered mathematical PCL terms with one shared native formatting/Functions/keyboard/Undo/Redo row. The previous circle CSS hid the keyboard controls and used text-mode editors. All18 PCL types, touch targeting/fractions/history/save-reopen and old multiline work are verified. Audit covers1,875 questions plus25 nested parts; other preset work families already have keyboards. No student-data writes, migration, grade/bank change, deletion or artwork upload. Static1510, model709, 1637 published browser assertions and450 both-domain body hashes pass. Chromium touch emulation, not actual iPad/Safari. Preserve V40 answer controls/preview sizes and all earlier work/choice/bank/archive contracts. Refresh open pages once; capture fresh actual state before the next update.
+<!-- V41 VERIFIED RELEASE INSERT END -->
+
 <!-- V40 VERIFIED RELEASE INSERT START -->
 ## V40 — first three Prompt slides
 
