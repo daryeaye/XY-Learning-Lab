@@ -138,3 +138,10 @@ An assertion total, a confident answer, a model label or a high reasoning-effort
 - For a shared keyboard/toolbar, exercise every supported PCL type, fallback first target, switching touched fields, main/abc keys, Functions/fractions, Undo/Redo and physical/virtual Enter. Check2/3/5/6 equal columns, mathematical mode/actual centers, toolbar bounds and legacy plain/rich/multiline save/reopen. Preserve every unedited old line and all ordinary Work/answer behavior.
 - After an accepted Cloudflare activation, confirm its exact receipt/version with bounded read-only polling. An immediately old deployment list may lag; do not blindly resend activation or overwrite a changed head. Require settled exact module/configuration readback and repeat public verification before completion.
 - Record touch viewport/DPR separately from browser engine. Chromium touch emulation cannot establish actual iPad/Safari coverage; report unavailable WebKit explicitly. Keep complete downloaded-graph replay and preservation gates before claiming publication verification.
+
+
+## V42 — physical/virtual delimiter consistency
+
+- Test physical, virtual and both mixed directions for delimiters, not only a fully typed balanced expression. Check each keystroke's actual value, nested/multiple groups, closing-only input, rapid sequences, idle non-growth, middle/backspace edits and native save/reload. Use the actual reported source variant and unchanged grader when possible.
+- Keep native editing/history machinery; disabling automatic fence completion is preferable to intercepting every character. Initial attributes and per-field options must agree. Preserve explicit templates, input-category restrictions, old smart-fence notation and saved work; never strip old parentheses or regrade records as a UI repair.
+- Compare unexpected history behavior against the captured baseline before attributing it to a delimiter change. V42 records a separate native answer Undo/Redo sequence that also fails on179; do not claim that issue is fixed. Keep actual browser-engine limits and complete published-code replay gates.

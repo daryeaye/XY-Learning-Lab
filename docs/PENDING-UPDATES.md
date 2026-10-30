@@ -1,3 +1,11 @@
+<!-- V42 VERIFIED RELEASE INSERT START -->
+## V42 — literal parentheses in mathematical input
+
+[Handoff-v42.md](../Handoff-v42.md) is current. Main **180 /`4190199e-5fff-4ae9-9adb-551433b195eb`**, deployment **`8e01cadc-0e52-4330-9815-9a6e6d27b284`**,100%; SHA256 **`4c21f42b84c4c780ae64b01afae800281ddc9fd00ed2f09ae8683d095ebf3ef4`**. Art5/all693 images, seven bindings, managed assets, both banks/all13 revisions and reference JSON remain. Next **V43**.
+
+MathLive automatic fence completion is off in mathematical answer/scaffold fields, so physical and on-screen parentheses enter one literal character. A physical opening plus virtual closing previously created an extra closing fence. Explicit function templates, saved old expressions and native grading remain. The photo's Type227-03 accepts4(3x+7) under the unchanged checker. No student-data write, migration, regrade, bank edit or deletion. Static1557, model709 and1727 published browser assertions pass;496 body hashes on both domains. Chromium touch emulation, not Safari. A separate native answer Undo/Redo observation reproduces on179 and remains pending. Refresh once; preserve V41 and all earlier contracts; capture fresh actual state next time.
+<!-- V42 VERIFIED RELEASE INSERT END -->
+
 <!-- V41 VERIFIED RELEASE INSERT START -->
 ## V41 — emergency shared term keyboard
 
